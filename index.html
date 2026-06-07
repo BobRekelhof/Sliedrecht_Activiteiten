@@ -872,31 +872,31 @@ function renderResults() {
   list.innerHTML = '<p style="color:var(--mid);font-style:italic;padding:1rem 0;">Activiteiten zoeken…</p>';
 
   setTimeout(() => {
-    let matched = allActivities.filter(a =>
-      a.tags.tempo.includes(ans.tempo) &&
-      a.tags.energie.includes(ans.energie) &&
-      a.tags.tijd.includes(ans.tijd)
-    );
+    // ── SCORE-BASED MATCHING ──
+    // Each activity gets a total score based on how well it matches the answers.
+    // Max score per activity = 9 (3 points per question × 3 questions).
+    const scored = allActivities.map(a => {
+      const s = a.scores || {};
+      const total = (s[ans.tempo] || 0) + (s[ans.energie] || 0) + (s[ans.tijd] || 0);
+      return { ...a, _score: total };
+    });
+
+    // Sort by score descending
+    scored.sort((a, b) => b._score - a._score);
+
+    // Show top results with score >= 5 (good match), fallback to top 5 if none
+    const GOOD_MATCH = 5;
+    let matched = scored.filter(a => a._score >= GOOD_MATCH);
     let isFallback = false;
 
-    if (!matched.length) {
-      matched = allActivities.filter(a =>
-        a.tags.tempo.includes(ans.tempo) && a.tags.energie.includes(ans.energie)
-      );
-      isFallback = true;
-    }
-    if (!matched.length) {
-      matched = allActivities.filter(a => a.tags.tempo.includes(ans.tempo));
-      isFallback = true;
-    }
-    if (!matched.length) {
-      matched = allActivities.slice(0, 8);
+    if (matched.length === 0) {
+      matched = scored.slice(0, 5);
       isFallback = true;
     }
 
     pill.textContent = `${matched.length} activiteit${matched.length !== 1 ? 'en' : ''} gevonden`;
     subEl.textContent = isFallback
-      ? 'Geen exacte match — maar deze activiteiten sluiten goed aan:'
+      ? 'We toonden de beste opties voor jou — probeer andere antwoorden voor een exactere match.'
       : 'Speciaal voor jou geselecteerd op basis van jouw antwoorden.';
 
     list.innerHTML = '';
