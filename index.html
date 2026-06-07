@@ -1,1 +1,828 @@
 
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wat past bij jou? — Sliedrecht Doet</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,700;1,500&family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --red:        #C0392B;
+      --red-soft:   #E05A4A;
+      --cream:      #F7F3EC;
+      --warm-white: #FDFAF5;
+      --dark:       #1E1A14;
+      --mid:        #5A5045;
+      --border:     #DDD8CE;
+      --green:      #2E7D52;
+      --sand:       #E8E0D0;
+    }
+
+    body {
+      font-family: 'Nunito', sans-serif;
+      background: var(--cream);
+      color: var(--dark);
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    /* ── GRAIN OVERLAY ── */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+      pointer-events: none;
+      z-index: 0;
+      opacity: 0.5;
+    }
+
+    /* ── HEADER ── */
+    header {
+      background: var(--dark);
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      gap: 0.9rem;
+      position: relative;
+      z-index: 10;
+    }
+
+    .logo-block {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .logo-dot {
+      width: 10px;
+      height: 10px;
+      background: var(--red);
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    .logo-text {
+      font-family: 'Lora', serif;
+      font-weight: 700;
+      color: #fff;
+      font-size: 1rem;
+      letter-spacing: 0.01em;
+    }
+
+    .logo-text span {
+      color: #A89880;
+      font-weight: 500;
+    }
+
+    .header-sub {
+      margin-left: auto;
+      font-size: 0.72rem;
+      color: #6B6050;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    /* ── HERO ── */
+    .hero {
+      position: relative;
+      z-index: 1;
+      padding: 4rem 1.5rem 2.5rem;
+      text-align: center;
+      max-width: 640px;
+      margin: 0 auto;
+    }
+
+    .hero-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--red);
+      color: white;
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 0.3rem 0.9rem;
+      border-radius: 2px;
+      margin-bottom: 1.6rem;
+    }
+
+    .hero h1 {
+      font-family: 'Lora', serif;
+      font-size: clamp(2.2rem, 6vw, 3.4rem);
+      font-weight: 700;
+      line-height: 1.15;
+      color: var(--dark);
+      margin-bottom: 1rem;
+    }
+
+    .hero h1 em {
+      font-style: italic;
+      color: var(--red);
+    }
+
+    .hero p {
+      font-size: 1rem;
+      color: var(--mid);
+      font-weight: 300;
+      line-height: 1.75;
+      max-width: 480px;
+      margin: 0 auto;
+    }
+
+    /* decorative line */
+    .hero-rule {
+      width: 48px;
+      height: 3px;
+      background: var(--red);
+      margin: 1.8rem auto 0;
+      border-radius: 2px;
+    }
+
+    /* ── PROGRESS ── */
+    .progress-wrap {
+      max-width: 600px;
+      margin: 0 auto 2.5rem;
+      padding: 0 1.5rem;
+      position: relative;
+      z-index: 1;
+    }
+
+    .progress-steps {
+      display: flex;
+      align-items: center;
+      gap: 0;
+    }
+
+    .p-step {
+      flex: 1;
+      height: 3px;
+      background: var(--border);
+      transition: background 0.4s ease;
+      border-radius: 2px;
+    }
+
+    .p-step + .p-step { margin-left: 6px; }
+    .p-step.done { background: var(--red); }
+
+    .progress-label {
+      font-size: 0.72rem;
+      color: var(--mid);
+      margin-top: 0.6rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    /* ── FORM ── */
+    .form-section {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 0 1.5rem 5rem;
+      position: relative;
+      z-index: 1;
+    }
+
+    .step { display: none; }
+    .step.active {
+      display: block;
+      animation: slideUp 0.38s cubic-bezier(0.22,1,0.36,1) forwards;
+    }
+
+    @keyframes slideUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .step-q {
+      font-family: 'Lora', serif;
+      font-size: 1.45rem;
+      font-weight: 700;
+      line-height: 1.3;
+      color: var(--dark);
+      margin-bottom: 0.5rem;
+    }
+
+    .step-hint {
+      font-size: 0.82rem;
+      color: var(--mid);
+      font-weight: 400;
+      margin-bottom: 1.8rem;
+      font-style: italic;
+    }
+
+    /* Option cards */
+    .options-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      margin-bottom: 2rem;
+    }
+
+    .opt {
+      cursor: pointer;
+      border: 2px solid var(--border);
+      border-radius: 10px;
+      padding: 1.1rem 1.3rem;
+      background: var(--warm-white);
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      transition: border-color 0.18s, box-shadow 0.18s, background 0.18s;
+      -webkit-user-select: none;
+      user-select: none;
+    }
+
+    .opt:hover {
+      border-color: var(--red-soft);
+      box-shadow: 0 4px 16px rgba(192,57,43,0.09);
+    }
+
+    .opt.selected {
+      border-color: var(--red);
+      background: #FDF1EF;
+      box-shadow: 0 0 0 1px var(--red), 0 4px 16px rgba(192,57,43,0.12);
+    }
+
+    .opt-icon {
+      font-size: 1.6rem;
+      flex-shrink: 0;
+      margin-top: 1px;
+      line-height: 1;
+    }
+
+    .opt-body { flex: 1; }
+
+    .opt-label {
+      font-weight: 700;
+      font-size: 0.97rem;
+      color: var(--dark);
+      line-height: 1.2;
+    }
+
+    .opt-sub {
+      font-size: 0.8rem;
+      color: var(--mid);
+      font-weight: 400;
+      margin-top: 0.2rem;
+      line-height: 1.45;
+    }
+
+    .opt-check {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      border: 2px solid var(--border);
+      flex-shrink: 0;
+      margin-top: 2px;
+      transition: border-color 0.18s, background 0.18s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .opt.selected .opt-check {
+      border-color: var(--red);
+      background: var(--red);
+    }
+
+    .opt.selected .opt-check::after {
+      content: '';
+      width: 6px;
+      height: 6px;
+      background: white;
+      border-radius: 50%;
+    }
+
+    /* Next button */
+    .btn-next {
+      width: 100%;
+      padding: 1rem 1.5rem;
+      background: var(--dark);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-family: 'Nunito', sans-serif;
+      font-size: 0.97rem;
+      font-weight: 700;
+      cursor: pointer;
+      letter-spacing: 0.03em;
+      transition: background 0.18s, transform 0.12s;
+    }
+
+    .btn-next:hover:not(:disabled) {
+      background: var(--red);
+      transform: translateY(-1px);
+    }
+
+    .btn-next:disabled {
+      opacity: 0.3;
+      cursor: not-allowed;
+    }
+
+    /* ── RESULTS ── */
+    #results-section {
+      display: none;
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 1.5rem 5rem;
+      position: relative;
+      z-index: 1;
+      animation: slideUp 0.5s cubic-bezier(0.22,1,0.36,1) forwards;
+    }
+
+    .results-top {
+      text-align: center;
+      margin-bottom: 2.5rem;
+    }
+
+    .results-top h2 {
+      font-family: 'Lora', serif;
+      font-size: clamp(1.7rem, 4vw, 2.4rem);
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    .results-top p {
+      color: var(--mid);
+      font-size: 0.9rem;
+      font-weight: 300;
+    }
+
+    .badge-count {
+      display: inline-block;
+      background: var(--green);
+      color: white;
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 0.25rem 0.85rem;
+      border-radius: 2px;
+      margin-bottom: 0.8rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .results-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+      gap: 1rem;
+    }
+
+    .r-card {
+      background: var(--warm-white);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.3rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.55rem;
+      animation: slideUp 0.4s cubic-bezier(0.22,1,0.36,1) both;
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+
+    .r-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.07);
+    }
+
+    .r-badge {
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 0.18rem 0.55rem;
+      border-radius: 3px;
+      background: var(--sand);
+      color: var(--mid);
+      display: inline-block;
+      width: fit-content;
+    }
+
+    .r-card h3 {
+      font-family: 'Lora', serif;
+      font-size: 1rem;
+      font-weight: 700;
+      line-height: 1.3;
+    }
+
+    .r-card p {
+      font-size: 0.8rem;
+      color: var(--mid);
+      font-weight: 400;
+      line-height: 1.6;
+      flex: 1;
+    }
+
+    .r-loc {
+      font-size: 0.75rem;
+      color: #8A7E72;
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+    }
+
+    .r-card a {
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--red);
+      text-decoration: none;
+      margin-top: 0.2rem;
+      display: inline-block;
+      transition: opacity 0.15s;
+    }
+
+    .r-card a:hover { opacity: 0.7; }
+
+    .no-results {
+      text-align: center;
+      padding: 3rem 1rem;
+      color: var(--mid);
+      grid-column: 1 / -1;
+      font-size: 0.95rem;
+    }
+
+    .no-results a { color: var(--red); }
+
+    .results-footer {
+      text-align: center;
+      margin-top: 2.5rem;
+    }
+
+    .btn-restart {
+      padding: 0.75rem 2rem;
+      border: 2px solid var(--dark);
+      border-radius: 8px;
+      background: transparent;
+      font-family: 'Nunito', sans-serif;
+      font-size: 0.9rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background 0.18s, color 0.18s;
+    }
+
+    .btn-restart:hover {
+      background: var(--dark);
+      color: white;
+    }
+
+    .source-note {
+      margin-top: 1.2rem;
+      font-size: 0.72rem;
+      color: #AAA49E;
+      font-weight: 300;
+    }
+
+    .source-note a { color: inherit; text-decoration: underline; }
+
+    /* loading state */
+    #loading-msg {
+      display: none;
+      text-align: center;
+      padding: 3rem;
+      color: var(--mid);
+      font-style: italic;
+      font-size: 0.9rem;
+      grid-column: 1/-1;
+    }
+
+    @media (max-width: 480px) {
+      .hero h1 { font-size: 2rem; }
+      .step-q  { font-size: 1.2rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="logo-block">
+    <div class="logo-dot"></div>
+    <div class="logo-text">Sliedrecht <span>Doet</span></div>
+  </div>
+  <div class="header-sub">Activiteitenmatcher</div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-tag">✦ Vind jouw activiteit</div>
+  <h1>Wat past<br>bij <em>jou?</em></h1>
+  <p>Drie vragen. Geen gedoe. Ontdek welke activiteiten en evenementen in Sliedrecht écht bij jou passen.</p>
+  <div class="hero-rule"></div>
+</section>
+
+<!-- PROGRESS -->
+<div class="progress-wrap" id="progress-wrap">
+  <div class="progress-steps">
+    <div class="p-step" id="ps1"></div>
+    <div class="p-step" id="ps2"></div>
+    <div class="p-step" id="ps3"></div>
+  </div>
+  <div class="progress-label" id="progress-label">Vraag 1 van 3</div>
+</div>
+
+<!-- FORM -->
+<div class="form-section" id="form-section">
+
+  <!-- VRAAG 1 -->
+  <div class="step active" id="step-1">
+    <div class="step-q">Wat is jouw tempo als je over de Kerkbuurt loopt?</div>
+    <div class="step-hint">Kies de wandelaar die het meeste op jou lijkt.</div>
+    <div class="options-list">
+
+      <div class="opt" data-step="1" data-value="snelwandelaar" onclick="pick(this)">
+        <div class="opt-icon">🏃</div>
+        <div class="opt-body">
+          <div class="opt-label">De Snelwandelaar</div>
+          <div class="opt-sub">Lekker actief en in beweging</div>
+        </div>
+        <div class="opt-check"></div>
+      </div>
+
+      <div class="opt" data-step="1" data-value="etalagekijker" onclick="pick(this)">
+        <div class="opt-icon">🖼️</div>
+        <div class="opt-body">
+          <div class="opt-label">De Etalagekijker</div>
+          <div class="opt-sub">Rustig aan, creatief of informatief</div>
+        </div>
+        <div class="opt-check"></div>
+      </div>
+
+      <div class="opt" data-step="1" data-value="buurtprater" onclick="pick(this)">
+        <div class="opt-icon">💬</div>
+        <div class="opt-body">
+          <div class="opt-label">De Buurtprater</div>
+          <div class="opt-sub">Gezelligheid en een babbeltje staan voorop</div>
+        </div>
+        <div class="opt-check"></div>
+      </div>
+
+    </div>
+    <button class="btn-next" id="next-1" disabled onclick="goTo(2)">Volgende →</button>
+  </div>
+
+  <!-- VRAAG 2 -->
+  <div class="step" id="step-2">
+    <div class="step-q">Waar steek jij het liefst je energie in?</div>
+    <div class="step-hint">Wat geeft jou energie of voldoening?</div>
+    <div class="options-list">
+
+      <div class="opt" data-step="2" data-value="handen" onclick="pick(this)">
+        <div class="opt-icon">🔨</div>
+        <div class="opt-body">
+          <div class="opt-label">Handjes uit de mouwen</div>
+          <div class="opt-sub">Lekker buiten of binnen klussen</div>
+        </div>
+        <div class="opt-check"></div>
+      </div>
+
+      <div class="opt" data-step="2" data-value="hersens" onclick="pick(this)">
+        <div class="opt-icon">🧠</div>
+        <div class="opt-body">
+          <div class="opt-label">De hersens laten kraken</div>
+          <div class="opt-sub">Iets nieuws leren of cultuur snuiven</div>
+        </div>
+        <div class="opt-check"></div>
+      </div>
+
+      <div class="opt" data-step="2" data-value="bakkie" onclick="pick(this)">
+        <div class="opt-icon">☕</div>
+        <div class="opt-body">
+          <div class="opt-label">Gewoon een bakkie doen</div>
+          <div class="opt-sub">Samen koffiedrinken en onder de mensen zijn</div>
+        </div>
+        <div class="opt-check"></div>
+      </div>
+
+    </div>
+    <button class="btn-next" id="next-2" disabled onclick="goTo(3)">Volgende →</button>
+  </div>
+
+  <!-- VRAAG 3 -->
+  <div class="step" id="step-3">
+    <div class="step-q">Wanneer staat jouw sociale batterij op groen?</div>
+    <div class="step-hint">Op welk moment van de dag ben je het liefst actief?</div>
+    <div class="options-list">
+
+      <div class="opt" data-step="3" data-value="ochtend" onclick="pick(this)">
+        <div class="opt-icon">🐦</div>
+        <div class="opt-body">
+          <div class="opt-label">Als de vogeltjes net fluiten</div>
+          <div class="opt-sub">Ochtendmens</div>
+        </div>
+        <div class="opt-check"></div>
+      </div>
+
+      <div class="opt" data-step="3" data-value="middag" onclick="pick(this)">
+        <div class="opt-icon">☀️</div>
+        <div class="opt-body">
+          <div class="opt-label">Als de middagzon doorbreekt</div>
+          <div class="opt-sub">Middagmens</div>
+        </div>
+        <div class="opt-check"></div>
+      </div>
+
+      <div class="opt" data-step="3" data-value="avond" onclick="pick(this)">
+        <div class="opt-icon">🏮</div>
+        <div class="opt-body">
+          <div class="opt-label">Pas als de lantaarnpalen aangaan</div>
+          <div class="opt-sub">Avondmens</div>
+        </div>
+        <div class="opt-check"></div>
+      </div>
+
+    </div>
+    <button class="btn-next" id="next-3" disabled onclick="showResults()">Bekijk jouw activiteiten →</button>
+  </div>
+
+</div>
+
+<!-- RESULTS -->
+<div id="results-section">
+  <div class="results-top">
+    <div class="badge-count" id="badge-count"></div>
+    <h2>Jouw activiteiten in Sliedrecht</h2>
+    <p id="results-sub"></p>
+  </div>
+  <div class="results-grid" id="results-grid">
+    <div id="loading-msg">Activiteiten laden…</div>
+  </div>
+  <div class="results-footer">
+    <button class="btn-restart" onclick="restart()">← Opnieuw beginnen</button>
+    <p class="source-note">
+      Activiteiten worden elke nacht opgehaald van
+      <a href="https://sliedrechtdoet.nl/agenda" target="_blank">sliedrechtdoet.nl</a>
+      · Laatste update: <span id="last-update">—</span>
+    </p>
+  </div>
+</div>
+
+<script>
+// ── STATE ──
+const ans = { tempo: null, energie: null, tijd: null };
+let step = 1;
+let allActivities = [];
+
+// ── LOAD ACTIVITIES ──
+async function loadActivities() {
+  try {
+    const res = await fetch('activities.json?v=' + Date.now());
+    const data = await res.json();
+    allActivities = data.activities || [];
+    const el = document.getElementById('last-update');
+    if (el && data.updated_at) el.textContent = data.updated_at;
+  } catch (e) {
+    console.warn('Kon activities.json niet laden:', e);
+    allActivities = [];
+  }
+}
+
+loadActivities();
+
+// ── PICK OPTION ──
+function pick(el) {
+  const s = el.dataset.step;
+  document.querySelectorAll(`.opt[data-step="${s}"]`).forEach(o => o.classList.remove('selected'));
+  el.classList.add('selected');
+  const key = s === '1' ? 'tempo' : s === '2' ? 'energie' : 'tijd';
+  ans[key] = el.dataset.value;
+  document.getElementById(`next-${s}`).disabled = false;
+}
+
+// ── NAVIGATION ──
+function goTo(n) {
+  document.getElementById(`step-${step}`).classList.remove('active');
+  step = n;
+  document.getElementById(`step-${n}`).classList.add('active');
+  updateProgress(n);
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function updateProgress(n) {
+  [1, 2, 3].forEach(i => {
+    document.getElementById(`ps${i}`).classList.toggle('done', i < n);
+  });
+  document.getElementById('progress-label').textContent = `Vraag ${n} van 3`;
+}
+
+// ── SHOW RESULTS ──
+function showResults() {
+  document.getElementById('hero').style.display = 'none';
+  document.getElementById('form-section').style.display = 'none';
+  document.getElementById('progress-wrap').style.display = 'none';
+  document.getElementById('results-section').style.display = 'block';
+
+  renderResults();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function renderResults() {
+  const grid = document.getElementById('results-grid');
+  const badgeEl = document.getElementById('badge-count');
+  const subEl = document.getElementById('results-sub');
+
+  grid.innerHTML = '<div id="loading-msg" style="display:block;text-align:center;padding:3rem;color:var(--mid);font-style:italic;">Activiteiten zoeken…</div>';
+
+  // Small delay so the page renders first
+  setTimeout(() => {
+    // Filter: all three tags must match (OR within each dimension)
+    let matched = allActivities.filter(a =>
+      a.tags.tempo.includes(ans.tempo) &&
+      a.tags.energie.includes(ans.energie) &&
+      a.tags.tijd.includes(ans.tijd)
+    );
+
+    // Fallback 1: loosen tijd
+    if (matched.length === 0) {
+      matched = allActivities.filter(a =>
+        a.tags.tempo.includes(ans.tempo) &&
+        a.tags.energie.includes(ans.energie)
+      );
+    }
+
+    // Fallback 2: loosen to tempo only
+    if (matched.length === 0) {
+      matched = allActivities.filter(a =>
+        a.tags.tempo.includes(ans.tempo)
+      );
+    }
+
+    // Fallback 3: just show everything
+    if (matched.length === 0) {
+      matched = allActivities.slice(0, 6);
+    }
+
+    const isFallback = matched.length > 0 && !allActivities.some(a =>
+      a.tags.tempo.includes(ans.tempo) &&
+      a.tags.energie.includes(ans.energie) &&
+      a.tags.tijd.includes(ans.tijd)
+    );
+
+    badgeEl.textContent = `${matched.length} activiteit${matched.length !== 1 ? 'en' : ''} gevonden`;
+    subEl.textContent = isFallback
+      ? 'We vonden geen exacte match, maar deze sluiten goed aan bij jou:'
+      : 'Speciaal voor jou geselecteerd op basis van jouw antwoorden.';
+
+    grid.innerHTML = '';
+
+    if (matched.length === 0) {
+      grid.innerHTML = `<div class="no-results">
+        Geen activiteiten gevonden. Bekijk alle activiteiten op
+        <a href="https://sliedrechtdoet.nl/agenda" target="_blank">sliedrechtdoet.nl</a>.
+      </div>`;
+      return;
+    }
+
+    matched.forEach((act, i) => {
+      const card = document.createElement('div');
+      card.className = 'r-card';
+      card.style.animationDelay = `${i * 0.06}s`;
+
+      // Derive a readable badge from tags
+      const badgeMap = {
+        snelwandelaar: 'Actief', etalagekijker: 'Cultuur & Leren', buurtprater: 'Sociaal',
+        handen: 'Doen', hersens: 'Leren', bakkie: 'Ontmoeten',
+        ochtend: 'Ochtend', middag: 'Middag', avond: 'Avond'
+      };
+      const badge = badgeMap[act.tags.tempo?.[0]] || 'Activiteit';
+
+      card.innerHTML = `
+        <div class="r-badge">${badge}</div>
+        <h3>${act.title}</h3>
+        <p>${act.desc || ''}</p>
+        ${act.location ? `<div class="r-loc">📍 ${act.location}</div>` : ''}
+        ${act.url ? `<a href="${act.url}" target="_blank" rel="noopener">Meer informatie →</a>` : ''}
+      `;
+      grid.appendChild(card);
+    });
+  }, 150);
+}
+
+// ── RESTART ──
+function restart() {
+  ans.tempo = null;
+  ans.energie = null;
+  ans.tijd = null;
+  step = 1;
+
+  document.querySelectorAll('.opt').forEach(o => o.classList.remove('selected'));
+  document.querySelectorAll('.btn-next').forEach(b => b.disabled = true);
+  document.querySelectorAll('.step').forEach(s => s.classList.remove('active'));
+  document.getElementById('step-1').classList.add('active');
+
+  document.getElementById('results-section').style.display = 'none';
+  document.getElementById('hero').style.display = 'block';
+  document.getElementById('form-section').style.display = 'block';
+  document.getElementById('progress-wrap').style.display = 'block';
+
+  updateProgress(1);
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+updateProgress(1);
+</script>
+</body>
+</html>
