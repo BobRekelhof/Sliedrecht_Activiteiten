@@ -1,1 +1,41 @@
 
+{
+  "updated_at": "07-06-2026 00:00",
+  "source": "https://sliedrechtdoet.nl/agenda",
+  "count": 3,
+  "activities": [
+    {
+      "title": "Koffieochtend Inloophuis",
+      "desc": "Elke dinsdagochtend een gratis kop koffie en een goed gesprek. Voor iedereen die even wil bijkletsen.",
+      "url": "https://sliedrechtdoet.nl/agenda",
+      "location": "Sliedrecht",
+      "tags": {
+        "tempo": ["buurtprater"],
+        "energie": ["bakkie"],
+        "tijd": ["ochtend"]
+      }
+    },
+    {
+      "title": "Moestuinworkshop",
+      "desc": "Leer samen groenten kweken op de buurtmoestuin. Elke zaterdagochtend, voor alle leeftijden.",
+      "url": "https://sliedrechtdoet.nl/agenda",
+      "location": "Sliedrecht",
+      "tags": {
+        "tempo": ["etalagekijker", "buurtprater"],
+        "energie": ["handen", "bakkie"],
+        "tijd": ["ochtend", "middag"]
+      }
+    },
+    {
+      "title": "Schilderworkshop voor beginners",
+      "desc": "Ontdek je creatieve kant in een gezellige groep. Materialen worden verzorgd.",
+      "url": "https://sliedrechtdoet.nl/agenda",
+      "location": "Kulturhus Sliedrecht",
+      "tags": {
+        "tempo": ["etalagekijker"],
+        "energie": ["hersens"],
+        "tijd": ["avond"]
+      }
+    }
+  ]
+}
