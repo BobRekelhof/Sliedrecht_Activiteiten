@@ -1,277 +1,127 @@
 {
-  "updated_at": "07-06-2026 19:51",
+  "updated_at": "07-06-2026 21:00",
   "source": "https://sliedrechtdoet.nl/agenda",
   "count": 12,
   "activities": [
     {
       "title": "Ontdek de natuur met tal van activiteiten!",
-      "desc": "Ontdek de natuur met tal van activiteiten!",
-      "url": "https://sliedrechtdoet.nl/agenda/146042/2026-06-07/ontdek-de-natuur-met-tal-van-activiteiten",
-      "location": "",
-      "tags": {
-        "tempo": [
-          "etalagekijker"
-        ],
-        "energie": [
-          "handen",
-          "hersens",
-          "bakkie"
-        ],
-        "tijd": [
-          "ochtend",
-          "middag",
-          "avond"
-        ]
-      },
-      "raw_text": "Ontdek de natuur met tal van activiteiten!"
-    },
-    {
-      "title": "Open Dagen in de Dijksynagoge",
-      "desc": "Open Dagen in de Dijksynagoge",
-      "url": "https://sliedrechtdoet.nl/agenda/145504/2026-06-07/open-dagen-in-de-dijksynagoge",
-      "location": "",
-      "tags": {
-        "tempo": [
-          "snelwandelaar",
-          "etalagekijker",
-          "buurtprater"
-        ],
-        "energie": [
-          "handen",
-          "hersens",
-          "bakkie"
-        ],
-        "tijd": [
-          "ochtend",
-          "middag",
-          "avond"
-        ]
-      },
-      "raw_text": "Open Dagen in de Dijksynagoge"
-    },
-    {
-      "title": "Ontmoet elkaar in de groene huiskamer",
-      "desc": "Ontmoet elkaar in de groene huiskamer",
-      "url": "https://sliedrechtdoet.nl/agenda/143274/2026-06-08/ontmoet-elkaar-in-de-groene-huiskamer-2",
-      "location": "",
-      "tags": {
-        "tempo": [
-          "snelwandelaar",
-          "etalagekijker",
-          "buurtprater"
-        ],
-        "energie": [
-          "handen",
-          "hersens",
-          "bakkie"
-        ],
-        "tijd": [
-          "ochtend",
-          "middag",
-          "avond"
-        ]
-      },
-      "raw_text": "Ontmoet elkaar in de groene huiskamer"
-    },
-    {
-      "title": "Leer Nederlands in de moestuin",
-      "desc": "Leer Nederlands in de moestuin",
-      "url": "https://sliedrechtdoet.nl/agenda/143269/2026-06-08/leer-nederlands-in-de-moestuin",
-      "location": "",
-      "tags": {
-        "tempo": [
-          "snelwandelaar",
-          "etalagekijker",
-          "buurtprater"
-        ],
-        "energie": [
-          "handen"
-        ],
-        "tijd": [
-          "ochtend",
-          "middag",
-          "avond"
-        ]
-      },
-      "raw_text": "Leer Nederlands in de moestuin"
-    },
-    {
-      "title": "Lunchen op de Moestuin",
-      "desc": "Lunchen op de Moestuin",
-      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-06-08/lunchen-op-de-moestuin",
-      "location": "",
-      "tags": {
-        "tempo": [
-          "snelwandelaar",
-          "etalagekijker",
-          "buurtprater"
-        ],
-        "energie": [
-          "handen",
-          "bakkie"
-        ],
-        "tijd": [
-          "middag"
-        ]
-      },
-      "raw_text": "Lunchen op de Moestuin"
-    },
-    {
-      "title": "Ontdek Sliedrecht in het onderhuis",
-      "desc": "Ontdek Sliedrecht in het onderhuis",
-      "url": "https://sliedrechtdoet.nl/agenda/138904/2026-06-08/ontdek-sliedrecht-in-het-onderhuis",
-      "location": "",
-      "tags": {
-        "tempo": [
-          "snelwandelaar",
-          "etalagekijker",
-          "buurtprater"
-        ],
-        "energie": [
-          "handen",
-          "hersens",
-          "bakkie"
-        ],
-        "tijd": [
-          "ochtend",
-          "middag",
-          "avond"
-        ]
-      },
-      "raw_text": "Ontdek Sliedrecht in het onderhuis"
+      "organizer": "Buurtverbinders Sliedrecht Doet",
+      "time": "7 juni 2026 van 09:00 tot 17:00 uur",
+      "desc": "Heb jij een warm hart voor de natuur? Of wil je meer weten over het planten- en dierenleven in de Drechtsteden? Wil je zelf aan de slag om meer natuur in je tuin te brengen?",
+      "location": "Biesboschcentrum Dordrecht",
+      "frequency": "meerdaags",
+      "url": "https://sliedrechtdoet.nl/agenda",
+      "scores": { "snelwandelaar": 3, "etalagekijker": 2, "buurtprater": 0, "handen": 3, "hersens": 2, "bakkie": 0, "ochtend": 3, "middag": 2, "avond": 0 }
     },
     {
       "title": "Samen gezellig wandelen door Sliedrecht",
-      "desc": "Samen gezellig wandelen door Sliedrecht",
-      "url": "https://sliedrechtdoet.nl/agenda/138335/2026-06-08/samen-gezellig-wandelen-door-sliedrecht",
-      "location": "",
-      "tags": {
-        "tempo": [
-          "snelwandelaar",
-          "buurtprater"
-        ],
-        "energie": [
-          "bakkie"
-        ],
-        "tijd": [
-          "ochtend",
-          "middag",
-          "avond"
-        ]
-      },
-      "raw_text": "Samen gezellig wandelen door Sliedrecht"
+      "organizer": "Walkie Talkie Wandelgroep",
+      "time": "Elke maandag van 15:00 tot 16:00 uur",
+      "desc": "Meer wandelen is mijn goede voornemen. Heb je zin om mee te gaan? Samen is gezelliger. Ongeveer een uur in rustig tempo, aangepast aan deelnemers.",
+      "location": "Albert Heijn",
+      "frequency": "wekelijks",
+      "url": "https://sliedrechtdoet.nl/agenda",
+      "scores": { "snelwandelaar": 3, "etalagekijker": 1, "buurtprater": 2, "handen": 3, "hersens": 0, "bakkie": 1, "ochtend": 0, "middag": 3, "avond": 0 }
     },
     {
-      "title": "Huiswerkbegeleiding",
-      "desc": "Huiswerkbegeleiding",
-      "url": "https://sliedrechtdoet.nl/agenda/129396/2026-06-08/huiswerkbegeleiding-6",
-      "location": "",
-      "tags": {
-        "tempo": [
-          "snelwandelaar",
-          "etalagekijker",
-          "buurtprater"
-        ],
-        "energie": [
-          "handen",
-          "hersens",
-          "bakkie"
-        ],
-        "tijd": [
-          "ochtend",
-          "middag",
-          "avond"
-        ]
-      },
-      "raw_text": "Huiswerkbegeleiding"
+      "title": "Ontmoet elkaar in de groene huiskamer",
+      "organizer": "De Groene Huiskamer",
+      "time": "Elke maandag van 09:00 tot 12:00 uur",
+      "desc": "Wees welkom allemaal. Elke maandag is er een gezellige ontmoetingsmorgen in de groene huiskamer, op de moestuin voor jong en oud. Gezellig met elkaar kletsen onder genot van koffie.",
+      "location": "De Groene Huiskamer",
+      "frequency": "wekelijks",
+      "url": "https://sliedrechtdoet.nl/agenda",
+      "scores": { "snelwandelaar": 0, "etalagekijker": 1, "buurtprater": 3, "handen": 1, "hersens": 0, "bakkie": 3, "ochtend": 3, "middag": 1, "avond": 0 }
     },
     {
-      "title": "Ontmoet andere ouders",
-      "desc": "Ontmoet andere ouders",
-      "url": "https://sliedrechtdoet.nl/agenda/136644/2026-06-09/ontmoet-andere-ouders-2",
-      "location": "",
-      "tags": {
-        "tempo": [
-          "snelwandelaar",
-          "etalagekijker",
-          "buurtprater"
-        ],
-        "energie": [
-          "handen",
-          "hersens",
-          "bakkie"
-        ],
-        "tijd": [
-          "ochtend",
-          "middag",
-          "avond"
-        ]
-      },
-      "raw_text": "Ontmoet andere ouders"
+      "title": "Leer Nederlands in de moestuin",
+      "organizer": "Moestuin Sliedrecht",
+      "time": "Elke maandag van 09:00 tot 10:30 uur",
+      "desc": "Iedere maandagmorgen wordt er taalles gegeven op de moestuin voor iedereen die de Nederlandse taal beter wil leren. U bent van harte welkom.",
+      "location": "Moestuin Sliedrecht",
+      "frequency": "wekelijks",
+      "url": "https://sliedrechtdoet.nl/agenda",
+      "scores": { "snelwandelaar": 0, "etalagekijker": 3, "buurtprater": 1, "handen": 0, "hersens": 3, "bakkie": 1, "ochtend": 3, "middag": 0, "avond": 0 }
+    },
+    {
+      "title": "Lunchen op de Moestuin",
+      "organizer": "Moestuin Sliedrecht",
+      "time": "Elke maandag van 12:00 tot 13:00 uur",
+      "desc": "Kom gezellig met ons mee lunchen op de moestuin. Iedere middag bent u van harte welkom voor een heerlijke lunch/maaltijd, tegen een kleine vergoeding.",
+      "location": "Moestuin Sliedrecht",
+      "frequency": "wekelijks",
+      "url": "https://sliedrechtdoet.nl/agenda",
+      "scores": { "snelwandelaar": 0, "etalagekijker": 0, "buurtprater": 3, "handen": 0, "hersens": 0, "bakkie": 3, "ochtend": 0, "middag": 3, "avond": 0 }
+    },
+    {
+      "title": "Ontdek Sliedrecht in het onderhuis",
+      "organizer": "Historische Vereniging Sliedrecht",
+      "time": "Elke maandag van 14:00 tot 16:00 uur",
+      "desc": "Iedere maandagmiddag is het onderhuis open. Wilt u meer weten over de geschiedenis van Sliedrecht? Heeft u misschien foto's of andere spullen over Sliedrecht?",
+      "location": "Van Goghstraat 15",
+      "frequency": "wekelijks",
+      "url": "https://sliedrechtdoet.nl/agenda",
+      "scores": { "snelwandelaar": 0, "etalagekijker": 3, "buurtprater": 1, "handen": 0, "hersens": 3, "bakkie": 1, "ochtend": 0, "middag": 3, "avond": 0 }
+    },
+    {
+      "title": "Open Dagen in de Dijksynagoge",
+      "organizer": "Dijksynagoge",
+      "time": "7 juni 2026 van 14:00 tot 16:00 uur",
+      "desc": "Op zaterdag 6 en zondag 7 juni is er weer gelegenheid de Dijksynagoge te bezoeken. Tijdens de Open Dagen kunnen belangstellenden de geschiedenis en het leven binnen de muren verkennen.",
+      "location": "Dijksynagoge",
+      "frequency": "meerdaags",
+      "url": "https://sliedrechtdoet.nl/agenda",
+      "scores": { "snelwandelaar": 0, "etalagekijker": 3, "buurtprater": 0, "handen": 0, "hersens": 3, "bakkie": 0, "ochtend": 0, "middag": 3, "avond": 0 }
+    },
+    {
+      "title": "Ontmoet andere ouders — Tips & Koffie",
+      "organizer": "Tips & Koffie",
+      "time": "Elke dinsdag van 09:30 tot 10:30 uur",
+      "desc": "Een vaste ontmoetingsplek voor aanstaande ouders en ouders van kinderen tot 18 jaar. Elke dinsdag, met uitzondering van schoolvakanties.",
+      "location": "Bibliotheek Aanzet",
+      "frequency": "wekelijks",
+      "url": "https://sliedrechtdoet.nl/agenda",
+      "scores": { "snelwandelaar": 0, "etalagekijker": 0, "buurtprater": 3, "handen": 0, "hersens": 1, "bakkie": 3, "ochtend": 3, "middag": 0, "avond": 0 }
     },
     {
       "title": "Laat je inspireren tijdens koffie met...",
-      "desc": "Laat je inspireren tijdens koffie met...",
-      "url": "https://sliedrechtdoet.nl/agenda/118472/2026-06-09/laat-je-inspireren-tijdens-koffie-met",
-      "location": "",
-      "tags": {
-        "tempo": [
-          "buurtprater"
-        ],
-        "energie": [
-          "bakkie"
-        ],
-        "tijd": [
-          "ochtend",
-          "middag",
-          "avond"
-        ]
-      },
-      "raw_text": "Laat je inspireren tijdens koffie met..."
+      "organizer": "Bibliotheek Aanzet",
+      "time": "Elke dinsdag van 10:30 tot 11:45 uur",
+      "desc": "Samen koffie drinken, mensen ontmoeten en nieuwe kennis opdoen. Kom langs en laat je verrassen door interessante presentaties en sprekers.",
+      "location": "Bibliotheek Aanzet",
+      "frequency": "wekelijks",
+      "url": "https://sliedrechtdoet.nl/agenda",
+      "scores": { "snelwandelaar": 0, "etalagekijker": 2, "buurtprater": 2, "handen": 0, "hersens": 3, "bakkie": 3, "ochtend": 3, "middag": 0, "avond": 0 }
     },
     {
       "title": "Geniet van een heerlijke lunch voor €2,50",
-      "desc": "Geniet van een heerlijke lunch voor €2,50",
-      "url": "https://sliedrechtdoet.nl/agenda/136861/2026-06-09/geniet-van-een-heerlijke-lunch-voor-2-50",
-      "location": "",
-      "tags": {
-        "tempo": [
-          "snelwandelaar",
-          "etalagekijker",
-          "buurtprater"
-        ],
-        "energie": [
-          "bakkie"
-        ],
-        "tijd": [
-          "middag"
-        ]
-      },
-      "raw_text": "Geniet van een heerlijke lunch voor €2,50"
+      "organizer": "Inloop Sliedrecht",
+      "time": "Elke dinsdag van 12:30 tot 13:30 uur",
+      "desc": "Een lekkere lunch voor een kleine vergoeding, in een gezellige sfeer bij het inlooppunt.",
+      "location": "Inloop Sliedrecht",
+      "frequency": "wekelijks",
+      "url": "https://sliedrechtdoet.nl/agenda",
+      "scores": { "snelwandelaar": 0, "etalagekijker": 0, "buurtprater": 3, "handen": 0, "hersens": 0, "bakkie": 3, "ochtend": 0, "middag": 3, "avond": 0 }
     },
     {
-      "title": "Aangehaakt",
-      "desc": "Aangehaakt",
-      "url": "https://sliedrechtdoet.nl/agenda/129383/2026-06-09/aangehaakt",
-      "location": "",
-      "tags": {
-        "tempo": [
-          "snelwandelaar",
-          "etalagekijker",
-          "buurtprater"
-        ],
-        "energie": [
-          "handen",
-          "hersens",
-          "bakkie"
-        ],
-        "tijd": [
-          "ochtend",
-          "middag",
-          "avond"
-        ]
-      },
-      "raw_text": "Aangehaakt"
+      "title": "Aangehaakt — creatief haken en breien",
+      "organizer": "Bibliotheek Aanzet",
+      "time": "Elke dinsdag van 14:00 tot 16:00 uur",
+      "desc": "Ben je creatief? Kom gezellig naar Aangehaakt! Er is gelegenheid om patronen uit te wisselen, inspiratie op te doen en van elkaar te leren. Beginner of gevorderde, jong of oud.",
+      "location": "Bibliotheek Aanzet",
+      "frequency": "wekelijks",
+      "url": "https://sliedrechtdoet.nl/agenda",
+      "scores": { "snelwandelaar": 0, "etalagekijker": 3, "buurtprater": 1, "handen": 3, "hersens": 1, "bakkie": 2, "ochtend": 0, "middag": 3, "avond": 0 }
+    },
+    {
+      "title": "Huiswerkbegeleiding",
+      "organizer": "Bibliotheek Aanzet",
+      "time": "Elke maandag van 16:00 tot 17:00 uur",
+      "desc": "Heb je hulp nodig met je schoolwerk? Kom je er niet uit met je rekensommen? In de bibliotheek kun je terecht voor huiswerkbegeleiding. Voor kinderen van groep 4 t/m groep 8.",
+      "location": "Bibliotheek Aanzet",
+      "frequency": "wekelijks",
+      "url": "https://sliedrechtdoet.nl/agenda",
+      "scores": { "snelwandelaar": 0, "etalagekijker": 2, "buurtprater": 0, "handen": 0, "hersens": 3, "bakkie": 0, "ochtend": 0, "middag": 3, "avond": 1 }
     }
   ]
 }
