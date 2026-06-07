@@ -23,53 +23,54 @@ HEADERS = {
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 }
 
-# ── TAG MAPPING ──────────────────────────────────────────────────────────────
-# Maps keywords found on the site to our three matcher dimensions:
-# tempo (snelwandelaar / etalagekijker / buurtprater)
-# energie (handen / hersens / bakkie)
-# tijd (ochtend / middag / avond)
+# ── SCORE MAPPING ──────────────────────────────────────────────────────────────
+# Each keyword awards points (0–3) to the matching quiz answer.
+# 3 = strong match, 2 = good match, 1 = loose match, 0 = no match (default).
 
-TEMPO_MAP = {
-    "snelwandelaar": ["sport", "bewegen", "fitness", "hardlopen", "wandelen",
-                      "zwemmen", "voetbal", "gym", "dans", "yoga", "actief"],
-    "etalagekijker": ["cultuur", "kunst", "muziek", "theater", "museum",
-                      "workshop", "cursus", "leren", "lezen", "natuur",
-                      "creatief", "schilderen", "tekenen", "fotograferen"],
-    "buurtprater":   ["ontmoeten", "gezellig", "koffie", "inloop", "babbel",
-                      "sociaal", "buurt", "samen", "vrijwillig", "hulp",
-                      "ouderen", "senioren", "maatje"],
-}
+SCORE_RULES = [
+  # (keywords_in_text, scores_dict)
+  # TEMPO
+  (["hardlopen", "rennen", "joggen", "sprint"],
+   {"snelwandelaar": 3, "etalagekijker": 0, "buurtprater": 0}),
+  (["wandelen", "fietsen", "zwemmen", "sport", "fitness", "bewegen", "gym", "actief", "dans", "yoga"],
+   {"snelwandelaar": 3, "etalagekijker": 1, "buurtprater": 1}),
+  (["workshop", "cursus", "kunst", "cultuur", "muziek", "theater", "museum", "lezen", "creatief", "schilderen", "tekenen", "natuur", "geschiedenis"],
+   {"snelwandelaar": 0, "etalagekijker": 3, "buurtprater": 1}),
+  (["ontmoeten", "koffie", "gezellig", "babbel", "inloop", "buurtactiviteit", "samen", "sociaal", "vrijwillig", "maatje", "lunch", "eten"],
+   {"snelwandelaar": 0, "etalagekijker": 1, "buurtprater": 3}),
 
-ENERGIE_MAP = {
-    "handen":  ["klussen", "tuin", "moestuin", "knutselen", "repareren",
-                "bouwen", "sport", "bewegen", "fitness", "hardlopen",
-                "zwemmen", "voetbal", "dans", "yoga", "actief", "schoonmaken"],
-    "hersens": ["workshop", "cursus", "leren", "lezing", "museum", "cultuur",
-                "kunst", "muziek", "theater", "lezen", "taal", "digitaal",
-                "computer", "creatief", "schilderen", "tekenen"],
-    "bakkie":  ["ontmoeten", "koffie", "inloop", "buurtactiviteit", "gezellig",
-                "samen", "lunch", "eten", "drinken", "sociaal", "vrijwillig",
-                "maatje", "zingen", "spel", "spelletjes"],
-}
+  # ENERGIE
+  (["tuin", "moestuin", "knutselen", "klussen", "bouwen", "repareren"],
+   {"handen": 3, "hersens": 1, "bakkie": 0}),
+  (["sport", "hardlopen", "zwemmen", "fietsen", "wandelen", "bewegen", "gym", "dans", "yoga", "fitness"],
+   {"handen": 3, "hersens": 0, "bakkie": 0}),
+  (["workshop", "cursus", "leren", "lezing", "museum", "cultuur", "kunst", "muziek", "theater", "taal", "digitaal", "computer", "schilderen", "tekenen", "geschiedenis"],
+   {"handen": 0, "hersens": 3, "bakkie": 1}),
+  (["koffie", "ontmoeten", "inloop", "gezellig", "samen", "lunch", "eten", "sociaal", "vrijwillig", "maatje", "spelletjes", "zingen"],
+   {"handen": 0, "hersens": 1, "bakkie": 3}),
 
-TIJD_MAP = {
-    "ochtend": ["ochtend", "09:00", "10:00", "11:00", "08:00",
-                "morning", "'s ochtends", "voormiddag"],
-    "middag":  ["middag", "12:00", "13:00", "14:00", "15:00", "16:00",
-                "'s middags", "namiddag", "lunch"],
-    "avond":   ["avond", "17:00", "18:00", "19:00", "20:00", "21:00",
-                "'s avonds", "nacht"],
-}
+  # TIJD
+  (["09:00", "10:00", "11:00", "08:00", "ochtend", "voormiddag", "morgenvroeg"],
+   {"ochtend": 3, "middag": 0, "avond": 0}),
+  (["12:00", "13:00", "14:00", "15:00", "16:00", "middag", "namiddag", "lunch"],
+   {"ochtend": 0, "middag": 3, "avond": 0}),
+  (["17:00", "18:00", "19:00", "20:00", "21:00", "avond", "nacht"],
+   {"ochtend": 0, "middag": 0, "avond": 3}),
+]
 
-
-def keyword_match(text: str, keyword_lists: dict) -> list:
-    """Return all keys whose keywords appear in text (lowercased)."""
-    text_lower = text.lower()
-    matched = []
-    for key, keywords in keyword_lists.items():
-        if any(kw in text_lower for kw in keywords):
-            matched.append(key)
-    return matched or list(keyword_lists.keys())  # fallback: all
+def compute_scores(text: str) -> dict:
+  """Return a scores dict with points for each quiz answer."""
+  text_lower = text.lower()
+  scores = {
+    "snelwandelaar": 0, "etalagekijker": 0, "buurtprater": 0,
+    "handen": 0, "hersens": 0, "bakkie": 0,
+    "ochtend": 0, "middag": 0, "avond": 0,
+  }
+  for keywords, award in SCORE_RULES:
+    if any(kw in text_lower for kw in keywords):
+      for key, pts in award.items():
+        scores[key] = max(scores[key], pts)  # take highest matching rule
+  return scores
 
 
 def scrape_page(url: str) -> BeautifulSoup | None:
@@ -143,21 +144,15 @@ def parse_activities(soup: BeautifulSoup) -> list[dict]:
             loc_el = item.select_one(".location, .address, [class*='locatie']")
             location = loc_el.get_text(strip=True) if loc_el else ""
 
-            # Derive tags
-            tempo  = keyword_match(full_text, TEMPO_MAP)
-            energie = keyword_match(full_text, ENERGIE_MAP)
-            tijd   = keyword_match(item_text, TIJD_MAP)
+            # Derive scores
+            scores = compute_scores(full_text + " " + item_text)
 
             activities.append({
                 "title":    title,
                 "desc":     desc[:300] if desc else title,
                 "url":      url,
                 "location": location,
-                "tags": {
-                    "tempo":   tempo,
-                    "energie": energie,
-                    "tijd":    tijd,
-                },
+                "scores":   scores,
                 "raw_text": item_text[:500],
             })
 
