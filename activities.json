@@ -1,41 +1,277 @@
-
 {
-  "updated_at": "07-06-2026 00:00",
+  "updated_at": "07-06-2026 19:51",
   "source": "https://sliedrechtdoet.nl/agenda",
-  "count": 3,
+  "count": 12,
   "activities": [
     {
-      "title": "Koffieochtend Inloophuis",
-      "desc": "Elke dinsdagochtend een gratis kop koffie en een goed gesprek. Voor iedereen die even wil bijkletsen.",
-      "url": "https://sliedrechtdoet.nl/agenda",
-      "location": "Sliedrecht",
+      "title": "Ontdek de natuur met tal van activiteiten!",
+      "desc": "Ontdek de natuur met tal van activiteiten!",
+      "url": "https://sliedrechtdoet.nl/agenda/146042/2026-06-07/ontdek-de-natuur-met-tal-van-activiteiten",
+      "location": "",
       "tags": {
-        "tempo": ["buurtprater"],
-        "energie": ["bakkie"],
-        "tijd": ["ochtend"]
-      }
+        "tempo": [
+          "etalagekijker"
+        ],
+        "energie": [
+          "handen",
+          "hersens",
+          "bakkie"
+        ],
+        "tijd": [
+          "ochtend",
+          "middag",
+          "avond"
+        ]
+      },
+      "raw_text": "Ontdek de natuur met tal van activiteiten!"
     },
     {
-      "title": "Moestuinworkshop",
-      "desc": "Leer samen groenten kweken op de buurtmoestuin. Elke zaterdagochtend, voor alle leeftijden.",
-      "url": "https://sliedrechtdoet.nl/agenda",
-      "location": "Sliedrecht",
+      "title": "Open Dagen in de Dijksynagoge",
+      "desc": "Open Dagen in de Dijksynagoge",
+      "url": "https://sliedrechtdoet.nl/agenda/145504/2026-06-07/open-dagen-in-de-dijksynagoge",
+      "location": "",
       "tags": {
-        "tempo": ["etalagekijker", "buurtprater"],
-        "energie": ["handen", "bakkie"],
-        "tijd": ["ochtend", "middag"]
-      }
+        "tempo": [
+          "snelwandelaar",
+          "etalagekijker",
+          "buurtprater"
+        ],
+        "energie": [
+          "handen",
+          "hersens",
+          "bakkie"
+        ],
+        "tijd": [
+          "ochtend",
+          "middag",
+          "avond"
+        ]
+      },
+      "raw_text": "Open Dagen in de Dijksynagoge"
     },
     {
-      "title": "Schilderworkshop voor beginners",
-      "desc": "Ontdek je creatieve kant in een gezellige groep. Materialen worden verzorgd.",
-      "url": "https://sliedrechtdoet.nl/agenda",
-      "location": "Kulturhus Sliedrecht",
+      "title": "Ontmoet elkaar in de groene huiskamer",
+      "desc": "Ontmoet elkaar in de groene huiskamer",
+      "url": "https://sliedrechtdoet.nl/agenda/143274/2026-06-08/ontmoet-elkaar-in-de-groene-huiskamer-2",
+      "location": "",
       "tags": {
-        "tempo": ["etalagekijker"],
-        "energie": ["hersens"],
-        "tijd": ["avond"]
-      }
+        "tempo": [
+          "snelwandelaar",
+          "etalagekijker",
+          "buurtprater"
+        ],
+        "energie": [
+          "handen",
+          "hersens",
+          "bakkie"
+        ],
+        "tijd": [
+          "ochtend",
+          "middag",
+          "avond"
+        ]
+      },
+      "raw_text": "Ontmoet elkaar in de groene huiskamer"
+    },
+    {
+      "title": "Leer Nederlands in de moestuin",
+      "desc": "Leer Nederlands in de moestuin",
+      "url": "https://sliedrechtdoet.nl/agenda/143269/2026-06-08/leer-nederlands-in-de-moestuin",
+      "location": "",
+      "tags": {
+        "tempo": [
+          "snelwandelaar",
+          "etalagekijker",
+          "buurtprater"
+        ],
+        "energie": [
+          "handen"
+        ],
+        "tijd": [
+          "ochtend",
+          "middag",
+          "avond"
+        ]
+      },
+      "raw_text": "Leer Nederlands in de moestuin"
+    },
+    {
+      "title": "Lunchen op de Moestuin",
+      "desc": "Lunchen op de Moestuin",
+      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-06-08/lunchen-op-de-moestuin",
+      "location": "",
+      "tags": {
+        "tempo": [
+          "snelwandelaar",
+          "etalagekijker",
+          "buurtprater"
+        ],
+        "energie": [
+          "handen",
+          "bakkie"
+        ],
+        "tijd": [
+          "middag"
+        ]
+      },
+      "raw_text": "Lunchen op de Moestuin"
+    },
+    {
+      "title": "Ontdek Sliedrecht in het onderhuis",
+      "desc": "Ontdek Sliedrecht in het onderhuis",
+      "url": "https://sliedrechtdoet.nl/agenda/138904/2026-06-08/ontdek-sliedrecht-in-het-onderhuis",
+      "location": "",
+      "tags": {
+        "tempo": [
+          "snelwandelaar",
+          "etalagekijker",
+          "buurtprater"
+        ],
+        "energie": [
+          "handen",
+          "hersens",
+          "bakkie"
+        ],
+        "tijd": [
+          "ochtend",
+          "middag",
+          "avond"
+        ]
+      },
+      "raw_text": "Ontdek Sliedrecht in het onderhuis"
+    },
+    {
+      "title": "Samen gezellig wandelen door Sliedrecht",
+      "desc": "Samen gezellig wandelen door Sliedrecht",
+      "url": "https://sliedrechtdoet.nl/agenda/138335/2026-06-08/samen-gezellig-wandelen-door-sliedrecht",
+      "location": "",
+      "tags": {
+        "tempo": [
+          "snelwandelaar",
+          "buurtprater"
+        ],
+        "energie": [
+          "bakkie"
+        ],
+        "tijd": [
+          "ochtend",
+          "middag",
+          "avond"
+        ]
+      },
+      "raw_text": "Samen gezellig wandelen door Sliedrecht"
+    },
+    {
+      "title": "Huiswerkbegeleiding",
+      "desc": "Huiswerkbegeleiding",
+      "url": "https://sliedrechtdoet.nl/agenda/129396/2026-06-08/huiswerkbegeleiding-6",
+      "location": "",
+      "tags": {
+        "tempo": [
+          "snelwandelaar",
+          "etalagekijker",
+          "buurtprater"
+        ],
+        "energie": [
+          "handen",
+          "hersens",
+          "bakkie"
+        ],
+        "tijd": [
+          "ochtend",
+          "middag",
+          "avond"
+        ]
+      },
+      "raw_text": "Huiswerkbegeleiding"
+    },
+    {
+      "title": "Ontmoet andere ouders",
+      "desc": "Ontmoet andere ouders",
+      "url": "https://sliedrechtdoet.nl/agenda/136644/2026-06-09/ontmoet-andere-ouders-2",
+      "location": "",
+      "tags": {
+        "tempo": [
+          "snelwandelaar",
+          "etalagekijker",
+          "buurtprater"
+        ],
+        "energie": [
+          "handen",
+          "hersens",
+          "bakkie"
+        ],
+        "tijd": [
+          "ochtend",
+          "middag",
+          "avond"
+        ]
+      },
+      "raw_text": "Ontmoet andere ouders"
+    },
+    {
+      "title": "Laat je inspireren tijdens koffie met...",
+      "desc": "Laat je inspireren tijdens koffie met...",
+      "url": "https://sliedrechtdoet.nl/agenda/118472/2026-06-09/laat-je-inspireren-tijdens-koffie-met",
+      "location": "",
+      "tags": {
+        "tempo": [
+          "buurtprater"
+        ],
+        "energie": [
+          "bakkie"
+        ],
+        "tijd": [
+          "ochtend",
+          "middag",
+          "avond"
+        ]
+      },
+      "raw_text": "Laat je inspireren tijdens koffie met..."
+    },
+    {
+      "title": "Geniet van een heerlijke lunch voor €2,50",
+      "desc": "Geniet van een heerlijke lunch voor €2,50",
+      "url": "https://sliedrechtdoet.nl/agenda/136861/2026-06-09/geniet-van-een-heerlijke-lunch-voor-2-50",
+      "location": "",
+      "tags": {
+        "tempo": [
+          "snelwandelaar",
+          "etalagekijker",
+          "buurtprater"
+        ],
+        "energie": [
+          "bakkie"
+        ],
+        "tijd": [
+          "middag"
+        ]
+      },
+      "raw_text": "Geniet van een heerlijke lunch voor €2,50"
+    },
+    {
+      "title": "Aangehaakt",
+      "desc": "Aangehaakt",
+      "url": "https://sliedrechtdoet.nl/agenda/129383/2026-06-09/aangehaakt",
+      "location": "",
+      "tags": {
+        "tempo": [
+          "snelwandelaar",
+          "etalagekijker",
+          "buurtprater"
+        ],
+        "energie": [
+          "handen",
+          "hersens",
+          "bakkie"
+        ],
+        "tijd": [
+          "ochtend",
+          "middag",
+          "avond"
+        ]
+      },
+      "raw_text": "Aangehaakt"
     }
   ]
 }
