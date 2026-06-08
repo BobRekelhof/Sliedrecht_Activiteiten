@@ -694,11 +694,26 @@ function renderActiviteiten(profiel) {
       .map(a => ({ ...a, _match: (a.scores || {})[profiel] || 0 }))
       .sort((a, b) => b._match - a._match);
 
-    // Toon activiteiten met score ≥ 2 (goede match)
-    let matched = gesorteerd.filter(a => a._match >= 2);
+    // Toon alleen activiteiten met score 3 (sterke match voor dit profiel)
+    let matched = gesorteerd.filter(a => a._match >= 3);
 
-    // Fallback: altijd minimaal 3 tonen
-    if (matched.length < 3) matched = gesorteerd.slice(0, Math.min(5, gesorteerd.length));
+    // Fallback 1: verlaag naar score >= 2 als te weinig resultaten
+    if (matched.length < 3) {
+      matched = gesorteerd.filter(a => a._match >= 2);
+    }
+
+    // Fallback 2: dominant_profile komt overeen met gevonden profiel
+    if (matched.length < 3) {
+      matched = gesorteerd.filter(a =>
+        a._match >= 2 || a.dominant_profile === profiel
+      );
+    }
+
+    // Fallback 3: top 5 maar ALLEEN activiteiten met score > 0
+    // Voorkomt dat bijv. 'huiswerkbegeleiding' bij 'buitenmens' verschijnt
+    if (matched.length < 3) {
+      matched = gesorteerd.filter(a => a._match > 0).slice(0, 5);
+    }
 
     pill.textContent = `${matched.length} activiteit${matched.length !== 1 ? 'en' : ''} voor jou`;
     subEl.textContent = `Gevonden op basis van jouw profiel: ${PROFIELEN[profiel].naam}`;
