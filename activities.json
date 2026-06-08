@@ -1,199 +1,139 @@
 {
-  "updated_at": "08-06-2026 07:39",
+  "updated_at": "08-06-2026 07:01",
   "source": "https://sliedrechtdoet.nl/agenda",
   "count": 12,
   "activities": [
     {
-      "title": "Ontmoet elkaar in de groene huiskamer",
-      "organizer": "",
-      "desc": "SliedrechtDoet.nl, beheerd door Stichting Welzijnswerk Sliedrecht, gebruikt cookies voor noodzakelijke werking en toegankelijkheid, analytics (1 derde partij), mediapartners (5 derde partijen) en externe diensten (3 derde partijen). Je kunt je keuze op elk moment wijzigen via de cookie-instellingen in de footer.",
-      "url": "https://sliedrechtdoet.nl/agenda/143274/2026-06-08/ontmoet-elkaar-in-de-groene-huiskamer-2",
-      "location": "https://sliedrechtdoet.nl/agenda/143274/2026-06-08/ontmoet-elkaar-in-de-groene-huiskamer-2",
-      "time": "8 juni 2026 van 09:00 tot 12:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 0,
-        "buurtgenoot": 3,
-        "inpakker": 0
-      },
-      "dominant_profile": "buurtgenoot"
-    },
-    {
-      "title": "Leer Nederlands in de moestuin",
-      "organizer": "",
-      "desc": "SliedrechtDoet.nl, beheerd door Stichting Welzijnswerk Sliedrecht, gebruikt cookies voor noodzakelijke werking en toegankelijkheid, analytics (1 derde partij), mediapartners (5 derde partijen) en externe diensten (3 derde partijen). Je kunt je keuze op elk moment wijzigen via de cookie-instellingen in de footer.",
-      "url": "https://sliedrechtdoet.nl/agenda/143269/2026-06-08/leer-nederlands-in-de-moestuin",
-      "location": "https://sliedrechtdoet.nl/agenda/143269/2026-06-08/leer-nederlands-in-de-moestuin",
-      "time": "8 juni 2026 van 09:00 tot 10:30 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 1,
-        "buurtgenoot": 1,
-        "inpakker": 2
-      },
-      "dominant_profile": "inpakker"
-    },
-    {
-      "title": "Lunchen op de Moestuin",
-      "organizer": "",
-      "desc": "SliedrechtDoet.nl, beheerd door Stichting Welzijnswerk Sliedrecht, gebruikt cookies voor noodzakelijke werking en toegankelijkheid, analytics (1 derde partij), mediapartners (5 derde partijen) en externe diensten (3 derde partijen). Je kunt je keuze op elk moment wijzigen via de cookie-instellingen in de footer.",
-      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-06-08/lunchen-op-de-moestuin",
-      "location": "https://sliedrechtdoet.nl/agenda/143267/2026-06-08/lunchen-op-de-moestuin",
-      "time": "8 juni 2026 van 12:00 tot 13:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 1,
-        "buurtgenoot": 3,
-        "inpakker": 2
-      },
-      "dominant_profile": "buurtgenoot"
-    },
-    {
-      "title": "Ontdek Sliedrecht in het onderhuis",
-      "organizer": "",
-      "desc": "SliedrechtDoet.nl, beheerd door Stichting Welzijnswerk Sliedrecht, gebruikt cookies voor noodzakelijke werking en toegankelijkheid, analytics (1 derde partij), mediapartners (5 derde partijen) en externe diensten (3 derde partijen). Je kunt je keuze op elk moment wijzigen via de cookie-instellingen in de footer.",
-      "url": "https://sliedrechtdoet.nl/agenda/138904/2026-06-08/ontdek-sliedrecht-in-het-onderhuis",
-      "location": "https://sliedrechtdoet.nl/agenda/138904/2026-06-08/ontdek-sliedrecht-in-het-onderhuis",
-      "time": "8 juni 2026 van 14:00 tot 16:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 0,
-        "inpakker": 0
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
       "title": "Samen gezellig wandelen door Sliedrecht",
-      "organizer": "",
-      "desc": "SliedrechtDoet.nl, beheerd door Stichting Welzijnswerk Sliedrecht, gebruikt cookies voor noodzakelijke werking en toegankelijkheid, analytics (1 derde partij), mediapartners (5 derde partijen) en externe diensten (3 derde partijen). Je kunt je keuze op elk moment wijzigen via de cookie-instellingen in de footer.",
+      "organizer": "Walkie Talkie Wandelgroep",
+      "desc": "Meer wandelen is mijn goede voornemen. Heb je zin om mee te gaan? Samen is gezelliger. Ongeveer een uur in rustig tempo, aangepast aan deelnemers.",
       "url": "https://sliedrechtdoet.nl/agenda/138335/2026-06-08/samen-gezellig-wandelen-door-sliedrecht",
-      "location": "https://sliedrechtdoet.nl/agenda/138335/2026-06-08/samen-gezellig-wandelen-door-sliedrecht",
+      "location": "Albert Heijn",
       "time": "8 juni 2026 van 15:00 tot 16:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 3,
-        "ontdekker": 0,
-        "buurtgenoot": 2,
-        "inpakker": 0
-      },
+      "frequency": "wekelijks",
+      "scores": { "buitenmens": 3, "ontdekker": 0, "buurtgenoot": 1, "inpakker": 0 },
       "dominant_profile": "buitenmens"
     },
     {
-      "title": "Huiswerkbegeleiding",
-      "organizer": "",
-      "desc": "SliedrechtDoet.nl, beheerd door Stichting Welzijnswerk Sliedrecht, gebruikt cookies voor noodzakelijke werking en toegankelijkheid, analytics (1 derde partij), mediapartners (5 derde partijen) en externe diensten (3 derde partijen). Je kunt je keuze op elk moment wijzigen via de cookie-instellingen in de footer.",
-      "url": "https://sliedrechtdoet.nl/agenda/129396/2026-06-08/huiswerkbegeleiding-6",
-      "location": "https://sliedrechtdoet.nl/agenda/129396/2026-06-08/huiswerkbegeleiding-6",
-      "time": "8 juni 2026 van 16:00 tot 17:00 uur",
+      "title": "Sliedrecht Doet ontmoet je op de weekmarkt!",
+      "organizer": "Sliedrecht Doet",
+      "desc": "Kom langs bij onze kraam op de weekmarkt! We staan klaar om jou te informeren over activiteiten en mogelijkheden in Sliedrecht.",
+      "url": "https://sliedrechtdoet.nl/agenda/144355/2026-06-10/sliedrecht-doet-ontmoet-je-op-de-weekmarkt",
+      "location": "Weekmarkt Sliedrecht",
+      "time": "10 juni 2026 van 09:00 tot 12:00 uur",
+      "frequency": "",
+      "scores": { "buitenmens": 0, "ontdekker": 0, "buurtgenoot": 3, "inpakker": 0 },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "Ontmoet elkaar in de groene huiskamer",
+      "organizer": "De Groene Huiskamer",
+      "desc": "Elke maandag is er een gezellige ontmoetingsmorgen in de groene huiskamer, op de moestuin voor jong en oud. Gezellig met elkaar kletsen onder genot van koffie.",
+      "url": "https://sliedrechtdoet.nl/agenda/143274/2026-06-08/ontmoet-elkaar-in-de-groene-huiskamer-2",
+      "location": "De Groene Huiskamer",
+      "time": "8 juni 2026 van 09:00 tot 12:00 uur",
       "frequency": "wekelijks",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 2,
-        "buurtgenoot": 0,
-        "inpakker": 3
-      },
-      "dominant_profile": "inpakker"
+      "scores": { "buitenmens": 0, "ontdekker": 0, "buurtgenoot": 3, "inpakker": 0 },
+      "dominant_profile": "buurtgenoot"
     },
     {
       "title": "Ontmoet andere ouders",
-      "organizer": "",
-      "desc": "Een vaste ontmoetingsplek voor aanstaande ouders en ouders van kinderen tot 18 jaar. Elke dinsdag van 9:30 tot 10:30 uur, met uitzondering van de schoolvakanties, ben je welkom om andere ouders te ontmoeten. Het is een plek waar je netwerk kan groeien en waar je kunt sparren over opvoeden in alle openheid. De ochtenden zijn laagdrempelig, gratis en zonder aanmelding. Loop gewoon binnen in de Groen",
+      "organizer": "Tips & Koffie",
+      "desc": "Een vaste ontmoetingsplek voor aanstaande ouders en ouders van kinderen tot 18 jaar. Elke dinsdag van 9:30 tot 10:30 uur, met uitzondering van schoolvakanties.",
       "url": "https://sliedrechtdoet.nl/agenda/136644/2026-06-09/ontmoet-andere-ouders-2",
-      "location": "https://sliedrechtdoet.nl/agenda/136644/2026-06-09/ontmoet-andere-ouders-2",
+      "location": "Bibliotheek Aanzet",
       "time": "9 juni 2026 van 09:30 tot 10:30 uur",
       "frequency": "wekelijks",
-      "scores": {
-        "buitenmens": 3,
-        "ontdekker": 0,
-        "buurtgenoot": 3,
-        "inpakker": 0
-      },
-      "dominant_profile": "buitenmens"
+      "scores": { "buitenmens": 0, "ontdekker": 0, "buurtgenoot": 3, "inpakker": 0 },
+      "dominant_profile": "buurtgenoot"
     },
     {
       "title": "Laat je inspireren tijdens koffie met...",
-      "organizer": "",
-      "desc": "SliedrechtDoet.nl, beheerd door Stichting Welzijnswerk Sliedrecht, gebruikt cookies voor noodzakelijke werking en toegankelijkheid, analytics (1 derde partij), mediapartners (5 derde partijen) en externe diensten (3 derde partijen). Je kunt je keuze op elk moment wijzigen via de cookie-instellingen in de footer.",
+      "organizer": "Bibliotheek Aanzet",
+      "desc": "Samen koffie drinken, mensen ontmoeten en nieuwe kennis opdoen. Kom langs en laat je verrassen door interessante presentaties en sprekers.",
       "url": "https://sliedrechtdoet.nl/agenda/118472/2026-06-09/laat-je-inspireren-tijdens-koffie-met",
-      "location": "https://sliedrechtdoet.nl/agenda/118472/2026-06-09/laat-je-inspireren-tijdens-koffie-met",
+      "location": "Bibliotheek Aanzet",
       "time": "9 juni 2026 van 10:30 tot 11:45 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 0,
-        "buurtgenoot": 3,
-        "inpakker": 0
-      },
+      "frequency": "wekelijks",
+      "scores": { "buitenmens": 0, "ontdekker": 3, "buurtgenoot": 3, "inpakker": 0 },
       "dominant_profile": "buurtgenoot"
     },
     {
       "title": "Geniet van een heerlijke lunch voor €2,50",
-      "organizer": "",
-      "desc": "SliedrechtDoet.nl, beheerd door Stichting Welzijnswerk Sliedrecht, gebruikt cookies voor noodzakelijke werking en toegankelijkheid, analytics (1 derde partij), mediapartners (5 derde partijen) en externe diensten (3 derde partijen). Je kunt je keuze op elk moment wijzigen via de cookie-instellingen in de footer.",
+      "organizer": "Inloop Sliedrecht",
+      "desc": "Een lekkere lunch voor een kleine vergoeding, in een gezellige sfeer bij het inlooppunt.",
       "url": "https://sliedrechtdoet.nl/agenda/136861/2026-06-09/geniet-van-een-heerlijke-lunch-voor-2-50",
-      "location": "https://sliedrechtdoet.nl/agenda/136861/2026-06-09/geniet-van-een-heerlijke-lunch-voor-2-50",
+      "location": "Inloop Sliedrecht",
       "time": "9 juni 2026 van 12:30 tot 13:30 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 0,
-        "buurtgenoot": 3,
-        "inpakker": 0
-      },
+      "frequency": "wekelijks",
+      "scores": { "buitenmens": 0, "ontdekker": 0, "buurtgenoot": 3, "inpakker": 0 },
       "dominant_profile": "buurtgenoot"
     },
     {
+      "title": "Lunchen op de Moestuin",
+      "organizer": "Moestuin Sliedrecht",
+      "desc": "Kom gezellig met ons mee lunchen op de moestuin. Iedere middag bent u van harte welkom voor een heerlijke lunch/maaltijd, tegen een kleine vergoeding.",
+      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-06-08/lunchen-op-de-moestuin",
+      "location": "Moestuin Sliedrecht",
+      "time": "8 juni 2026 van 12:00 tot 13:00 uur",
+      "frequency": "wekelijks",
+      "scores": { "buitenmens": 0, "ontdekker": 0, "buurtgenoot": 3, "inpakker": 0 },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "Leer Nederlands in de moestuin",
+      "organizer": "Moestuin Sliedrecht",
+      "desc": "Iedere maandagmorgen wordt er taalles gegeven op de moestuin voor iedereen die de Nederlandse taal beter wil leren. U bent van harte welkom.",
+      "url": "https://sliedrechtdoet.nl/agenda/143269/2026-06-08/leer-nederlands-in-de-moestuin",
+      "location": "Moestuin Sliedrecht",
+      "time": "8 juni 2026 van 09:00 tot 10:30 uur",
+      "frequency": "wekelijks",
+      "scores": { "buitenmens": 0, "ontdekker": 3, "buurtgenoot": 0, "inpakker": 0 },
+      "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Ontdek Sliedrecht in het onderhuis",
+      "organizer": "Historische Vereniging Sliedrecht",
+      "desc": "Iedere maandagmiddag is het onderhuis open. Wilt u meer weten over de geschiedenis van Sliedrecht? Heeft u foto's of andere spullen over Sliedrecht?",
+      "url": "https://sliedrechtdoet.nl/agenda/138904/2026-06-08/ontdek-sliedrecht-in-het-onderhuis",
+      "location": "Van Goghstraat 15",
+      "time": "8 juni 2026 van 14:00 tot 16:00 uur",
+      "frequency": "wekelijks",
+      "scores": { "buitenmens": 0, "ontdekker": 3, "buurtgenoot": 0, "inpakker": 0 },
+      "dominant_profile": "ontdekker"
+    },
+    {
       "title": "Aangehaakt",
-      "organizer": "",
-      "desc": "SliedrechtDoet.nl, beheerd door Stichting Welzijnswerk Sliedrecht, gebruikt cookies voor noodzakelijke werking en toegankelijkheid, analytics (1 derde partij), mediapartners (5 derde partijen) en externe diensten (3 derde partijen). Je kunt je keuze op elk moment wijzigen via de cookie-instellingen in de footer.",
+      "organizer": "Bibliotheek Aanzet",
+      "desc": "Ben je creatief? Kom gezellig naar Aangehaakt! Er is gelegenheid om patronen uit te wisselen, inspiratie op te doen en van elkaar te leren. Breien, haken — beginner of gevorderde, jong of oud.",
       "url": "https://sliedrechtdoet.nl/agenda/129383/2026-06-09/aangehaakt",
-      "location": "https://sliedrechtdoet.nl/agenda/129383/2026-06-09/aangehaakt",
+      "location": "Bibliotheek Aanzet",
       "time": "9 juni 2026 van 14:00 tot 16:00 uur",
       "frequency": "wekelijks",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 1,
-        "inpakker": 1
-      },
+      "scores": { "buitenmens": 0, "ontdekker": 3, "buurtgenoot": 1, "inpakker": 0 },
       "dominant_profile": "ontdekker"
     },
     {
       "title": "Voorlezen en kleuren in het thema van het boek!",
-      "organizer": "",
-      "desc": "SliedrechtDoet.nl, beheerd door Stichting Welzijnswerk Sliedrecht, gebruikt cookies voor noodzakelijke werking en toegankelijkheid, analytics (1 derde partij), mediapartners (5 derde partijen) en externe diensten (3 derde partijen). Je kunt je keuze op elk moment wijzigen via de cookie-instellingen in de footer.",
+      "organizer": "Bibliotheek Aanzet",
+      "desc": "Een creatieve middag voor kinderen: voorlezen en daarna kleuren in het thema van het boek. Leuk en leerzaam voor de kleintjes.",
       "url": "https://sliedrechtdoet.nl/agenda/133610/2026-06-09/voorlezen-en-kleuren-in-het-thema-van-het-boek",
-      "location": "https://sliedrechtdoet.nl/agenda/133610/2026-06-09/voorlezen-en-kleuren-in-het-thema-van-het-boek",
+      "location": "Bibliotheek Aanzet",
       "time": "9 juni 2026 van 15:00 tot 16:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 1,
-        "inpakker": 0
-      },
+      "frequency": "wekelijks",
+      "scores": { "buitenmens": 0, "ontdekker": 3, "buurtgenoot": 0, "inpakker": 0 },
       "dominant_profile": "ontdekker"
     },
     {
-      "title": "Sliedrecht Doet ontmoet je op de weekmarkt!",
-      "organizer": "",
-      "desc": "SliedrechtDoet.nl, beheerd door Stichting Welzijnswerk Sliedrecht, gebruikt cookies voor noodzakelijke werking en toegankelijkheid, analytics (1 derde partij), mediapartners (5 derde partijen) en externe diensten (3 derde partijen). Je kunt je keuze op elk moment wijzigen via de cookie-instellingen in de footer.",
-      "url": "https://sliedrechtdoet.nl/agenda/144355/2026-06-10/sliedrecht-doet-ontmoet-je-op-de-weekmarkt",
-      "location": "https://sliedrechtdoet.nl/agenda/144355/2026-06-10/sliedrecht-doet-ontmoet-je-op-de-weekmarkt",
-      "time": "10 juni 2026 van 09:00 tot 12:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 1,
-        "ontdekker": 0,
-        "buurtgenoot": 3,
-        "inpakker": 0
-      },
-      "dominant_profile": "buurtgenoot"
+      "title": "Huiswerkbegeleiding",
+      "organizer": "Bibliotheek Aanzet",
+      "desc": "Heb je hulp nodig met je schoolwerk? In de bibliotheek kun je terecht voor huiswerkbegeleiding. Vrijwilligers helpen kinderen van groep 4 t/m groep 8 met hun huiswerk.",
+      "url": "https://sliedrechtdoet.nl/agenda/129396/2026-06-08/huiswerkbegeleiding-6",
+      "location": "Bibliotheek Aanzet",
+      "time": "8 juni 2026 van 16:00 tot 17:00 uur",
+      "frequency": "wekelijks",
+      "scores": { "buitenmens": 0, "ontdekker": 2, "buurtgenoot": 0, "inpakker": 3 },
+      "dominant_profile": "inpakker"
     }
   ]
 }
