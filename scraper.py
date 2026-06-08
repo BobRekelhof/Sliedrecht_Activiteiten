@@ -201,10 +201,37 @@ def fetch(url: str, delay: float = 0.5):
         return None
 
 
+def is_junk_text(text: str) -> bool:
+    """Filtert cookiebanners, URLs, privacyteksten en andere rommel."""
+    t = text.strip().lower()
+    if len(t) < 30:
+        return True
+    if is_date_only(text):
+        return True
+    if "http" in t or "www." in t or "sliedrechtdoet.nl" in t:
+        return True
+    junk_phrases = [
+        "cookie", "privacybeleid", "privacy policy",
+        "derde partij", "derde partijen", "mediapartner",
+        "analytics", "toegankelijkheid", "noodzakelijke werking",
+        "cookie-instellingen", "je keuze op elk moment",
+        "beheerd door stichting", "welzijnswerk sliedrecht",
+        "inloggen", "inschrijven", "zoek in site",
+        "selecteer een taal", "sélectionner",
+        "copyright", "alle rechten voorbehouden",
+        "sitemap", "disclaimer",
+    ]
+    if any(phrase in t for phrase in junk_phrases):
+        return True
+    if len(t.split()) < 5:
+        return True
+    return False
+
+
 def fetch_activity_detail(url: str) -> dict:
     """
     Bezoek de individuele activiteitspagina en extraheer:
-    - volledige beschrijving
+    - volledige beschrijving (gefilterd op junk)
     - locatie
     - organisator
     - tijdstip
@@ -215,43 +242,54 @@ def fetch_activity_detail(url: str) -> dict:
 
     result = {}
 
-    # Beschrijving: zoek de langste <p> buiten navigatie/footer
-    paragraphs = soup.select("main p, article p, .content p, .description p, .body p")
+    # Verwijder navigatie, footer en cookiebanner uit de DOM
+    for tag in soup.select(
+        "nav, footer, header, "
+        "[class*='cookie'], [id*='cookie'], "
+        "[class*='banner'], [class*='consent']"
+    ):
+        tag.decompose()
+
+    # Beschrijving: probeer specifieke content-selectors eerst
+    paragraphs = soup.select(
+        "main p, article p, .content p, .description p, "
+        ".body p, [class*='tekst'] p, [class*='detail'] p"
+    )
     if not paragraphs:
         paragraphs = soup.find_all("p")
 
     best_desc = ""
     for p in paragraphs:
         text = p.get_text(strip=True)
-        # Sla datum-only en te korte teksten over
-        if len(text) > len(best_desc) and not is_date_only(text) and len(text) > 30:
+        if not is_junk_text(text) and len(text) > len(best_desc):
             best_desc = text
+
     if best_desc:
         result["desc"] = best_desc[:400]
 
-    # Locatie
+    # Locatie: filter URLs en te lange strings
     loc_candidates = soup.select(
         "[class*='locatie'], [class*='location'], [class*='place'], "
         "[class*='adres'], [class*='address'], [itemprop='location']"
     )
     for el in loc_candidates:
         t = el.get_text(strip=True)
-        if t and len(t) < 100:
+        if t and len(t) < 80 and "http" not in t and "sliedrechtdoet" not in t.lower():
             result["location"] = t
             break
 
     # Organisator
     org_candidates = soup.select(
         "[class*='organis'], [class*='auteur'], [class*='org'], "
-        "[class*='aanbieder'], [class*='provider']"
+        "[class*='aanbieder'], [class*='provider'], [class*='groep']"
     )
     for el in org_candidates:
         t = el.get_text(strip=True)
-        if t and len(t) < 80:
+        if t and len(t) < 80 and "http" not in t:
             result["organizer"] = t
             break
 
-    # Tijdstip — zoek volledige tijdstip-tekst op de detailpagina
+    # Tijdstip
     full_text = soup.get_text(" ", strip=True)
     time_match = re.search(
         r"\d{1,2}\s+\w+\s+\d{4}\s+van\s+\d{2}:\d{2}\s+tot\s+\d{2}:\d{2}\s+uur",
