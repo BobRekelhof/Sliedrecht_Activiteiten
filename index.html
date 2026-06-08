@@ -9,25 +9,28 @@
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --orange:      #F47920;
-      --orange-dark: #D96510;
-      --orange-pale: #FEF3EA;
-      --white:       #FFFFFF;
-      --off-white:   #F7F7F7;
-      --dark:        #1A1A1A;
-      --mid:         #555555;
-      --light:       #888888;
-      --border:      #E0E0E0;
-      --radius-pill: 999px;
-      --radius-card: 10px;
-      --header-h:    64px;
-      --footer-h:    52px;
+      --orange:       #F47920;
+      --orange-dark:  #D96510;
+      --orange-pale:  #FEF3EA;
+      --white:        #FFFFFF;
+      --off-white:    #F7F7F7;
+      --dark:         #1A1A1A;
+      --mid:          #555555;
+      --light:        #888888;
+      --border:       #E0E0E0;
+      --radius-pill:  999px;
+      --radius-card:  10px;
+      --header-h:     64px;
+      --footer-h:     52px;
+
+      /* Profielkleuren */
+      --buitenmens:   #2E7D52;
+      --ontdekker:    #6B4C9A;
+      --buurtgenoot:  #C0392B;
+      --inpakker:     #1A6E9F;
     }
 
-    /* ── FULL-HEIGHT LAYOUT ── */
-    html, body {
-      height: 100%;
-    }
+    html, body { height: 100%; }
 
     body {
       font-family: 'Source Sans 3', 'Segoe UI', sans-serif;
@@ -54,43 +57,30 @@
       height: 100%;
     }
 
-    .logo {
-      display: flex;
-      align-items: center;
-      gap: 0.7rem;
-      text-decoration: none;
+    .logo { display: flex; align-items: center; gap: 0.7rem; text-decoration: none; }
+
+    .logo-box { height: 38px; display: flex; align-items: center; }
+    .logo-box img { height: 38px; width: auto; display: block; }
+    .logo-fallback {
+      display: none;
+      height: 38px; width: 38px;
+      background: white; border-radius: 6px;
+      align-items: center; justify-content: center;
+      font-weight: 700; color: var(--orange); font-size: 0.9rem;
     }
 
-    .logo-box {
-      height: 38px;
-      display: flex;
-      align-items: center;
-      flex-shrink: 0;
-    }
+    .logo-name { font-size: 1.1rem; font-weight: 700; color: white; }
 
-    .logo-box img {
-      height: 38px;
-      width: auto;
-      display: block;
-    }
-
-    .logo-name {
-      font-size: 1.1rem;
-      font-weight: 700;
-      color: white;
-      letter-spacing: -0.01em;
-    }
-
-    /* ── MAIN AREA (fills between header and footer) ── */
+    /* ── LAYOUT ── */
     .page-body {
       flex: 1;
       display: flex;
-      overflow: hidden; /* results can scroll internally */
+      overflow: hidden;
     }
 
     /* ── SIDEBAR ── */
     .sidebar {
-      width: 300px;
+      width: 290px;
       flex-shrink: 0;
       background: var(--white);
       border-right: 1px solid var(--border);
@@ -100,151 +90,70 @@
       overflow-y: auto;
     }
 
-    .sidebar h1 {
-      font-size: 1.7rem;
-      font-weight: 700;
-      line-height: 1.2;
-      margin-bottom: 0.6rem;
-    }
+    .sidebar h1 { font-size: 1.6rem; font-weight: 700; line-height: 1.2; margin-bottom: 0.6rem; }
+    .sidebar .sub { font-size: 0.88rem; color: var(--mid); line-height: 1.6; }
 
-    .sidebar .sub {
-      font-size: 0.88rem;
-      color: var(--mid);
-      line-height: 1.6;
-      margin-bottom: 0;
-    }
+    .orange-line { height: 3px; background: var(--orange); border-radius: 2px; margin: 1.5rem 0; }
 
-    .orange-line {
-      height: 3px;
-      background: var(--orange);
-      border-radius: 2px;
-      margin: 1.5rem 0;
-    }
-
-    /* step indicators */
-    .sidebar-steps {
-      display: flex;
-      flex-direction: column;
-      gap: 0.75rem;
-    }
+    .sidebar-steps { display: flex; flex-direction: column; gap: 0.75rem; }
 
     .s-step {
-      display: flex;
-      align-items: center;
-      gap: 0.8rem;
-      font-size: 0.9rem;
-      color: var(--light);
-      font-weight: 400;
+      display: flex; align-items: center; gap: 0.8rem;
+      font-size: 0.9rem; color: var(--light); font-weight: 400;
     }
-
     .s-step.active { color: var(--dark); font-weight: 700; }
     .s-step.done   { color: var(--orange); }
 
     .s-dot {
-      width: 26px;
-      height: 26px;
-      border-radius: 50%;
-      border: 2px solid var(--border);
-      flex-shrink: 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 0.75rem;
-      font-weight: 700;
+      width: 26px; height: 26px; border-radius: 50%;
+      border: 2px solid var(--border); flex-shrink: 0;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 0.75rem; font-weight: 700;
     }
+    .s-step.active .s-dot { border-color: var(--orange); background: var(--orange); color: white; }
+    .s-step.done .s-dot   { border-color: var(--orange); background: var(--orange-pale); color: var(--orange); }
 
-    .s-step.active .s-dot {
-      border-color: var(--orange);
-      background: var(--orange);
-      color: white;
-    }
-
-    .s-step.done .s-dot {
-      border-color: var(--orange);
-      background: var(--orange-pale);
-      color: var(--orange);
-    }
-
-    /* results sidebar extras */
+    /* Resultaten sidebar */
     .btn-outline {
-      display: inline-block;
-      padding: 0.65rem 1.5rem;
-      border: 2px solid var(--orange);
-      border-radius: var(--radius-pill);
-      background: transparent;
-      color: var(--orange);
+      display: block; width: 100%;
+      padding: 0.65rem 1.5rem; margin-top: 1.5rem;
+      border: 2px solid var(--orange); border-radius: var(--radius-pill);
+      background: transparent; color: var(--orange);
       font-family: 'Source Sans 3', sans-serif;
-      font-size: 0.9rem;
-      font-weight: 700;
-      cursor: pointer;
-      transition: background 0.15s, color 0.15s;
-      margin-top: 1.5rem;
-      width: 100%;
-      text-align: center;
+      font-size: 0.9rem; font-weight: 700; cursor: pointer;
+      transition: background 0.15s, color 0.15s; text-align: center;
     }
+    .btn-outline:hover { background: var(--orange); color: white; }
 
-    .btn-outline:hover {
-      background: var(--orange);
-      color: white;
-    }
-
-    .source-note {
-      margin-top: 1rem;
-      font-size: 0.72rem;
-      color: var(--light);
-      line-height: 1.6;
-    }
-
+    .source-note { margin-top: 1rem; font-size: 0.72rem; color: var(--light); line-height: 1.6; }
     .source-note a { color: inherit; }
 
-    /* ── MAIN CONTENT ── */
+    /* ── MAIN ── */
     .main-content {
-      flex: 1;
-      overflow-y: auto;
-      padding: 2.5rem 2.5rem;
-      display: flex;
-      flex-direction: column;
+      flex: 1; overflow-y: auto;
+      padding: 2.5rem 3rem;
+      display: flex; flex-direction: column;
     }
 
-    /* Center form vertically on desktop */
-    .form-center {
-      flex: 1;
-      display: flex;
-      align-items: center;
-    }
+    .form-center { flex: 1; display: flex; align-items: center; }
+    .form-inner  { width: 100%; max-width: 580px; }
 
-    .form-inner {
-      width: 100%;
-      max-width: 560px;
-    }
-
-    /* Steps */
+    /* ── STAPPEN ── */
     .step { display: none; }
-    .step.active {
-      display: block;
-      animation: fadeIn 0.3s ease;
-    }
+    .step.active { display: block; animation: fadeUp 0.35s ease; }
 
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(12px); }
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(14px); }
       to   { opacity: 1; transform: translateY(0); }
     }
 
     .step-title {
-      font-size: 1.25rem;
-      font-weight: 700;
-      margin-bottom: 1.4rem;
-      color: var(--dark);
-      line-height: 1.35;
+      font-size: 1.3rem; font-weight: 700;
+      margin-bottom: 1.5rem; color: var(--dark); line-height: 1.3;
     }
 
-    /* Options */
-    .options-list {
-      display: flex;
-      flex-direction: column;
-      gap: 0.8rem;
-      margin-bottom: 1.6rem;
-    }
+    /* ── KEUZEKAARTEN ── */
+    .options-list { display: flex; flex-direction: column; gap: 0.8rem; margin-bottom: 1.8rem; }
 
     .opt {
       cursor: pointer;
@@ -252,134 +161,90 @@
       border-radius: var(--radius-card);
       padding: 1.1rem 1.3rem;
       background: var(--white);
-      display: flex;
-      align-items: center;
-      gap: 1rem;
+      display: flex; align-items: center; gap: 1rem;
       transition: border-color 0.15s, background 0.15s, box-shadow 0.15s;
-      -webkit-user-select: none;
-      user-select: none;
+      -webkit-user-select: none; user-select: none;
     }
+    .opt:hover { border-color: var(--orange); box-shadow: 0 2px 12px rgba(244,121,32,0.1); }
+    .opt.selected { border-color: var(--orange); background: var(--orange-pale); }
 
-    .opt:hover {
-      border-color: var(--orange);
-      box-shadow: 0 2px 10px rgba(244,121,32,0.1);
-    }
-
-    .opt.selected {
-      border-color: var(--orange);
-      background: var(--orange-pale);
-    }
-
-    .opt-icon {
-      font-size: 1.6rem;
-      flex-shrink: 0;
-      line-height: 1;
-    }
-
-    .opt-body { flex: 1; }
-
-    .opt-label {
-      font-weight: 700;
-      font-size: 1rem;
-      color: var(--dark);
-    }
-
-    .opt-sub {
-      font-size: 0.84rem;
-      color: var(--mid);
-      margin-top: 0.15rem;
-    }
+    .opt-icon  { font-size: 1.7rem; flex-shrink: 0; line-height: 1; }
+    .opt-body  { flex: 1; }
+    .opt-label { font-weight: 700; font-size: 1rem; color: var(--dark); }
+    .opt-sub   { font-size: 0.84rem; color: var(--mid); margin-top: 0.15rem; }
 
     .opt-radio {
-      width: 22px;
-      height: 22px;
-      border-radius: 50%;
-      border: 2px solid var(--border);
-      flex-shrink: 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      width: 22px; height: 22px; border-radius: 50%;
+      border: 2px solid var(--border); flex-shrink: 0;
+      display: flex; align-items: center; justify-content: center;
       transition: border-color 0.15s;
     }
-
     .opt.selected .opt-radio { border-color: var(--orange); }
-
     .opt.selected .opt-radio::after {
-      content: '';
-      width: 11px;
-      height: 11px;
-      background: var(--orange);
-      border-radius: 50%;
+      content: ''; width: 11px; height: 11px;
+      background: var(--orange); border-radius: 50%;
     }
 
-    /* Primary button */
+    /* ── KNOP ── */
     .btn-primary {
-      display: block;
-      width: 100%;
-      padding: 0.9rem 2rem;
-      background: var(--orange);
-      color: white;
-      border: none;
+      display: block; width: 100%;
+      padding: 0.95rem 2rem;
+      background: var(--orange); color: white; border: none;
       border-radius: var(--radius-pill);
       font-family: 'Source Sans 3', sans-serif;
-      font-size: 1rem;
-      font-weight: 700;
-      cursor: pointer;
+      font-size: 1rem; font-weight: 700; cursor: pointer;
       transition: background 0.15s, transform 0.1s;
-      text-align: center;
     }
+    .btn-primary:hover:not(:disabled) { background: var(--orange-dark); transform: translateY(-1px); }
+    .btn-primary:disabled { opacity: 0.3; cursor: not-allowed; }
 
-    .btn-primary:hover:not(:disabled) {
-      background: var(--orange-dark);
-      transform: translateY(-1px);
-    }
-
-    .btn-primary:disabled {
-      opacity: 0.35;
-      cursor: not-allowed;
-    }
-
-    /* ── RESULTS ── */
+    /* ── PROFIELVAKJE ── */
     #results-section { display: none; width: 100%; }
 
-    .results-intro {
-      margin-bottom: 1.5rem;
+    .profile-card {
+      border-radius: 12px;
+      padding: 1.4rem 1.6rem;
+      margin-bottom: 2rem;
+      display: flex;
+      align-items: center;
+      gap: 1.2rem;
+      color: white;
     }
 
+    .profile-card.buitenmens  { background: var(--buitenmens); }
+    .profile-card.ontdekker   { background: var(--ontdekker); }
+    .profile-card.buurtgenoot { background: var(--buurtgenoot); }
+    .profile-card.inpakker    { background: var(--inpakker); }
+
+    .profile-icon { font-size: 2.8rem; line-height: 1; flex-shrink: 0; }
+
+    .profile-body {}
+
+    .profile-label {
+      font-size: 0.72rem; font-weight: 700;
+      letter-spacing: 0.1em; text-transform: uppercase;
+      opacity: 0.8; margin-bottom: 0.2rem;
+    }
+
+    .profile-name { font-size: 1.5rem; font-weight: 700; line-height: 1.1; }
+
+    .profile-desc { font-size: 0.88rem; opacity: 0.9; margin-top: 0.3rem; line-height: 1.5; }
+
+    /* ── ACTIVITEITENLIJST ── */
+    .results-intro { margin-bottom: 0.5rem; }
+
     .count-pill {
-      display: inline-block;
-      background: var(--orange);
-      color: white;
-      font-size: 0.78rem;
-      font-weight: 700;
-      padding: 0.2rem 0.85rem;
-      border-radius: var(--radius-pill);
+      display: inline-block; background: var(--orange); color: white;
+      font-size: 0.78rem; font-weight: 700;
+      padding: 0.2rem 0.85rem; border-radius: var(--radius-pill);
       margin-bottom: 0.5rem;
     }
 
-    .results-intro h2 {
-      font-size: 1.4rem;
-      font-weight: 700;
-    }
+    .results-intro h2 { font-size: 1.25rem; font-weight: 700; }
+    .results-intro p  { font-size: 0.88rem; color: var(--mid); margin-top: 0.25rem; }
 
-    .results-intro p {
-      font-size: 0.88rem;
-      color: var(--mid);
-      margin-top: 0.3rem;
-    }
-
-    .date-header {
-      font-size: 1.15rem;
-      font-weight: 700;
-      margin: 1.5rem 0 0.3rem;
-    }
-
-    .date-divider {
-      height: 2px;
-      background: var(--orange);
-      margin-bottom: 1rem;
-      border-radius: 1px;
-    }
+    .date-header { font-size: 1.1rem; font-weight: 700; margin: 1.5rem 0 0.3rem; }
+    .date-divider { height: 2px; background: var(--orange); margin-bottom: 1rem; border-radius: 1px; }
 
     .activity-card {
       background: var(--white);
@@ -387,208 +252,87 @@
       border-radius: var(--radius-card);
       padding: 1.2rem 1.4rem;
       margin-bottom: 0.8rem;
-      display: flex;
-      gap: 1rem;
-      align-items: flex-start;
-      animation: fadeIn 0.3s ease both;
+      display: flex; gap: 1rem; align-items: flex-start;
+      animation: fadeUp 0.3s ease both;
       transition: box-shadow 0.15s;
     }
-
-    .activity-card:hover { box-shadow: 0 3px 12px rgba(0,0,0,0.07); }
+    .activity-card:hover { box-shadow: 0 3px 14px rgba(0,0,0,0.07); }
 
     .card-body { flex: 1; min-width: 0; }
 
     .card-org {
-      font-size: 0.78rem;
-      color: var(--mid);
-      margin-bottom: 0.2rem;
-      display: flex;
-      align-items: center;
-      gap: 0.35rem;
+      font-size: 0.78rem; color: var(--mid); margin-bottom: 0.2rem;
+      display: flex; align-items: center; gap: 0.35rem;
     }
-
     .card-org::before {
-      content: '';
-      width: 12px;
-      height: 12px;
-      border-radius: 50%;
-      background: var(--orange);
-      flex-shrink: 0;
+      content: ''; width: 10px; height: 10px;
+      border-radius: 50%; background: var(--orange); flex-shrink: 0;
     }
 
-    .card-title {
-      font-size: 1rem;
-      font-weight: 700;
-      color: var(--dark);
-      margin-bottom: 0.3rem;
-      line-height: 1.3;
-    }
+    .card-title { font-size: 1rem; font-weight: 700; color: var(--dark); margin-bottom: 0.3rem; line-height: 1.3; }
+    .card-time  { font-size: 0.8rem; color: var(--mid); margin-bottom: 0.4rem; }
+    .card-desc  { font-size: 0.87rem; color: var(--mid); line-height: 1.55; margin-bottom: 0.6rem; }
 
-    .card-time {
-      font-size: 0.8rem;
-      color: var(--mid);
-      margin-bottom: 0.4rem;
-    }
-
-    .card-desc {
-      font-size: 0.87rem;
-      color: var(--mid);
-      line-height: 1.55;
-      margin-bottom: 0.6rem;
-    }
-
-    .card-meta {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.6rem;
-      font-size: 0.78rem;
-      color: var(--mid);
-    }
+    .card-meta { display: flex; flex-wrap: wrap; gap: 0.6rem; font-size: 0.78rem; color: var(--mid); }
 
     .card-link {
-      display: inline-block;
-      margin-top: 0.5rem;
-      font-size: 0.82rem;
-      font-weight: 700;
-      color: var(--orange);
-      text-decoration: none;
+      display: inline-block; margin-top: 0.5rem;
+      font-size: 0.82rem; font-weight: 700; color: var(--orange); text-decoration: none;
     }
-
     .card-link:hover { text-decoration: underline; }
 
     .freq-badge {
-      font-size: 0.72rem;
-      background: var(--off-white);
-      border: 1px solid var(--border);
-      border-radius: var(--radius-pill);
-      padding: 0.15rem 0.6rem;
-      color: var(--mid);
-      white-space: nowrap;
-      align-self: flex-start;
+      font-size: 0.72rem; background: var(--off-white);
+      border: 1px solid var(--border); border-radius: var(--radius-pill);
+      padding: 0.15rem 0.6rem; color: var(--mid);
+      white-space: nowrap; align-self: flex-start;
     }
 
     .no-results {
-      text-align: center;
-      padding: 3rem 1rem;
-      color: var(--mid);
-      background: white;
-      border-radius: var(--radius-card);
-      border: 1px solid var(--border);
+      text-align: center; padding: 3rem 1rem; color: var(--mid);
+      background: white; border-radius: var(--radius-card); border: 1px solid var(--border);
     }
-
     .no-results a { color: var(--orange); }
 
     /* ── FOOTER ── */
     footer {
-      background: var(--dark);
-      color: #888;
-      text-align: center;
-      padding: 0 1.5rem;
-      font-size: 0.8rem;
-      height: var(--footer-h);
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      background: var(--dark); color: #888;
+      text-align: center; padding: 0 1.5rem;
+      font-size: 0.8rem; height: var(--footer-h);
+      display: flex; align-items: center; justify-content: center;
       flex-shrink: 0;
     }
-
     footer a { color: var(--orange); text-decoration: none; }
 
-    /* ── MOBILE PROGRESS BAR (shown only on mobile) ── */
+    /* ── MOBILE VOORTGANGSBALK ── */
     .mobile-progress {
       display: none;
-      padding: 1rem 1.25rem 0;
+      padding: 0.9rem 1.25rem 0;
+      background: var(--white);
+      border-bottom: 1px solid var(--border);
     }
-
-    .mob-steps {
-      display: flex;
-      gap: 6px;
-    }
-
-    .mob-step {
-      flex: 1;
-      height: 4px;
-      background: var(--border);
-      border-radius: 2px;
-      transition: background 0.3s;
-    }
-
+    .mob-steps { display: flex; gap: 6px; }
+    .mob-step  { flex: 1; height: 4px; background: var(--border); border-radius: 2px; transition: background 0.3s; }
     .mob-step.done, .mob-step.active { background: var(--orange); }
-
-    .mob-label {
-      font-size: 0.75rem;
-      color: var(--mid);
-      margin-top: 0.4rem;
-      font-weight: 600;
-    }
+    .mob-label { font-size: 0.75rem; color: var(--mid); margin-top: 0.4rem; font-weight: 600; }
 
     /* ── RESPONSIVE ── */
-    @media (max-width: 700px) {
-
-      /* Stack vertically on mobile */
-      .page-body {
-        flex-direction: column;
-        overflow: visible;
-      }
-
-      /* Hide sidebar entirely on mobile */
-      .sidebar {
-        display: none !important;
-      }
-
-      /* Show mobile progress bar */
-      .mobile-progress {
-        display: block;
-        background: var(--white);
-        border-bottom: 1px solid var(--border);
-      }
-
-      /* Main content scrolls naturally */
-      .main-content {
-        overflow-y: visible;
-        padding: 1.5rem 1.25rem 2rem;
-        flex: none;
-      }
-
-      .form-center {
-        align-items: flex-start;
-      }
-
-      .form-inner {
-        max-width: 100%;
-      }
-
-      /* Bigger tap targets on mobile */
-      .opt {
-        padding: 1.2rem 1rem;
-      }
-
-      .opt-icon { font-size: 1.8rem; }
+    @media (max-width: 720px) {
+      .page-body { flex-direction: column; overflow: visible; }
+      .sidebar { display: none !important; }
+      .mobile-progress { display: block; }
+      .main-content { overflow-y: visible; padding: 1.5rem 1.25rem 2.5rem; flex: none; }
+      .form-center { align-items: flex-start; }
+      .form-inner { max-width: 100%; }
+      .opt { padding: 1.15rem 1rem; }
+      .opt-icon  { font-size: 1.9rem; }
       .opt-label { font-size: 1.05rem; }
       .opt-sub   { font-size: 0.88rem; }
-
-      .step-title {
-        font-size: 1.2rem;
-        margin-bottom: 1.2rem;
-      }
-
-      .btn-primary {
-        padding: 1rem;
-        font-size: 1.05rem;
-      }
-
-      /* Footer shorter on mobile */
-      :root { --footer-h: 48px; }
-      footer { font-size: 0.75rem; }
-
-      /* Header slightly smaller */
-      :root { --header-h: 54px; }
-
-      /* Results full width */
-      #results-section { padding: 0; }
-
+      .step-title { font-size: 1.15rem; }
+      .btn-primary { padding: 1rem; font-size: 1.05rem; }
+      .profile-card { flex-direction: column; text-align: center; gap: 0.8rem; }
       .activity-card { flex-direction: column; }
-      .freq-badge { align-self: flex-start; }
+      :root { --header-h: 54px; --footer-h: 48px; }
     }
   </style>
 </head>
@@ -602,14 +346,14 @@
         <img src="https://raw.githubusercontent.com/BobRekelhof/Sliedrecht_Activiteiten/main/Images/SliedrechtDoet%20Logo.png"
              alt="SliedrechtDoet logo"
              onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
-        <span style="display:none; width:38px; height:38px; background:white; border-radius:6px; align-items:center; justify-content:center; font-weight:700; color:var(--orange); font-size:0.9rem;">SD</span>
+        <span class="logo-fallback">SD</span>
       </div>
       <span class="logo-name">SliedrechtDoet.nl</span>
     </a>
   </div>
 </div>
 
-<!-- MOBILE PROGRESS (only visible on small screens) -->
+<!-- MOBIELE VOORTGANG -->
 <div class="mobile-progress" id="mobile-progress">
   <div class="mob-steps">
     <div class="mob-step active" id="mp1"></div>
@@ -619,74 +363,73 @@
   <div class="mob-label" id="mob-label">Vraag 1 van 3</div>
 </div>
 
-<!-- PAGE BODY -->
+<!-- PAGINA -->
 <div class="page-body">
 
-  <!-- SIDEBAR: form state -->
+  <!-- SIDEBAR: quiz -->
   <aside class="sidebar" id="sidebar-form">
     <h1>Activiteiten­matcher</h1>
-    <p class="sub">Beantwoord drie korte vragen en ontdek welke activiteiten in Sliedrecht bij jou passen.</p>
+    <p class="sub">Beantwoord drie vragen en ontdek welk type jij bent — en welke activiteiten daarbij passen.</p>
     <div class="orange-line"></div>
     <div class="sidebar-steps">
-      <div class="s-step active" id="ss1">
-        <div class="s-dot">1</div>
-        <span>Jouw tempo</span>
-      </div>
-      <div class="s-step" id="ss2">
-        <div class="s-dot">2</div>
-        <span>Jouw energie</span>
-      </div>
-      <div class="s-step" id="ss3">
-        <div class="s-dot">3</div>
-        <span>Jouw moment</span>
-      </div>
+      <div class="s-step active" id="ss1"><div class="s-dot">1</div><span>Wat geeft jou energie?</span></div>
+      <div class="s-step"        id="ss2"><div class="s-dot">2</div><span>Jouw ideale ochtend</span></div>
+      <div class="s-step"        id="ss3"><div class="s-dot">3</div><span>Wat past bij jou?</span></div>
     </div>
   </aside>
 
-  <!-- SIDEBAR: results state -->
+  <!-- SIDEBAR: resultaten -->
   <aside class="sidebar" id="sidebar-results" style="display:none;">
-    <h1>Jouw resultaten</h1>
-    <p class="sub">Gebaseerd op jouw antwoorden. Activiteiten worden elke nacht bijgewerkt.</p>
+    <h1>Jouw profiel</h1>
+    <p class="sub">Op basis van jouw antwoorden hebben we een passend profiel bepaald.</p>
     <div class="orange-line"></div>
     <button class="btn-outline" onclick="restart()">← Opnieuw beginnen</button>
     <p class="source-note" style="margin-top:1.2rem;">
-      Bron: <a href="https://sliedrechtdoet.nl/agenda" target="_blank">sliedrechtdoet.nl/agenda</a><br>
+      Bron: <a href="https://sliedrechtdoet.nl/agenda" target="_blank">sliedrechtdoet.nl</a><br>
       Bijgewerkt: <span id="last-update">—</span>
     </p>
   </aside>
 
-  <!-- MAIN CONTENT -->
+  <!-- CONTENT -->
   <div class="main-content">
 
-    <!-- FORM -->
+    <!-- QUIZ -->
     <div class="form-center" id="form-section">
       <div class="form-inner">
 
-        <!-- STAP 1 -->
+        <!-- VRAAG 1: Wat geeft energie? -->
         <div class="step active" id="step-1">
-          <div class="step-title">Wat is jouw tempo als je over de Kerkbuurt loopt?</div>
+          <div class="step-title">Wat geeft jou de meeste energie?</div>
           <div class="options-list">
-            <div class="opt" data-step="1" data-value="snelwandelaar" onclick="pick(this)">
-              <div class="opt-icon">🏃</div>
+            <div class="opt" data-step="1" data-scores='{"buitenmens":3,"ontdekker":0,"buurtgenoot":0,"inpakker":1}' onclick="pick(this)">
+              <div class="opt-icon">🌿</div>
               <div class="opt-body">
-                <div class="opt-label">De Snelwandelaar</div>
-                <div class="opt-sub">Lekker actief en in beweging</div>
+                <div class="opt-label">Als ik buiten bezig ben</div>
+                <div class="opt-sub">Bewegen, natuur, frisse lucht — dáár word ik blij van</div>
               </div>
               <div class="opt-radio"></div>
             </div>
-            <div class="opt" data-step="1" data-value="etalagekijker" onclick="pick(this)">
-              <div class="opt-icon">🖼️</div>
+            <div class="opt" data-step="1" data-scores='{"buitenmens":0,"ontdekker":3,"buurtgenoot":0,"inpakker":1}' onclick="pick(this)">
+              <div class="opt-icon">💡</div>
               <div class="opt-body">
-                <div class="opt-label">De Etalagekijker</div>
-                <div class="opt-sub">Rustig aan, creatief of informatief</div>
+                <div class="opt-label">Iets nieuws leren of maken</div>
+                <div class="opt-sub">Een cursus, workshop of creatief project — ik ben altijd nieuwsgierig</div>
               </div>
               <div class="opt-radio"></div>
             </div>
-            <div class="opt" data-step="1" data-value="buurtprater" onclick="pick(this)">
-              <div class="opt-icon">💬</div>
+            <div class="opt" data-step="1" data-scores='{"buitenmens":0,"ontdekker":0,"buurtgenoot":3,"inpakker":1}' onclick="pick(this)">
+              <div class="opt-icon">☕</div>
               <div class="opt-body">
-                <div class="opt-label">De Buurtprater</div>
-                <div class="opt-sub">Gezelligheid en een babbeltje staan voorop</div>
+                <div class="opt-label">Een goed gesprek</div>
+                <div class="opt-sub">Mensen ontmoeten en bijkletsen geeft mij meer energie dan wat dan ook</div>
+              </div>
+              <div class="opt-radio"></div>
+            </div>
+            <div class="opt" data-step="1" data-scores='{"buitenmens":1,"ontdekker":0,"buurtgenoot":1,"inpakker":3}' onclick="pick(this)">
+              <div class="opt-icon">🤝</div>
+              <div class="opt-body">
+                <div class="opt-label">Ergens écht bij helpen</div>
+                <div class="opt-sub">Ik ben het gelukkigst als ik iets kan betekenen voor een ander</div>
               </div>
               <div class="opt-radio"></div>
             </div>
@@ -694,31 +437,39 @@
           <button class="btn-primary" id="next-1" disabled onclick="goTo(2)">Volgende →</button>
         </div>
 
-        <!-- STAP 2 -->
+        <!-- VRAAG 2: Ideale vrije ochtend -->
         <div class="step" id="step-2">
-          <div class="step-title">Waar steek jij het liefst je energie in?</div>
+          <div class="step-title">Hoe ziet jouw ideale vrije ochtend eruit?</div>
           <div class="options-list">
-            <div class="opt" data-step="2" data-value="handen" onclick="pick(this)">
-              <div class="opt-icon">🔨</div>
+            <div class="opt" data-step="2" data-scores='{"buitenmens":3,"ontdekker":1,"buurtgenoot":0,"inpakker":0}' onclick="pick(this)">
+              <div class="opt-icon">🚴</div>
               <div class="opt-body">
-                <div class="opt-label">Handjes uit de mouwen</div>
-                <div class="opt-sub">Lekker buiten of binnen klussen</div>
+                <div class="opt-label">Wandelen, fietsen of bewegen</div>
+                <div class="opt-sub">Lekker de deur uit, beweging en frisse lucht</div>
               </div>
               <div class="opt-radio"></div>
             </div>
-            <div class="opt" data-step="2" data-value="hersens" onclick="pick(this)">
-              <div class="opt-icon">🧠</div>
+            <div class="opt" data-step="2" data-scores='{"buitenmens":0,"ontdekker":3,"buurtgenoot":1,"inpakker":0}' onclick="pick(this)">
+              <div class="opt-icon">🎨</div>
               <div class="opt-body">
-                <div class="opt-label">De hersens laten kraken</div>
-                <div class="opt-sub">Iets nieuws leren of cultuur snuiven</div>
+                <div class="opt-label">Iets maken, lezen of een museum bezoeken</div>
+                <div class="opt-sub">Mijn hoofd voeden met cultuur of creativiteit</div>
               </div>
               <div class="opt-radio"></div>
             </div>
-            <div class="opt" data-step="2" data-value="bakkie" onclick="pick(this)">
-              <div class="opt-icon">☕</div>
+            <div class="opt" data-step="2" data-scores='{"buitenmens":0,"ontdekker":0,"buurtgenoot":3,"inpakker":1}' onclick="pick(this)">
+              <div class="opt-icon">🗣️</div>
               <div class="opt-body">
-                <div class="opt-label">Gewoon een bakkie doen</div>
-                <div class="opt-sub">Samen koffiedrinken en onder de mensen zijn</div>
+                <div class="opt-label">Koffiedrinken en bijkletsen met iemand</div>
+                <div class="opt-sub">Gewoon gezellig zitten en genieten van contact</div>
+              </div>
+              <div class="opt-radio"></div>
+            </div>
+            <div class="opt" data-step="2" data-scores='{"buitenmens":1,"ontdekker":0,"buurtgenoot":0,"inpakker":3}' onclick="pick(this)">
+              <div class="opt-icon">🔧</div>
+              <div class="opt-body">
+                <div class="opt-label">De handen uit de mouwen steken</div>
+                <div class="opt-sub">Klussen, helpen of iets organiseren voor een goed doel</div>
               </div>
               <div class="opt-radio"></div>
             </div>
@@ -726,31 +477,39 @@
           <button class="btn-primary" id="next-2" disabled onclick="goTo(3)">Volgende →</button>
         </div>
 
-        <!-- STAP 3 -->
+        <!-- VRAAG 3: Zelfbeeld (tiebreaker) -->
         <div class="step" id="step-3">
-          <div class="step-title">Wanneer staat jouw sociale batterij op groen?</div>
+          <div class="step-title">Welke omschrijving past het beste bij jou?</div>
           <div class="options-list">
-            <div class="opt" data-step="3" data-value="ochtend" onclick="pick(this)">
-              <div class="opt-icon">🐦</div>
+            <div class="opt" data-step="3" data-scores='{"buitenmens":3,"ontdekker":0,"buurtgenoot":0,"inpakker":0}' onclick="pick(this)">
+              <div class="opt-icon">🌳</div>
               <div class="opt-body">
-                <div class="opt-label">Als de vogeltjes net fluiten</div>
-                <div class="opt-sub">Ochtendmens</div>
+                <div class="opt-label">Ik hou van ruimte en bewegingsvrijheid</div>
+                <div class="opt-sub">Buiten zijn, natuur, actief — dáár voel ik me thuis</div>
               </div>
               <div class="opt-radio"></div>
             </div>
-            <div class="opt" data-step="3" data-value="middag" onclick="pick(this)">
-              <div class="opt-icon">☀️</div>
+            <div class="opt" data-step="3" data-scores='{"buitenmens":0,"ontdekker":3,"buurtgenoot":0,"inpakker":0}' onclick="pick(this)">
+              <div class="opt-icon">🔍</div>
               <div class="opt-body">
-                <div class="opt-label">Als de middagzon doorbreekt</div>
-                <div class="opt-sub">Middagmens</div>
+                <div class="opt-label">Ik ben nieuwsgierig en wil altijd meer ontdekken</div>
+                <div class="opt-sub">Leren, creëren en inspiratie opdoen geeft mij voldoening</div>
               </div>
               <div class="opt-radio"></div>
             </div>
-            <div class="opt" data-step="3" data-value="avond" onclick="pick(this)">
-              <div class="opt-icon">🏮</div>
+            <div class="opt" data-step="3" data-scores='{"buitenmens":0,"ontdekker":0,"buurtgenoot":3,"inpakker":0}' onclick="pick(this)">
+              <div class="opt-icon">❤️</div>
               <div class="opt-body">
-                <div class="opt-label">Pas als de lantaarnpalen aangaan</div>
-                <div class="opt-sub">Avondmens</div>
+                <div class="opt-label">Voor mij draait het om mensen en verbinding</div>
+                <div class="opt-sub">Ik ben op mijn best als ik samen met anderen dingen doe</div>
+              </div>
+              <div class="opt-radio"></div>
+            </div>
+            <div class="opt" data-step="3" data-scores='{"buitenmens":0,"ontdekker":0,"buurtgenoot":0,"inpakker":3}' onclick="pick(this)">
+              <div class="opt-icon">💪</div>
+              <div class="opt-body">
+                <div class="opt-label">Ik ben een doener — ik pak liever aan dan dat ik toekijk</div>
+                <div class="opt-sub">Resultaat zien, iets bijdragen, ergens het verschil maken</div>
               </div>
               <div class="opt-radio"></div>
             </div>
@@ -761,19 +520,33 @@
       </div>
     </div>
 
-    <!-- RESULTS -->
+    <!-- RESULTATEN -->
     <div id="results-section">
+
+      <!-- Profielvakje -->
+      <div class="profile-card" id="profile-card">
+        <div class="profile-icon" id="profile-icon"></div>
+        <div class="profile-body">
+          <div class="profile-label">Jouw profiel</div>
+          <div class="profile-name" id="profile-name"></div>
+          <div class="profile-desc" id="profile-desc"></div>
+        </div>
+      </div>
+
+      <!-- Activiteiten -->
       <div class="results-intro">
         <div class="count-pill" id="count-pill"></div>
-        <h2>Jouw activiteiten in Sliedrecht</h2>
+        <h2>Activiteiten die bij jou passen</h2>
         <p id="results-sub"></p>
       </div>
 
-      <!-- mobile restart button -->
-      <div id="mobile-restart" style="display:none; margin-bottom:1rem;">
-        <button class="btn-outline" style="width:auto; padding:0.5rem 1.2rem; font-size:0.85rem;" onclick="restart()">← Opnieuw</button>
-      </div>
+      <!-- Mobiel: opnieuw knop -->
+      <button class="btn-outline" id="mobile-restart"
+        style="display:none; margin-bottom:1.2rem; width:auto; padding:0.5rem 1.2rem; font-size:0.85rem;"
+        onclick="restart()">← Opnieuw</button>
 
+      <div class="date-header">Activiteiten voor jou in Sliedrecht</div>
+      <div class="date-divider"></div>
       <div id="results-list"></div>
     </div>
 
@@ -787,15 +560,44 @@
 </footer>
 
 <script>
-const ans = { tempo: null, energie: null, tijd: null };
+// ── PROFIELDATA ──
+const PROFIELEN = {
+  buitenmens: {
+    icon: "🏃",
+    naam: "De Buitenmens",
+    desc: "Jij houdt van beweging, natuur en frisse lucht. Actief bezig zijn geeft jou energie.",
+    kleur: "buitenmens",
+  },
+  ontdekker: {
+    icon: "🎨",
+    naam: "De Ontdekker",
+    desc: "Jij bent nieuwsgierig en leergierig. Cultuur, creativiteit en nieuwe dingen ontdekken spreken jou aan.",
+    kleur: "ontdekker",
+  },
+  buurtgenoot: {
+    icon: "☕",
+    naam: "De Buurtgenoot",
+    desc: "Jij gedijt op contact en gezelligheid. Mensen ontmoeten en verbinding maken is voor jou het allerbelangrijkste.",
+    kleur: "buurtgenoot",
+  },
+  inpakker: {
+    icon: "🤝",
+    naam: "De Inpakker",
+    desc: "Jij bent een echte doener. Je steekt graag de handen uit de mouwen en wil iets betekenen voor de buurt.",
+    kleur: "inpakker",
+  },
+};
+
+// ── STATE ──
+const puntentotaal = { buitenmens: 0, ontdekker: 0, buurtgenoot: 0, inpakker: 0 };
 let currentStep = 1;
 let allActivities = [];
-const isMobile = () => window.innerWidth <= 700;
+const isMobile = () => window.innerWidth <= 720;
 
-// ── LOAD ──
+// ── LADEN ──
 async function loadActivities() {
   try {
-    const res = await fetch('activities.json?v=' + Date.now());
+    const res  = await fetch('activities.json?v=' + Date.now());
     const data = await res.json();
     allActivities = data.activities || [];
     const el = document.getElementById('last-update');
@@ -807,17 +609,15 @@ async function loadActivities() {
 }
 loadActivities();
 
-// ── PICK ──
+// ── KEUZE MAKEN ──
 function pick(el) {
   const s = el.dataset.step;
   document.querySelectorAll(`.opt[data-step="${s}"]`).forEach(o => o.classList.remove('selected'));
   el.classList.add('selected');
-  const key = s === '1' ? 'tempo' : s === '2' ? 'energie' : 'tijd';
-  ans[key] = el.dataset.value;
   document.getElementById(`next-${s}`).disabled = false;
 }
 
-// ── NAV ──
+// ── NAVIGATIE ──
 function goTo(n) {
   document.getElementById(`step-${currentStep}`).classList.remove('active');
   currentStep = n;
@@ -827,120 +627,118 @@ function goTo(n) {
 }
 
 function updateProgress(n) {
-  // Desktop sidebar
   [1,2,3].forEach(i => {
-    const el = document.getElementById(`ss${i}`);
-    if (!el) return;
-    el.classList.remove('active', 'done');
-    if (i < n) el.classList.add('done');
-    else if (i === n) el.classList.add('active');
-  });
-  // Mobile bar
-  [1,2,3].forEach(i => {
-    const el = document.getElementById(`mp${i}`);
-    if (!el) return;
-    el.classList.remove('active', 'done');
-    if (i < n) el.classList.add('done');
-    else if (i === n) el.classList.add('active');
+    const sd = document.getElementById(`ss${i}`);
+    const mp = document.getElementById(`mp${i}`);
+    if (sd) { sd.classList.remove('active','done'); if (i<n) sd.classList.add('done'); else if (i===n) sd.classList.add('active'); }
+    if (mp) { mp.classList.remove('active','done'); if (i<n) mp.classList.add('done'); else if (i===n) mp.classList.add('active'); }
   });
   const lbl = document.getElementById('mob-label');
   if (lbl) lbl.textContent = `Vraag ${n} van 3`;
 }
 
-// ── RESULTS ──
+// ── PROFIEL BEREKENEN ──
+function berekenProfiel() {
+  const totaal = { buitenmens: 0, ontdekker: 0, buurtgenoot: 0, inpakker: 0 };
+
+  [1, 2, 3].forEach(s => {
+    const geselecteerd = document.querySelector(`.opt[data-step="${s}"].selected`);
+    if (geselecteerd) {
+      const scores = JSON.parse(geselecteerd.dataset.scores);
+      Object.keys(scores).forEach(k => { totaal[k] = (totaal[k] || 0) + scores[k]; });
+    }
+  });
+
+  // Profiel met hoogste totaal
+  return Object.entries(totaal).sort((a, b) => b[1] - a[1])[0][0];
+}
+
+// ── RESULTATEN TONEN ──
 function showResults() {
-  document.getElementById('form-section').style.display = 'none';
-  document.getElementById('results-section').style.display = 'block';
+  const profiel = berekenProfiel();
+  const p = PROFIELEN[profiel];
+
+  // Sidebar wisselen
   document.getElementById('sidebar-form').style.display = 'none';
   document.getElementById('sidebar-results').style.display = 'flex';
   document.getElementById('mobile-progress').style.display = 'none';
 
-  // Show mobile restart button
-  if (isMobile()) {
-    document.getElementById('mobile-restart').style.display = 'block';
-  }
+  // Form verbergen, resultaten tonen
+  document.getElementById('form-section').style.display = 'none';
+  document.getElementById('results-section').style.display = 'block';
 
-  renderResults();
+  // Profielvakje vullen
+  const card = document.getElementById('profile-card');
+  card.className = `profile-card ${p.kleur}`;
+  document.getElementById('profile-icon').textContent = p.icon;
+  document.getElementById('profile-name').textContent = p.naam;
+  document.getElementById('profile-desc').textContent = p.desc;
+
+  // Mobiel opnieuw-knop
+  if (isMobile()) document.getElementById('mobile-restart').style.display = 'inline-block';
+
+  renderActiviteiten(profiel);
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-function renderResults() {
+function renderActiviteiten(profiel) {
   const list  = document.getElementById('results-list');
   const pill  = document.getElementById('count-pill');
   const subEl = document.getElementById('results-sub');
 
-  list.innerHTML = '<p style="color:var(--mid);font-style:italic;padding:1rem 0;">Activiteiten zoeken…</p>';
+  list.innerHTML = '<p style="color:var(--mid);font-style:italic;padding:0.5rem 0;">Activiteiten zoeken…</p>';
 
   setTimeout(() => {
-    // ── SCORE-BASED MATCHING ──
-    // Each activity gets a total score based on how well it matches the answers.
-    // Max score per activity = 9 (3 points per question × 3 questions).
-    const scored = allActivities.map(a => {
-      const s = a.scores || {};
-      const total = (s[ans.tempo] || 0) + (s[ans.energie] || 0) + (s[ans.tijd] || 0);
-      return { ...a, _score: total };
-    });
+    // Score elke activiteit op het gevonden profiel
+    const gesorteerd = [...allActivities]
+      .map(a => ({ ...a, _match: (a.scores || {})[profiel] || 0 }))
+      .sort((a, b) => b._match - a._match);
 
-    // Sort by score descending
-    scored.sort((a, b) => b._score - a._score);
+    // Toon activiteiten met score ≥ 2 (goede match)
+    let matched = gesorteerd.filter(a => a._match >= 2);
 
-    // Show top results with score >= 5 (good match), fallback to top 5 if none
-    const GOOD_MATCH = 5;
-    let matched = scored.filter(a => a._score >= GOOD_MATCH);
-    let isFallback = false;
+    // Fallback: altijd minimaal 3 tonen
+    if (matched.length < 3) matched = gesorteerd.slice(0, Math.min(5, gesorteerd.length));
 
-    if (matched.length === 0) {
-      matched = scored.slice(0, 5);
-      isFallback = true;
-    }
-
-    pill.textContent = `${matched.length} activiteit${matched.length !== 1 ? 'en' : ''} gevonden`;
-    subEl.textContent = isFallback
-      ? 'We toonden de beste opties voor jou — probeer andere antwoorden voor een exactere match.'
-      : 'Speciaal voor jou geselecteerd op basis van jouw antwoorden.';
+    pill.textContent = `${matched.length} activiteit${matched.length !== 1 ? 'en' : ''} voor jou`;
+    subEl.textContent = `Gevonden op basis van jouw profiel: ${PROFIELEN[profiel].naam}`;
 
     list.innerHTML = '';
 
     if (!matched.length) {
-      list.innerHTML = `<div class="no-results">Geen activiteiten gevonden. Bekijk <a href="https://sliedrechtdoet.nl/agenda" target="_blank">sliedrechtdoet.nl</a>.</div>`;
+      list.innerHTML = `<div class="no-results">
+        Geen activiteiten gevonden. Bekijk alle activiteiten op
+        <a href="https://sliedrechtdoet.nl/agenda" target="_blank">sliedrechtdoet.nl</a>.
+      </div>`;
       return;
     }
-
-    const header = document.createElement('div');
-    header.className = 'date-header';
-    header.textContent = 'Activiteiten voor jou';
-    const line = document.createElement('div');
-    line.className = 'date-divider';
-    list.appendChild(header);
-    list.appendChild(line);
 
     matched.forEach((act, i) => {
       const card = document.createElement('div');
       card.className = 'activity-card';
-      card.style.animationDelay = `${i * 0.05}s`;
-      const freq = act.frequency || '';
+      card.style.animationDelay = `${i * 0.06}s`;
       card.innerHTML = `
         <div class="card-body">
           <div class="card-org">${act.organizer || 'Sliedrecht Doet'}</div>
           <div class="card-title">${act.title}</div>
-          ${act.time ? `<div class="card-time">${act.time}</div>` : ''}
+          ${act.time     ? `<div class="card-time">${act.time}</div>` : ''}
           <div class="card-desc">${act.desc || ''}</div>
           <div class="card-meta">
-            ${act.location ? `<span>📍 ${act.location}</span>` : ''}
-            ${freq ? `<span>📅 ${freq}</span>` : ''}
+            ${act.location  ? `<span>📍 ${act.location}</span>` : ''}
+            ${act.frequency ? `<span>📅 ${act.frequency}</span>` : ''}
           </div>
           ${act.url ? `<a class="card-link" href="${act.url}" target="_blank" rel="noopener">Meer informatie →</a>` : ''}
         </div>
-        ${freq ? `<div class="freq-badge">${freq}</div>` : ''}
+        ${act.frequency ? `<div class="freq-badge">${act.frequency}</div>` : ''}
       `;
       list.appendChild(card);
     });
-  }, 120);
+  }, 100);
 }
 
-// ── RESTART ──
+// ── OPNIEUW ──
 function restart() {
-  ans.tempo = null; ans.energie = null; ans.tijd = null;
+  Object.keys(puntentotaal).forEach(k => puntentotaal[k] = 0);
   currentStep = 1;
   document.querySelectorAll('.opt').forEach(o => o.classList.remove('selected'));
   document.querySelectorAll('.btn-primary').forEach(b => b.disabled = true);
