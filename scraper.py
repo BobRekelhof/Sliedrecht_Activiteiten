@@ -345,29 +345,48 @@ def parse_agenda_page(soup: BeautifulSoup) -> list:
 
 
 def get_all_agenda_links() -> list:
-    """Doorloop alle agendapagina's en verzamel activiteitslinks."""
-    all_items = []
-    page = 1
+    """
+    Doorloop alle agendapagina's via ?page=N.
+    Stopt bij MAX_PAGES of als er geen nieuwe activiteiten meer zijn.
+    """
+    MAX_PAGES       = 6   # 6 paginas = ca. 6 maanden vooruit
+    EMPTY_THRESHOLD = 2   # stop na 2 lege pagina's op rij
 
-    while True:
-        url  = AGENDA_URL if page == 1 else f"{AGENDA_URL}?page={page}"
-        print(f"\n📄 Agendapagina {page}: {url}")
-        soup = fetch(url)
+    all_items    = []
+    seen_urls    = set()
+    empty_streak = 0
+
+    for page in range(1, MAX_PAGES + 1):
+        url = AGENDA_URL if page == 1 else f"{AGENDA_URL}?page={page}"
+        print(f"\n📄 Agendapagina {page}/{MAX_PAGES}: {url}")
+
+        soup = fetch(url, delay=1.0)
         if not soup:
-            break
+            empty_streak += 1
+            if empty_streak >= EMPTY_THRESHOLD:
+                print("  → Ophalen mislukt, stoppen.")
+                break
+            continue
 
         items = parse_agenda_page(soup)
-        if not items:
-            print("  → Geen activiteiten meer, stoppen.")
-            break
 
-        all_items.extend(items)
+        # Filter duplicaten van eerdere pagina's
+        new_items = [i for i in items if i["url"] not in seen_urls]
+        for i in new_items:
+            seen_urls.add(i["url"])
 
-        next_link = soup.select_one("a[rel='next'], .pagination .next")
-        if not next_link or page >= 10:
-            break
-        page += 1
+        print(f"  → {len(new_items)} nieuwe activiteiten (pagina totaal: {len(items)})")
 
+        if not new_items:
+            empty_streak += 1
+            if empty_streak >= EMPTY_THRESHOLD:
+                print("  → Geen nieuwe activiteiten meer, stoppen.")
+                break
+        else:
+            empty_streak = 0
+            all_items.extend(new_items)
+
+    print(f"\n🔗  Totaal: {len(all_items)} unieke links")
     return all_items
 
 
