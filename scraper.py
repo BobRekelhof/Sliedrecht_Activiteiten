@@ -1,16 +1,18 @@
 """
-Sliedrecht Doet - Agenda Scraper
-Haalt elke nacht alle activiteiten op van sliedrechtdoet.nl/agenda
-en categoriseert ze naar vier profielen: buitenmens, ontdekker, buurtgenoot, inpakker.
+Sliedrecht Doet - Agenda Scraper v2
+Haalt elke nacht activiteiten op van sliedrechtdoet.nl/agenda.
+Bezoekt elke individuele activiteitspagina voor de volledige beschrijving,
+en categoriseert op vier profielen: buitenmens, ontdekker, buurtgenoot, inpakker.
 """
 
 import requests
 from bs4 import BeautifulSoup
 import json
 import re
+import time
 from datetime import datetime
 
-BASE_URL  = "https://sliedrechtdoet.nl"
+BASE_URL   = "https://sliedrechtdoet.nl"
 AGENDA_URL = "https://sliedrechtdoet.nl/agenda"
 
 HEADERS = {
@@ -21,149 +23,175 @@ HEADERS = {
     ),
     "Accept-Language": "nl-NL,nl;q=0.9",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Referer": "https://sliedrechtdoet.nl/",
 }
 
+# Datum-patroon — tekst die ALLEEN een datum is wordt nooit als beschrijving gebruikt
+DATE_ONLY = re.compile(
+    r"^\d{1,2}\s+\w+\s+\d{4}\s+van\s+\d{2}:\d{2}",
+)
+
 # ── PROFIEL SCORE REGELS ────────────────────────────────────────────────────
-# Elke regel: (lijst van trefwoorden, scores per profiel)
-# Scores: 3 = sterke match, 2 = goede match, 1 = lichte match, 0 = geen match
-# Profielen: buitenmens | ontdekker | buurtgenoot | inpakker
+# (trefwoorden, {profiel: score})
+# Scores: 3=sterke match, 2=goede match, 1=lichte match
+# Regels zijn EXCLUSIEF: een "koffie"-activiteit scoort NIET op buitenmens
 
 SCORE_RULES = [
 
-    # ── BUITENMENS: actief, natuur, bewegen, buiten ──
-    (["hardlopen", "joggen", "rennen", "sprint", "marathon"],
-     {"buitenmens": 3, "ontdekker": 0, "buurtgenoot": 0, "inpakker": 1}),
+    # ── BUITENMENS ──
+    (["hardlopen", "joggen", "rennen", "marathon", "trailrun"],
+     {"buitenmens": 3}),
 
-    (["wandelen", "wandeltocht", "wandelgroep", "nordic walking"],
-     {"buitenmens": 3, "ontdekker": 0, "buurtgenoot": 1, "inpakker": 0}),
+    (["wandelen", "wandeltocht", "wandelgroep", "nordic walking", "wandelclub"],
+     {"buitenmens": 3, "buurtgenoot": 1}),
 
-    (["fietsen", "fiets", "wielrennen", "mountainbike"],
-     {"buitenmens": 3, "ontdekker": 1, "buurtgenoot": 0, "inpakker": 0}),
+    (["fietsen", "fiets", "wielrennen", "mountainbike", "e-bike"],
+     {"buitenmens": 3}),
 
-    (["zwemmen", "zwembad", "watersporten", "roeien", "kanoën"],
-     {"buitenmens": 3, "ontdekker": 0, "buurtgenoot": 0, "inpakker": 1}),
+    (["zwemmen", "zwembad", "watersporten", "roeien", "kanoën", "sup"],
+     {"buitenmens": 3}),
 
-    (["sport", "fitness", "gym", "bewegen", "actief", "bootcamp", "yoga", "dans", "voetbal", "tennis", "badminton"],
-     {"buitenmens": 3, "ontdekker": 0, "buurtgenoot": 0, "inpakker": 1}),
+    (["sport", "fitness", "gym", "bootcamp", "voetbal", "tennis",
+      "badminton", "volleyball", "basketball", "hockey"],
+     {"buitenmens": 3}),
 
-    (["natuur", "buiten", "groen", "park", "bos", "dieren", "planten", "vogels", "biesbosch", "rivier"],
-     {"buitenmens": 3, "ontdekker": 2, "buurtgenoot": 0, "inpakker": 1}),
+    (["yoga", "dans", "zumba", "pilates", "tai chi"],
+     {"buitenmens": 2, "ontdekker": 1}),
 
-    (["moestuin", "tuin", "tuinieren", "kweken", "zaaien"],
-     {"buitenmens": 2, "ontdekker": 1, "buurtgenoot": 1, "inpakker": 3}),
+    (["natuur", "buiten", "buitenactiviteit", "park", "bos",
+      "biesbosch", "rivier", "vogels", "dieren", "planten"],
+     {"buitenmens": 3, "ontdekker": 1}),
 
-    # ── ONTDEKKER: cultuur, leren, creatief, inspiratie ──
-    (["museum", "tentoonstelling", "expositie", "galerie"],
-     {"buitenmens": 0, "ontdekker": 3, "buurtgenoot": 1, "inpakker": 0}),
+    # moestuin scoort op inpakker (klussen) én buurtgenoot, NIET op buitenmens
+    (["moestuin", "tuinieren", "kweken", "zaaien", "oogsten"],
+     {"inpakker": 2, "buurtgenoot": 1, "ontdekker": 1}),
 
-    (["kunst", "kunstwerk", "schilderen", "tekenen", "aquarel", "beeldhouwen"],
-     {"buitenmens": 0, "ontdekker": 3, "buurtgenoot": 1, "inpakker": 1}),
+    # ── ONTDEKKER ──
+    (["museum", "tentoonstelling", "expositie", "galerie", "erfgoed"],
+     {"ontdekker": 3}),
 
-    (["muziek", "concert", "koor", "zingen", "instrument", "gitaar", "piano"],
-     {"buitenmens": 0, "ontdekker": 3, "buurtgenoot": 2, "inpakker": 0}),
+    (["kunst", "kunstwerk", "schilderen", "tekenen", "aquarel",
+      "beeldhouwen", "fotografie", "kleuren", "creatief"],
+     {"ontdekker": 3, "buurtgenoot": 1}),
 
-    (["theater", "toneel", "voorstelling", "cabaret", "film", "bioscoop"],
-     {"buitenmens": 0, "ontdekker": 3, "buurtgenoot": 2, "inpakker": 0}),
+    (["muziek", "concert", "koor", "zingen", "instrument",
+      "gitaar", "piano", "drummen"],
+     {"ontdekker": 3, "buurtgenoot": 1}),
 
-    (["cursus", "workshop", "training", "les", "leren", "studeren", "opleiding"],
-     {"buitenmens": 0, "ontdekker": 3, "buurtgenoot": 1, "inpakker": 1}),
+    (["theater", "toneel", "voorstelling", "cabaret", "film",
+      "bioscoop", "optreden"],
+     {"ontdekker": 3, "buurtgenoot": 1}),
 
-    (["lezing", "presentatie", "debat", "spreker", "thema-avond", "informatie"],
-     {"buitenmens": 0, "ontdekker": 3, "buurtgenoot": 2, "inpakker": 0}),
+    (["cursus", "workshop", "training", "opleiding"],
+     {"ontdekker": 3}),
 
-    (["geschiedenis", "historisch", "erfgoed", "monument", "archeologie"],
-     {"buitenmens": 1, "ontdekker": 3, "buurtgenoot": 1, "inpakker": 0}),
+    (["lezing", "presentatie", "spreker", "thema-avond", "debat"],
+     {"ontdekker": 3, "buurtgenoot": 1}),
 
-    (["creatief", "knutselen", "handwerk", "breien", "haken", "naaien", "pottenbakken"],
-     {"buitenmens": 0, "ontdekker": 3, "buurtgenoot": 1, "inpakker": 2}),
+    (["geschiedenis", "historisch", "monument", "archeologie", "erfgoed",
+      "onderhuis", "baggermuseum"],
+     {"ontdekker": 3}),
 
-    (["digitaal", "computer", "internet", "smartphone", "tablet"],
-     {"buitenmens": 0, "ontdekker": 3, "buurtgenoot": 1, "inpakker": 0}),
+    (["breien", "haken", "naaien", "borduren", "handwerk", "knutselen",
+      "pottenbakken", "aangehaakt"],
+     {"ontdekker": 3, "buurtgenoot": 1, "inpakker": 1}),
 
-    (["taal", "taalles", "nederlands", "inburgering"],
-     {"buitenmens": 0, "ontdekker": 3, "buurtgenoot": 2, "inpakker": 0}),
+    (["digitaal", "computer", "internet", "smartphone", "tablet", "ict"],
+     {"ontdekker": 3}),
 
-    (["lezen", "boek", "bibliotheek", "leesclub"],
-     {"buitenmens": 0, "ontdekker": 3, "buurtgenoot": 1, "inpakker": 0}),
+    (["taal", "taalles", "nederlands leren", "inburgering", "nt2"],
+     {"ontdekker": 3}),
 
-    # ── BUURTGENOOT: gezelligheid, ontmoeten, sociaal, koffie ──
-    (["koffie", "thee", "bakkie", "koffieochtend", "koffiedrinken"],
-     {"buitenmens": 0, "ontdekker": 1, "buurtgenoot": 3, "inpakker": 1}),
+    (["lezen", "boek", "bibliotheek", "leesclub", "voorlezen"],
+     {"ontdekker": 3, "buurtgenoot": 1}),
 
-    (["ontmoeten", "ontmoeting", "inloop", "inloopavond", "inloopmorgen"],
-     {"buitenmens": 0, "ontdekker": 1, "buurtgenoot": 3, "inpakker": 1}),
+    (["huiswerk", "huiswerkbegeleiding", "bijles", "rekenen", "leren"],
+     {"ontdekker": 2, "inpakker": 1}),
 
-    (["gezellig", "gezelligheid", "saamhorigheid", "samen", "sociale"],
-     {"buitenmens": 1, "ontdekker": 1, "buurtgenoot": 3, "inpakker": 1}),
+    # ── BUURTGENOOT ──
+    (["koffie", "thee", "bakkie", "koffieochtend"],
+     {"buurtgenoot": 3}),
 
-    (["lunch", "eten", "maaltijd", "diner", "borrel", "feest"],
-     {"buitenmens": 0, "ontdekker": 0, "buurtgenoot": 3, "inpakker": 0}),
+    (["ontmoeten", "ontmoeting", "inloop", "inloopmorgen", "inloopavond",
+      "ontmoet", "ontmoetingsplek"],
+     {"buurtgenoot": 3}),
 
-    (["babbelen", "praten", "gesprek", "praatgroep", "discussie"],
-     {"buitenmens": 0, "ontdekker": 2, "buurtgenoot": 3, "inpakker": 0}),
+    (["gezellig", "gezelligheid", "saamhorigheid", "samen"],
+     {"buurtgenoot": 2}),
 
-    (["buurt", "buurtactiviteit", "buurtfeest", "buurtgenoten", "wijk", "buren"],
-     {"buitenmens": 1, "ontdekker": 0, "buurtgenoot": 3, "inpakker": 2}),
+    (["lunch", "lunchen", "maaltijd", "eten", "diner", "borrel"],
+     {"buurtgenoot": 3}),
 
-    (["ouderen", "senioren", "65+", "55+", "volwassenen"],
-     {"buitenmens": 1, "ontdekker": 1, "buurtgenoot": 3, "inpakker": 1}),
+    (["weekmarkt", "markt", "braderie", "evenement", "festival", "feest"],
+     {"buurtgenoot": 3, "buitenmens": 1}),
 
-    (["jongeren", "jeugd", "kinderen", "jongvolwassenen"],
-     {"buitenmens": 2, "ontdekker": 1, "buurtgenoot": 2, "inpakker": 1}),
+    (["babbelen", "praten", "gesprek", "praatgroep"],
+     {"buurtgenoot": 3}),
+
+    (["ouders", "opvoeding", "baby", "peuter", "gezin"],
+     {"buurtgenoot": 3}),
+
+    (["senioren", "ouderen", "55+", "65+", "grijsaards"],
+     {"buurtgenoot": 2}),
 
     (["spelletjes", "spel", "kaarten", "bingo", "schaken", "dammen"],
-     {"buitenmens": 0, "ontdekker": 1, "buurtgenoot": 3, "inpakker": 0}),
+     {"buurtgenoot": 3, "ontdekker": 1}),
 
-    # ── INPAKKER: vrijwillig, helpen, klussen, doen ──
+    # ── INPAKKER ──
     (["vrijwillig", "vrijwilliger", "vrijwilligerswerk"],
-     {"buitenmens": 0, "ontdekker": 0, "buurtgenoot": 1, "inpakker": 3}),
+     {"inpakker": 3}),
 
-    (["helpen", "hulp", "ondersteuning", "assisteren", "begeleiden"],
-     {"buitenmens": 0, "ontdekker": 0, "buurtgenoot": 1, "inpakker": 3}),
+    (["helpen", "hulp", "ondersteuning", "assisteren", "begeleiden",
+      "begeleiding"],
+     {"inpakker": 3}),
 
     (["maatje", "maatjesproject", "buddy", "mentor"],
-     {"buitenmens": 0, "ontdekker": 0, "buurtgenoot": 2, "inpakker": 3}),
+     {"inpakker": 3, "buurtgenoot": 1}),
 
-    (["klussen", "repareren", "bouwen", "timmeren", "schilderen", "onderhoud"],
-     {"buitenmens": 1, "ontdekker": 0, "buurtgenoot": 0, "inpakker": 3}),
+    (["klussen", "repareren", "bouwen", "timmeren", "onderhoud",
+      "opknappen", "schoonmaken"],
+     {"inpakker": 3}),
 
     (["voedselbank", "kledingbank", "inzameling", "donatie"],
-     {"buitenmens": 0, "ontdekker": 0, "buurtgenoot": 1, "inpakker": 3}),
+     {"inpakker": 3}),
 
-    (["inpakken", "sorteren", "uitdelen", "organiseren", "coördineren"],
-     {"buitenmens": 0, "ontdekker": 0, "buurtgenoot": 1, "inpakker": 3}),
+    (["inpakken", "sorteren", "uitdelen", "organiseren"],
+     {"inpakker": 3}),
 
-    (["zorg", "mantelzorg", "thuiszorg", "begeleiding"],
-     {"buitenmens": 0, "ontdekker": 0, "buurtgenoot": 2, "inpakker": 3}),
-
-    # ── TIJDSTIP (voor informatieve display, niet voor profiel) ──
-    (["09:00", "10:00", "11:00", "08:00", "ochtend", "voormiddag"],
-     {"tijd_ochtend": 1}),
-    (["12:00", "13:00", "14:00", "15:00", "16:00", "middag", "namiddag"],
-     {"tijd_middag": 1}),
-    (["17:00", "18:00", "19:00", "20:00", "21:00", "avond"],
-     {"tijd_avond": 1}),
+    (["zorg", "mantelzorg", "thuiszorg"],
+     {"inpakker": 3, "buurtgenoot": 1}),
 ]
+
+# Nulscores — startpunt
+PROFILEN = ["buitenmens", "ontdekker", "buurtgenoot", "inpakker"]
 
 
 def compute_scores(text: str) -> dict:
-    """Bereken profielscores op basis van trefwoorden in de tekst."""
+    """
+    Bereken profielscores EXCLUSIEF:
+    elke regel kent alleen punten toe aan de profielen die erin staan.
+    Profielen die niet in de regel staan krijgen 0 (niet verhoogd).
+    """
     text_lower = text.lower()
-    scores = {
-        "buitenmens": 0,
-        "ontdekker":  0,
-        "buurtgenoot": 0,
-        "inpakker":   0,
-    }
+    scores = {p: 0 for p in PROFILEN}
+
     for keywords, award in SCORE_RULES:
         if any(kw in text_lower for kw in keywords):
-            for key, pts in award.items():
-                if key in scores:
-                    scores[key] = max(scores[key], pts)
+            for profiel, pts in award.items():
+                # Neem de hoogste score als meerdere regels matchen
+                scores[profiel] = max(scores[profiel], pts)
+
     return scores
 
 
-def scrape_page(url: str):
+def is_date_only(text: str) -> bool:
+    """Geeft True als de tekst alleen een datum/tijdstip bevat."""
+    return bool(DATE_ONLY.match(text.strip()))
+
+
+def fetch(url: str, delay: float = 0.5):
+    """Haal een pagina op met een kleine pauze om de server te ontzien."""
+    time.sleep(delay)
     try:
         r = requests.get(url, headers=HEADERS, timeout=15)
         r.raise_for_status()
@@ -173,161 +201,203 @@ def scrape_page(url: str):
         return None
 
 
-def extract_agenda_url(item) -> str:
-    """Haal de specifieke activiteits-URL op uit een agenda-item."""
-    links = item.find_all("a", href=True) if item.name != "a" else [item]
-    for a in links:
-        href = a["href"]
-        if re.search(r"/agenda/\d+/\d{4}-\d{2}-\d{2}/", href):
-            return href if href.startswith("http") else BASE_URL + href
-    for a in links:
-        href = a["href"]
-        if "/agenda/" in href and href.rstrip("/") not in ["/agenda", AGENDA_URL]:
-            return href if href.startswith("http") else BASE_URL + href
-    return AGENDA_URL
+def fetch_activity_detail(url: str) -> dict:
+    """
+    Bezoek de individuele activiteitspagina en extraheer:
+    - volledige beschrijving
+    - locatie
+    - organisator
+    - tijdstip
+    """
+    soup = fetch(url, delay=0.8)
+    if not soup:
+        return {}
+
+    result = {}
+
+    # Beschrijving: zoek de langste <p> buiten navigatie/footer
+    paragraphs = soup.select("main p, article p, .content p, .description p, .body p")
+    if not paragraphs:
+        paragraphs = soup.find_all("p")
+
+    best_desc = ""
+    for p in paragraphs:
+        text = p.get_text(strip=True)
+        # Sla datum-only en te korte teksten over
+        if len(text) > len(best_desc) and not is_date_only(text) and len(text) > 30:
+            best_desc = text
+    if best_desc:
+        result["desc"] = best_desc[:400]
+
+    # Locatie
+    loc_candidates = soup.select(
+        "[class*='locatie'], [class*='location'], [class*='place'], "
+        "[class*='adres'], [class*='address'], [itemprop='location']"
+    )
+    for el in loc_candidates:
+        t = el.get_text(strip=True)
+        if t and len(t) < 100:
+            result["location"] = t
+            break
+
+    # Organisator
+    org_candidates = soup.select(
+        "[class*='organis'], [class*='auteur'], [class*='org'], "
+        "[class*='aanbieder'], [class*='provider']"
+    )
+    for el in org_candidates:
+        t = el.get_text(strip=True)
+        if t and len(t) < 80:
+            result["organizer"] = t
+            break
+
+    # Tijdstip — zoek volledige tijdstip-tekst op de detailpagina
+    full_text = soup.get_text(" ", strip=True)
+    time_match = re.search(
+        r"\d{1,2}\s+\w+\s+\d{4}\s+van\s+\d{2}:\d{2}\s+tot\s+\d{2}:\d{2}\s+uur",
+        full_text
+    )
+    if time_match:
+        result["time"] = time_match.group(0)
+
+    return result
 
 
-def parse_activities(soup: BeautifulSoup) -> list:
-    activities = []
-
-    # Zoek specifieke activiteitslinks op de pagina
-    specific_links = [
+def parse_agenda_page(soup: BeautifulSoup) -> list:
+    """Extraheer activiteitslinks van de agendapagina."""
+    links = [
         a for a in soup.select("a[href*='/agenda/']")
         if re.search(r"/agenda/\d+/\d{4}-\d{2}-\d{2}/", a.get("href", ""))
     ]
+    print(f"  → {len(links)} activiteitslinks gevonden")
 
-    print(f"  → {len(specific_links)} activiteitslinks gevonden")
+    seen = set()
+    results = []
 
-    seen_urls = set()
+    for link in links:
+        href = link["href"]
+        url  = href if href.startswith("http") else BASE_URL + href
+        if url in seen:
+            continue
+        seen.add(url)
 
-    for link in specific_links:
-        try:
-            href = link["href"]
-            url = href if href.startswith("http") else BASE_URL + href
+        # Titel van de link-tekst of omliggende heading
+        container = link.parent
+        for _ in range(5):
+            if container and len(container.get_text(strip=True)) > 40:
+                break
+            container = container.parent if container else None
 
-            if url in seen_urls:
-                continue
-            seen_urls.add(url)
-
-            # Zoek de omliggende container
-            container = link.parent
-            for _ in range(5):
-                if container and len(container.get_text(strip=True)) > 80:
-                    break
-                container = container.parent if container else None
-            item = container or link
-
-            # Titel
-            title_el = item.select_one("h2, h3, h4, strong") if item != link else None
-            title = title_el.get_text(strip=True) if title_el else link.get_text(strip=True)
-            if not title or len(title) < 3:
-                continue
-
-            # Volledige tekst voor scoring
-            item_text = item.get_text(" ", strip=True)
-
-            # Beschrijving
-            desc_el = item.select_one("p")
-            desc = desc_el.get_text(strip=True)[:300] if desc_el else ""
-
-            # Locatie
-            loc_el = item.select_one(".location, [class*='locatie'], [class*='place'], [class*='adres']")
-            location = loc_el.get_text(strip=True) if loc_el else ""
-
-            # Tijdstip
-            time_match = re.search(r"\d{1,2}\s+\w+\s+\d{4}\s+van\s+\d{2}:\d{2}", item_text)
-            time_str = time_match.group(0) if time_match else ""
-
-            # Frequentie
-            freq = ""
-            for word in ["wekelijks", "maandelijks", "meerdaags", "dagelijks", "jaarlijks"]:
-                if word in item_text.lower():
-                    freq = word
-                    break
-
-            # Organisator
-            org_el = item.select_one("[class*='organis'], [class*='auteur'], [class*='org']")
-            organizer = org_el.get_text(strip=True) if org_el else ""
-
-            # Profielscores berekenen
-            full_text = f"{title} {desc} {item_text}"
-            scores = compute_scores(full_text)
-
-            # Dominant profiel bepalen (voor snelle filtering)
-            dominant = max(scores, key=scores.get)
-            dominant_score = scores[dominant]
-
-            activities.append({
-                "title":     title,
-                "organizer": organizer,
-                "desc":      desc,
-                "url":       url,
-                "location":  location,
-                "time":      time_str,
-                "frequency": freq,
-                "scores":    scores,
-                "dominant_profile": dominant if dominant_score > 0 else "buurtgenoot",
-            })
-
-        except Exception as e:
-            print(f"  ⚠️  Item overgeslagen: {e}")
+        title_el = (container or link).select_one("h2,h3,h4,strong") if container != link else None
+        title    = title_el.get_text(strip=True) if title_el else link.get_text(strip=True)
+        if not title or len(title) < 3:
             continue
 
-    return activities
+        # Frequentie uit omliggende tekst
+        item_text = (container or link).get_text(" ", strip=True) if container else ""
+        freq = ""
+        for word in ["wekelijks", "maandelijks", "meerdaags", "dagelijks", "jaarlijks"]:
+            if word in item_text.lower():
+                freq = word
+                break
+
+        results.append({"title": title, "url": url, "frequency": freq})
+
+    return results
 
 
-def get_all_pages() -> list:
-    all_activities = []
+def get_all_agenda_links() -> list:
+    """Doorloop alle agendapagina's en verzamel activiteitslinks."""
+    all_items = []
     page = 1
 
     while True:
-        url = AGENDA_URL if page == 1 else f"{AGENDA_URL}?page={page}"
-        print(f"\n📄 Pagina {page}: {url}")
-        soup = scrape_page(url)
+        url  = AGENDA_URL if page == 1 else f"{AGENDA_URL}?page={page}"
+        print(f"\n📄 Agendapagina {page}: {url}")
+        soup = fetch(url)
         if not soup:
             break
 
-        activities = parse_activities(soup)
-        if not activities:
+        items = parse_agenda_page(soup)
+        if not items:
             print("  → Geen activiteiten meer, stoppen.")
             break
 
-        all_activities.extend(activities)
+        all_items.extend(items)
 
         next_link = soup.select_one("a[rel='next'], .pagination .next")
         if not next_link or page >= 10:
             break
         page += 1
 
-    return all_activities
+    return all_items
 
 
 def main():
-    print("🕷️  Sliedrecht Doet scraper gestart...")
+    print("🕷️  Sliedrecht Doet scraper v2 gestart...")
     print(f"⏰  {datetime.now().strftime('%d-%m-%Y %H:%M:%S')}\n")
 
-    activities = get_all_pages()
+    # Stap 1: verzamel alle links van de agendapagina's
+    agenda_items = get_all_agenda_links()
 
     # Dedupliceer op URL
-    seen = set()
-    unique = []
-    for a in activities:
-        if a["url"] not in seen:
-            seen.add(a["url"])
-            unique.append(a)
+    seen_urls = set()
+    unique_items = []
+    for item in agenda_items:
+        if item["url"] not in seen_urls:
+            seen_urls.add(item["url"])
+            unique_items.append(item)
 
-    print(f"\n✅  {len(unique)} unieke activiteiten gevonden")
+    print(f"\n🔗  {len(unique_items)} unieke activiteiten gevonden")
+    print("📖  Detailpagina's ophalen voor beschrijvingen...\n")
 
-    # Verdeling over profielen loggen
-    for p in ["buitenmens", "ontdekker", "buurtgenoot", "inpakker"]:
-        count = sum(1 for a in unique if a.get("dominant_profile") == p)
-        print(f"   {p}: {count} activiteiten")
+    activities = []
+
+    for i, item in enumerate(unique_items):
+        print(f"  [{i+1}/{len(unique_items)}] {item['title'][:60]}")
+
+        # Stap 2: haal de detailpagina op voor volledige info
+        detail = fetch_activity_detail(item["url"])
+
+        title     = item["title"]
+        desc      = detail.get("desc", "")
+        location  = detail.get("location", "")
+        organizer = detail.get("organizer", "")
+        time_str  = detail.get("time", "")
+        freq      = item["frequency"]
+
+        # Stap 3: scores berekenen op titel + beschrijving
+        # NOOIT op alleen de datum/tijd-tekst
+        score_text = f"{title} {desc}".strip()
+        scores     = compute_scores(score_text)
+
+        # Dominant profiel
+        dominant       = max(scores, key=scores.get)
+        dominant_score = scores[dominant]
+
+        activities.append({
+            "title":            title,
+            "organizer":        organizer,
+            "desc":             desc,
+            "url":              item["url"],
+            "location":         location,
+            "time":             time_str,
+            "frequency":        freq,
+            "scores":           scores,
+            "dominant_profile": dominant if dominant_score > 0 else "buurtgenoot",
+        })
+
+    # Verdeling loggen
+    print(f"\n✅  {len(activities)} activiteiten verwerkt")
+    for p in PROFILEN:
+        count = sum(1 for a in activities if a["dominant_profile"] == p)
+        print(f"   {p}: {count}")
 
     output = {
         "updated_at": datetime.now().strftime("%d-%m-%Y %H:%M"),
-        "source": AGENDA_URL,
-        "count": len(unique),
-        "activities": unique,
+        "source":     AGENDA_URL,
+        "count":      len(activities),
+        "activities": activities,
     }
 
     with open("activities.json", "w", encoding="utf-8") as f:
