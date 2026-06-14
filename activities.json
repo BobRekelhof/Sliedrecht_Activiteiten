@@ -1,40 +1,8 @@
 {
-  "updated_at": "13-06-2026 05:17",
+  "updated_at": "14-06-2026 05:26",
   "source": "https://sliedrechtdoet.nl/agenda",
-  "count": 66,
+  "count": 65,
   "activities": [
-    {
-      "title": "Workshop landschap schilderen",
-      "organizer": "",
-      "desc": "Kom je ook gezellig naar de Workshop landschap schilderen op de Moestuin in Sliedrech,t tussen het mooie groen op de tuin!",
-      "url": "https://sliedrechtdoet.nl/agenda/145613/2026-06-13/workshop-landschap-schilderen-2",
-      "location": "",
-      "time": "13 juni 2026 van 10:00 tot 12:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 2,
-        "inpakker": 2
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Doe mee met het Burenkleuren-project!",
-      "organizer": "",
-      "desc": "Het Burenkleuren-project gaat opnieuw van start na een succesvolle eerste editie, waarbij in het Sliedrecht Museum in december een tentoonstelling plaatsvond met 40 deelnemers en 40 unieke kunstwerken. In deze nieuwe editie is het doel nog groter: 80 deelnemers en 80 kunstwerken die samen worden gepresenteerd in een bijzondere tentoonstelling.",
-      "url": "https://sliedrechtdoet.nl/agenda/144792/2026-06-13/doe-mee-met-het-burenkleuren-project",
-      "location": "",
-      "time": "13 juni 2026 van 11:00 tot 12:30 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 2,
-        "inpakker": 0
-      },
-      "dominant_profile": "ontdekker"
-    },
     {
       "title": "Ontmoet elkaar in de groene huiskamer",
       "organizer": "",
@@ -482,6 +450,22 @@
         "inpakker": 0
       },
       "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "Doe mee met het Burenkleuren-project!",
+      "organizer": "",
+      "desc": "Het Burenkleuren-project gaat opnieuw van start na een succesvolle eerste editie, waarbij in het Sliedrecht Museum in december een tentoonstelling plaatsvond met 40 deelnemers en 40 unieke kunstwerken. In deze nieuwe editie is het doel nog groter: 80 deelnemers en 80 kunstwerken die samen worden gepresenteerd in een bijzondere tentoonstelling.",
+      "url": "https://sliedrechtdoet.nl/agenda/144792/2026-06-20/doe-mee-met-het-burenkleuren-project",
+      "location": "",
+      "time": "20 juni 2026 van 11:00 tot 12:30 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 2,
+        "inpakker": 0
+      },
+      "dominant_profile": "ontdekker"
     },
     {
       "title": "Sliedrecht Doet ontmoet je op de weekmarkt!",
