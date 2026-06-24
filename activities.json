@@ -1,104 +1,8 @@
 {
-  "updated_at": "23-06-2026 04:56",
+  "updated_at": "24-06-2026 05:00",
   "source": "https://sliedrechtdoet.nl/agenda",
   "count": 60,
   "activities": [
-    {
-      "title": "Ontmoet andere ouders",
-      "organizer": "",
-      "desc": "Een vaste ontmoetingsplek voor aanstaande ouders en ouders van kinderen tot 18 jaar. Elke dinsdag van 9:30 tot 10:30 uur, met uitzondering van de schoolvakanties, ben je welkom om andere ouders te ontmoeten. Het is een plek waar je netwerk kan groeien en waar je kunt sparren over opvoeden in alle openheid. De ochtenden zijn laagdrempelig, gratis en zonder aanmelding. Loop gewoon binnen in de Groen",
-      "url": "https://sliedrechtdoet.nl/agenda/136644/2026-06-23/ontmoet-andere-ouders-2",
-      "location": "",
-      "time": "23 juni 2026 van 09:30 tot 10:30 uur",
-      "frequency": "wekelijks",
-      "scores": {
-        "buitenmens": 3,
-        "ontdekker": 0,
-        "buurtgenoot": 3,
-        "inpakker": 0
-      },
-      "dominant_profile": "buitenmens"
-    },
-    {
-      "title": "Laat je inspireren tijdens koffie met...",
-      "organizer": "",
-      "desc": "Samen koffie drinken, mensen ontmoeten en nieuwe kennis opdoen: dat is Koffie met... in het kort. Dus kom langs en laat je verrassen door interessante presentaties en sprekers.",
-      "url": "https://sliedrechtdoet.nl/agenda/118472/2026-06-23/laat-je-inspireren-tijdens-koffie-met",
-      "location": "",
-      "time": "23 juni 2026 van 10:30 tot 11:45 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 3,
-        "inpakker": 0
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Lunchen op de Moestuin",
-      "organizer": "",
-      "desc": "Iedere middag bent u van harte welkom op de moestuin voor een heerlijke lunch/maaltijd, tegen een vergoeding.",
-      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-06-23/lunchen-op-de-moestuin",
-      "location": "",
-      "time": "23 juni 2026 van 12:00 tot 13:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 1,
-        "buurtgenoot": 3,
-        "inpakker": 2
-      },
-      "dominant_profile": "buurtgenoot"
-    },
-    {
-      "title": "Geniet van een heerlijke lunch voor €2,50",
-      "organizer": "",
-      "desc": "Wil je dat nog meer mensen meedoen? Nodig ze uit!",
-      "url": "https://sliedrechtdoet.nl/agenda/136861/2026-06-23/geniet-van-een-heerlijke-lunch-voor-2-50",
-      "location": "",
-      "time": "23 juni 2026 van 12:30 tot 13:30 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 0,
-        "buurtgenoot": 3,
-        "inpakker": 0
-      },
-      "dominant_profile": "buurtgenoot"
-    },
-    {
-      "title": "Aangehaakt",
-      "organizer": "",
-      "desc": "Ben je creatief, kom dan gezellig naar Aangehaakt! Er is gelegenheid om patronen uit te wisselen, inspiratie op te doen en van elkaar te leren. Beginner of gevorderde, jong of oud, iedereen is welkom. Neem zelf je wol, haak en/of breiwerk mee, dan zorgen wij voor de koffie en thee.",
-      "url": "https://sliedrechtdoet.nl/agenda/129383/2026-06-23/aangehaakt",
-      "location": "",
-      "time": "23 juni 2026 van 14:00 tot 16:00 uur",
-      "frequency": "wekelijks",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 3,
-        "inpakker": 3
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Voorlezen en kleuren in het thema van het boek!",
-      "organizer": "",
-      "desc": "Elke dinsdag van 15:00 - 16:00 uur kun je in de bibliotheek in Sliedrecht luisteren naar de mooiste, grappigste verhalen. Tijdens of na het voorlezen kun je gezellig kleuren in het thema van het boek.",
-      "url": "https://sliedrechtdoet.nl/agenda/133610/2026-06-23/voorlezen-en-kleuren-in-het-thema-van-het-boek",
-      "location": "",
-      "time": "23 juni 2026 van 15:00 tot 16:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 3,
-        "inpakker": 0
-      },
-      "dominant_profile": "ontdekker"
-    },
     {
       "title": "Sliedrecht Doet ontmoet je op de weekmarkt!",
       "organizer": "",
@@ -130,6 +34,22 @@
         "inpakker": 0
       },
       "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Lunchen op de Moestuin",
+      "organizer": "",
+      "desc": "Iedere middag bent u van harte welkom op de moestuin voor een heerlijke lunch/maaltijd, tegen een vergoeding.",
+      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-06-24/lunchen-op-de-moestuin",
+      "location": "",
+      "time": "24 juni 2026 van 12:00 tot 13:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 1,
+        "buurtgenoot": 3,
+        "inpakker": 2
+      },
+      "dominant_profile": "buurtgenoot"
     },
     {
       "title": "Zet je in beweging met dansplezier.",
@@ -258,6 +178,22 @@
         "inpakker": 2
       },
       "dominant_profile": "buitenmens"
+    },
+    {
+      "title": "Geniet van een heerlijke lunch voor €2,50",
+      "organizer": "",
+      "desc": "Wil je dat nog meer mensen meedoen? Nodig ze uit!",
+      "url": "https://sliedrechtdoet.nl/agenda/136861/2026-06-26/geniet-van-een-heerlijke-lunch-voor-2-50",
+      "location": "",
+      "time": "26 juni 2026 van 12:30 tot 13:30 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 3,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
     },
     {
       "title": "Vragen over Sliedrecht Doet",
@@ -432,6 +368,70 @@
         "ontdekker": 3,
         "buurtgenoot": 2,
         "inpakker": 3
+      },
+      "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Ontmoet andere ouders",
+      "organizer": "",
+      "desc": "Een vaste ontmoetingsplek voor aanstaande ouders en ouders van kinderen tot 18 jaar. Elke dinsdag van 9:30 tot 10:30 uur, met uitzondering van de schoolvakanties, ben je welkom om andere ouders te ontmoeten. Het is een plek waar je netwerk kan groeien en waar je kunt sparren over opvoeden in alle openheid. De ochtenden zijn laagdrempelig, gratis en zonder aanmelding. Loop gewoon binnen in de Groen",
+      "url": "https://sliedrechtdoet.nl/agenda/136644/2026-06-30/ontmoet-andere-ouders-2",
+      "location": "",
+      "time": "30 juni 2026 van 09:30 tot 10:30 uur",
+      "frequency": "wekelijks",
+      "scores": {
+        "buitenmens": 3,
+        "ontdekker": 0,
+        "buurtgenoot": 3,
+        "inpakker": 0
+      },
+      "dominant_profile": "buitenmens"
+    },
+    {
+      "title": "Laat je inspireren tijdens koffie met...",
+      "organizer": "",
+      "desc": "Samen koffie drinken, mensen ontmoeten en nieuwe kennis opdoen: dat is Koffie met... in het kort. Dus kom langs en laat je verrassen door interessante presentaties en sprekers.",
+      "url": "https://sliedrechtdoet.nl/agenda/118472/2026-06-30/laat-je-inspireren-tijdens-koffie-met",
+      "location": "",
+      "time": "30 juni 2026 van 10:30 tot 11:45 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 3,
+        "inpakker": 0
+      },
+      "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Aangehaakt",
+      "organizer": "",
+      "desc": "Ben je creatief, kom dan gezellig naar Aangehaakt! Er is gelegenheid om patronen uit te wisselen, inspiratie op te doen en van elkaar te leren. Beginner of gevorderde, jong of oud, iedereen is welkom. Neem zelf je wol, haak en/of breiwerk mee, dan zorgen wij voor de koffie en thee.",
+      "url": "https://sliedrechtdoet.nl/agenda/129383/2026-06-30/aangehaakt",
+      "location": "",
+      "time": "30 juni 2026 van 14:00 tot 16:00 uur",
+      "frequency": "wekelijks",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 3,
+        "inpakker": 3
+      },
+      "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Voorlezen en kleuren in het thema van het boek!",
+      "organizer": "",
+      "desc": "Elke dinsdag van 15:00 - 16:00 uur kun je in de bibliotheek in Sliedrecht luisteren naar de mooiste, grappigste verhalen. Tijdens of na het voorlezen kun je gezellig kleuren in het thema van het boek.",
+      "url": "https://sliedrechtdoet.nl/agenda/133610/2026-06-30/voorlezen-en-kleuren-in-het-thema-van-het-boek",
+      "location": "",
+      "time": "30 juni 2026 van 15:00 tot 16:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 3,
+        "inpakker": 0
       },
       "dominant_profile": "ontdekker"
     },
