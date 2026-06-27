@@ -1,136 +1,8 @@
 {
-  "updated_at": "26-06-2026 05:05",
+  "updated_at": "27-06-2026 04:46",
   "source": "https://sliedrechtdoet.nl/agenda",
-  "count": 58,
+  "count": 57,
   "activities": [
-    {
-      "title": "Digitaal inloopspreekuur in de bieb!",
-      "organizer": "",
-      "desc": "Vragen over je mobiele telefoon, laptop, tablet en e-reader? Hulp nodig bij het gebruik van de bibliotheek apps? De bieb helpt! Kom gratis met al jouw digitale vragen naar het digitaal inloopspreekuur in jouw bibliotheek. Je bent welkom zonder afspraak.",
-      "url": "https://sliedrechtdoet.nl/agenda/118856/2026-06-26/digitaal-inloopspreekuur-in-de-bieb",
-      "location": "",
-      "time": "26 juni 2026 van 09:30 tot 12:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 3,
-        "inpakker": 3
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Verbeter je digitale vaardigheden met Klik & Tik",
-      "organizer": "",
-      "desc": "In je eigen tempo leren omgaan met computers en internet? Met meer zekerheid mailen, het internet op, iets online kopen of een reis plannen? De bieb helpt! Kom naar de gratis cursus Klik & Tik. Meld je eerst aan bij het Taalpunt of aan de balie in de bieb. Deelname gratis. Doorlopende cursus dus instappen wanneer je zelf wil.",
-      "url": "https://sliedrechtdoet.nl/agenda/118859/2026-06-26/verbeter-je-digitale-vaardigheden-met-klik-tik",
-      "location": "",
-      "time": "26 juni 2026 van 10:00 tot 12:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 0,
-        "inpakker": 1
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Ukkie Drive-in",
-      "organizer": "",
-      "desc": "Wil je dat nog meer mensen meedoen? Nodig ze uit!",
-      "url": "https://sliedrechtdoet.nl/agenda/129967/2026-06-26/ukkie-drive-in",
-      "location": "",
-      "time": "26 juni 2026 van 10:00 tot 11:00 uur",
-      "frequency": "wekelijks",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 0,
-        "buurtgenoot": 0,
-        "inpakker": 0
-      },
-      "dominant_profile": "buurtgenoot"
-    },
-    {
-      "title": "Tosti genieten in de moestuin",
-      "organizer": "",
-      "desc": "Met heerlijk weer kan dat zelfs buiten op de tuin.",
-      "url": "https://sliedrechtdoet.nl/agenda/143544/2026-06-26/tosti-genieten-in-de-moestuin",
-      "location": "",
-      "time": "26 juni 2026 van 12:00 tot 13:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 3,
-        "ontdekker": 1,
-        "buurtgenoot": 3,
-        "inpakker": 2
-      },
-      "dominant_profile": "buitenmens"
-    },
-    {
-      "title": "Lunchen op de Moestuin",
-      "organizer": "",
-      "desc": "Iedere middag bent u van harte welkom op de moestuin voor een heerlijke lunch/maaltijd, tegen een vergoeding.",
-      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-06-26/lunchen-op-de-moestuin",
-      "location": "",
-      "time": "26 juni 2026 van 12:00 tot 13:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 1,
-        "buurtgenoot": 3,
-        "inpakker": 2
-      },
-      "dominant_profile": "buurtgenoot"
-    },
-    {
-      "title": "Geniet van een heerlijke lunch voor €2,50",
-      "organizer": "",
-      "desc": "Wil je dat nog meer mensen meedoen? Nodig ze uit!",
-      "url": "https://sliedrechtdoet.nl/agenda/136861/2026-06-26/geniet-van-een-heerlijke-lunch-voor-2-50",
-      "location": "",
-      "time": "26 juni 2026 van 12:30 tot 13:30 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 0,
-        "buurtgenoot": 3,
-        "inpakker": 0
-      },
-      "dominant_profile": "buurtgenoot"
-    },
-    {
-      "title": "Vragen over Sliedrecht Doet",
-      "organizer": "",
-      "desc": "Wekelijks kun je langskomen bij het Bonkelaarhuis voor vragen over Sliedrecht Doet. Bijvoorbeeld hoe plaats ik een activiteit, hoe maak ik een account aan of  hoe kun je een bericht plaatsen.Kom gerust langs of stuur een e-mail naarln.teodthcerdeils@ofni.",
-      "url": "https://sliedrechtdoet.nl/agenda/121768/2026-06-26/vragen-over-sliedrecht-doet",
-      "location": "",
-      "time": "26 juni 2026 van 13:00 tot 17:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 0,
-        "buurtgenoot": 0,
-        "inpakker": 0
-      },
-      "dominant_profile": "buurtgenoot"
-    },
-    {
-      "title": "Proef de wereld met elke maaltijd",
-      "organizer": "",
-      "desc": "Wil je een lekker warme maaltijd voor €2,50! We hebben elke week een andere maaltijd zoals bijvoorbeeld Arabisch, Afrikaans, Aziatisch of Italiaanse maaltijd.",
-      "url": "https://sliedrechtdoet.nl/agenda/139032/2026-06-26/proef-de-wereld-met-elke-maaltijd",
-      "location": "",
-      "time": "26 juni 2026 van 14:30 tot 15:30 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 0,
-        "buurtgenoot": 3,
-        "inpakker": 0
-      },
-      "dominant_profile": "buurtgenoot"
-    },
     {
       "title": "Maak je eigen toilettas",
       "organizer": "",
@@ -194,6 +66,22 @@
         "inpakker": 2
       },
       "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Lunchen op de Moestuin",
+      "organizer": "",
+      "desc": "Iedere middag bent u van harte welkom op de moestuin voor een heerlijke lunch/maaltijd, tegen een vergoeding.",
+      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-06-29/lunchen-op-de-moestuin",
+      "location": "",
+      "time": "29 juni 2026 van 12:00 tot 13:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 1,
+        "buurtgenoot": 3,
+        "inpakker": 2
+      },
+      "dominant_profile": "buurtgenoot"
     },
     {
       "title": "Ontdek Sliedrecht in het onderhuis",
@@ -448,6 +336,102 @@
         "ontdekker": 1,
         "buurtgenoot": 3,
         "inpakker": 3
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "Digitaal inloopspreekuur in de bieb!",
+      "organizer": "",
+      "desc": "Vragen over je mobiele telefoon, laptop, tablet en e-reader? Hulp nodig bij het gebruik van de bibliotheek apps? De bieb helpt! Kom gratis met al jouw digitale vragen naar het digitaal inloopspreekuur in jouw bibliotheek. Je bent welkom zonder afspraak.",
+      "url": "https://sliedrechtdoet.nl/agenda/118856/2026-07-03/digitaal-inloopspreekuur-in-de-bieb",
+      "location": "",
+      "time": "3 juli 2026 van 09:30 tot 12:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 3,
+        "inpakker": 3
+      },
+      "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Verbeter je digitale vaardigheden met Klik & Tik",
+      "organizer": "",
+      "desc": "In je eigen tempo leren omgaan met computers en internet? Met meer zekerheid mailen, het internet op, iets online kopen of een reis plannen? De bieb helpt! Kom naar de gratis cursus Klik & Tik. Meld je eerst aan bij het Taalpunt of aan de balie in de bieb. Deelname gratis. Doorlopende cursus dus instappen wanneer je zelf wil.",
+      "url": "https://sliedrechtdoet.nl/agenda/118859/2026-07-03/verbeter-je-digitale-vaardigheden-met-klik-tik",
+      "location": "",
+      "time": "3 juli 2026 van 10:00 tot 12:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 0,
+        "inpakker": 1
+      },
+      "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Ukkie Drive-in",
+      "organizer": "",
+      "desc": "Wil je dat nog meer mensen meedoen? Nodig ze uit!",
+      "url": "https://sliedrechtdoet.nl/agenda/129967/2026-07-03/ukkie-drive-in",
+      "location": "",
+      "time": "3 juli 2026 van 10:00 tot 11:00 uur",
+      "frequency": "wekelijks",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 0,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "Tosti genieten in de moestuin",
+      "organizer": "",
+      "desc": "Met heerlijk weer kan dat zelfs buiten op de tuin.",
+      "url": "https://sliedrechtdoet.nl/agenda/143544/2026-07-03/tosti-genieten-in-de-moestuin",
+      "location": "",
+      "time": "3 juli 2026 van 12:00 tot 13:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 3,
+        "ontdekker": 1,
+        "buurtgenoot": 3,
+        "inpakker": 2
+      },
+      "dominant_profile": "buitenmens"
+    },
+    {
+      "title": "Vragen over Sliedrecht Doet",
+      "organizer": "",
+      "desc": "Wekelijks kun je langskomen bij het Bonkelaarhuis voor vragen over Sliedrecht Doet. Bijvoorbeeld hoe plaats ik een activiteit, hoe maak ik een account aan of  hoe kun je een bericht plaatsen.Kom gerust langs of stuur een e-mail naarln.teodthcerdeils@ofni.",
+      "url": "https://sliedrechtdoet.nl/agenda/121768/2026-07-03/vragen-over-sliedrecht-doet",
+      "location": "",
+      "time": "3 juli 2026 van 13:00 tot 17:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 0,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "Proef de wereld met elke maaltijd",
+      "organizer": "",
+      "desc": "Wil je een lekker warme maaltijd voor €2,50! We hebben elke week een andere maaltijd zoals bijvoorbeeld Arabisch, Afrikaans, Aziatisch of Italiaanse maaltijd.",
+      "url": "https://sliedrechtdoet.nl/agenda/139032/2026-07-03/proef-de-wereld-met-elke-maaltijd",
+      "location": "",
+      "time": "3 juli 2026 van 14:30 tot 15:30 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 3,
+        "inpakker": 0
       },
       "dominant_profile": "buurtgenoot"
     },
