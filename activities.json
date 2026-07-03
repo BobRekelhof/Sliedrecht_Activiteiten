@@ -1,136 +1,8 @@
 {
-  "updated_at": "02-07-2026 04:54",
+  "updated_at": "03-07-2026 04:37",
   "source": "https://sliedrechtdoet.nl/agenda",
-  "count": 54,
+  "count": 51,
   "activities": [
-    {
-      "title": "Zet je in beweging met dansplezier.",
-      "organizer": "",
-      "desc": "Werelddansen voor 55+ers op een gezellige laagdrempelig manier die tot op hoge leeftijd meegedaan kunnen worden.",
-      "url": "https://sliedrechtdoet.nl/agenda/133599/2026-07-02/zet-je-in-beweging-met-dansplezier-2",
-      "location": "",
-      "time": "2 juli 2026 van 09:30 tot 11:15 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 2,
-        "ontdekker": 1,
-        "buurtgenoot": 2,
-        "inpakker": 0
-      },
-      "dominant_profile": "buitenmens"
-    },
-    {
-      "title": "Taaloefengroep voor vrouwen",
-      "organizer": "",
-      "desc": "Oefenen met Nederlands lezen, spreken en schrijven op jouw niveau? Samen met andere mensen? De bieb helpt! Kom naar de Taaloefengroep in jouw bibliotheek.Graag wel vooraf aanmelden aan bij het Taalpunt op locatie Sliedrecht. Zij zijn elke donderdagmiddag aanwezig van  14.00 - 16.00 uur.",
-      "url": "https://sliedrechtdoet.nl/agenda/129393/2026-07-02/taaloefengroep-voor-vrouwen",
-      "location": "",
-      "time": "2 juli 2026 van 09:30 tot 11:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 3,
-        "inpakker": 0
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Zing mee op de moestuin!",
-      "organizer": "",
-      "desc": "Kom gezellig zingen met ons op de moestuin, onder leiding van Brenda,",
-      "url": "https://sliedrechtdoet.nl/agenda/143263/2026-07-02/zing-mee-op-de-moestuin-3",
-      "location": "",
-      "time": "2 juli 2026 van 11:00 tot 12:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 2,
-        "inpakker": 2
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Lunchen op de Moestuin",
-      "organizer": "",
-      "desc": "Iedere middag bent u van harte welkom op de moestuin voor een heerlijke lunch/maaltijd, tegen een vergoeding.",
-      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-07-02/lunchen-op-de-moestuin",
-      "location": "",
-      "time": "2 juli 2026 van 12:00 tot 13:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 1,
-        "buurtgenoot": 3,
-        "inpakker": 2
-      },
-      "dominant_profile": "buurtgenoot"
-    },
-    {
-      "title": "Taalpunt is startpunt",
-      "organizer": "",
-      "desc": "Beter Nederlands leren? Hulp nodig bij lezen of schrijven? Oefenen met de computer? Taal of Digitaal vrijwilliger worden? De bieb helpt! Kom naar het Taalpunt in jouw bibliotheek. Samen kijken we wat je kunt doen.",
-      "url": "https://sliedrechtdoet.nl/agenda/118861/2026-07-02/taalpunt-is-startpunt",
-      "location": "",
-      "time": "2 juli 2026 van 14:00 tot 16:00 uur",
-      "frequency": "wekelijks",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 3,
-        "inpakker": 3
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Wensput",
-      "organizer": "",
-      "desc": "Tijdens onze radio-uitzending van donderdag 2 juli gaan we terug naar de hits van juli 1961. Er was in die tijd nog geen top-40 en de hitlijsten werden maandelijks afgedrukt in de muziekbladen. We hanteren daarbij de lijst van Muziek expres. Gasten deze week Nico van Wijgerden en Bas Visser, twee oud brandweermannen die te vinden zijn bij de expositie \"Brandmeester\"in het Sliedrechts museum. Een e",
-      "url": "https://sliedrechtdoet.nl/agenda/141470/2026-07-02/wensput-63",
-      "location": "",
-      "time": "2 juli 2026 van 18:00 tot 20:00 uur",
-      "frequency": "maandelijks",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 1,
-        "inpakker": 0
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Uit de kunst!",
-      "organizer": "",
-      "desc": "Wil je dat nog meer mensen meedoen? Nodig ze uit!",
-      "url": "https://sliedrechtdoet.nl/agenda/129390/2026-07-02/uit-de-kunst-4",
-      "location": "",
-      "time": "2 juli 2026 van 19:00 tot 21:00 uur",
-      "frequency": "maandelijks",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 1,
-        "inpakker": 0
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Sliedrecht Ontmoet  (altijd de 1e donderdag van de maand)",
-      "organizer": "",
-      "desc": "Je bent ook van harte welkom voor een kopje koffie of thee, een gezellig praatje of een spelletje!Ook staan we voor je klaar als je verder nog vragen hebt. Denk daarbij bijvoorbeeld aan het wonen in Sliedrecht en wat er allemaal te vinden is of bijvoorbeeld het doen van vrijwilligerswerk. Eigenlijk bij alle vragen. ..",
-      "url": "https://sliedrechtdoet.nl/agenda/137190/2026-07-02/sliedrecht-ontmoet-altijd-de-1e-donderdag-van-de-maand",
-      "location": "",
-      "time": "2 juli 2026 van 19:30 tot 21:30 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 1,
-        "buurtgenoot": 3,
-        "inpakker": 3
-      },
-      "dominant_profile": "buurtgenoot"
-    },
     {
       "title": "Digitaal inloopspreekuur in de bieb!",
       "organizer": "",
@@ -194,6 +66,22 @@
         "inpakker": 2
       },
       "dominant_profile": "buitenmens"
+    },
+    {
+      "title": "Lunchen op de Moestuin",
+      "organizer": "",
+      "desc": "Iedere middag bent u van harte welkom op de moestuin voor een heerlijke lunch/maaltijd, tegen een vergoeding.",
+      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-07-03/lunchen-op-de-moestuin",
+      "location": "",
+      "time": "3 juli 2026 van 12:00 tot 13:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 1,
+        "buurtgenoot": 3,
+        "inpakker": 2
+      },
+      "dominant_profile": "buurtgenoot"
     },
     {
       "title": "Vragen over Sliedrecht Doet",
@@ -436,6 +324,22 @@
       "dominant_profile": "buurtgenoot"
     },
     {
+      "title": "Taaloefengroep voor vrouwen",
+      "organizer": "",
+      "desc": "Oefenen met Nederlands lezen, spreken en schrijven op jouw niveau? Samen met andere mensen? De bieb helpt! Kom naar de Taaloefengroep in jouw bibliotheek.Graag wel vooraf aanmelden aan bij het Taalpunt op locatie Sliedrecht. Zij zijn elke donderdagmiddag aanwezig van  14.00 - 16.00 uur.",
+      "url": "https://sliedrechtdoet.nl/agenda/129393/2026-07-08/taaloefengroep-voor-vrouwen",
+      "location": "",
+      "time": "8 juli 2026 van 09:30 tot 11:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 3,
+        "inpakker": 0
+      },
+      "dominant_profile": "ontdekker"
+    },
+    {
       "title": "Doodlelezen, voorlezen aan een hulphond",
       "organizer": "",
       "desc": "Lezen is niet voor alle kinderen vanzelfsprekend en gemakkelijk. Bij hardop voorlezen ervaren sommige kinderen angst en schaamte. De voorleeshond helpt kinderen om over deze angst heen te stappen. Een voorleeshond wordt ingezet met als doel de communicatieve en sociale vaardigheden te verbeteren, het zelfvertrouwen te stimuleren en de spreek- en leesvaardigheid naar een hoger niveau te tillen!",
@@ -466,6 +370,54 @@
         "inpakker": 2
       },
       "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "Zet je in beweging met dansplezier.",
+      "organizer": "",
+      "desc": "Werelddansen voor 55+ers op een gezellige laagdrempelig manier die tot op hoge leeftijd meegedaan kunnen worden.",
+      "url": "https://sliedrechtdoet.nl/agenda/133599/2026-07-09/zet-je-in-beweging-met-dansplezier-2",
+      "location": "",
+      "time": "9 juli 2026 van 09:30 tot 11:15 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 2,
+        "ontdekker": 1,
+        "buurtgenoot": 2,
+        "inpakker": 0
+      },
+      "dominant_profile": "buitenmens"
+    },
+    {
+      "title": "Zing mee op de moestuin!",
+      "organizer": "",
+      "desc": "Kom gezellig zingen met ons op de moestuin, onder leiding van Brenda,",
+      "url": "https://sliedrechtdoet.nl/agenda/143263/2026-07-09/zing-mee-op-de-moestuin-3",
+      "location": "",
+      "time": "9 juli 2026 van 11:00 tot 12:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 2,
+        "inpakker": 2
+      },
+      "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Taalpunt is startpunt",
+      "organizer": "",
+      "desc": "Beter Nederlands leren? Hulp nodig bij lezen of schrijven? Oefenen met de computer? Taal of Digitaal vrijwilliger worden? De bieb helpt! Kom naar het Taalpunt in jouw bibliotheek. Samen kijken we wat je kunt doen.",
+      "url": "https://sliedrechtdoet.nl/agenda/118861/2026-07-09/taalpunt-is-startpunt",
+      "location": "",
+      "time": "9 juli 2026 van 14:00 tot 16:00 uur",
+      "frequency": "wekelijks",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 3,
+        "inpakker": 3
+      },
+      "dominant_profile": "ontdekker"
     },
     {
       "title": "Wensput",
