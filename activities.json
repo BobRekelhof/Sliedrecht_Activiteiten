@@ -1,88 +1,8 @@
 {
-  "updated_at": "07-07-2026 04:44",
+  "updated_at": "08-07-2026 04:10",
   "source": "https://sliedrechtdoet.nl/agenda",
-  "count": 49,
+  "count": 45,
   "activities": [
-    {
-      "title": "Ontmoet andere ouders",
-      "organizer": "",
-      "desc": "Een vaste ontmoetingsplek voor aanstaande ouders en ouders van kinderen tot 18 jaar. Elke dinsdag van 9:30 tot 10:30 uur, met uitzondering van de schoolvakanties, ben je welkom om andere ouders te ontmoeten. Het is een plek waar je netwerk kan groeien en waar je kunt sparren over opvoeden in alle openheid. De ochtenden zijn laagdrempelig, gratis en zonder aanmelding. Loop gewoon binnen in de Groen",
-      "url": "https://sliedrechtdoet.nl/agenda/136644/2026-07-07/ontmoet-andere-ouders-2",
-      "location": "",
-      "time": "7 juli 2026 van 09:30 tot 10:30 uur",
-      "frequency": "wekelijks",
-      "scores": {
-        "buitenmens": 3,
-        "ontdekker": 0,
-        "buurtgenoot": 3,
-        "inpakker": 0
-      },
-      "dominant_profile": "buitenmens"
-    },
-    {
-      "title": "Laat je inspireren tijdens koffie met...",
-      "organizer": "",
-      "desc": "Samen koffie drinken, mensen ontmoeten en nieuwe kennis opdoen: dat is Koffie met... in het kort. Dus kom langs en laat je verrassen door interessante presentaties en sprekers.",
-      "url": "https://sliedrechtdoet.nl/agenda/118472/2026-07-07/laat-je-inspireren-tijdens-koffie-met",
-      "location": "",
-      "time": "7 juli 2026 van 10:30 tot 11:45 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 3,
-        "inpakker": 0
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Lunchen op de Moestuin",
-      "organizer": "",
-      "desc": "Iedere middag bent u van harte welkom op de moestuin voor een heerlijke lunch/maaltijd, tegen een vergoeding.",
-      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-07-07/lunchen-op-de-moestuin",
-      "location": "",
-      "time": "7 juli 2026 van 12:00 tot 13:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 1,
-        "buurtgenoot": 3,
-        "inpakker": 2
-      },
-      "dominant_profile": "buurtgenoot"
-    },
-    {
-      "title": "Aangehaakt",
-      "organizer": "",
-      "desc": "Ben je creatief, kom dan gezellig naar Aangehaakt! Er is gelegenheid om patronen uit te wisselen, inspiratie op te doen en van elkaar te leren. Beginner of gevorderde, jong of oud, iedereen is welkom. Neem zelf je wol, haak en/of breiwerk mee, dan zorgen wij voor de koffie en thee.",
-      "url": "https://sliedrechtdoet.nl/agenda/129383/2026-07-07/aangehaakt",
-      "location": "",
-      "time": "7 juli 2026 van 14:00 tot 16:00 uur",
-      "frequency": "wekelijks",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 3,
-        "inpakker": 3
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Voorlezen en kleuren in het thema van het boek!",
-      "organizer": "",
-      "desc": "Elke dinsdag van 15:00 - 16:00 uur kun je in de bibliotheek in Sliedrecht luisteren naar de mooiste, grappigste verhalen. Tijdens of na het voorlezen kun je gezellig kleuren in het thema van het boek.",
-      "url": "https://sliedrechtdoet.nl/agenda/133610/2026-07-07/voorlezen-en-kleuren-in-het-thema-van-het-boek",
-      "location": "",
-      "time": "7 juli 2026 van 15:00 tot 16:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 3,
-        "inpakker": 0
-      },
-      "dominant_profile": "ontdekker"
-    },
     {
       "title": "Sliedrecht Doet ontmoet je op de weekmarkt!",
       "organizer": "",
@@ -114,6 +34,22 @@
         "inpakker": 0
       },
       "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Lunchen op de Moestuin",
+      "organizer": "",
+      "desc": "Iedere middag bent u van harte welkom op de moestuin voor een heerlijke lunch/maaltijd, tegen een vergoeding.",
+      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-07-08/lunchen-op-de-moestuin",
+      "location": "",
+      "time": "8 juli 2026 van 12:00 tot 13:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 1,
+        "buurtgenoot": 3,
+        "inpakker": 2
+      },
+      "dominant_profile": "buurtgenoot"
     },
     {
       "title": "Doodlelezen, voorlezen aan een hulphond",
@@ -182,18 +118,18 @@
     {
       "title": "Wensput",
       "organizer": "",
-      "desc": "Wil je dat nog meer mensen meedoen? Nodig ze uit!",
+      "desc": "In het tweede uur draai ik de top-3 van 3 juli 1971. Verder de actualiteiten van 1971. Zo staan we stil bij de vakantiedrukte in dat jaar en we laten de nieuwste snufjes op de Firato nog een keer langskomen. Verder natuurlijk de prijzen van 1971. In mijn rubriek tv en film van toen sta ik stil bij de jeugdserie Belle et Sebastien uit de jaren zestig een prachtige serie van een jongen en zijn hond.",
       "url": "https://sliedrechtdoet.nl/agenda/141471/2026-07-09/wensput-64",
       "location": "",
       "time": "9 juli 2026 van 18:00 tot 20:00 uur",
       "frequency": "",
       "scores": {
-        "buitenmens": 0,
-        "ontdekker": 0,
-        "buurtgenoot": 0,
+        "buitenmens": 3,
+        "ontdekker": 3,
+        "buurtgenoot": 1,
         "inpakker": 0
       },
-      "dominant_profile": "buurtgenoot"
+      "dominant_profile": "buitenmens"
     },
     {
       "title": "Digitaal inloopspreekuur in de bieb!",
