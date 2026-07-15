@@ -1,15 +1,15 @@
 {
-  "updated_at": "14-07-2026 03:53",
+  "updated_at": "15-07-2026 03:54",
   "source": "https://sliedrechtdoet.nl/agenda",
-  "count": 44,
+  "count": 46,
   "activities": [
     {
       "title": "Lunchen op de Moestuin",
       "organizer": "",
       "desc": "Iedere middag bent u van harte welkom op de moestuin voor een heerlijke lunch/maaltijd, tegen een vergoeding.",
-      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-07-14/lunchen-op-de-moestuin",
+      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-07-15/lunchen-op-de-moestuin",
       "location": "",
-      "time": "14 juli 2026 van 12:00 tot 13:00 uur",
+      "time": "15 juli 2026 van 12:00 tot 13:00 uur",
       "frequency": "",
       "scores": {
         "buitenmens": 0,
@@ -516,6 +516,22 @@
       "dominant_profile": "ontdekker"
     },
     {
+      "title": "Burendag vieren in Sliedrecht",
+      "organizer": "",
+      "desc": "Buurten worden socialer en leuker als buren elkaar ontmoeten, elkaar helpen en zich samen inzetten voor de buurt. Die contacten zijn de basis voor een sociaal sterke samenleving, waarin iedereen ertoe doet. Omdat Douwe Egberts en het Oranje Fonds mensen dichter bij elkaar willen brengen, zijn zij initiatiefnemers van Burendag.",
+      "url": "https://sliedrechtdoet.nl/agenda/148318/2026-09-26/burendag-vieren-in-sliedrecht",
+      "location": "",
+      "time": "26 september 2026 van 08:30 tot 22:30 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 3,
+        "inpakker": 3
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
       "title": "Wensput",
       "organizer": "",
       "desc": "Wil je dat nog meer mensen meedoen? Nodig ze uit!",
@@ -575,6 +591,22 @@
         "buitenmens": 0,
         "ontdekker": 3,
         "buurtgenoot": 1,
+        "inpakker": 0
+      },
+      "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Start jouw EHBO-avontuur!",
+      "organizer": "",
+      "desc": "De EHBO-training bestaat uit meerdere dinsdagavonden van 20.00 – 22.00 uur in het Griendencollege, Professor Kamerlingh Onneslaan 109 in Sliedrecht.",
+      "url": "https://sliedrechtdoet.nl/agenda/148329/2026-10-20/start-jouw-ehbo-avontuur",
+      "location": "",
+      "time": "20 oktober 2026 van 20:00 tot 22:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 0,
         "inpakker": 0
       },
       "dominant_profile": "ontdekker"
