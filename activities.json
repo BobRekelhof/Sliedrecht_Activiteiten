@@ -1,88 +1,8 @@
 {
-  "updated_at": "17-07-2026 03:56",
+  "updated_at": "18-07-2026 03:50",
   "source": "https://sliedrechtdoet.nl/agenda",
-  "count": 45,
+  "count": 43,
   "activities": [
-    {
-      "title": "🌿 HSP-Cafe Drechtsteden",
-      "organizer": "",
-      "desc": "Heb je deze edititie gemist en heb je behoefte aan verbinding met andere hoogsensitieve personen? Meld je dan aan voor het volgende HSP Café op vrijdag 4 september.",
-      "url": "https://sliedrechtdoet.nl/agenda/147701/2026-07-17/hsp-cafe-drechtsteden-6",
-      "location": "",
-      "time": "17 juli 2026 van 09:00 tot 11:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 0,
-        "buurtgenoot": 0,
-        "inpakker": 0
-      },
-      "dominant_profile": "buurtgenoot"
-    },
-    {
-      "title": "Tosti genieten in de moestuin",
-      "organizer": "",
-      "desc": "Met heerlijk weer kan dat zelfs buiten op de tuin.",
-      "url": "https://sliedrechtdoet.nl/agenda/143544/2026-07-17/tosti-genieten-in-de-moestuin",
-      "location": "",
-      "time": "17 juli 2026 van 12:00 tot 13:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 3,
-        "ontdekker": 1,
-        "buurtgenoot": 3,
-        "inpakker": 2
-      },
-      "dominant_profile": "buitenmens"
-    },
-    {
-      "title": "Lunchen op de Moestuin",
-      "organizer": "",
-      "desc": "Iedere middag bent u van harte welkom op de moestuin voor een heerlijke lunch/maaltijd, tegen een vergoeding.",
-      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-07-17/lunchen-op-de-moestuin",
-      "location": "",
-      "time": "17 juli 2026 van 12:00 tot 13:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 1,
-        "buurtgenoot": 3,
-        "inpakker": 2
-      },
-      "dominant_profile": "buurtgenoot"
-    },
-    {
-      "title": "Vragen over Sliedrecht Doet",
-      "organizer": "",
-      "desc": "Wekelijks kun je langskomen bij het Bonkelaarhuis voor vragen over Sliedrecht Doet. Bijvoorbeeld hoe plaats ik een activiteit, hoe maak ik een account aan of  hoe kun je een bericht plaatsen.Kom gerust langs of stuur een e-mail naarln.teodthcerdeils@ofni.",
-      "url": "https://sliedrechtdoet.nl/agenda/121768/2026-07-17/vragen-over-sliedrecht-doet",
-      "location": "",
-      "time": "17 juli 2026 van 13:00 tot 17:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 0,
-        "buurtgenoot": 0,
-        "inpakker": 0
-      },
-      "dominant_profile": "buurtgenoot"
-    },
-    {
-      "title": "Proef de wereld met elke maaltijd",
-      "organizer": "",
-      "desc": "Wil je een lekker warme maaltijd voor €2,50! We hebben elke week een andere maaltijd zoals bijvoorbeeld Arabisch, Afrikaans, Aziatisch of Italiaanse maaltijd.",
-      "url": "https://sliedrechtdoet.nl/agenda/139032/2026-07-17/proef-de-wereld-met-elke-maaltijd",
-      "location": "",
-      "time": "17 juli 2026 van 14:30 tot 15:30 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 0,
-        "buurtgenoot": 3,
-        "inpakker": 0
-      },
-      "dominant_profile": "buurtgenoot"
-    },
     {
       "title": "Beeldhouwen met Dirk",
       "organizer": "",
@@ -148,6 +68,22 @@
       "dominant_profile": "ontdekker"
     },
     {
+      "title": "Lunchen op de Moestuin",
+      "organizer": "",
+      "desc": "Iedere middag bent u van harte welkom op de moestuin voor een heerlijke lunch/maaltijd, tegen een vergoeding.",
+      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-07-20/lunchen-op-de-moestuin",
+      "location": "",
+      "time": "20 juli 2026 van 12:00 tot 13:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 1,
+        "buurtgenoot": 3,
+        "inpakker": 2
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
       "title": "Wandel je fit met de Nationale Wandeluitdaging",
       "organizer": "",
       "desc": "AV Passaat start op maandag 15 juni 2026 om 19.00 uur met de Nationale Wandeluitdaging. Wekelijks organiseren we een wandeltraining, waarbij we je in 20 weken leren wat het met je lichaam doet, maar ook met je hoofd. Je voelt je vrolijker en meer ontspannen. Daarnaast is het gezellig om samen met anderen te bewegen en leer je hierdoor nieuwe mensen kennen.",
@@ -202,6 +138,38 @@
       "url": "https://sliedrechtdoet.nl/agenda/141473/2026-07-23/wensput-66",
       "location": "",
       "time": "23 juli 2026 van 18:00 tot 20:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 0,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "Tosti genieten in de moestuin",
+      "organizer": "",
+      "desc": "Met heerlijk weer kan dat zelfs buiten op de tuin.",
+      "url": "https://sliedrechtdoet.nl/agenda/143544/2026-07-24/tosti-genieten-in-de-moestuin",
+      "location": "",
+      "time": "24 juli 2026 van 12:00 tot 13:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 3,
+        "ontdekker": 1,
+        "buurtgenoot": 3,
+        "inpakker": 2
+      },
+      "dominant_profile": "buitenmens"
+    },
+    {
+      "title": "Vragen over Sliedrecht Doet",
+      "organizer": "",
+      "desc": "Wekelijks kun je langskomen bij het Bonkelaarhuis voor vragen over Sliedrecht Doet. Bijvoorbeeld hoe plaats ik een activiteit, hoe maak ik een account aan of  hoe kun je een bericht plaatsen.Kom gerust langs of stuur een e-mail naarln.teodthcerdeils@ofni.",
+      "url": "https://sliedrechtdoet.nl/agenda/121768/2026-07-24/vragen-over-sliedrecht-doet",
+      "location": "",
+      "time": "24 juli 2026 van 13:00 tot 17:00 uur",
       "frequency": "",
       "scores": {
         "buitenmens": 0,
