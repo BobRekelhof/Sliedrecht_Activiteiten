@@ -1,7 +1,7 @@
 {
-  "updated_at": "19-07-2026 04:18",
+  "updated_at": "20-07-2026 04:33",
   "source": "https://sliedrechtdoet.nl/agenda",
-  "count": 42,
+  "count": 45,
   "activities": [
     {
       "title": "Ontmoet elkaar in de groene huiskamer",
@@ -164,6 +164,22 @@
       "dominant_profile": "ontdekker"
     },
     {
+      "title": "Speelmiddag in De Voorhof",
+      "organizer": "",
+      "desc": "Op deze middag kun je spelletjes spelen met anderen in De Voorhof. Er zijn spellen aanwezig, maar als je liever een eigen spel wilt meenemen, is dat ook OK. Welkom!",
+      "url": "https://sliedrechtdoet.nl/agenda/148546/2026-07-27/speelmiddag-in-de-voorhof",
+      "location": "",
+      "time": "27 juli 2026 van 14:30 tot 16:30 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 1,
+        "buurtgenoot": 3,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
       "title": "Wensput",
       "organizer": "",
       "desc": "Wil je dat nog meer mensen meedoen? Nodig ze uit!",
@@ -194,6 +210,22 @@
         "inpakker": 3
       },
       "dominant_profile": "inpakker"
+    },
+    {
+      "title": "Ontmoet elkaar bij koffie en koek",
+      "organizer": "",
+      "desc": "Op deze ochtend is er een inloopmoment voor koffie, thee en koek, voor iedereen die dat wil. Welkom.",
+      "url": "https://sliedrechtdoet.nl/agenda/148547/2026-08-04/ontmoet-elkaar-bij-koffie-en-koek",
+      "location": "",
+      "time": "4 augustus 2026 van 10:00 tot 12:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 3,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
     },
     {
       "title": "Wensput",
@@ -255,6 +287,22 @@
         "buitenmens": 0,
         "ontdekker": 0,
         "buurtgenoot": 0,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "Ontmoet en Speel: Gezellige Middag",
+      "organizer": "",
+      "desc": "Op deze middag kun je weer anderen ontmoeten om samen spelletjes te spelen.",
+      "url": "https://sliedrechtdoet.nl/agenda/148548/2026-08-31/ontmoet-en-speel-gezellige-middag",
+      "location": "",
+      "time": "31 augustus 2026 van 14:30 tot 16:30 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 1,
+        "buurtgenoot": 3,
         "inpakker": 0
       },
       "dominant_profile": "buurtgenoot"
