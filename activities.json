@@ -1,47 +1,15 @@
 {
-  "updated_at": "20-07-2026 04:33",
+  "updated_at": "21-07-2026 04:11",
   "source": "https://sliedrechtdoet.nl/agenda",
   "count": 45,
   "activities": [
     {
-      "title": "Ontmoet elkaar in de groene huiskamer",
-      "organizer": "",
-      "desc": "Elke maandag is er een gezellige ontmoetingsmorgen in de groene huiskamer, op de moestuin voor jong en oud. Gezellig met elkaar kletsen onder genot van koffie en/of thee met wat lekkers!  We hebben leuk wisselt programma, soms een crea activiteit of we hebben een leuk thema waar een gastspreker voor komt.",
-      "url": "https://sliedrechtdoet.nl/agenda/143274/2026-07-20/ontmoet-elkaar-in-de-groene-huiskamer-2",
-      "location": "",
-      "time": "20 juli 2026 van 09:00 tot 12:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 3,
-        "inpakker": 2
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Leer Nederlands in de moestuin",
-      "organizer": "",
-      "desc": "Iedere maandagmorgen wordt er taalles gegeven op de moestuin voor iedereen die, de Nederlandse taal beter wil leren.",
-      "url": "https://sliedrechtdoet.nl/agenda/143269/2026-07-20/leer-nederlands-in-de-moestuin",
-      "location": "",
-      "time": "20 juli 2026 van 09:00 tot 10:30 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 1,
-        "inpakker": 2
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
       "title": "Lunchen op de Moestuin",
       "organizer": "",
       "desc": "Iedere middag bent u van harte welkom op de moestuin voor een heerlijke lunch/maaltijd, tegen een vergoeding.",
-      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-07-20/lunchen-op-de-moestuin",
+      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-07-21/lunchen-op-de-moestuin",
       "location": "",
-      "time": "20 juli 2026 van 12:00 tot 13:00 uur",
+      "time": "21 juli 2026 van 12:00 tot 13:00 uur",
       "frequency": "",
       "scores": {
         "buitenmens": 0,
@@ -50,22 +18,6 @@
         "inpakker": 2
       },
       "dominant_profile": "buurtgenoot"
-    },
-    {
-      "title": "Wandel je fit met de Nationale Wandeluitdaging",
-      "organizer": "",
-      "desc": "AV Passaat start op maandag 15 juni 2026 om 19.00 uur met de Nationale Wandeluitdaging. Wekelijks organiseren we een wandeltraining, waarbij we je in 20 weken leren wat het met je lichaam doet, maar ook met je hoofd. Je voelt je vrolijker en meer ontspannen. Daarnaast is het gezellig om samen met anderen te bewegen en leer je hierdoor nieuwe mensen kennen.",
-      "url": "https://sliedrechtdoet.nl/agenda/145849/2026-07-20/wandel-je-fit-met-de-nationale-wandeluitdaging-2",
-      "location": "",
-      "time": "20 juli 2026 van 19:00 tot 20:30 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 2,
-        "inpakker": 3
-      },
-      "dominant_profile": "ontdekker"
     },
     {
       "title": "Zet je in beweging met dansplezier.",
@@ -164,6 +116,38 @@
       "dominant_profile": "ontdekker"
     },
     {
+      "title": "Ontmoet elkaar in de groene huiskamer",
+      "organizer": "",
+      "desc": "Elke maandag is er een gezellige ontmoetingsmorgen in de groene huiskamer, op de moestuin voor jong en oud. Gezellig met elkaar kletsen onder genot van koffie en/of thee met wat lekkers!  We hebben leuk wisselt programma, soms een crea activiteit of we hebben een leuk thema waar een gastspreker voor komt.",
+      "url": "https://sliedrechtdoet.nl/agenda/143274/2026-07-27/ontmoet-elkaar-in-de-groene-huiskamer-2",
+      "location": "",
+      "time": "27 juli 2026 van 09:00 tot 12:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 3,
+        "inpakker": 2
+      },
+      "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Leer Nederlands in de moestuin",
+      "organizer": "",
+      "desc": "Iedere maandagmorgen wordt er taalles gegeven op de moestuin voor iedereen die, de Nederlandse taal beter wil leren.",
+      "url": "https://sliedrechtdoet.nl/agenda/143269/2026-07-27/leer-nederlands-in-de-moestuin",
+      "location": "",
+      "time": "27 juli 2026 van 09:00 tot 10:30 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 1,
+        "inpakker": 2
+      },
+      "dominant_profile": "ontdekker"
+    },
+    {
       "title": "Speelmiddag in De Voorhof",
       "organizer": "",
       "desc": "Op deze middag kun je spelletjes spelen met anderen in De Voorhof. Er zijn spellen aanwezig, maar als je liever een eigen spel wilt meenemen, is dat ook OK. Welkom!",
@@ -178,6 +162,22 @@
         "inpakker": 0
       },
       "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "Wandel je fit met de Nationale Wandeluitdaging",
+      "organizer": "",
+      "desc": "AV Passaat start op maandag 15 juni 2026 om 19.00 uur met de Nationale Wandeluitdaging. Wekelijks organiseren we een wandeltraining, waarbij we je in 20 weken leren wat het met je lichaam doet, maar ook met je hoofd. Je voelt je vrolijker en meer ontspannen. Daarnaast is het gezellig om samen met anderen te bewegen en leer je hierdoor nieuwe mensen kennen.",
+      "url": "https://sliedrechtdoet.nl/agenda/145849/2026-07-27/wandel-je-fit-met-de-nationale-wandeluitdaging-2",
+      "location": "",
+      "time": "27 juli 2026 van 19:00 tot 20:30 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 2,
+        "inpakker": 3
+      },
+      "dominant_profile": "ontdekker"
     },
     {
       "title": "Wensput",
