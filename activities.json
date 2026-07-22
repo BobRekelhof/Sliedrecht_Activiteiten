@@ -1,15 +1,31 @@
 {
-  "updated_at": "21-07-2026 04:11",
+  "updated_at": "22-07-2026 04:13",
   "source": "https://sliedrechtdoet.nl/agenda",
-  "count": 45,
+  "count": 46,
   "activities": [
+    {
+      "title": "Woensdag is de moestuin gesloten",
+      "organizer": "",
+      "desc": "LET OP IVM de vakantie is de moestuin, in de zomervakantie,",
+      "url": "https://sliedrechtdoet.nl/agenda/148615/2026-07-22/woensdag-is-de-moestuin-gesloten",
+      "location": "",
+      "time": "22 juli 2026 van 09:00 tot 17:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 1,
+        "buurtgenoot": 1,
+        "inpakker": 2
+      },
+      "dominant_profile": "inpakker"
+    },
     {
       "title": "Lunchen op de Moestuin",
       "organizer": "",
       "desc": "Iedere middag bent u van harte welkom op de moestuin voor een heerlijke lunch/maaltijd, tegen een vergoeding.",
-      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-07-21/lunchen-op-de-moestuin",
+      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-07-22/lunchen-op-de-moestuin",
       "location": "",
-      "time": "21 juli 2026 van 12:00 tot 13:00 uur",
+      "time": "22 juli 2026 van 12:00 tot 13:00 uur",
       "frequency": "",
       "scores": {
         "buitenmens": 0,
