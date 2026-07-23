@@ -1,40 +1,8 @@
 {
-  "updated_at": "22-07-2026 04:13",
+  "updated_at": "23-07-2026 04:11",
   "source": "https://sliedrechtdoet.nl/agenda",
-  "count": 46,
+  "count": 47,
   "activities": [
-    {
-      "title": "Woensdag is de moestuin gesloten",
-      "organizer": "",
-      "desc": "LET OP IVM de vakantie is de moestuin, in de zomervakantie,",
-      "url": "https://sliedrechtdoet.nl/agenda/148615/2026-07-22/woensdag-is-de-moestuin-gesloten",
-      "location": "",
-      "time": "22 juli 2026 van 09:00 tot 17:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 1,
-        "buurtgenoot": 1,
-        "inpakker": 2
-      },
-      "dominant_profile": "inpakker"
-    },
-    {
-      "title": "Lunchen op de Moestuin",
-      "organizer": "",
-      "desc": "Iedere middag bent u van harte welkom op de moestuin voor een heerlijke lunch/maaltijd, tegen een vergoeding.",
-      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-07-22/lunchen-op-de-moestuin",
-      "location": "",
-      "time": "22 juli 2026 van 12:00 tot 13:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 1,
-        "buurtgenoot": 3,
-        "inpakker": 2
-      },
-      "dominant_profile": "buurtgenoot"
-    },
     {
       "title": "Zet je in beweging met dansplezier.",
       "organizer": "",
@@ -66,6 +34,22 @@
         "inpakker": 2
       },
       "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Lunchen op de Moestuin",
+      "organizer": "",
+      "desc": "Iedere middag bent u van harte welkom op de moestuin voor een heerlijke lunch/maaltijd, tegen een vergoeding.",
+      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-07-23/lunchen-op-de-moestuin",
+      "location": "",
+      "time": "23 juli 2026 van 12:00 tot 13:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 1,
+        "buurtgenoot": 3,
+        "inpakker": 2
+      },
+      "dominant_profile": "buurtgenoot"
     },
     {
       "title": "Wensput",
@@ -196,6 +180,22 @@
       "dominant_profile": "ontdekker"
     },
     {
+      "title": "Woensdag is de moestuin gesloten",
+      "organizer": "",
+      "desc": "LET OP IVM de vakantie is de moestuin, in de zomervakantie,",
+      "url": "https://sliedrechtdoet.nl/agenda/148615/2026-07-29/woensdag-is-de-moestuin-gesloten",
+      "location": "",
+      "time": "22 juli 2026 van 09:00 tot 17:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 1,
+        "buurtgenoot": 1,
+        "inpakker": 2
+      },
+      "dominant_profile": "inpakker"
+    },
+    {
       "title": "Wensput",
       "organizer": "",
       "desc": "Wil je dat nog meer mensen meedoen? Nodig ze uit!",
@@ -226,6 +226,22 @@
         "inpakker": 3
       },
       "dominant_profile": "inpakker"
+    },
+    {
+      "title": "Zomerse Open Dagen in de Dijksynagoge",
+      "organizer": "",
+      "desc": "Even een stukje geschiedenis midden in de zomer; kom kijken en luisteren in de Dijksynagoge. Want wat is het, wat gebeurde er, wie maakten er gebruik van en waarom? Zomaar wat vragen waar u antwoord op kunt krijgen.",
+      "url": "https://sliedrechtdoet.nl/agenda/148669/2026-08-01/zomerse-open-dagen-in-de-dijksynagoge",
+      "location": "",
+      "time": "1 augustus 2026 van 14:00 tot 16:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 0,
+        "inpakker": 0
+      },
+      "dominant_profile": "ontdekker"
     },
     {
       "title": "Ontmoet elkaar bij koffie en koek",
