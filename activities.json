@@ -1,72 +1,8 @@
 {
-  "updated_at": "23-07-2026 04:11",
+  "updated_at": "24-07-2026 04:09",
   "source": "https://sliedrechtdoet.nl/agenda",
-  "count": 47,
+  "count": 48,
   "activities": [
-    {
-      "title": "Zet je in beweging met dansplezier.",
-      "organizer": "",
-      "desc": "Werelddansen voor 55+ers op een gezellige laagdrempelig manier die tot op hoge leeftijd meegedaan kunnen worden.",
-      "url": "https://sliedrechtdoet.nl/agenda/133599/2026-07-23/zet-je-in-beweging-met-dansplezier-2",
-      "location": "",
-      "time": "23 juli 2026 van 09:30 tot 11:15 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 2,
-        "ontdekker": 1,
-        "buurtgenoot": 2,
-        "inpakker": 0
-      },
-      "dominant_profile": "buitenmens"
-    },
-    {
-      "title": "Zing mee op de moestuin!",
-      "organizer": "",
-      "desc": "Kom gezellig zingen met ons op de moestuin, onder leiding van Brenda,",
-      "url": "https://sliedrechtdoet.nl/agenda/143263/2026-07-23/zing-mee-op-de-moestuin-3",
-      "location": "",
-      "time": "23 juli 2026 van 11:00 tot 12:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 2,
-        "inpakker": 2
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Lunchen op de Moestuin",
-      "organizer": "",
-      "desc": "Iedere middag bent u van harte welkom op de moestuin voor een heerlijke lunch/maaltijd, tegen een vergoeding.",
-      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-07-23/lunchen-op-de-moestuin",
-      "location": "",
-      "time": "23 juli 2026 van 12:00 tot 13:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 1,
-        "buurtgenoot": 3,
-        "inpakker": 2
-      },
-      "dominant_profile": "buurtgenoot"
-    },
-    {
-      "title": "Wensput",
-      "organizer": "",
-      "desc": "Wil je dat nog meer mensen meedoen? Nodig ze uit!",
-      "url": "https://sliedrechtdoet.nl/agenda/141473/2026-07-23/wensput-66",
-      "location": "",
-      "time": "23 juli 2026 van 18:00 tot 20:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 0,
-        "buurtgenoot": 0,
-        "inpakker": 0
-      },
-      "dominant_profile": "buurtgenoot"
-    },
     {
       "title": "Tosti genieten in de moestuin",
       "organizer": "",
@@ -82,6 +18,22 @@
         "inpakker": 2
       },
       "dominant_profile": "buitenmens"
+    },
+    {
+      "title": "Lunchen op de Moestuin",
+      "organizer": "",
+      "desc": "Iedere middag bent u van harte welkom op de moestuin voor een heerlijke lunch/maaltijd, tegen een vergoeding.",
+      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-07-24/lunchen-op-de-moestuin",
+      "location": "",
+      "time": "24 juli 2026 van 12:00 tot 13:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 1,
+        "buurtgenoot": 3,
+        "inpakker": 2
+      },
+      "dominant_profile": "buurtgenoot"
     },
     {
       "title": "Vragen over Sliedrecht Doet",
@@ -196,6 +148,38 @@
       "dominant_profile": "inpakker"
     },
     {
+      "title": "Zet je in beweging met dansplezier.",
+      "organizer": "",
+      "desc": "Werelddansen voor 55+ers op een gezellige laagdrempelig manier die tot op hoge leeftijd meegedaan kunnen worden.",
+      "url": "https://sliedrechtdoet.nl/agenda/133599/2026-07-30/zet-je-in-beweging-met-dansplezier-2",
+      "location": "",
+      "time": "30 juli 2026 van 09:30 tot 11:15 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 2,
+        "ontdekker": 1,
+        "buurtgenoot": 2,
+        "inpakker": 0
+      },
+      "dominant_profile": "buitenmens"
+    },
+    {
+      "title": "Zing mee op de moestuin!",
+      "organizer": "",
+      "desc": "Kom gezellig zingen met ons op de moestuin, onder leiding van Brenda,",
+      "url": "https://sliedrechtdoet.nl/agenda/143263/2026-07-30/zing-mee-op-de-moestuin-3",
+      "location": "",
+      "time": "30 juli 2026 van 11:00 tot 12:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 2,
+        "inpakker": 2
+      },
+      "dominant_profile": "ontdekker"
+    },
+    {
       "title": "Wensput",
       "organizer": "",
       "desc": "Wil je dat nog meer mensen meedoen? Nodig ze uit!",
@@ -254,6 +238,22 @@
       "scores": {
         "buitenmens": 0,
         "ontdekker": 0,
+        "buurtgenoot": 3,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "Doe mee met de spannende bingo!",
+      "organizer": "",
+      "desc": "Wil je dat nog meer mensen meedoen? Nodig ze uit!",
+      "url": "https://sliedrechtdoet.nl/agenda/148702/2026-08-06/doe-mee-met-de-spannende-bingo",
+      "location": "",
+      "time": "6 augustus 2026 van 14:00 tot 16:00 uur",
+      "frequency": "maandelijks",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 1,
         "buurtgenoot": 3,
         "inpakker": 0
       },
@@ -479,6 +479,22 @@
         "buitenmens": 1,
         "ontdekker": 0,
         "buurtgenoot": 3,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "Zet jezelf in beweging: Scootmobieltocht!",
+      "organizer": "",
+      "desc": "Wil je dat nog meer mensen meedoen? Nodig ze uit!",
+      "url": "https://sliedrechtdoet.nl/agenda/148690/2026-09-19/zet-jezelf-in-beweging-scootmobieltocht",
+      "location": "",
+      "time": "19 september 2026 van 09:00 tot 13:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 0,
         "inpakker": 0
       },
       "dominant_profile": "buurtgenoot"
