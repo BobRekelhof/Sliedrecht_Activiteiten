@@ -1,5 +1,5 @@
 {
-  "updated_at": "26-07-2026 04:22",
+  "updated_at": "27-07-2026 04:32",
   "source": "https://sliedrechtdoet.nl/agenda",
   "count": 50,
   "activities": [
@@ -134,18 +134,18 @@
     {
       "title": "Wensput",
       "organizer": "",
-      "desc": "Wil je dat nog meer mensen meedoen? Nodig ze uit!",
+      "desc": "Donderdag 30 juli gaan we terug nar de hitlijst van 31 juli 1982 en wat een hits komen deze uitzending voorbij. Muziek van o.a. Toto, Harry Klorkestein en Charlene. We herhalen vanavond het interview wat ik opnam met Bas Visser en Nico van Wijgerden over de expositie Brandmeester\"in het Sliedrechts museum.",
       "url": "https://sliedrechtdoet.nl/agenda/141474/2026-07-30/wensput-67",
       "location": "",
       "time": "30 juli 2026 van 18:00 tot 20:00 uur",
       "frequency": "",
       "scores": {
         "buitenmens": 0,
-        "ontdekker": 0,
-        "buurtgenoot": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 1,
         "inpakker": 0
       },
-      "dominant_profile": "buurtgenoot"
+      "dominant_profile": "ontdekker"
     },
     {
       "title": "Tosti genieten in de moestuin",
