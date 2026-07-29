@@ -1,24 +1,8 @@
 {
-  "updated_at": "28-07-2026 03:56",
+  "updated_at": "29-07-2026 03:59",
   "source": "https://sliedrechtdoet.nl/agenda",
   "count": 49,
   "activities": [
-    {
-      "title": "Lunchen op de Moestuin",
-      "organizer": "",
-      "desc": "Iedere middag bent u van harte welkom op de moestuin voor een heerlijke lunch/maaltijd, tegen een vergoeding.",
-      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-07-28/lunchen-op-de-moestuin",
-      "location": "",
-      "time": "28 juli 2026 van 12:00 tot 13:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 1,
-        "buurtgenoot": 3,
-        "inpakker": 2
-      },
-      "dominant_profile": "buurtgenoot"
-    },
     {
       "title": "Woensdag is de moestuin gesloten",
       "organizer": "",
@@ -34,6 +18,22 @@
         "inpakker": 2
       },
       "dominant_profile": "inpakker"
+    },
+    {
+      "title": "Lunchen op de Moestuin",
+      "organizer": "",
+      "desc": "Iedere middag bent u van harte welkom op de moestuin voor een heerlijke lunch/maaltijd, tegen een vergoeding.",
+      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-07-29/lunchen-op-de-moestuin",
+      "location": "",
+      "time": "29 juli 2026 van 12:00 tot 13:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 1,
+        "buurtgenoot": 3,
+        "inpakker": 2
+      },
+      "dominant_profile": "buurtgenoot"
     },
     {
       "title": "Zet je in beweging met dansplezier.",
