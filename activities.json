@@ -1,40 +1,8 @@
 {
-  "updated_at": "29-07-2026 03:59",
+  "updated_at": "30-07-2026 03:52",
   "source": "https://sliedrechtdoet.nl/agenda",
-  "count": 49,
+  "count": 51,
   "activities": [
-    {
-      "title": "Woensdag is de moestuin gesloten",
-      "organizer": "",
-      "desc": "LET OP IVM de vakantie is de moestuin, in de zomervakantie,",
-      "url": "https://sliedrechtdoet.nl/agenda/148615/2026-07-29/woensdag-is-de-moestuin-gesloten",
-      "location": "",
-      "time": "22 juli 2026 van 09:00 tot 17:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 1,
-        "buurtgenoot": 1,
-        "inpakker": 2
-      },
-      "dominant_profile": "inpakker"
-    },
-    {
-      "title": "Lunchen op de Moestuin",
-      "organizer": "",
-      "desc": "Iedere middag bent u van harte welkom op de moestuin voor een heerlijke lunch/maaltijd, tegen een vergoeding.",
-      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-07-29/lunchen-op-de-moestuin",
-      "location": "",
-      "time": "29 juli 2026 van 12:00 tot 13:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 1,
-        "buurtgenoot": 3,
-        "inpakker": 2
-      },
-      "dominant_profile": "buurtgenoot"
-    },
     {
       "title": "Zet je in beweging met dansplezier.",
       "organizer": "",
@@ -66,6 +34,22 @@
         "inpakker": 2
       },
       "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Lunchen op de Moestuin",
+      "organizer": "",
+      "desc": "Iedere middag bent u van harte welkom op de moestuin voor een heerlijke lunch/maaltijd, tegen een vergoeding.",
+      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-07-30/lunchen-op-de-moestuin",
+      "location": "",
+      "time": "30 juli 2026 van 12:00 tot 13:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 1,
+        "buurtgenoot": 3,
+        "inpakker": 2
+      },
+      "dominant_profile": "buurtgenoot"
     },
     {
       "title": "Wensput",
@@ -226,6 +210,22 @@
         "inpakker": 0
       },
       "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "Woensdag is de moestuin gesloten",
+      "organizer": "",
+      "desc": "LET OP IVM de vakantie is de moestuin, in de zomervakantie,",
+      "url": "https://sliedrechtdoet.nl/agenda/148615/2026-08-05/woensdag-is-de-moestuin-gesloten",
+      "location": "",
+      "time": "22 juli 2026 van 09:00 tot 17:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 1,
+        "buurtgenoot": 1,
+        "inpakker": 2
+      },
+      "dominant_profile": "inpakker"
     },
     {
       "title": "Doe mee met de spannende bingo!",
@@ -399,6 +399,22 @@
         "buitenmens": 1,
         "ontdekker": 3,
         "buurtgenoot": 3,
+        "inpakker": 0
+      },
+      "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Open Monumentenweekend: exclusieve rondleidingen en bijzondere lezing over de familie Volker",
+      "organizer": "",
+      "desc": "Op zaterdagmiddag 12 september en zondagmiddag 13 september is er een lezing om 13.30 uur over Het Huis van Volker door de Werkgroep erfgoed. De werkgroep bestaat uit erfgoedonderzoeker Winnie van de Sande, rondleider Jan Mans, Bep van Dam (één van de laatste dienstbodes die in het huis heeft gewerkt) en conservator/beheerder Elke Scheffers. Een unieke gelegenheid om de geschiedenis van het pand v",
+      "url": "https://sliedrechtdoet.nl/agenda/148871/2026-09-12/open-monumentenweekend-exclusieve-rondleidingen-en-bijzondere-lezing-over-de-familie-volker",
+      "location": "",
+      "time": "12 september 2026 van 13:30 tot 17:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 1,
         "inpakker": 0
       },
       "dominant_profile": "ontdekker"
@@ -624,6 +640,22 @@
         "ontdekker": 3,
         "buurtgenoot": 1,
         "inpakker": 0
+      },
+      "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Lezing 150 jaar Noordzeekanaal in het Nationaal Baggermuseum",
+      "organizer": "",
+      "desc": "Op zaterdagmiddag 10 oktober duikt vrijwilliger Bert Visser, oud-medewerker van Rijkswaterstaat en eigenaar van Dredgers.nl in de bijzondere baggergeschiedenis van het Noordzeekanaal. Visser neemt het publiek mee naar de aanleiding en realisatie van het kanaal in de 19e eeuw, en naar het begin van deze eeuw, toen de nieuwe Zeesluis gebouwd is en het project selectieve zoutonttrekking van start is ",
+      "url": "https://sliedrechtdoet.nl/agenda/148872/2026-10-10/lezing-150-jaar-noordzeekanaal-in-het-nationaal-baggermuseum",
+      "location": "",
+      "time": "10 oktober 2026 van 13:30 tot 14:30 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 1,
+        "inpakker": 3
       },
       "dominant_profile": "ontdekker"
     },
