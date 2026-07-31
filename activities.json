@@ -1,72 +1,8 @@
 {
-  "updated_at": "30-07-2026 03:52",
+  "updated_at": "31-07-2026 04:18",
   "source": "https://sliedrechtdoet.nl/agenda",
   "count": 51,
   "activities": [
-    {
-      "title": "Zet je in beweging met dansplezier.",
-      "organizer": "",
-      "desc": "Werelddansen voor 55+ers op een gezellige laagdrempelig manier die tot op hoge leeftijd meegedaan kunnen worden.",
-      "url": "https://sliedrechtdoet.nl/agenda/133599/2026-07-30/zet-je-in-beweging-met-dansplezier-2",
-      "location": "",
-      "time": "30 juli 2026 van 09:30 tot 11:15 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 2,
-        "ontdekker": 1,
-        "buurtgenoot": 2,
-        "inpakker": 0
-      },
-      "dominant_profile": "buitenmens"
-    },
-    {
-      "title": "Zing mee op de moestuin!",
-      "organizer": "",
-      "desc": "Kom gezellig zingen met ons op de moestuin, onder leiding van Brenda,",
-      "url": "https://sliedrechtdoet.nl/agenda/143263/2026-07-30/zing-mee-op-de-moestuin-3",
-      "location": "",
-      "time": "30 juli 2026 van 11:00 tot 12:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 2,
-        "inpakker": 2
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Lunchen op de Moestuin",
-      "organizer": "",
-      "desc": "Iedere middag bent u van harte welkom op de moestuin voor een heerlijke lunch/maaltijd, tegen een vergoeding.",
-      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-07-30/lunchen-op-de-moestuin",
-      "location": "",
-      "time": "30 juli 2026 van 12:00 tot 13:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 1,
-        "buurtgenoot": 3,
-        "inpakker": 2
-      },
-      "dominant_profile": "buurtgenoot"
-    },
-    {
-      "title": "Wensput",
-      "organizer": "",
-      "desc": "Donderdag 30 juli gaan we terug nar de hitlijst van 31 juli 1982 en wat een hits komen deze uitzending voorbij. Muziek van o.a. Toto, Harry Klorkestein en Charlene. We herhalen vanavond het interview wat ik opnam met Bas Visser en Nico van Wijgerden over de expositie Brandmeester\"in het Sliedrechts museum.",
-      "url": "https://sliedrechtdoet.nl/agenda/141474/2026-07-30/wensput-67",
-      "location": "",
-      "time": "30 juli 2026 van 18:00 tot 20:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 1,
-        "inpakker": 0
-      },
-      "dominant_profile": "ontdekker"
-    },
     {
       "title": "Tosti genieten in de moestuin",
       "organizer": "",
@@ -82,6 +18,22 @@
         "inpakker": 2
       },
       "dominant_profile": "buitenmens"
+    },
+    {
+      "title": "Lunchen op de Moestuin",
+      "organizer": "",
+      "desc": "Iedere middag bent u van harte welkom op de moestuin voor een heerlijke lunch/maaltijd, tegen een vergoeding.",
+      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-07-31/lunchen-op-de-moestuin",
+      "location": "",
+      "time": "31 juli 2026 van 12:00 tot 13:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 1,
+        "buurtgenoot": 3,
+        "inpakker": 2
+      },
+      "dominant_profile": "buurtgenoot"
     },
     {
       "title": "Vragen over Sliedrecht Doet",
@@ -226,6 +178,38 @@
         "inpakker": 2
       },
       "dominant_profile": "inpakker"
+    },
+    {
+      "title": "Zet je in beweging met dansplezier.",
+      "organizer": "",
+      "desc": "Werelddansen voor 55+ers op een gezellige laagdrempelig manier die tot op hoge leeftijd meegedaan kunnen worden.",
+      "url": "https://sliedrechtdoet.nl/agenda/133599/2026-08-06/zet-je-in-beweging-met-dansplezier-2",
+      "location": "",
+      "time": "6 augustus 2026 van 09:30 tot 11:15 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 2,
+        "ontdekker": 1,
+        "buurtgenoot": 2,
+        "inpakker": 0
+      },
+      "dominant_profile": "buitenmens"
+    },
+    {
+      "title": "Zing mee op de moestuin!",
+      "organizer": "",
+      "desc": "Kom gezellig zingen met ons op de moestuin, onder leiding van Brenda,",
+      "url": "https://sliedrechtdoet.nl/agenda/143263/2026-08-06/zing-mee-op-de-moestuin-3",
+      "location": "",
+      "time": "6 augustus 2026 van 11:00 tot 12:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 2,
+        "inpakker": 2
+      },
+      "dominant_profile": "ontdekker"
     },
     {
       "title": "Doe mee met de spannende bingo!",
@@ -786,6 +770,22 @@
         "inpakker": 0
       },
       "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "Nostalgische cabaretavond vol herkenning",
+      "organizer": "",
+      "desc": "Van de typische tafelkleden in oma’s huisje tot aan de grote beker anijsmelk tijdens een barre winteravond. Van opa’s zelfgemaakte stroopbabbelaars waar je de blaren van in je mond kreeg tot aan het ouderwets belletje trekken in de straat. Van oma die altijd voor je klaarstond tot snel aanschuiven aan tafel als moeder ‘eten!!’ riep, anders vond je de hond in de pot. Van sigarenbandjes, speldjes en",
+      "url": "https://sliedrechtdoet.nl/agenda/148914/2026-11-21/nostalgische-cabaretavond-vol-herkenning",
+      "location": "",
+      "time": "21 november 2026 van 20:00 tot 21:45 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 3,
+        "inpakker": 0
+      },
+      "dominant_profile": "ontdekker"
     },
     {
       "title": "Een Avond vol Herinneringen",
