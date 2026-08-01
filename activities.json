@@ -1,56 +1,8 @@
 {
-  "updated_at": "31-07-2026 04:18",
+  "updated_at": "01-08-2026 04:18",
   "source": "https://sliedrechtdoet.nl/agenda",
-  "count": 51,
+  "count": 52,
   "activities": [
-    {
-      "title": "Tosti genieten in de moestuin",
-      "organizer": "",
-      "desc": "Met heerlijk weer kan dat zelfs buiten op de tuin.",
-      "url": "https://sliedrechtdoet.nl/agenda/143544/2026-07-31/tosti-genieten-in-de-moestuin",
-      "location": "",
-      "time": "31 juli 2026 van 12:00 tot 13:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 3,
-        "ontdekker": 1,
-        "buurtgenoot": 3,
-        "inpakker": 2
-      },
-      "dominant_profile": "buitenmens"
-    },
-    {
-      "title": "Lunchen op de Moestuin",
-      "organizer": "",
-      "desc": "Iedere middag bent u van harte welkom op de moestuin voor een heerlijke lunch/maaltijd, tegen een vergoeding.",
-      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-07-31/lunchen-op-de-moestuin",
-      "location": "",
-      "time": "31 juli 2026 van 12:00 tot 13:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 1,
-        "buurtgenoot": 3,
-        "inpakker": 2
-      },
-      "dominant_profile": "buurtgenoot"
-    },
-    {
-      "title": "Vragen over Sliedrecht Doet",
-      "organizer": "",
-      "desc": "Wekelijks kun je langskomen bij het Bonkelaarhuis voor vragen over Sliedrecht Doet. Bijvoorbeeld hoe plaats ik een activiteit, hoe maak ik een account aan of  hoe kun je een bericht plaatsen.Kom gerust langs of stuur een e-mail naarln.teodthcerdeils@ofni.",
-      "url": "https://sliedrechtdoet.nl/agenda/121768/2026-07-31/vragen-over-sliedrecht-doet",
-      "location": "",
-      "time": "31 juli 2026 van 13:00 tot 17:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 0,
-        "buurtgenoot": 0,
-        "inpakker": 0
-      },
-      "dominant_profile": "buurtgenoot"
-    },
     {
       "title": "Repair Cafe",
       "organizer": "",
@@ -130,6 +82,22 @@
         "inpakker": 2
       },
       "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Lunchen op de Moestuin",
+      "organizer": "",
+      "desc": "Iedere middag bent u van harte welkom op de moestuin voor een heerlijke lunch/maaltijd, tegen een vergoeding.",
+      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-08-03/lunchen-op-de-moestuin",
+      "location": "",
+      "time": "3 augustus 2026 van 12:00 tot 13:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 1,
+        "buurtgenoot": 3,
+        "inpakker": 2
+      },
+      "dominant_profile": "buurtgenoot"
     },
     {
       "title": "Wandel je fit met de Nationale Wandeluitdaging",
@@ -234,6 +202,38 @@
       "url": "https://sliedrechtdoet.nl/agenda/148112/2026-08-06/wensput-69",
       "location": "",
       "time": "6 augustus 2026 van 18:00 tot 20:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 0,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "Tosti genieten in de moestuin",
+      "organizer": "",
+      "desc": "Met heerlijk weer kan dat zelfs buiten op de tuin.",
+      "url": "https://sliedrechtdoet.nl/agenda/143544/2026-08-07/tosti-genieten-in-de-moestuin",
+      "location": "",
+      "time": "7 augustus 2026 van 12:00 tot 13:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 3,
+        "ontdekker": 1,
+        "buurtgenoot": 3,
+        "inpakker": 2
+      },
+      "dominant_profile": "buitenmens"
+    },
+    {
+      "title": "Vragen over Sliedrecht Doet",
+      "organizer": "",
+      "desc": "Wekelijks kun je langskomen bij het Bonkelaarhuis voor vragen over Sliedrecht Doet. Bijvoorbeeld hoe plaats ik een activiteit, hoe maak ik een account aan of  hoe kun je een bericht plaatsen.Kom gerust langs of stuur een e-mail naarln.teodthcerdeils@ofni.",
+      "url": "https://sliedrechtdoet.nl/agenda/121768/2026-08-07/vragen-over-sliedrecht-doet",
+      "location": "",
+      "time": "7 augustus 2026 van 13:00 tot 17:00 uur",
       "frequency": "",
       "scores": {
         "buitenmens": 0,
@@ -594,6 +594,22 @@
         "inpakker": 3
       },
       "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Ontmoet en geniet op het vrijwilligersfeest!",
+      "organizer": "",
+      "desc": "En… houd je ogen open! Een cartoontekenaar loopt de hele avond rond en legt bezoekers op een leuke en verrassende manier vast. Een uniek aandenken aan een gezellige avond!",
+      "url": "https://sliedrechtdoet.nl/agenda/148950/2026-10-02/ontmoet-en-geniet-op-het-vrijwilligersfeest",
+      "location": "",
+      "time": "2 oktober 2026 van 19:30 tot 23:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 1,
+        "ontdekker": 0,
+        "buurtgenoot": 3,
+        "inpakker": 3
+      },
+      "dominant_profile": "buurtgenoot"
     },
     {
       "title": "Alzheimer café: De Wondere Wereld van Dementie",
