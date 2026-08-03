@@ -1,24 +1,8 @@
 {
-  "updated_at": "02-08-2026 04:20",
+  "updated_at": "03-08-2026 04:25",
   "source": "https://sliedrechtdoet.nl/agenda",
-  "count": 51,
+  "count": 50,
   "activities": [
-    {
-      "title": "Zomerse Open Dagen in de Dijksynagoge",
-      "organizer": "",
-      "desc": "Even een stukje geschiedenis midden in de zomer; kom kijken en luisteren in de Dijksynagoge. Want wat is het, wat gebeurde er, wie maakten er gebruik van en waarom? Zomaar wat vragen waar u antwoord op kunt krijgen.",
-      "url": "https://sliedrechtdoet.nl/agenda/148669/2026-08-02/zomerse-open-dagen-in-de-dijksynagoge",
-      "location": "",
-      "time": "1 augustus 2026 van 14:00 tot 16:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 0,
-        "inpakker": 0
-      },
-      "dominant_profile": "ontdekker"
-    },
     {
       "title": "Ontmoet elkaar in de groene huiskamer",
       "organizer": "",
@@ -166,18 +150,18 @@
     {
       "title": "Wensput",
       "organizer": "",
-      "desc": "Wil je dat nog meer mensen meedoen? Nodig ze uit!",
+      "desc": "Tijdens onze uitzending van donderdag 6 augustus gaan we terug naar de hitlijst van 11 augustus 1979. Je hoort o.a. muziek van the Shadows, Anita Ward en Kiss. Gasten deze week Nico van Wijgerden en Bas Visser. Zij vertellen alles over de expositie \"Brandmeester\", die nog tot 22 augustus te bewonderen is in het Sliedrechts museum.",
       "url": "https://sliedrechtdoet.nl/agenda/148112/2026-08-06/wensput-69",
       "location": "",
       "time": "6 augustus 2026 van 18:00 tot 20:00 uur",
       "frequency": "",
       "scores": {
         "buitenmens": 0,
-        "ontdekker": 0,
-        "buurtgenoot": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 1,
         "inpakker": 0
       },
-      "dominant_profile": "buurtgenoot"
+      "dominant_profile": "ontdekker"
     },
     {
       "title": "Tosti genieten in de moestuin",
