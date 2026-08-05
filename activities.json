@@ -1,40 +1,8 @@
 {
-  "updated_at": "04-08-2026 03:59",
+  "updated_at": "05-08-2026 03:55",
   "source": "https://sliedrechtdoet.nl/agenda",
-  "count": 50,
+  "count": 49,
   "activities": [
-    {
-      "title": "Ontmoet elkaar bij koffie en koek",
-      "organizer": "",
-      "desc": "Op deze ochtend is er een inloopmoment voor koffie, thee en koek, voor iedereen die dat wil. Welkom.",
-      "url": "https://sliedrechtdoet.nl/agenda/148547/2026-08-04/ontmoet-elkaar-bij-koffie-en-koek",
-      "location": "",
-      "time": "4 augustus 2026 van 10:00 tot 12:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 0,
-        "buurtgenoot": 3,
-        "inpakker": 0
-      },
-      "dominant_profile": "buurtgenoot"
-    },
-    {
-      "title": "Lunchen op de Moestuin",
-      "organizer": "",
-      "desc": "Iedere middag bent u van harte welkom op de moestuin voor een heerlijke lunch/maaltijd, tegen een vergoeding.",
-      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-08-04/lunchen-op-de-moestuin",
-      "location": "",
-      "time": "4 augustus 2026 van 12:00 tot 13:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 1,
-        "buurtgenoot": 3,
-        "inpakker": 2
-      },
-      "dominant_profile": "buurtgenoot"
-    },
     {
       "title": "Woensdag is de moestuin gesloten",
       "organizer": "",
@@ -50,6 +18,22 @@
         "inpakker": 2
       },
       "dominant_profile": "inpakker"
+    },
+    {
+      "title": "Lunchen op de Moestuin",
+      "organizer": "",
+      "desc": "Iedere middag bent u van harte welkom op de moestuin voor een heerlijke lunch/maaltijd, tegen een vergoeding.",
+      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-08-05/lunchen-op-de-moestuin",
+      "location": "",
+      "time": "5 augustus 2026 van 12:00 tot 13:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 1,
+        "buurtgenoot": 3,
+        "inpakker": 2
+      },
+      "dominant_profile": "buurtgenoot"
     },
     {
       "title": "Zet je in beweging met dansplezier.",
@@ -102,7 +86,7 @@
     {
       "title": "Wensput",
       "organizer": "",
-      "desc": "Tijdens onze uitzending van donderdag 6 augustus gaan we terug naar de hitlijst van 11 augustus 1979. Je hoort o.a. muziek van the Shadows, Anita Ward en Kiss. Gasten deze week Nico van Wijgerden en Bas Visser. Zij vertellen alles over de expositie \"Brandmeester\", die nog tot 22 augustus te bewonderen is in het Sliedrechts museum.",
+      "desc": "In het tweede uur staan we even stil bij de gevolgen van de strenge winter van 1979 in Groningen, De computer kwam eraan en dat gingen we merken. En we konden 008 bellen om een telefoonnummer op te vragen. Allemaal details van 1979 Verder de top-3 van 11 augustus van dat jaar. In onze rubriek tv en film van toen de tune van the Onedin line",
       "url": "https://sliedrechtdoet.nl/agenda/148112/2026-08-06/wensput-69",
       "location": "",
       "time": "6 augustus 2026 van 18:00 tot 20:00 uur",
