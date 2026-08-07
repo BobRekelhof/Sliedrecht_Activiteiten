@@ -1,104 +1,8 @@
 {
-  "updated_at": "06-08-2026 04:00",
+  "updated_at": "07-08-2026 03:45",
   "source": "https://sliedrechtdoet.nl/agenda",
-  "count": 68,
+  "count": 67,
   "activities": [
-    {
-      "title": "Zet je in beweging met dansplezier.",
-      "organizer": "",
-      "desc": "Werelddansen voor 55+ers op een gezellige laagdrempelig manier die tot op hoge leeftijd meegedaan kunnen worden.",
-      "url": "https://sliedrechtdoet.nl/agenda/133599/2026-08-06/zet-je-in-beweging-met-dansplezier-2",
-      "location": "",
-      "time": "6 augustus 2026 van 09:30 tot 11:15 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 2,
-        "ontdekker": 1,
-        "buurtgenoot": 2,
-        "inpakker": 0
-      },
-      "dominant_profile": "buitenmens"
-    },
-    {
-      "title": "Zing mee op de moestuin!",
-      "organizer": "",
-      "desc": "Kom gezellig zingen met ons op de moestuin, onder leiding van Brenda,",
-      "url": "https://sliedrechtdoet.nl/agenda/143263/2026-08-06/zing-mee-op-de-moestuin-3",
-      "location": "",
-      "time": "6 augustus 2026 van 11:00 tot 12:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 2,
-        "inpakker": 2
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Lunchen op de Moestuin",
-      "organizer": "",
-      "desc": "Iedere middag bent u van harte welkom op de moestuin voor een heerlijke lunch/maaltijd, tegen een vergoeding.",
-      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-08-06/lunchen-op-de-moestuin",
-      "location": "",
-      "time": "6 augustus 2026 van 12:00 tot 13:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 1,
-        "buurtgenoot": 3,
-        "inpakker": 2
-      },
-      "dominant_profile": "buurtgenoot"
-    },
-    {
-      "title": "Informatiepunt Digitale Overheid",
-      "organizer": "",
-      "desc": "We regelen steeds meer online. Het aanvragen van een rijbewijs, paspoort of huurtoeslag of het betalen van een boete. Kun je wel wat hulp gebruiken? Kom langs bij het gratis Informatiepunt Digitale Overheid (IDO). Je bent welkom zonder afspraak.",
-      "url": "https://sliedrechtdoet.nl/agenda/149135/2026-08-06/informatiepunt-digitale-overheid-12",
-      "location": "",
-      "time": "6 augustus 2026 van 14:00 tot 16:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 0,
-        "buurtgenoot": 0,
-        "inpakker": 3
-      },
-      "dominant_profile": "inpakker"
-    },
-    {
-      "title": "Doe mee met de spannende bingo!",
-      "organizer": "",
-      "desc": "Wil je dat nog meer mensen meedoen? Nodig ze uit!",
-      "url": "https://sliedrechtdoet.nl/agenda/148702/2026-08-06/doe-mee-met-de-spannende-bingo",
-      "location": "",
-      "time": "6 augustus 2026 van 14:00 tot 16:00 uur",
-      "frequency": "maandelijks",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 1,
-        "buurtgenoot": 3,
-        "inpakker": 0
-      },
-      "dominant_profile": "buurtgenoot"
-    },
-    {
-      "title": "Wensput",
-      "organizer": "",
-      "desc": "In het tweede uur staan we even stil bij de gevolgen van de strenge winter van 1979 in Groningen, De computer kwam eraan en dat gingen we merken. En we konden 008 bellen om een telefoonnummer op te vragen. Allemaal details van 1979 Verder de top-3 van 11 augustus van dat jaar. In onze rubriek tv en film van toen de tune van the Onedin line",
-      "url": "https://sliedrechtdoet.nl/agenda/148112/2026-08-06/wensput-69",
-      "location": "",
-      "time": "6 augustus 2026 van 18:00 tot 20:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 1,
-        "inpakker": 0
-      },
-      "dominant_profile": "ontdekker"
-    },
     {
       "title": "Digitaal inloopspreekuur in de bieb!",
       "organizer": "",
@@ -148,6 +52,22 @@
       "dominant_profile": "buitenmens"
     },
     {
+      "title": "Lunchen op de Moestuin",
+      "organizer": "",
+      "desc": "Iedere middag bent u van harte welkom op de moestuin voor een heerlijke lunch/maaltijd, tegen een vergoeding.",
+      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-08-07/lunchen-op-de-moestuin",
+      "location": "",
+      "time": "7 augustus 2026 van 12:00 tot 13:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 1,
+        "buurtgenoot": 3,
+        "inpakker": 2
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
       "title": "Vragen over Sliedrecht Doet",
       "organizer": "",
       "desc": "Wekelijks kun je langskomen bij het Bonkelaarhuis voor vragen over Sliedrecht Doet. Bijvoorbeeld hoe plaats ik een activiteit, hoe maak ik een account aan of  hoe kun je een bericht plaatsen.Kom gerust langs of stuur een e-mail naarln.teodthcerdeils@ofni.",
@@ -180,22 +100,6 @@
       "dominant_profile": "ontdekker"
     },
     {
-      "title": "Leer Nederlands in de moestuin",
-      "organizer": "",
-      "desc": "Iedere maandagmorgen wordt er taalles gegeven op de moestuin voor iedereen die, de Nederlandse taal beter wil leren.",
-      "url": "https://sliedrechtdoet.nl/agenda/143269/2026-08-10/leer-nederlands-in-de-moestuin",
-      "location": "",
-      "time": "10 augustus 2026 van 09:00 tot 10:30 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 1,
-        "inpakker": 2
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
       "title": "Ontmoet elkaar in de groene huiskamer",
       "organizer": "",
       "desc": "Elke maandag is er een gezellige ontmoetingsmorgen in de groene huiskamer, op de moestuin voor jong en oud. Gezellig met elkaar kletsen onder genot van koffie en/of thee met wat lekkers!  We hebben leuk wisselt programma, soms een crea activiteit of we hebben een leuk thema waar een gastspreker voor komt.",
@@ -207,6 +111,22 @@
         "buitenmens": 0,
         "ontdekker": 3,
         "buurtgenoot": 3,
+        "inpakker": 2
+      },
+      "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Leer Nederlands in de moestuin",
+      "organizer": "",
+      "desc": "Iedere maandagmorgen wordt er taalles gegeven op de moestuin voor iedereen die, de Nederlandse taal beter wil leren.",
+      "url": "https://sliedrechtdoet.nl/agenda/143269/2026-08-10/leer-nederlands-in-de-moestuin",
+      "location": "",
+      "time": "10 augustus 2026 van 09:00 tot 10:30 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 1,
         "inpakker": 2
       },
       "dominant_profile": "ontdekker"
@@ -320,6 +240,54 @@
         "ontdekker": 1,
         "buurtgenoot": 1,
         "inpakker": 2
+      },
+      "dominant_profile": "inpakker"
+    },
+    {
+      "title": "Zet je in beweging met dansplezier.",
+      "organizer": "",
+      "desc": "Werelddansen voor 55+ers op een gezellige laagdrempelig manier die tot op hoge leeftijd meegedaan kunnen worden.",
+      "url": "https://sliedrechtdoet.nl/agenda/133599/2026-08-13/zet-je-in-beweging-met-dansplezier-2",
+      "location": "",
+      "time": "13 augustus 2026 van 09:30 tot 11:15 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 2,
+        "ontdekker": 1,
+        "buurtgenoot": 2,
+        "inpakker": 0
+      },
+      "dominant_profile": "buitenmens"
+    },
+    {
+      "title": "Zing mee op de moestuin!",
+      "organizer": "",
+      "desc": "Kom gezellig zingen met ons op de moestuin, onder leiding van Brenda,",
+      "url": "https://sliedrechtdoet.nl/agenda/143263/2026-08-13/zing-mee-op-de-moestuin-3",
+      "location": "",
+      "time": "13 augustus 2026 van 11:00 tot 12:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 2,
+        "inpakker": 2
+      },
+      "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Informatiepunt Digitale Overheid",
+      "organizer": "",
+      "desc": "We regelen steeds meer online. Het aanvragen van een rijbewijs, paspoort of huurtoeslag of het betalen van een boete. Kun je wel wat hulp gebruiken? Kom langs bij het gratis Informatiepunt Digitale Overheid (IDO). Je bent welkom zonder afspraak.",
+      "url": "https://sliedrechtdoet.nl/agenda/149135/2026-08-13/informatiepunt-digitale-overheid-12",
+      "location": "",
+      "time": "13 augustus 2026 van 14:00 tot 16:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 0,
+        "inpakker": 3
       },
       "dominant_profile": "inpakker"
     },
@@ -466,6 +434,22 @@
         "inpakker": 0
       },
       "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Doe mee met de spannende bingo!",
+      "organizer": "",
+      "desc": "Wil je dat nog meer mensen meedoen? Nodig ze uit!",
+      "url": "https://sliedrechtdoet.nl/agenda/148702/2026-09-03/doe-mee-met-de-spannende-bingo",
+      "location": "",
+      "time": "3 september 2026 van 14:00 tot 16:00 uur",
+      "frequency": "maandelijks",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 1,
+        "buurtgenoot": 3,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
     },
     {
       "title": "Wensput",
