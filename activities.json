@@ -1,104 +1,8 @@
 {
-  "updated_at": "14-08-2026 03:21",
+  "updated_at": "15-08-2026 02:10",
   "source": "https://sliedrechtdoet.nl/agenda",
   "count": 67,
   "activities": [
-    {
-      "title": "Digitaal inloopspreekuur in de bieb!",
-      "organizer": "",
-      "desc": "Vragen over je mobiele telefoon, laptop, tablet en e-reader? Hulp nodig bij het gebruik van de bibliotheek apps? De bieb helpt! Kom gratis met al jouw digitale vragen naar het digitaal inloopspreekuur in jouw bibliotheek. Je bent welkom zonder afspraak.",
-      "url": "https://sliedrechtdoet.nl/agenda/118856/2026-08-14/digitaal-inloopspreekuur-in-de-bieb",
-      "location": "",
-      "time": "14 augustus 2026 van 09:30 tot 12:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 3,
-        "inpakker": 3
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Verbeter je digitale vaardigheden met Klik & Tik",
-      "organizer": "",
-      "desc": "In je eigen tempo leren omgaan met computers en internet? Met meer zekerheid mailen, het internet op, iets online kopen of een reis plannen? De bieb helpt! Kom naar de gratis cursus Klik & Tik. Meld je eerst aan bij het Taalpunt of aan de balie in de bieb. Deelname gratis. Doorlopende cursus dus instappen wanneer je zelf wil.",
-      "url": "https://sliedrechtdoet.nl/agenda/118859/2026-08-14/verbeter-je-digitale-vaardigheden-met-klik-tik",
-      "location": "",
-      "time": "14 augustus 2026 van 10:00 tot 12:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 0,
-        "inpakker": 1
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Tosti genieten in de moestuin",
-      "organizer": "",
-      "desc": "Met heerlijk weer kan dat zelfs buiten op de tuin.",
-      "url": "https://sliedrechtdoet.nl/agenda/143544/2026-08-14/tosti-genieten-in-de-moestuin",
-      "location": "",
-      "time": "14 augustus 2026 van 12:00 tot 13:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 3,
-        "ontdekker": 1,
-        "buurtgenoot": 3,
-        "inpakker": 2
-      },
-      "dominant_profile": "buitenmens"
-    },
-    {
-      "title": "Lunchen op de Moestuin",
-      "organizer": "",
-      "desc": "Iedere middag bent u van harte welkom op de moestuin voor een heerlijke lunch/maaltijd, tegen een vergoeding.",
-      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-08-14/lunchen-op-de-moestuin",
-      "location": "",
-      "time": "14 augustus 2026 van 12:00 tot 13:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 1,
-        "buurtgenoot": 3,
-        "inpakker": 2
-      },
-      "dominant_profile": "buurtgenoot"
-    },
-    {
-      "title": "Vragen over Sliedrecht Doet",
-      "organizer": "",
-      "desc": "Wekelijks kun je langskomen bij het Bonkelaarhuis voor vragen over Sliedrecht Doet. Bijvoorbeeld hoe plaats ik een activiteit, hoe maak ik een account aan of  hoe kun je een bericht plaatsen.Kom gerust langs of stuur een e-mail naarln.teodthcerdeils@ofni.",
-      "url": "https://sliedrechtdoet.nl/agenda/121768/2026-08-14/vragen-over-sliedrecht-doet",
-      "location": "",
-      "time": "14 augustus 2026 van 13:00 tot 17:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 0,
-        "buurtgenoot": 0,
-        "inpakker": 0
-      },
-      "dominant_profile": "buurtgenoot"
-    },
-    {
-      "title": "Spelletjesmiddag in de bibliotheek",
-      "organizer": "",
-      "desc": "Elke even vrijdag organiseren wij een spelletjesmiddag in de bibliotheek. Iedereen is welkom! Met elkaar maken we er een leuke middag van, de koffie en thee staat klaar! Kom je een nieuw spel uit proberen?",
-      "url": "https://sliedrechtdoet.nl/agenda/120092/2026-08-14/spelletjesmiddag-in-de-bibliotheek",
-      "location": "",
-      "time": "14 augustus 2026 van 14:00 tot 16:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 3,
-        "inpakker": 3
-      },
-      "dominant_profile": "ontdekker"
-    },
     {
       "title": "Doe mee met het Burenkleuren-project!",
       "organizer": "",
@@ -146,6 +50,22 @@
         "inpakker": 2
       },
       "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Lunchen op de Moestuin",
+      "organizer": "",
+      "desc": "Iedere middag bent u van harte welkom op de moestuin voor een heerlijke lunch/maaltijd, tegen een vergoeding.",
+      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-08-17/lunchen-op-de-moestuin",
+      "location": "",
+      "time": "17 augustus 2026 van 12:00 tot 13:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 1,
+        "buurtgenoot": 3,
+        "inpakker": 2
+      },
+      "dominant_profile": "buurtgenoot"
     },
     {
       "title": "Wandel je fit met de Nationale Wandeluitdaging",
@@ -324,6 +244,70 @@
       "dominant_profile": "buurtgenoot"
     },
     {
+      "title": "Digitaal inloopspreekuur in de bieb!",
+      "organizer": "",
+      "desc": "Vragen over je mobiele telefoon, laptop, tablet en e-reader? Hulp nodig bij het gebruik van de bibliotheek apps? De bieb helpt! Kom gratis met al jouw digitale vragen naar het digitaal inloopspreekuur in jouw bibliotheek. Je bent welkom zonder afspraak.",
+      "url": "https://sliedrechtdoet.nl/agenda/118856/2026-08-21/digitaal-inloopspreekuur-in-de-bieb",
+      "location": "",
+      "time": "21 augustus 2026 van 09:30 tot 12:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 3,
+        "inpakker": 3
+      },
+      "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Verbeter je digitale vaardigheden met Klik & Tik",
+      "organizer": "",
+      "desc": "In je eigen tempo leren omgaan met computers en internet? Met meer zekerheid mailen, het internet op, iets online kopen of een reis plannen? De bieb helpt! Kom naar de gratis cursus Klik & Tik. Meld je eerst aan bij het Taalpunt of aan de balie in de bieb. Deelname gratis. Doorlopende cursus dus instappen wanneer je zelf wil.",
+      "url": "https://sliedrechtdoet.nl/agenda/118859/2026-08-21/verbeter-je-digitale-vaardigheden-met-klik-tik",
+      "location": "",
+      "time": "21 augustus 2026 van 10:00 tot 12:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 0,
+        "inpakker": 1
+      },
+      "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Tosti genieten in de moestuin",
+      "organizer": "",
+      "desc": "Met heerlijk weer kan dat zelfs buiten op de tuin.",
+      "url": "https://sliedrechtdoet.nl/agenda/143544/2026-08-21/tosti-genieten-in-de-moestuin",
+      "location": "",
+      "time": "21 augustus 2026 van 12:00 tot 13:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 3,
+        "ontdekker": 1,
+        "buurtgenoot": 3,
+        "inpakker": 2
+      },
+      "dominant_profile": "buitenmens"
+    },
+    {
+      "title": "Vragen over Sliedrecht Doet",
+      "organizer": "",
+      "desc": "Wekelijks kun je langskomen bij het Bonkelaarhuis voor vragen over Sliedrecht Doet. Bijvoorbeeld hoe plaats ik een activiteit, hoe maak ik een account aan of  hoe kun je een bericht plaatsen.Kom gerust langs of stuur een e-mail naarln.teodthcerdeils@ofni.",
+      "url": "https://sliedrechtdoet.nl/agenda/121768/2026-08-21/vragen-over-sliedrecht-doet",
+      "location": "",
+      "time": "21 augustus 2026 van 13:00 tot 17:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 0,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
       "title": "Studio Aanzet Familieworkshop",
       "organizer": "",
       "desc": "Met deze familieworkshop, voor volwassenen en kinderen vanaf 8 jaar, gaan we zelf papier maken. We kunnen er nog kleur aan toevoegen met waterverf en textuur met zaden en bloemblaadjes. Ga samen aan de slag met kind of kleinkind!",
@@ -386,6 +370,22 @@
         "inpakker": 0
       },
       "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "Spelletjesmiddag in de bibliotheek",
+      "organizer": "",
+      "desc": "Elke even vrijdag organiseren wij een spelletjesmiddag in de bibliotheek. Iedereen is welkom! Met elkaar maken we er een leuke middag van, de koffie en thee staat klaar! Kom je een nieuw spel uit proberen?",
+      "url": "https://sliedrechtdoet.nl/agenda/120092/2026-08-28/spelletjesmiddag-in-de-bibliotheek",
+      "location": "",
+      "time": "28 augustus 2026 van 14:00 tot 16:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 3,
+        "inpakker": 3
+      },
+      "dominant_profile": "ontdekker"
     },
     {
       "title": "Ontmoet en Speel: Gezellige Middag",
