@@ -1,104 +1,8 @@
 {
-  "updated_at": "18-08-2026 02:12",
+  "updated_at": "19-08-2026 02:14",
   "source": "https://sliedrechtdoet.nl/agenda",
   "count": 67,
   "activities": [
-    {
-      "title": "Laat je inspireren tijdens koffie met...",
-      "organizer": "",
-      "desc": "Samen koffie drinken, mensen ontmoeten en nieuwe kennis opdoen: dat is Koffie met... in het kort. Dus kom langs en laat je verrassen door interessante presentaties en sprekers.",
-      "url": "https://sliedrechtdoet.nl/agenda/118472/2026-08-18/laat-je-inspireren-tijdens-koffie-met",
-      "location": "",
-      "time": "18 augustus 2026 van 10:30 tot 11:45 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 3,
-        "inpakker": 0
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Koffie met...",
-      "organizer": "",
-      "desc": "Samen koffie drinken, mensen ontmoeten en nieuwe kennis opdoen: dat is Koffie met… in het kort. Dus kom langs en laat je verrassen door interessante presentaties en sprekers.",
-      "url": "https://sliedrechtdoet.nl/agenda/149126/2026-08-18/koffie-met-14",
-      "location": "",
-      "time": "18 augustus 2026 van 10:30 tot 12:00 uur",
-      "frequency": "wekelijks",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 3,
-        "inpakker": 0
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Lunchen op de Moestuin",
-      "organizer": "",
-      "desc": "Iedere middag bent u van harte welkom op de moestuin voor een heerlijke lunch/maaltijd, tegen een vergoeding.",
-      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-08-18/lunchen-op-de-moestuin",
-      "location": "",
-      "time": "18 augustus 2026 van 12:00 tot 13:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 1,
-        "buurtgenoot": 3,
-        "inpakker": 2
-      },
-      "dominant_profile": "buurtgenoot"
-    },
-    {
-      "title": "Informatiepunt Digitale Overheid",
-      "organizer": "",
-      "desc": "We regelen steeds meer online. Het aanvragen van een rijbewijs, paspoort of huurtoeslag of het betalen van een boete. Kun je wel wat hulp gebruiken? Kom langs bij het gratis Informatiepunt Digitale Overheid (IDO). Je bent welkom zonder afspraak.",
-      "url": "https://sliedrechtdoet.nl/agenda/149136/2026-08-18/informatiepunt-digitale-overheid-13",
-      "location": "",
-      "time": "18 augustus 2026 van 13:00 tot 15:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 0,
-        "buurtgenoot": 0,
-        "inpakker": 3
-      },
-      "dominant_profile": "inpakker"
-    },
-    {
-      "title": "Aangehaakt",
-      "organizer": "",
-      "desc": "Ben je creatief, kom dan gezellig naar Aangehaakt! Er is gelegenheid om patronen uit te wisselen, inspiratie op te doen en van elkaar te leren. Beginner of gevorderde, jong of oud, iedereen is welkom. Neem zelf je wol, haak en/of breiwerk mee, dan zorgen wij voor de koffie en thee.",
-      "url": "https://sliedrechtdoet.nl/agenda/129383/2026-08-18/aangehaakt",
-      "location": "",
-      "time": "18 augustus 2026 van 14:00 tot 16:00 uur",
-      "frequency": "wekelijks",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 3,
-        "inpakker": 3
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Voorlezen en kleuren in het thema van het boek!",
-      "organizer": "",
-      "desc": "Elke dinsdag van 15:00 - 16:00 uur kun je in de bibliotheek in Sliedrecht luisteren naar de mooiste, grappigste verhalen. Tijdens of na het voorlezen kun je gezellig kleuren in het thema van het boek.",
-      "url": "https://sliedrechtdoet.nl/agenda/133610/2026-08-18/voorlezen-en-kleuren-in-het-thema-van-het-boek",
-      "location": "",
-      "time": "18 augustus 2026 van 15:00 tot 16:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 3,
-        "inpakker": 0
-      },
-      "dominant_profile": "ontdekker"
-    },
     {
       "title": "Woensdag is de moestuin gesloten",
       "organizer": "",
@@ -114,6 +18,22 @@
         "inpakker": 2
       },
       "dominant_profile": "inpakker"
+    },
+    {
+      "title": "Lunchen op de Moestuin",
+      "organizer": "",
+      "desc": "Iedere middag bent u van harte welkom op de moestuin voor een heerlijke lunch/maaltijd, tegen een vergoeding.",
+      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-08-19/lunchen-op-de-moestuin",
+      "location": "",
+      "time": "19 augustus 2026 van 12:00 tot 13:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 1,
+        "buurtgenoot": 3,
+        "inpakker": 2
+      },
+      "dominant_profile": "buurtgenoot"
     },
     {
       "title": "Zet je in beweging met dansplezier.",
@@ -324,6 +244,38 @@
       "dominant_profile": "ontdekker"
     },
     {
+      "title": "Laat je inspireren tijdens koffie met...",
+      "organizer": "",
+      "desc": "Samen koffie drinken, mensen ontmoeten en nieuwe kennis opdoen: dat is Koffie met... in het kort. Dus kom langs en laat je verrassen door interessante presentaties en sprekers.",
+      "url": "https://sliedrechtdoet.nl/agenda/118472/2026-08-25/laat-je-inspireren-tijdens-koffie-met",
+      "location": "",
+      "time": "25 augustus 2026 van 10:30 tot 11:45 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 3,
+        "inpakker": 0
+      },
+      "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Koffie met...",
+      "organizer": "",
+      "desc": "Samen koffie drinken, mensen ontmoeten en nieuwe kennis opdoen: dat is Koffie met… in het kort. Dus kom langs en laat je verrassen door interessante presentaties en sprekers.",
+      "url": "https://sliedrechtdoet.nl/agenda/149126/2026-08-25/koffie-met-14",
+      "location": "",
+      "time": "25 augustus 2026 van 10:30 tot 12:00 uur",
+      "frequency": "wekelijks",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 3,
+        "inpakker": 0
+      },
+      "dominant_profile": "ontdekker"
+    },
+    {
       "title": "Koffie met meesterglasblazer Marco Lopulalan.",
       "organizer": "",
       "desc": "De meesterglasblazer keert terug in de bieb en komt vertellen over zijn nieuwste projecten, de ontwikkeling van zijn slijpstudio en het nieuwste Oranjevaasje. Stel al je vragen aan een echte meester glasblazer en ontmoet andere geïnteresseerden uit de buurt.",
@@ -338,6 +290,54 @@
         "inpakker": 0
       },
       "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "Informatiepunt Digitale Overheid",
+      "organizer": "",
+      "desc": "We regelen steeds meer online. Het aanvragen van een rijbewijs, paspoort of huurtoeslag of het betalen van een boete. Kun je wel wat hulp gebruiken? Kom langs bij het gratis Informatiepunt Digitale Overheid (IDO). Je bent welkom zonder afspraak.",
+      "url": "https://sliedrechtdoet.nl/agenda/149136/2026-08-25/informatiepunt-digitale-overheid-13",
+      "location": "",
+      "time": "25 augustus 2026 van 13:00 tot 15:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 0,
+        "inpakker": 3
+      },
+      "dominant_profile": "inpakker"
+    },
+    {
+      "title": "Aangehaakt",
+      "organizer": "",
+      "desc": "Ben je creatief, kom dan gezellig naar Aangehaakt! Er is gelegenheid om patronen uit te wisselen, inspiratie op te doen en van elkaar te leren. Beginner of gevorderde, jong of oud, iedereen is welkom. Neem zelf je wol, haak en/of breiwerk mee, dan zorgen wij voor de koffie en thee.",
+      "url": "https://sliedrechtdoet.nl/agenda/129383/2026-08-25/aangehaakt",
+      "location": "",
+      "time": "25 augustus 2026 van 14:00 tot 16:00 uur",
+      "frequency": "wekelijks",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 3,
+        "inpakker": 3
+      },
+      "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Voorlezen en kleuren in het thema van het boek!",
+      "organizer": "",
+      "desc": "Elke dinsdag van 15:00 - 16:00 uur kun je in de bibliotheek in Sliedrecht luisteren naar de mooiste, grappigste verhalen. Tijdens of na het voorlezen kun je gezellig kleuren in het thema van het boek.",
+      "url": "https://sliedrechtdoet.nl/agenda/133610/2026-08-25/voorlezen-en-kleuren-in-het-thema-van-het-boek",
+      "location": "",
+      "time": "25 augustus 2026 van 15:00 tot 16:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 3,
+        "inpakker": 0
+      },
+      "dominant_profile": "ontdekker"
     },
     {
       "title": "Taalpunt is startpunt",
