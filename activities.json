@@ -1,40 +1,8 @@
 {
-  "updated_at": "26-08-2026 02:21",
+  "updated_at": "27-08-2026 10:48",
   "source": "https://sliedrechtdoet.nl/agenda",
   "count": 66,
   "activities": [
-    {
-      "title": "Woensdag is de moestuin gesloten",
-      "organizer": "",
-      "desc": "LET OP IVM de vakantie is de moestuin, in de zomervakantie,",
-      "url": "https://sliedrechtdoet.nl/agenda/148615/2026-08-26/woensdag-is-de-moestuin-gesloten",
-      "location": "",
-      "time": "22 juli 2026 van 09:00 tot 17:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 1,
-        "buurtgenoot": 1,
-        "inpakker": 2
-      },
-      "dominant_profile": "inpakker"
-    },
-    {
-      "title": "Lunchen op de Moestuin",
-      "organizer": "",
-      "desc": "Iedere middag bent u van harte welkom op de moestuin voor een heerlijke lunch/maaltijd, tegen een vergoeding.",
-      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-08-26/lunchen-op-de-moestuin",
-      "location": "",
-      "time": "26 augustus 2026 van 12:00 tot 13:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 1,
-        "buurtgenoot": 3,
-        "inpakker": 2
-      },
-      "dominant_profile": "buurtgenoot"
-    },
     {
       "title": "Zet je in beweging met dansplezier.",
       "organizer": "",
@@ -66,6 +34,22 @@
         "inpakker": 2
       },
       "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Lunchen op de Moestuin",
+      "organizer": "",
+      "desc": "Iedere middag bent u van harte welkom op de moestuin voor een heerlijke lunch/maaltijd, tegen een vergoeding.",
+      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-08-27/lunchen-op-de-moestuin",
+      "location": "",
+      "time": "27 augustus 2026 van 12:00 tot 13:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 1,
+        "buurtgenoot": 3,
+        "inpakker": 2
+      },
+      "dominant_profile": "buurtgenoot"
     },
     {
       "title": "Informatiepunt Digitale Overheid",
@@ -404,6 +388,22 @@
       "dominant_profile": "buurtgenoot"
     },
     {
+      "title": "L&B Verenigingsrun 2026",
+      "organizer": "",
+      "desc": "L&B organiseert samen met AV Passaat de jaarlijkse verenigingsrun. Elk rondje hardlopen of wandelen levert een bijdrage aan de clubkas van jouw vereniging of groep.",
+      "url": "https://sliedrechtdoet.nl/agenda/150246/2026-09-03/l-b-verenigingsrun-2026",
+      "location": "",
+      "time": "3 september 2026 van 18:30 tot 21:30 uur",
+      "frequency": "jaarlijks",
+      "scores": {
+        "buitenmens": 3,
+        "ontdekker": 0,
+        "buurtgenoot": 2,
+        "inpakker": 0
+      },
+      "dominant_profile": "buitenmens"
+    },
+    {
       "title": "🌿HSP Cafe - Drechtsteden",
       "organizer": "",
       "desc": "Sluit dan aan bij het HSP Café. Een laagdrempelige bijeenkomst met maximaal 8 personen, waarin steeds een ander thema centraal staat.",
@@ -582,18 +582,18 @@
     {
       "title": "Ontdek de 5e Editie van de Voortuinmarkt!",
       "organizer": "",
-      "desc": "Voortuinenmarkt 5e editie met springkussens en levende muziek, O.a. The AMAZING STROOPWAFELS. De Bluesformatie GUMBO & The MONK en twee optredens van HET JEUGDKOOR van CRESCENDO. Onze burgemeester komt om 9.00 uur het evenement openen.",
+      "desc": "Mail voor opgave of informatie naar��.ln.nevohedthcerdeils@tkramniutroov < .ln.nevohedthcerdeils@tkramniutroov >",
       "url": "https://sliedrechtdoet.nl/agenda/137211/2026-09-19/ontdek-de-5e-editie-van-de-voortuinmarkt",
       "location": "",
       "time": "19 september 2026 van 09:00 tot 15:00 uur",
       "frequency": "",
       "scores": {
         "buitenmens": 1,
-        "ontdekker": 3,
+        "ontdekker": 0,
         "buurtgenoot": 3,
         "inpakker": 0
       },
-      "dominant_profile": "ontdekker"
+      "dominant_profile": "buurtgenoot"
     },
     {
       "title": "Zet jezelf in beweging: Scootmobieltocht!",
