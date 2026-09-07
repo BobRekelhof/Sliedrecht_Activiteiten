@@ -1,7 +1,7 @@
 {
-  "updated_at": "06-09-2026 05:21",
+  "updated_at": "07-09-2026 05:30",
   "source": "https://sliedrechtdoet.nl/agenda",
-  "count": 70,
+  "count": 71,
   "activities": [
     {
       "title": "Leer Nederlands in de moestuin",
@@ -377,7 +377,7 @@
       "desc": "In totaal zullen er 50 verschillende beelden te bewonderen. Onder hen verschillende Nederlandse, Europese en wereld kampioenen. Wie wordt de kampioen van Zuid-Holland?",
       "url": "https://sliedrechtdoet.nl/agenda/148719/2026-09-12/living-statues-and-art-festival",
       "location": "",
-      "time": "12 september 2026 van 11:00 tot 15:00 uur",
+      "time": "12 september 2026 van 11:00 tot 17:00 uur",
       "frequency": "",
       "scores": {
         "buitenmens": 1,
@@ -434,6 +434,22 @@
         "inpakker": 0
       },
       "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "Een dag shoppen voor mama en kind tijdens pop-up shop",
+      "organizer": "",
+      "desc": "Even binnenlopen kan zomaar betekenen dat je met iets moois naar buiten gaat. Of je nu komt voor een nieuwe outfit voor jezelf, een item voor je baby of kind, of gewoon de collecties wilt ontdekken: er is genoeg te bekijken. ❤️",
+      "url": "https://sliedrechtdoet.nl/agenda/150923/2026-09-16/een-dag-shoppen-voor-mama-en-kind-tijdens-pop-up-shop",
+      "location": "",
+      "time": "16 september 2026 van 08:30 tot 17:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 3,
+        "ontdekker": 3,
+        "buurtgenoot": 3,
+        "inpakker": 0
+      },
+      "dominant_profile": "buitenmens"
     },
     {
       "title": "Mantelzorgpunt: Een fijn moment voor jou en je naaste: een boottocht",
