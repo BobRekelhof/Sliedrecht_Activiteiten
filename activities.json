@@ -1,120 +1,8 @@
 {
-  "updated_at": "10-09-2026 05:29",
+  "updated_at": "11-09-2026 05:28",
   "source": "https://sliedrechtdoet.nl/agenda",
-  "count": 70,
+  "count": 71,
   "activities": [
-    {
-      "title": "Taaloefengroep voor vrouwen",
-      "organizer": "",
-      "desc": "Oefenen met Nederlands lezen, spreken en schrijven op jouw niveau? Samen met andere mensen? De bieb helpt! Kom naar de Taaloefengroep in jouw bibliotheek.Wel vooraf aanmelden aan bij het Taalpunt op locatie Sliedrecht.",
-      "url": "https://sliedrechtdoet.nl/agenda/129393/2026-09-10/taaloefengroep-voor-vrouwen",
-      "location": "",
-      "time": "10 september 2026 van 09:30 tot 11:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 3,
-        "inpakker": 0
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Zet je in beweging met dansplezier.",
-      "organizer": "",
-      "desc": "Werelddansen voor 55+ers op een gezellige laagdrempelig manier die tot op hoge leeftijd meegedaan kunnen worden.",
-      "url": "https://sliedrechtdoet.nl/agenda/133599/2026-09-10/zet-je-in-beweging-met-dansplezier-2",
-      "location": "",
-      "time": "10 september 2026 van 09:30 tot 11:15 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 2,
-        "ontdekker": 1,
-        "buurtgenoot": 2,
-        "inpakker": 0
-      },
-      "dominant_profile": "buitenmens"
-    },
-    {
-      "title": "Zing mee op de moestuin!",
-      "organizer": "",
-      "desc": "Kom gezellig zingen met ons op de moestuin, onder leiding van Brenda,",
-      "url": "https://sliedrechtdoet.nl/agenda/143263/2026-09-10/zing-mee-op-de-moestuin-3",
-      "location": "",
-      "time": "10 september 2026 van 11:00 tot 12:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 2,
-        "inpakker": 2
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Lunchen op de Moestuin",
-      "organizer": "",
-      "desc": "Iedere middag bent u van harte welkom op de moestuin voor een heerlijke lunch/maaltijd, tegen een vergoeding.",
-      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-09-10/lunchen-op-de-moestuin",
-      "location": "",
-      "time": "10 september 2026 van 12:00 tot 13:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 1,
-        "buurtgenoot": 3,
-        "inpakker": 2
-      },
-      "dominant_profile": "buurtgenoot"
-    },
-    {
-      "title": "Taalpunt is startpunt",
-      "organizer": "",
-      "desc": "Beter Nederlands leren? Hulp nodig bij lezen of schrijven? Oefenen met de computer? Taal of Digitaal vrijwilliger worden? De bieb helpt! Kom naar het Taalpunt in jouw bibliotheek. Samen kijken we wat je kunt doen.",
-      "url": "https://sliedrechtdoet.nl/agenda/118861/2026-09-10/taalpunt-is-startpunt",
-      "location": "",
-      "time": "10 september 2026 van 14:00 tot 16:00 uur",
-      "frequency": "wekelijks",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 3,
-        "inpakker": 3
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Informatiepunt Digitale Overheid",
-      "organizer": "",
-      "desc": "We regelen steeds meer online. Het aanvragen van een rijbewijs, paspoort of huurtoeslag of het betalen van een boete. Kun je wel wat hulp gebruiken? Kom langs bij het gratis Informatiepunt Digitale Overheid (IDO). Je bent welkom zonder afspraak.",
-      "url": "https://sliedrechtdoet.nl/agenda/149135/2026-09-10/informatiepunt-digitale-overheid-12",
-      "location": "",
-      "time": "10 september 2026 van 14:00 tot 16:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 0,
-        "buurtgenoot": 0,
-        "inpakker": 3
-      },
-      "dominant_profile": "inpakker"
-    },
-    {
-      "title": "Wensput",
-      "organizer": "",
-      "desc": "In het tweede uur staan we stil bij de actualiteiten in 1973. Een Brits Geleidewapen fregat bezocht Amsterdam. We staan nog even stil bij de autoloze zondagen in dat jaar, die werden ingevoerd om brandstof te besparen. Natuurlijk komen de prijzen van 1973 voorbij. In onze rubriek tv en film van toen aandacht voor de tune van de \"Kleine waarheid\", een Nederlandse serie met Willeke Alberti in de hoo",
-      "url": "https://sliedrechtdoet.nl/agenda/148117/2026-09-10/wensput-74",
-      "location": "",
-      "time": "10 september 2026 van 18:00 tot 20:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 3,
-        "ontdekker": 3,
-        "buurtgenoot": 1,
-        "inpakker": 0
-      },
-      "dominant_profile": "buitenmens"
-    },
     {
       "title": "Digitaal inloopspreekuur in de bieb!",
       "organizer": "",
@@ -180,6 +68,22 @@
       "dominant_profile": "buurtgenoot"
     },
     {
+      "title": "Lunchen op de Moestuin",
+      "organizer": "",
+      "desc": "Iedere middag bent u van harte welkom op de moestuin voor een heerlijke lunch/maaltijd, tegen een vergoeding.",
+      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-09-11/lunchen-op-de-moestuin",
+      "location": "",
+      "time": "11 september 2026 van 12:00 tot 13:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 1,
+        "buurtgenoot": 3,
+        "inpakker": 2
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
       "title": "Tosti genieten in de moestuin",
       "organizer": "",
       "desc": "Met heerlijk weer kan dat zelfs buiten op de tuin.",
@@ -224,6 +128,22 @@
         "ontdekker": 3,
         "buurtgenoot": 3,
         "inpakker": 3
+      },
+      "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Bezoek Open Monumenten in Sliedrecht",
+      "organizer": "",
+      "desc": "Tijdens het Open Monumentenweekend zijn in Sliedrecht meerdere monumenten open. Hieronder een lijst van de monumenten, meer informatie is te vinden op betreffende website",
+      "url": "https://sliedrechtdoet.nl/agenda/151321/2026-09-12/bezoek-open-monumenten-in-sliedrecht",
+      "location": "",
+      "time": "12 september 2026 van 10:00 tot 17:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 0,
+        "inpakker": 0
       },
       "dominant_profile": "ontdekker"
     },
@@ -290,6 +210,22 @@
         "inpakker": 0
       },
       "dominant_profile": "buitenmens"
+    },
+    {
+      "title": "Bezoek Open Monumenten in Sliedrecht",
+      "organizer": "",
+      "desc": "Tijdens het Open Monumentenweekend zijn in Sliedrecht meerdere monumenten open. Hieronder een lijst van de monumenten, meer informatie is te vinden op betreffende website",
+      "url": "https://sliedrechtdoet.nl/agenda/151322/2026-09-13/bezoek-open-monumenten-in-sliedrecht-2",
+      "location": "",
+      "time": "13 september 2026 van 10:00 tot 17:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 0,
+        "inpakker": 0
+      },
+      "dominant_profile": "ontdekker"
     },
     {
       "title": "Leer Nederlands in de moestuin",
@@ -436,6 +372,22 @@
       "dominant_profile": "buitenmens"
     },
     {
+      "title": "Taaloefengroep voor vrouwen",
+      "organizer": "",
+      "desc": "Oefenen met Nederlands lezen, spreken en schrijven op jouw niveau? Samen met andere mensen? De bieb helpt! Kom naar de Taaloefengroep in jouw bibliotheek.Wel vooraf aanmelden aan bij het Taalpunt op locatie Sliedrecht.",
+      "url": "https://sliedrechtdoet.nl/agenda/129393/2026-09-16/taaloefengroep-voor-vrouwen",
+      "location": "",
+      "time": "16 september 2026 van 09:30 tot 11:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 3,
+        "inpakker": 0
+      },
+      "dominant_profile": "ontdekker"
+    },
+    {
       "title": "Mantelzorgpunt: Een fijn moment voor jou en je naaste: een boottocht",
       "organizer": "",
       "desc": "Let op: voor deze activiteit dient u ingeschreven te staan als mantelzorger bij het Mantelzorgpunt. Tevens is de boot is niet rolstoel toegankelijk. Er zijn 3 treetjes om in de boot te komen. Met een rollator lukt dit met een beetje hulp vaak wel.",
@@ -447,6 +399,70 @@
         "buitenmens": 0,
         "ontdekker": 0,
         "buurtgenoot": 1,
+        "inpakker": 3
+      },
+      "dominant_profile": "inpakker"
+    },
+    {
+      "title": "Zet je in beweging met dansplezier.",
+      "organizer": "",
+      "desc": "Werelddansen voor 55+ers op een gezellige laagdrempelig manier die tot op hoge leeftijd meegedaan kunnen worden.",
+      "url": "https://sliedrechtdoet.nl/agenda/133599/2026-09-17/zet-je-in-beweging-met-dansplezier-2",
+      "location": "",
+      "time": "17 september 2026 van 09:30 tot 11:15 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 2,
+        "ontdekker": 1,
+        "buurtgenoot": 2,
+        "inpakker": 0
+      },
+      "dominant_profile": "buitenmens"
+    },
+    {
+      "title": "Zing mee op de moestuin!",
+      "organizer": "",
+      "desc": "Kom gezellig zingen met ons op de moestuin, onder leiding van Brenda,",
+      "url": "https://sliedrechtdoet.nl/agenda/143263/2026-09-17/zing-mee-op-de-moestuin-3",
+      "location": "",
+      "time": "17 september 2026 van 11:00 tot 12:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 2,
+        "inpakker": 2
+      },
+      "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Taalpunt is startpunt",
+      "organizer": "",
+      "desc": "Beter Nederlands leren? Hulp nodig bij lezen of schrijven? Oefenen met de computer? Taal of Digitaal vrijwilliger worden? De bieb helpt! Kom naar het Taalpunt in jouw bibliotheek. Samen kijken we wat je kunt doen.",
+      "url": "https://sliedrechtdoet.nl/agenda/118861/2026-09-17/taalpunt-is-startpunt",
+      "location": "",
+      "time": "17 september 2026 van 14:00 tot 16:00 uur",
+      "frequency": "wekelijks",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 3,
+        "inpakker": 3
+      },
+      "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Informatiepunt Digitale Overheid",
+      "organizer": "",
+      "desc": "We regelen steeds meer online. Het aanvragen van een rijbewijs, paspoort of huurtoeslag of het betalen van een boete. Kun je wel wat hulp gebruiken? Kom langs bij het gratis Informatiepunt Digitale Overheid (IDO). Je bent welkom zonder afspraak.",
+      "url": "https://sliedrechtdoet.nl/agenda/149135/2026-09-17/informatiepunt-digitale-overheid-12",
+      "location": "",
+      "time": "17 september 2026 van 14:00 tot 16:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 0,
         "inpakker": 3
       },
       "dominant_profile": "inpakker"
