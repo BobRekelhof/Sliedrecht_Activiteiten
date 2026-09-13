@@ -1,88 +1,8 @@
 {
-  "updated_at": "12-09-2026 05:19",
+  "updated_at": "13-09-2026 05:32",
   "source": "https://sliedrechtdoet.nl/agenda",
-  "count": 72,
+  "count": 70,
   "activities": [
-    {
-      "title": "Bezoek Open Monumenten in Sliedrecht",
-      "organizer": "",
-      "desc": "Tijdens het Open Monumentenweekend zijn in Sliedrecht meerdere monumenten open. Hieronder een lijst van de monumenten, meer informatie is te vinden op betreffende websites.",
-      "url": "https://sliedrechtdoet.nl/agenda/151321/2026-09-12/bezoek-open-monumenten-in-sliedrecht",
-      "location": "",
-      "time": "12 september 2026 van 10:00 tot 17:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 0,
-        "inpakker": 0
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Doe mee met het Burenkleuren-project!",
-      "organizer": "",
-      "desc": "Het Burenkleuren-project gaat opnieuw van start na een succesvolle eerste editie, waarbij in het Sliedrecht Museum in december een tentoonstelling plaatsvond met 40 deelnemers en 40 unieke kunstwerken. In deze nieuwe editie is het doel nog groter: 80 deelnemers en 80 kunstwerken die samen worden gepresenteerd in een bijzondere tentoonstelling.",
-      "url": "https://sliedrechtdoet.nl/agenda/144792/2026-09-12/doe-mee-met-het-burenkleuren-project",
-      "location": "",
-      "time": "12 september 2026 van 11:00 tot 12:30 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 2,
-        "inpakker": 0
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Living Statues and Art Festival",
-      "organizer": "",
-      "desc": "In totaal zullen er 50 verschillende beelden te bewonderen. Onder hen verschillende Nederlandse, Europese en wereld kampioenen. Wie wordt de kampioen van Zuid-Holland?",
-      "url": "https://sliedrechtdoet.nl/agenda/148719/2026-09-12/living-statues-and-art-festival",
-      "location": "",
-      "time": "12 september 2026 van 11:00 tot 17:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 1,
-        "ontdekker": 3,
-        "buurtgenoot": 3,
-        "inpakker": 0
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Open Monumentenweekend: exclusieve rondleidingen en bijzondere lezing over de familie Volker",
-      "organizer": "",
-      "desc": "Op zaterdagmiddag 12 september en zondagmiddag 13 september is er een lezing om 13.30 uur over Het Huis van Volker door de Werkgroep erfgoed. De werkgroep bestaat uit erfgoedonderzoeker Winnie van de Sande, rondleider Jan Mans, Bep van Dam (één van de laatste dienstbodes die in het huis heeft gewerkt) en conservator/beheerder Elke Scheffers. Een unieke gelegenheid om de geschiedenis van het pand v",
-      "url": "https://sliedrechtdoet.nl/agenda/148871/2026-09-12/open-monumentenweekend-exclusieve-rondleidingen-en-bijzondere-lezing-over-de-familie-volker",
-      "location": "",
-      "time": "12 september 2026 van 13:30 tot 17:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 1,
-        "inpakker": 0
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Dijksynagoge open tijdens Open Monumentendag",
-      "organizer": "",
-      "desc": "Op Zaterdag 12 en zondag 13 september, van 14:00u tot 16:00u, staat de deur van de Dijksynagoge op de Rivierdijk weer open. Een monument als deze sjoel is een bezoek waard. Van de sloop gered en opnieuw ingericht zoals het was, toen de Joodse gemeenschap van Hardinxveld en Sliedrecht er wekelijks samenkwam, herbergt de Dijksynagoge een schat aan historie. Kom langs en hoor meer over deze kleine sy",
-      "url": "https://sliedrechtdoet.nl/agenda/150753/2026-09-12/dijksynagoge-open-tijdens-open-monumentendag",
-      "location": "",
-      "time": "12 september 2026 van 14:00 tot 16:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 3,
-        "ontdekker": 3,
-        "buurtgenoot": 2,
-        "inpakker": 0
-      },
-      "dominant_profile": "buitenmens"
-    },
     {
       "title": "Bezoek Open Monumenten in Sliedrecht",
       "organizer": "",
@@ -98,6 +18,38 @@
         "inpakker": 0
       },
       "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Open Monumentenweekend: exclusieve rondleidingen en bijzondere lezing over de familie Volker",
+      "organizer": "",
+      "desc": "Op zaterdagmiddag 12 september en zondagmiddag 13 september is er een lezing om 13.30 uur over Het Huis van Volker door de Werkgroep erfgoed. De werkgroep bestaat uit erfgoedonderzoeker Winnie van de Sande, rondleider Jan Mans, Bep van Dam (één van de laatste dienstbodes die in het huis heeft gewerkt) en conservator/beheerder Elke Scheffers. Een unieke gelegenheid om de geschiedenis van het pand v",
+      "url": "https://sliedrechtdoet.nl/agenda/148871/2026-09-13/open-monumentenweekend-exclusieve-rondleidingen-en-bijzondere-lezing-over-de-familie-volker",
+      "location": "",
+      "time": "12 september 2026 van 13:30 tot 17:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 1,
+        "inpakker": 0
+      },
+      "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Dijksynagoge open tijdens Open Monumentendag",
+      "organizer": "",
+      "desc": "Op Zaterdag 12 en zondag 13 september, van 14:00u tot 16:00u, staat de deur van de Dijksynagoge op de Rivierdijk weer open. Een monument als deze sjoel is een bezoek waard. Van de sloop gered en opnieuw ingericht zoals het was, toen de Joodse gemeenschap van Hardinxveld en Sliedrecht er wekelijks samenkwam, herbergt de Dijksynagoge een schat aan historie. Kom langs en hoor meer over deze kleine sy",
+      "url": "https://sliedrechtdoet.nl/agenda/150753/2026-09-13/dijksynagoge-open-tijdens-open-monumentendag",
+      "location": "",
+      "time": "12 september 2026 van 14:00 tot 16:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 3,
+        "ontdekker": 3,
+        "buurtgenoot": 2,
+        "inpakker": 0
+      },
+      "dominant_profile": "buitenmens"
     },
     {
       "title": "Leer Nederlands in de moestuin",
@@ -514,6 +466,22 @@
         "inpakker": 0
       },
       "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "Doe mee met het Burenkleuren-project!",
+      "organizer": "",
+      "desc": "Het Burenkleuren-project gaat opnieuw van start na een succesvolle eerste editie, waarbij in het Sliedrecht Museum in december een tentoonstelling plaatsvond met 40 deelnemers en 40 unieke kunstwerken. In deze nieuwe editie is het doel nog groter: 80 deelnemers en 80 kunstwerken die samen worden gepresenteerd in een bijzondere tentoonstelling.",
+      "url": "https://sliedrechtdoet.nl/agenda/144792/2026-09-19/doe-mee-met-het-burenkleuren-project",
+      "location": "",
+      "time": "19 september 2026 van 11:00 tot 12:30 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 2,
+        "inpakker": 0
+      },
+      "dominant_profile": "ontdekker"
     },
     {
       "title": "Beweeg en ontmoet: Een bijzondere wandelroute",
