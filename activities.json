@@ -1,31 +1,15 @@
 {
-  "updated_at": "16-09-2026 05:32",
+  "updated_at": "17-09-2026 05:38",
   "source": "https://sliedrechtdoet.nl/agenda",
-  "count": 68,
+  "count": 66,
   "activities": [
-    {
-      "title": "Een dag shoppen voor mama en kind tijdens pop-up shop",
-      "organizer": "",
-      "desc": "Even binnenlopen kan zomaar betekenen dat je met iets moois naar buiten gaat. Of je nu komt voor een nieuwe outfit voor jezelf, een item voor je baby of kind, of gewoon de collecties wilt ontdekken: er is genoeg te bekijken. ❤️",
-      "url": "https://sliedrechtdoet.nl/agenda/150923/2026-09-16/een-dag-shoppen-voor-mama-en-kind-tijdens-pop-up-shop",
-      "location": "",
-      "time": "16 september 2026 van 08:30 tot 17:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 3,
-        "ontdekker": 3,
-        "buurtgenoot": 3,
-        "inpakker": 0
-      },
-      "dominant_profile": "buitenmens"
-    },
     {
       "title": "Taaloefengroep voor vrouwen",
       "organizer": "",
       "desc": "Oefenen met Nederlands lezen, spreken en schrijven op jouw niveau? Samen met andere mensen? De bieb helpt! Kom naar de Taaloefengroep in jouw bibliotheek.Wel vooraf aanmelden aan bij het Taalpunt op locatie Sliedrecht.",
-      "url": "https://sliedrechtdoet.nl/agenda/129393/2026-09-16/taaloefengroep-voor-vrouwen",
+      "url": "https://sliedrechtdoet.nl/agenda/129393/2026-09-17/taaloefengroep-voor-vrouwen",
       "location": "",
-      "time": "16 september 2026 van 09:30 tot 11:00 uur",
+      "time": "17 september 2026 van 09:30 tot 11:00 uur",
       "frequency": "",
       "scores": {
         "buitenmens": 0,
@@ -34,38 +18,6 @@
         "inpakker": 0
       },
       "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Mantelzorgpunt: Een fijn moment voor jou en je naaste: een boottocht",
-      "organizer": "",
-      "desc": "Let op: voor deze activiteit dient u ingeschreven te staan als mantelzorger bij het Mantelzorgpunt. Tevens is de boot is niet rolstoel toegankelijk. Er zijn 3 treetjes om in de boot te komen. Met een rollator lukt dit met een beetje hulp vaak wel.",
-      "url": "https://sliedrechtdoet.nl/agenda/144984/2026-09-16/mantelzorgpunt-een-fijn-moment-voor-jou-en-je-naaste-een-boottocht",
-      "location": "",
-      "time": "16 september 2026 van 10:00 tot 12:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 0,
-        "buurtgenoot": 1,
-        "inpakker": 3
-      },
-      "dominant_profile": "inpakker"
-    },
-    {
-      "title": "Lunchen op de Moestuin",
-      "organizer": "",
-      "desc": "Iedere middag bent u van harte welkom op de moestuin voor een heerlijke lunch/maaltijd, tegen een vergoeding.",
-      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-09-16/lunchen-op-de-moestuin",
-      "location": "",
-      "time": "16 september 2026 van 12:00 tot 13:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 1,
-        "buurtgenoot": 3,
-        "inpakker": 2
-      },
-      "dominant_profile": "buurtgenoot"
     },
     {
       "title": "Zet je in beweging met dansplezier.",
@@ -98,6 +50,22 @@
         "inpakker": 2
       },
       "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Lunchen op de Moestuin",
+      "organizer": "",
+      "desc": "Iedere middag bent u van harte welkom op de moestuin voor een heerlijke lunch/maaltijd, tegen een vergoeding.",
+      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-09-17/lunchen-op-de-moestuin",
+      "location": "",
+      "time": "17 september 2026 van 12:00 tot 13:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 1,
+        "buurtgenoot": 3,
+        "inpakker": 2
+      },
+      "dominant_profile": "buurtgenoot"
     },
     {
       "title": "Taalpunt is startpunt",
