@@ -1,152 +1,8 @@
 {
-  "updated_at": "09-10-2026 07:01",
+  "updated_at": "10-10-2026 06:34",
   "source": "https://sliedrechtdoet.nl/agenda",
-  "count": 58,
+  "count": 68,
   "activities": [
-    {
-      "title": "Digitaal inloopspreekuur in de bieb!",
-      "organizer": "",
-      "desc": "Vragen over je mobiele telefoon, laptop, tablet en e-reader? Hulp nodig bij het gebruik van de bibliotheek apps? De bieb helpt! Kom gratis met al jouw digitale vragen naar het digitaal inloopspreekuur in jouw bibliotheek. Je bent welkom zonder afspraak.",
-      "url": "https://sliedrechtdoet.nl/agenda/118856/2026-10-09/digitaal-inloopspreekuur-in-de-bieb",
-      "location": "",
-      "time": "9 oktober 2026 van 09:30 tot 12:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 3,
-        "inpakker": 3
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Verbeter je digitale vaardigheden met Klik & Tik",
-      "organizer": "",
-      "desc": "In je eigen tempo leren omgaan met computers en internet? Met meer zekerheid mailen, het internet op, iets online kopen of een reis plannen? De bieb helpt! Kom naar de gratis cursus Klik & Tik. Meld je eerst aan bij het Taalpunt of aan de balie in de bieb. Deelname gratis. Doorlopende cursus dus instappen wanneer je zelf wil.",
-      "url": "https://sliedrechtdoet.nl/agenda/118859/2026-10-09/verbeter-je-digitale-vaardigheden-met-klik-tik",
-      "location": "",
-      "time": "9 oktober 2026 van 10:00 tot 12:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 0,
-        "inpakker": 1
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Ukkie Drive-in Voorleesfeest",
-      "organizer": "",
-      "desc": "Wil je dat nog meer mensen meedoen? Nodig ze uit!",
-      "url": "https://sliedrechtdoet.nl/agenda/129967/2026-10-09/ukkie-drive-in-voorleesfeest",
-      "location": "",
-      "time": "9 oktober 2026 van 10:00 tot 11:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 1,
-        "ontdekker": 0,
-        "buurtgenoot": 3,
-        "inpakker": 0
-      },
-      "dominant_profile": "buurtgenoot"
-    },
-    {
-      "title": "kom gerust eens langs",
-      "organizer": "",
-      "desc": "Wil je dat nog meer mensen meedoen? Nodig ze uit!",
-      "url": "https://sliedrechtdoet.nl/agenda/151865/2026-10-09/kom-gerust-eens-langs",
-      "location": "",
-      "time": "9 oktober 2026 van 10:00 tot 12:00 uur",
-      "frequency": "wekelijks",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 0,
-        "buurtgenoot": 0,
-        "inpakker": 0
-      },
-      "dominant_profile": "buurtgenoot"
-    },
-    {
-      "title": "Lunchen op de Moestuin",
-      "organizer": "",
-      "desc": "Iedere middag bent u van harte welkom op de moestuin voor een heerlijke lunch/maaltijd, tegen een vergoeding.",
-      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-10-09/lunchen-op-de-moestuin",
-      "location": "",
-      "time": "9 oktober 2026 van 12:00 tot 13:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 1,
-        "buurtgenoot": 3,
-        "inpakker": 2
-      },
-      "dominant_profile": "buurtgenoot"
-    },
-    {
-      "title": "Tosti genieten in de moestuin",
-      "organizer": "",
-      "desc": "Met heerlijk weer kan dat zelfs buiten op de tuin.",
-      "url": "https://sliedrechtdoet.nl/agenda/143544/2026-10-09/tosti-genieten-in-de-moestuin",
-      "location": "",
-      "time": "9 oktober 2026 van 12:00 tot 13:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 3,
-        "ontdekker": 1,
-        "buurtgenoot": 3,
-        "inpakker": 2
-      },
-      "dominant_profile": "buitenmens"
-    },
-    {
-      "title": "Geniet van een tosti in de moestuin",
-      "organizer": "",
-      "desc": "Met heerlijk weer kan dat zelfs buiten op de tuin.",
-      "url": "https://sliedrechtdoet.nl/agenda/152902/2026-10-09/geniet-van-een-tosti-in-de-moestuin",
-      "location": "",
-      "time": "9 oktober 2026 van 12:00 tot 13:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 3,
-        "ontdekker": 1,
-        "buurtgenoot": 1,
-        "inpakker": 2
-      },
-      "dominant_profile": "buitenmens"
-    },
-    {
-      "title": "Vragen over Sliedrecht Doet",
-      "organizer": "",
-      "desc": "Wekelijks kun je langskomen bij het Bonkelaarhuis voor vragen over Sliedrecht Doet. Bijvoorbeeld hoe plaats ik een activiteit, hoe maak ik een account aan of  hoe kun je een bericht plaatsen.Kom gerust langs of stuur een e-mail naarln.teodthcerdeils@ofni.",
-      "url": "https://sliedrechtdoet.nl/agenda/121768/2026-10-09/vragen-over-sliedrecht-doet",
-      "location": "",
-      "time": "9 oktober 2026 van 13:00 tot 17:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 0,
-        "buurtgenoot": 0,
-        "inpakker": 0
-      },
-      "dominant_profile": "buurtgenoot"
-    },
-    {
-      "title": "Spelletjesmiddag in de bibliotheek",
-      "organizer": "",
-      "desc": "Elke even vrijdag organiseren wij een spelletjesmiddag in de bibliotheek. Iedereen is welkom! Met elkaar maken we er een leuke middag van, de koffie en thee staat klaar! Kom je een nieuw spel uit proberen?",
-      "url": "https://sliedrechtdoet.nl/agenda/120092/2026-10-09/spelletjesmiddag-in-de-bibliotheek",
-      "location": "",
-      "time": "9 oktober 2026 van 14:00 tot 16:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 3,
-        "inpakker": 3
-      },
-      "dominant_profile": "ontdekker"
-    },
     {
       "title": "Doe mee met het Burenkleuren-project!",
       "organizer": "",
@@ -258,6 +114,22 @@
         "inpakker": 2
       },
       "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Lunchen op de Moestuin",
+      "organizer": "",
+      "desc": "Iedere middag bent u van harte welkom op de moestuin voor een heerlijke lunch/maaltijd, tegen een vergoeding.",
+      "url": "https://sliedrechtdoet.nl/agenda/143267/2026-10-12/lunchen-op-de-moestuin",
+      "location": "",
+      "time": "12 oktober 2026 van 12:00 tot 13:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 1,
+        "buurtgenoot": 3,
+        "inpakker": 2
+      },
+      "dominant_profile": "buurtgenoot"
     },
     {
       "title": "Wandel je fit met de Nationale Wandeluitdaging",
@@ -484,6 +356,118 @@
       "dominant_profile": "buurtgenoot"
     },
     {
+      "title": "Digitaal inloopspreekuur in de bieb!",
+      "organizer": "",
+      "desc": "Vragen over je mobiele telefoon, laptop, tablet en e-reader? Hulp nodig bij het gebruik van de bibliotheek apps? De bieb helpt! Kom gratis met al jouw digitale vragen naar het digitaal inloopspreekuur in jouw bibliotheek. Je bent welkom zonder afspraak.",
+      "url": "https://sliedrechtdoet.nl/agenda/118856/2026-10-16/digitaal-inloopspreekuur-in-de-bieb",
+      "location": "",
+      "time": "16 oktober 2026 van 09:30 tot 12:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 3,
+        "inpakker": 3
+      },
+      "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Verbeter je digitale vaardigheden met Klik & Tik",
+      "organizer": "",
+      "desc": "In je eigen tempo leren omgaan met computers en internet? Met meer zekerheid mailen, het internet op, iets online kopen of een reis plannen? De bieb helpt! Kom naar de gratis cursus Klik & Tik. Meld je eerst aan bij het Taalpunt of aan de balie in de bieb. Deelname gratis. Doorlopende cursus dus instappen wanneer je zelf wil.",
+      "url": "https://sliedrechtdoet.nl/agenda/118859/2026-10-16/verbeter-je-digitale-vaardigheden-met-klik-tik",
+      "location": "",
+      "time": "16 oktober 2026 van 10:00 tot 12:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 0,
+        "inpakker": 1
+      },
+      "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Ukkie Drive-in Voorleesfeest",
+      "organizer": "",
+      "desc": "Wil je dat nog meer mensen meedoen? Nodig ze uit!",
+      "url": "https://sliedrechtdoet.nl/agenda/129967/2026-10-16/ukkie-drive-in-voorleesfeest",
+      "location": "",
+      "time": "16 oktober 2026 van 10:00 tot 11:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 1,
+        "ontdekker": 0,
+        "buurtgenoot": 3,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "kom gerust eens langs",
+      "organizer": "",
+      "desc": "Wil je dat nog meer mensen meedoen? Nodig ze uit!",
+      "url": "https://sliedrechtdoet.nl/agenda/151865/2026-10-16/kom-gerust-eens-langs",
+      "location": "",
+      "time": "16 oktober 2026 van 10:00 tot 12:00 uur",
+      "frequency": "wekelijks",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 0,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "Tosti genieten in de moestuin",
+      "organizer": "",
+      "desc": "Met heerlijk weer kan dat zelfs buiten op de tuin.",
+      "url": "https://sliedrechtdoet.nl/agenda/143544/2026-10-16/tosti-genieten-in-de-moestuin",
+      "location": "",
+      "time": "16 oktober 2026 van 12:00 tot 13:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 3,
+        "ontdekker": 1,
+        "buurtgenoot": 3,
+        "inpakker": 2
+      },
+      "dominant_profile": "buitenmens"
+    },
+    {
+      "title": "Geniet van een tosti in de moestuin",
+      "organizer": "",
+      "desc": "Met heerlijk weer kan dat zelfs buiten op de tuin.",
+      "url": "https://sliedrechtdoet.nl/agenda/152902/2026-10-16/geniet-van-een-tosti-in-de-moestuin",
+      "location": "",
+      "time": "16 oktober 2026 van 12:00 tot 13:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 3,
+        "ontdekker": 1,
+        "buurtgenoot": 1,
+        "inpakker": 2
+      },
+      "dominant_profile": "buitenmens"
+    },
+    {
+      "title": "Vragen over Sliedrecht Doet",
+      "organizer": "",
+      "desc": "Wekelijks kun je langskomen bij het Bonkelaarhuis voor vragen over Sliedrecht Doet. Bijvoorbeeld hoe plaats ik een activiteit, hoe maak ik een account aan of  hoe kun je een bericht plaatsen.Kom gerust langs of stuur een e-mail naarln.teodthcerdeils@ofni.",
+      "url": "https://sliedrechtdoet.nl/agenda/121768/2026-10-16/vragen-over-sliedrecht-doet",
+      "location": "",
+      "time": "16 oktober 2026 van 13:00 tot 17:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 0,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
       "title": "Nieuwe gratis rondleidingen",
       "organizer": "",
       "desc": "Op zaterdag 17 oktober, 7 november en 12 december is er een nieuwe rondleiding te volgen in het museum. Dit is een unieke kans om meer te weten te komen over de geschiedenis van het woonhuis waar het museum zich al vijftig jaar in bevindt.Tijdens de rondleiding maken bezoekers een sfeervolle wandeling langs marmeren gangen, glas-in-loodramen, verborgen kelders en de authentieke keuken van het woon",
@@ -514,6 +498,22 @@
         "inpakker": 0
       },
       "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "Bijzondere voorstelling in Dijksynagoge",
+      "organizer": "",
+      "desc": "zanger, verteller en theatermaker; hij is als vrijwilliger actief in de culturele",
+      "url": "https://sliedrechtdoet.nl/agenda/153212/2026-10-17/bijzondere-voorstelling-in-dijksynagoge",
+      "location": "",
+      "time": "17 oktober 2026 van 20:00 tot 22:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 1,
+        "inpakker": 3
+      },
+      "dominant_profile": "ontdekker"
     },
     {
       "title": "Schitterende bloemen maken voor je huis",
@@ -562,6 +562,22 @@
         "inpakker": 0
       },
       "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "Spelletjesmiddag in de bibliotheek",
+      "organizer": "",
+      "desc": "Elke even vrijdag organiseren wij een spelletjesmiddag in de bibliotheek. Iedereen is welkom! Met elkaar maken we er een leuke middag van, de koffie en thee staat klaar! Kom je een nieuw spel uit proberen?",
+      "url": "https://sliedrechtdoet.nl/agenda/120092/2026-10-23/spelletjesmiddag-in-de-bibliotheek",
+      "location": "",
+      "time": "23 oktober 2026 van 14:00 tot 16:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 3,
+        "inpakker": 3
+      },
+      "dominant_profile": "ontdekker"
     },
     {
       "title": "NAH Mantelzorgcafé: Ik mis mij ook",
@@ -676,6 +692,22 @@
       "dominant_profile": "buurtgenoot"
     },
     {
+      "title": "Wensput",
+      "organizer": "",
+      "desc": "Wil je dat nog meer mensen meedoen? Nodig ze uit!",
+      "url": "https://sliedrechtdoet.nl/agenda/153180/2026-11-05/wensput-82",
+      "location": "",
+      "time": "5 november 2026 van 18:00 tot 20:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 0,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
       "title": "Repair Cafe",
       "organizer": "",
       "desc": "Heb je kapotte apparaten, speelgoed of gereedschap? We helpen je graag! Je bent van harte welkom bij Repair Café. Onder het motto ‘Weggooien? Mooi niet!‘ helpen we je om spullen te repareren.",
@@ -738,6 +770,22 @@
         "inpakker": 0
       },
       "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Wensput",
+      "organizer": "",
+      "desc": "Wil je dat nog meer mensen meedoen? Nodig ze uit!",
+      "url": "https://sliedrechtdoet.nl/agenda/153181/2026-11-12/wensput-83",
+      "location": "",
+      "time": "12 november 2026 van 18:00 tot 20:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 0,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
     },
     {
       "title": "Ontmoet, geniet en relax tijdens de Dag van de Mantelzorg!",
@@ -804,6 +852,22 @@
       "dominant_profile": "buurtgenoot"
     },
     {
+      "title": "Wensput",
+      "organizer": "",
+      "desc": "Wil je dat nog meer mensen meedoen? Nodig ze uit!",
+      "url": "https://sliedrechtdoet.nl/agenda/153182/2026-11-19/wensput-84",
+      "location": "",
+      "time": "19 november 2026 van 18:00 tot 20:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 0,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
       "title": "Kom en geniet van heden, verleden en toekomst.",
       "organizer": "",
       "desc": "U en jij zijn van harte welkom om te komen luisteren naar de enthousiaste verhalen die de verschillende sprekers te vertellen zullen hebben. laat u verrassen en meenemen in de interessante/spannende en leuke lezingen van de sprekers. Een avondje uit voor jong en oud.",
@@ -836,6 +900,22 @@
       "dominant_profile": "ontdekker"
     },
     {
+      "title": "Wensput",
+      "organizer": "",
+      "desc": "Wil je dat nog meer mensen meedoen? Nodig ze uit!",
+      "url": "https://sliedrechtdoet.nl/agenda/153183/2026-11-26/wensput-85",
+      "location": "",
+      "time": "26 november 2026 van 18:00 tot 20:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 0,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
       "title": "Workshop: Wintertafereel in ring",
       "organizer": "",
       "desc": "Doel van de avond: een gezellige avond en iedereen gaat met een eigen gemaakt stuk naar huis. Of je nu alleen opgeeft of met meerdere personen inschrijft, iedereen is welkom met of zonder creatieve ervaring.",
@@ -852,17 +932,33 @@
       "dominant_profile": "ontdekker"
     },
     {
-      "title": "🌿HSP Cafe - Drechtsteden",
+      "title": "Wensput",
       "organizer": "",
-      "desc": "Sluit dan aan bij het HSP Café. Een laagdrempelige bijeenkomst met maximaal 8 personen, waarin steeds een ander thema centraal staat.",
-      "url": "https://sliedrechtdoet.nl/agenda/146789/2026-12-04/hsp-cafe-drechtsteden-4",
+      "desc": "Wil je dat nog meer mensen meedoen? Nodig ze uit!",
+      "url": "https://sliedrechtdoet.nl/agenda/153184/2026-12-03/wensput-86",
+      "location": "",
+      "time": "3 december 2026 van 18:00 tot 20:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 0,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "🌿Laatste HSP-Café",
+      "organizer": "",
+      "desc": "Het HSP Café, een fijne plek om andere hoogsensitieve mensen te ontmoeten, ervaringen uit te wisselen en herkenning te vinden bij elkaar.",
+      "url": "https://sliedrechtdoet.nl/agenda/146789/2026-12-04/laatste-hsp-cafe",
       "location": "",
       "time": "4 december 2026 van 10:00 tot 12:00 uur",
       "frequency": "",
       "scores": {
         "buitenmens": 0,
         "ontdekker": 0,
-        "buurtgenoot": 0,
+        "buurtgenoot": 3,
         "inpakker": 0
       },
       "dominant_profile": "buurtgenoot"
@@ -900,6 +996,22 @@
       "dominant_profile": "buurtgenoot"
     },
     {
+      "title": "Wensput",
+      "organizer": "",
+      "desc": "Wil je dat nog meer mensen meedoen? Nodig ze uit!",
+      "url": "https://sliedrechtdoet.nl/agenda/153185/2026-12-10/wensput-87",
+      "location": "",
+      "time": "10 december 2026 van 18:00 tot 20:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 0,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
       "title": "Nieuwe gratis rondleiding door het museumgebouw",
       "organizer": "",
       "desc": "Op zaterdag 17 oktober, 7 november en 12 december is er een nieuwe rondleiding te volgen in het museum. Dit is een unieke kans om meer te weten te komen over de geschiedenis van het woonhuis waar het museum zich al vijftig jaar in bevindt.Tijdens de rondleiding maken bezoekers een sfeervolle wandeling langs marmeren gangen, glas-in-loodramen, verborgen kelders en de authentieke keuken van het woon",
@@ -922,6 +1034,54 @@
       "url": "https://sliedrechtdoet.nl/agenda/150789/2026-12-14/kom-kerststukjes-maken-in-de-groene-huiskamer",
       "location": "",
       "time": "14 december 2026 van 09:00 tot 12:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 0,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "Wensput",
+      "organizer": "",
+      "desc": "Wil je dat nog meer mensen meedoen? Nodig ze uit!",
+      "url": "https://sliedrechtdoet.nl/agenda/153186/2026-12-17/wensput-88",
+      "location": "",
+      "time": "17 december 2026 van 18:00 tot 20:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 0,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "Wensput",
+      "organizer": "",
+      "desc": "Wil je dat nog meer mensen meedoen? Nodig ze uit!",
+      "url": "https://sliedrechtdoet.nl/agenda/153188/2026-12-24/wensput-90",
+      "location": "",
+      "time": "24 december 2026 van 18:00 tot 20:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 0,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "Wensput",
+      "organizer": "",
+      "desc": "Wil je dat nog meer mensen meedoen? Nodig ze uit!",
+      "url": "https://sliedrechtdoet.nl/agenda/153187/2026-12-31/wensput-89",
+      "location": "",
+      "time": "31 december 2026 van 18:00 tot 20:00 uur",
       "frequency": "",
       "scores": {
         "buitenmens": 0,
