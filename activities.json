@@ -1,15 +1,15 @@
 {
-  "updated_at": "14-10-2026 05:40",
+  "updated_at": "15-10-2026 05:26",
   "source": "https://sliedrechtdoet.nl/agenda",
-  "count": 65,
+  "count": 66,
   "activities": [
     {
       "title": "Taaloefengroep voor vrouwen",
       "organizer": "",
       "desc": "Oefenen met Nederlands lezen, spreken en schrijven op jouw niveau? Samen met andere mensen? De bieb helpt! Kom naar de Taaloefengroep in jouw bibliotheek.Wel vooraf aanmelden aan bij het Taalpunt op locatie Sliedrecht.",
-      "url": "https://sliedrechtdoet.nl/agenda/129393/2026-10-14/taaloefengroep-voor-vrouwen",
+      "url": "https://sliedrechtdoet.nl/agenda/129393/2026-10-15/taaloefengroep-voor-vrouwen",
       "location": "",
-      "time": "14 oktober 2026 van 09:30 tot 11:00 uur",
+      "time": "15 oktober 2026 van 09:30 tot 11:00 uur",
       "frequency": "",
       "scores": {
         "buitenmens": 0,
@@ -18,22 +18,6 @@
         "inpakker": 0
       },
       "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Gezellige middag op de Moestuin",
-      "organizer": "",
-      "desc": "Elke tweede woensdagmiddag van de maand is er een gezellige inloop van Leef op de Moestuin van Sliedrecht. We kletsen en drinken een bakkie met soms wat lekkers erbij. Bij mooi weer in de prachtige tuin, bij minder mooi weer binnen. Heb je ook zin in een praatje en gezelligheid? Kom een keer langs! Iedereen is welkom.",
-      "url": "https://sliedrechtdoet.nl/agenda/153483/2026-10-14/gezellige-middag-op-de-moestuin",
-      "location": "",
-      "time": "14 oktober 2026 van 14:00 tot 16:30 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 1,
-        "buurtgenoot": 3,
-        "inpakker": 2
-      },
-      "dominant_profile": "buurtgenoot"
     },
     {
       "title": "Zet je in beweging met dansplezier.",
@@ -724,6 +708,22 @@
       "dominant_profile": "buurtgenoot"
     },
     {
+      "title": "Gezellige middag op de Moestuin",
+      "organizer": "",
+      "desc": "Elke tweede woensdagmiddag van de maand is er een gezellige inloop van Leef op de Moestuin van Sliedrecht. We kletsen en drinken een bakkie met soms wat lekkers erbij. Bij mooi weer in de prachtige tuin, bij minder mooi weer binnen. Heb je ook zin in een praatje en gezelligheid? Kom een keer langs! Iedereen is welkom.",
+      "url": "https://sliedrechtdoet.nl/agenda/153483/2026-11-11/gezellige-middag-op-de-moestuin",
+      "location": "",
+      "time": "11 november 2026 van 14:00 tot 16:30 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 1,
+        "buurtgenoot": 3,
+        "inpakker": 2
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
       "title": "Wensput",
       "organizer": "",
       "desc": "Wil je dat nog meer mensen meedoen? Nodig ze uit!",
@@ -954,6 +954,22 @@
       "url": "https://sliedrechtdoet.nl/agenda/153185/2026-12-10/wensput-87",
       "location": "",
       "time": "10 december 2026 van 18:00 tot 20:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 0,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "Doe mee aan WRITE FOR RIGHTS",
+      "organizer": "",
+      "desc": "Die middag kun je in de bieb één of meer brieven schrijven, in het kader van de wereldwijde actie van Amnesty International,WRITE FOR RIGHTS.",
+      "url": "https://sliedrechtdoet.nl/agenda/153563/2026-12-11/doe-mee-aan-write-for-rights-2",
+      "location": "",
+      "time": "11 december 2026 van 12:00 tot 17:00 uur",
       "frequency": "",
       "scores": {
         "buitenmens": 0,
