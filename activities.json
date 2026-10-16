@@ -1,120 +1,8 @@
 {
-  "updated_at": "15-10-2026 05:26",
+  "updated_at": "16-10-2026 05:19",
   "source": "https://sliedrechtdoet.nl/agenda",
-  "count": 66,
+  "count": 64,
   "activities": [
-    {
-      "title": "Taaloefengroep voor vrouwen",
-      "organizer": "",
-      "desc": "Oefenen met Nederlands lezen, spreken en schrijven op jouw niveau? Samen met andere mensen? De bieb helpt! Kom naar de Taaloefengroep in jouw bibliotheek.Wel vooraf aanmelden aan bij het Taalpunt op locatie Sliedrecht.",
-      "url": "https://sliedrechtdoet.nl/agenda/129393/2026-10-15/taaloefengroep-voor-vrouwen",
-      "location": "",
-      "time": "15 oktober 2026 van 09:30 tot 11:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 3,
-        "inpakker": 0
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Zet je in beweging met dansplezier.",
-      "organizer": "",
-      "desc": "Werelddansen voor 55+ers op een gezellige laagdrempelig manier die tot op hoge leeftijd meegedaan kunnen worden.",
-      "url": "https://sliedrechtdoet.nl/agenda/133599/2026-10-15/zet-je-in-beweging-met-dansplezier-2",
-      "location": "",
-      "time": "15 oktober 2026 van 09:30 tot 11:15 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 2,
-        "ontdekker": 1,
-        "buurtgenoot": 2,
-        "inpakker": 0
-      },
-      "dominant_profile": "buitenmens"
-    },
-    {
-      "title": "Zing mee op de moestuin!",
-      "organizer": "",
-      "desc": "Kom gezellig zingen met ons op de moestuin, onder leiding van Brenda,",
-      "url": "https://sliedrechtdoet.nl/agenda/143263/2026-10-15/zing-mee-op-de-moestuin-3",
-      "location": "",
-      "time": "15 oktober 2026 van 11:00 tot 12:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 2,
-        "inpakker": 2
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Zing mee op de moestuin",
-      "organizer": "",
-      "desc": "Kom gezellig zingen met ons op de moestuin, onder leiding van Brenda,",
-      "url": "https://sliedrechtdoet.nl/agenda/152905/2026-10-15/zing-mee-op-de-moestuin-4",
-      "location": "",
-      "time": "15 oktober 2026 van 11:00 tot 12:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 2,
-        "inpakker": 2
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Taalpunt is startpunt",
-      "organizer": "",
-      "desc": "Beter Nederlands leren? Hulp nodig bij lezen of schrijven? Oefenen met de computer? Taal of Digitaal vrijwilliger worden? De bieb helpt! Kom naar het Taalpunt in jouw bibliotheek. Samen kijken we wat je kunt doen.",
-      "url": "https://sliedrechtdoet.nl/agenda/118861/2026-10-15/taalpunt-is-startpunt",
-      "location": "",
-      "time": "15 oktober 2026 van 14:00 tot 16:00 uur",
-      "frequency": "wekelijks",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 3,
-        "inpakker": 3
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Informatiepunt Digitale Overheid",
-      "organizer": "",
-      "desc": "We regelen steeds meer online. Het aanvragen van een rijbewijs, paspoort of huurtoeslag of het betalen van een boete. Kun je wel wat hulp gebruiken? Kom langs bij het gratis Informatiepunt Digitale Overheid (IDO). Je bent welkom zonder afspraak.",
-      "url": "https://sliedrechtdoet.nl/agenda/149135/2026-10-15/informatiepunt-digitale-overheid-12",
-      "location": "",
-      "time": "15 oktober 2026 van 14:00 tot 16:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 0,
-        "buurtgenoot": 0,
-        "inpakker": 3
-      },
-      "dominant_profile": "inpakker"
-    },
-    {
-      "title": "Wensput",
-      "organizer": "",
-      "desc": "In het tweede uur de nieuwsfeiten van 1975. Zo waren er ernstige krakersrellen op de Nieuwmarkt in Amsterdam, natuurlijk komen de prijzen van 1975 voorbij en we blikken terug op de lange hete zomer van 1975. In onze rubriek tv en film van toen de tune van \"Het dagboek van een herdershond\".",
-      "url": "https://sliedrechtdoet.nl/agenda/150812/2026-10-15/wensput-79",
-      "location": "",
-      "time": "15 oktober 2026 van 18:00 tot 20:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 3,
-        "ontdekker": 3,
-        "buurtgenoot": 3,
-        "inpakker": 0
-      },
-      "dominant_profile": "buitenmens"
-    },
     {
       "title": "Digitaal inloopspreekuur in de bieb!",
       "organizer": "",
@@ -466,6 +354,86 @@
         "inpakker": 0
       },
       "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Taaloefengroep voor vrouwen",
+      "organizer": "",
+      "desc": "Oefenen met Nederlands lezen, spreken en schrijven op jouw niveau? Samen met andere mensen? De bieb helpt! Kom naar de Taaloefengroep in jouw bibliotheek.Wel vooraf aanmelden aan bij het Taalpunt op locatie Sliedrecht.",
+      "url": "https://sliedrechtdoet.nl/agenda/129393/2026-10-21/taaloefengroep-voor-vrouwen",
+      "location": "",
+      "time": "21 oktober 2026 van 09:30 tot 11:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 3,
+        "inpakker": 0
+      },
+      "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Zet je in beweging met dansplezier.",
+      "organizer": "",
+      "desc": "Werelddansen voor 55+ers op een gezellige laagdrempelig manier die tot op hoge leeftijd meegedaan kunnen worden.",
+      "url": "https://sliedrechtdoet.nl/agenda/133599/2026-10-22/zet-je-in-beweging-met-dansplezier-2",
+      "location": "",
+      "time": "22 oktober 2026 van 09:30 tot 11:15 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 2,
+        "ontdekker": 1,
+        "buurtgenoot": 2,
+        "inpakker": 0
+      },
+      "dominant_profile": "buitenmens"
+    },
+    {
+      "title": "Zing mee op de moestuin",
+      "organizer": "",
+      "desc": "Kom gezellig zingen met ons op de moestuin, onder leiding van Brenda,",
+      "url": "https://sliedrechtdoet.nl/agenda/152905/2026-10-22/zing-mee-op-de-moestuin-4",
+      "location": "",
+      "time": "22 oktober 2026 van 11:00 tot 12:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 2,
+        "inpakker": 2
+      },
+      "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Taalpunt is startpunt",
+      "organizer": "",
+      "desc": "Beter Nederlands leren? Hulp nodig bij lezen of schrijven? Oefenen met de computer? Taal of Digitaal vrijwilliger worden? De bieb helpt! Kom naar het Taalpunt in jouw bibliotheek. Samen kijken we wat je kunt doen.",
+      "url": "https://sliedrechtdoet.nl/agenda/118861/2026-10-22/taalpunt-is-startpunt",
+      "location": "",
+      "time": "22 oktober 2026 van 14:00 tot 16:00 uur",
+      "frequency": "wekelijks",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 3,
+        "inpakker": 3
+      },
+      "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Informatiepunt Digitale Overheid",
+      "organizer": "",
+      "desc": "We regelen steeds meer online. Het aanvragen van een rijbewijs, paspoort of huurtoeslag of het betalen van een boete. Kun je wel wat hulp gebruiken? Kom langs bij het gratis Informatiepunt Digitale Overheid (IDO). Je bent welkom zonder afspraak.",
+      "url": "https://sliedrechtdoet.nl/agenda/149135/2026-10-22/informatiepunt-digitale-overheid-12",
+      "location": "",
+      "time": "22 oktober 2026 van 14:00 tot 16:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 0,
+        "inpakker": 3
+      },
+      "dominant_profile": "inpakker"
     },
     {
       "title": "Wensput",
