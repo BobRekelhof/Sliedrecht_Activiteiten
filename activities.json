@@ -1,72 +1,8 @@
 {
-  "updated_at": "17-10-2026 05:14",
+  "updated_at": "18-10-2026 05:18",
   "source": "https://sliedrechtdoet.nl/agenda",
-  "count": 63,
+  "count": 60,
   "activities": [
-    {
-      "title": "Doe mee met het Burenkleuren-project!",
-      "organizer": "",
-      "desc": "Het Burenkleuren-project gaat opnieuw van start na een succesvolle eerste editie, waarbij in het Sliedrecht Museum in december een tentoonstelling plaatsvond met 40 deelnemers en 40 unieke kunstwerken. In deze nieuwe editie is het doel nog groter: 80 deelnemers en 80 kunstwerken die samen worden gepresenteerd in een bijzondere tentoonstelling.",
-      "url": "https://sliedrechtdoet.nl/agenda/144792/2026-10-17/doe-mee-met-het-burenkleuren-project",
-      "location": "",
-      "time": "17 oktober 2026 van 11:00 tot 12:30 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 2,
-        "inpakker": 0
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Nieuwe gratis rondleidingen",
-      "organizer": "",
-      "desc": "Op zaterdag 17 oktober, 7 november en 12 december is er een nieuwe rondleiding te volgen in het museum. Dit is een unieke kans om meer te weten te komen over de geschiedenis van het woonhuis waar het museum zich al vijftig jaar in bevindt.Tijdens de rondleiding maken bezoekers een sfeervolle wandeling langs marmeren gangen, glas-in-loodramen, verborgen kelders en de authentieke keuken van het woon",
-      "url": "https://sliedrechtdoet.nl/agenda/152619/2026-10-17/nieuwe-gratis-rondleidingen",
-      "location": "",
-      "time": "17 oktober 2026 van 14:00 tot 15:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 3,
-        "inpakker": 0
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Spelonkel: een middag voor kaarten, dobbelstenen en fantasy in Poppodium Elektra.",
-      "organizer": "",
-      "desc": "Wil je dat nog meer mensen meedoen? Nodig ze uit!",
-      "url": "https://sliedrechtdoet.nl/agenda/152683/2026-10-17/spelonkel-een-middag-voor-kaarten-dobbelstenen-en-fantasy-in-poppodium-elektra",
-      "location": "",
-      "time": "17 oktober 2026 van 16:00 tot 23:59 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 1,
-        "buurtgenoot": 3,
-        "inpakker": 0
-      },
-      "dominant_profile": "buurtgenoot"
-    },
-    {
-      "title": "Bijzondere voorstelling in Dijksynagoge",
-      "organizer": "",
-      "desc": "zanger, verteller en theatermaker; hij is als vrijwilliger actief in de culturele",
-      "url": "https://sliedrechtdoet.nl/agenda/153212/2026-10-17/bijzondere-voorstelling-in-dijksynagoge",
-      "location": "",
-      "time": "17 oktober 2026 van 20:00 tot 22:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 1,
-        "inpakker": 3
-      },
-      "dominant_profile": "ontdekker"
-    },
     {
       "title": "Schitterende bloemen maken voor je huis",
       "organizer": "",
@@ -448,6 +384,22 @@
         "ontdekker": 3,
         "buurtgenoot": 3,
         "inpakker": 3
+      },
+      "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Doe mee met het Burenkleuren-project!",
+      "organizer": "",
+      "desc": "Het Burenkleuren-project gaat opnieuw van start na een succesvolle eerste editie, waarbij in het Sliedrecht Museum in december een tentoonstelling plaatsvond met 40 deelnemers en 40 unieke kunstwerken. In deze nieuwe editie is het doel nog groter: 80 deelnemers en 80 kunstwerken die samen worden gepresenteerd in een bijzondere tentoonstelling.",
+      "url": "https://sliedrechtdoet.nl/agenda/144792/2026-10-24/doe-mee-met-het-burenkleuren-project",
+      "location": "",
+      "time": "24 oktober 2026 van 11:00 tot 12:30 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 2,
+        "inpakker": 0
       },
       "dominant_profile": "ontdekker"
     },
