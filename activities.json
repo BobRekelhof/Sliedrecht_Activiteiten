@@ -1,24 +1,8 @@
 {
-  "updated_at": "24-10-2026 05:15",
+  "updated_at": "25-10-2026 05:33",
   "source": "https://sliedrechtdoet.nl/agenda",
-  "count": 58,
+  "count": 61,
   "activities": [
-    {
-      "title": "Doe mee met het Burenkleuren-project!",
-      "organizer": "",
-      "desc": "Het Burenkleuren-project gaat opnieuw van start na een succesvolle eerste editie, waarbij in het Sliedrecht Museum in december een tentoonstelling plaatsvond met 40 deelnemers en 40 unieke kunstwerken. In deze nieuwe editie is het doel nog groter: 80 deelnemers en 80 kunstwerken die samen worden gepresenteerd in een bijzondere tentoonstelling.",
-      "url": "https://sliedrechtdoet.nl/agenda/144792/2026-10-24/doe-mee-met-het-burenkleuren-project",
-      "location": "",
-      "time": "24 oktober 2026 van 11:00 tot 12:30 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 2,
-        "inpakker": 0
-      },
-      "dominant_profile": "ontdekker"
-    },
     {
       "title": "Elke maandag: Gezellige ontmoetingsmorgen",
       "organizer": "",
@@ -210,6 +194,22 @@
         "inpakker": 0
       },
       "dominant_profile": "buitenmens"
+    },
+    {
+      "title": "Doe mee: creatieve middag kinusaiga!",
+      "organizer": "",
+      "desc": "Tijdens deze gezellige workshop maak je kennis met de techniek en ga je zelf aan de slag. Je kiest je eigen kleuren en stoffen en ontdekt hoe leuk het is om daarmee te spelen. Je hoeft niet bijzonder creatief of handig te zijn: iedereen kan meedoen! Juist het rustig bezig zijn, experimenteren en genieten van het proces maakt deze workshop zo leuk.",
+      "url": "https://sliedrechtdoet.nl/agenda/154196/2026-10-28/doe-mee-creatieve-middag-kinusaiga",
+      "location": "",
+      "time": "28 oktober 2026 van 14:00 tot 17:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 3,
+        "inpakker": 0
+      },
+      "dominant_profile": "ontdekker"
     },
     {
       "title": "Zet je in beweging met dansplezier.",
@@ -404,6 +404,22 @@
       "dominant_profile": "buurtgenoot"
     },
     {
+      "title": "Doe mee met het Burenkleuren-project!",
+      "organizer": "",
+      "desc": "Het Burenkleuren-project gaat opnieuw van start na een succesvolle eerste editie, waarbij in het Sliedrecht Museum in december een tentoonstelling plaatsvond met 40 deelnemers en 40 unieke kunstwerken. In deze nieuwe editie is het doel nog groter: 80 deelnemers en 80 kunstwerken die samen worden gepresenteerd in een bijzondere tentoonstelling.",
+      "url": "https://sliedrechtdoet.nl/agenda/144792/2026-10-31/doe-mee-met-het-burenkleuren-project",
+      "location": "",
+      "time": "31 oktober 2026 van 11:00 tot 12:30 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 2,
+        "inpakker": 0
+      },
+      "dominant_profile": "ontdekker"
+    },
+    {
       "title": "Maak je eigen creatievelijke kaarten",
       "organizer": "",
       "desc": "Wilt u leren hoe u zelf op een leuke creatieve manier kaarten maakt, niet standaard kaarten, maar net iets anders!",
@@ -434,6 +450,22 @@
         "inpakker": 3
       },
       "dominant_profile": "inpakker"
+    },
+    {
+      "title": "Ontdek Kinusaiga en maak kunst",
+      "organizer": "",
+      "desc": "Tijdens deze gezellige workshop maak je kennis met de techniek en ga je zelf aan de slag. Je kiest je eigen kleuren en stoffen en ontdekt hoe leuk het is om daarmee te spelen. Je hoeft niet bijzonder creatief of handig te zijn: iedereen kan meedoen! Juist het rustig bezig zijn, experimenteren en genieten van het proces maakt deze workshop zo leuk.",
+      "url": "https://sliedrechtdoet.nl/agenda/154198/2026-11-04/ontdek-kinusaiga-en-maak-kunst",
+      "location": "",
+      "time": "4 november 2026 van 09:30 tot 12:30 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 3,
+        "inpakker": 0
+      },
+      "dominant_profile": "ontdekker"
     },
     {
       "title": "Koffie en ideeën: Maak de informatie voor mantelzorgers beter!",
@@ -544,6 +576,22 @@
         "ontdekker": 3,
         "buurtgenoot": 2,
         "inpakker": 3
+      },
+      "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Ontmoet je buren met koffie en thee",
+      "organizer": "",
+      "desc": "Op zaterdag 7 november hebben we van 10:00-11:00u een burenuurtje vooralle burenvan de wijk De Hoven.We zullen dit buren-uurtje houden in een partytent die zal staan op het schoolplein van school de Sprong die midden in de wijk staat.Koffie/thee en wat lekkers staan klaar en de kinderen kunnen een Sint Maarten Lampion knutselen.Dit buren-uurtje en het knutselen is gratis.",
+      "url": "https://sliedrechtdoet.nl/agenda/154214/2026-11-07/ontmoet-je-buren-met-koffie-en-thee",
+      "location": "",
+      "time": "7 november 2026 van 10:00 tot 11:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 3,
+        "inpakker": 1
       },
       "dominant_profile": "ontdekker"
     },
