@@ -1,40 +1,8 @@
 {
-  "updated_at": "31-10-2026 06:30",
+  "updated_at": "01-11-2026 07:02",
   "source": "https://sliedrechtdoet.nl/agenda",
-  "count": 58,
+  "count": 57,
   "activities": [
-    {
-      "title": "Doe mee met het Burenkleuren-project!",
-      "organizer": "",
-      "desc": "Ama Burenkleuren sadece sanattan ibaret değil. Yeni insanlarla tanışıyoruz, birbirimizi daha iyi tanıyoruz, hikayeler paylaşıyoruz ve birlikte sıcak, birbirine bağlı bir mahalle inşa ediyoruz. Çünkü renksiz bir mahalle olmaz! ❤️",
-      "url": "https://sliedrechtdoet.nl/agenda/144792/2026-10-31/doe-mee-met-het-burenkleuren-project",
-      "location": "",
-      "time": "31 oktober 2026 van 11:00 tot 12:30 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 1,
-        "inpakker": 0
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Creëer kleurrijke herinneringen met je buren!",
-      "organizer": "",
-      "desc": "Maar Burenkleuren is meer dan kunst alleen. We ontmoeten nieuwe mensen, leren elkaar kennen, delen verhalen en bouwen samen aan een warme, verbonden buurt. Want een buurt zonder kleur bestaat niet!",
-      "url": "https://sliedrechtdoet.nl/agenda/154243/2026-10-31/creeer-kleurrijke-herinneringen-met-je-buren",
-      "location": "",
-      "time": "31 oktober 2026 van 11:00 tot 12:30 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 3,
-        "inpakker": 3
-      },
-      "dominant_profile": "ontdekker"
-    },
     {
       "title": "Elke maandag: Gezellige ontmoetingsmorgen",
       "organizer": "",
@@ -512,6 +480,22 @@
         "ontdekker": 3,
         "buurtgenoot": 3,
         "inpakker": 1
+      },
+      "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Creëer kleurrijke herinneringen met je buren!",
+      "organizer": "",
+      "desc": "Ama Burenkleuren sadece sanattan ibaret değil. Yeni insanlarla tanışıyoruz, birbirimizi daha iyi tanıyoruz, hikayeler paylaşıyoruz ve birlikte sıcak, birbirine bağlı bir mahalle inşa ediyoruz. Çünkü renksiz bir mahalle olmaz! ❤️",
+      "url": "https://sliedrechtdoet.nl/agenda/154243/2026-11-07/creeer-kleurrijke-herinneringen-met-je-buren",
+      "location": "",
+      "time": "7 november 2026 van 11:00 tot 12:30 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 1,
+        "inpakker": 0
       },
       "dominant_profile": "ontdekker"
     },
