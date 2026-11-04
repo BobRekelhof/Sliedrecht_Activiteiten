@@ -1,104 +1,8 @@
 {
-  "updated_at": "03-11-2026 07:26",
+  "updated_at": "04-11-2026 07:07",
   "source": "https://sliedrechtdoet.nl/agenda",
-  "count": 57,
+  "count": 58,
   "activities": [
-    {
-      "title": "Laat je inspireren tijdens koffie met...",
-      "organizer": "",
-      "desc": "Samen koffie drinken, mensen ontmoeten en nieuwe kennis opdoen: dat is Koffie met... in het kort. Dus kom langs en laat je verrassen door interessante presentaties en sprekers.",
-      "url": "https://sliedrechtdoet.nl/agenda/118472/2026-11-03/laat-je-inspireren-tijdens-koffie-met",
-      "location": "",
-      "time": "3 november 2026 van 10:30 tot 11:45 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 3,
-        "inpakker": 0
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Koffie met...",
-      "organizer": "",
-      "desc": "Samen koffie drinken, mensen ontmoeten en nieuwe kennis opdoen: dat is Koffie met… in het kort. Dus kom langs en laat je verrassen door interessante presentaties en sprekers.",
-      "url": "https://sliedrechtdoet.nl/agenda/149126/2026-11-03/koffie-met-14",
-      "location": "",
-      "time": "3 november 2026 van 10:30 tot 12:00 uur",
-      "frequency": "wekelijks",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 3,
-        "inpakker": 0
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Informatiepunt Digitale Overheid",
-      "organizer": "",
-      "desc": "We regelen steeds meer online. Het aanvragen van een rijbewijs, paspoort of huurtoeslag of het betalen van een boete. Kun je wel wat hulp gebruiken? Kom langs bij het gratis Informatiepunt Digitale Overheid (IDO). Je bent welkom zonder afspraak.",
-      "url": "https://sliedrechtdoet.nl/agenda/149136/2026-11-03/informatiepunt-digitale-overheid-13",
-      "location": "",
-      "time": "3 november 2026 van 13:00 tot 15:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 0,
-        "buurtgenoot": 0,
-        "inpakker": 3
-      },
-      "dominant_profile": "inpakker"
-    },
-    {
-      "title": "Aangehaakt",
-      "organizer": "",
-      "desc": "Ben je creatief, kom dan gezellig naar Aangehaakt! Er is gelegenheid om patronen uit te wisselen, inspiratie op te doen en van elkaar te leren. Beginner of gevorderde, jong of oud, iedereen is welkom. Neem zelf je wol, haak en/of breiwerk mee, dan zorgen wij voor de koffie en thee.",
-      "url": "https://sliedrechtdoet.nl/agenda/129383/2026-11-03/aangehaakt",
-      "location": "",
-      "time": "3 november 2026 van 14:00 tot 16:00 uur",
-      "frequency": "wekelijks",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 3,
-        "inpakker": 3
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Voorlezen en kleuren in het thema van het boek!",
-      "organizer": "",
-      "desc": "Elke dinsdag van 15:00 - 16:00 uur kun je in de bibliotheek in Sliedrecht luisteren naar de mooiste, grappigste verhalen. Tijdens of na het voorlezen kun je gezellig kleuren in het thema van het boek.",
-      "url": "https://sliedrechtdoet.nl/agenda/133610/2026-11-03/voorlezen-en-kleuren-in-het-thema-van-het-boek",
-      "location": "",
-      "time": "3 november 2026 van 15:00 tot 16:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 3,
-        "inpakker": 0
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Beweeg onder begeleiding",
-      "organizer": "",
-      "desc": "Iedere week bewegen we onder begeleiding van een fysiotherapeut in warm water van 32 graden. We doen speciale oefeningen voor mensen met o.a. reuma.",
-      "url": "https://sliedrechtdoet.nl/agenda/151380/2026-11-03/beweeg-onder-begeleiding",
-      "location": "",
-      "time": "3 november 2026 van 19:30 tot 20:30 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 0,
-        "buurtgenoot": 0,
-        "inpakker": 3
-      },
-      "dominant_profile": "inpakker"
-    },
     {
       "title": "Taaloefengroep voor vrouwen",
       "organizer": "",
@@ -500,6 +404,102 @@
       "dominant_profile": "ontdekker"
     },
     {
+      "title": "Laat je inspireren tijdens koffie met...",
+      "organizer": "",
+      "desc": "Samen koffie drinken, mensen ontmoeten en nieuwe kennis opdoen: dat is Koffie met... in het kort. Dus kom langs en laat je verrassen door interessante presentaties en sprekers.",
+      "url": "https://sliedrechtdoet.nl/agenda/118472/2026-11-10/laat-je-inspireren-tijdens-koffie-met",
+      "location": "",
+      "time": "10 november 2026 van 10:30 tot 11:45 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 3,
+        "inpakker": 0
+      },
+      "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Koffie met...",
+      "organizer": "",
+      "desc": "Samen koffie drinken, mensen ontmoeten en nieuwe kennis opdoen: dat is Koffie met… in het kort. Dus kom langs en laat je verrassen door interessante presentaties en sprekers.",
+      "url": "https://sliedrechtdoet.nl/agenda/149126/2026-11-10/koffie-met-14",
+      "location": "",
+      "time": "10 november 2026 van 10:30 tot 12:00 uur",
+      "frequency": "wekelijks",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 3,
+        "inpakker": 0
+      },
+      "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Informatiepunt Digitale Overheid",
+      "organizer": "",
+      "desc": "We regelen steeds meer online. Het aanvragen van een rijbewijs, paspoort of huurtoeslag of het betalen van een boete. Kun je wel wat hulp gebruiken? Kom langs bij het gratis Informatiepunt Digitale Overheid (IDO). Je bent welkom zonder afspraak.",
+      "url": "https://sliedrechtdoet.nl/agenda/149136/2026-11-10/informatiepunt-digitale-overheid-13",
+      "location": "",
+      "time": "10 november 2026 van 13:00 tot 15:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 0,
+        "inpakker": 3
+      },
+      "dominant_profile": "inpakker"
+    },
+    {
+      "title": "Aangehaakt",
+      "organizer": "",
+      "desc": "Ben je creatief, kom dan gezellig naar Aangehaakt! Er is gelegenheid om patronen uit te wisselen, inspiratie op te doen en van elkaar te leren. Beginner of gevorderde, jong of oud, iedereen is welkom. Neem zelf je wol, haak en/of breiwerk mee, dan zorgen wij voor de koffie en thee.",
+      "url": "https://sliedrechtdoet.nl/agenda/129383/2026-11-10/aangehaakt",
+      "location": "",
+      "time": "10 november 2026 van 14:00 tot 16:00 uur",
+      "frequency": "wekelijks",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 3,
+        "inpakker": 3
+      },
+      "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Voorlezen en kleuren in het thema van het boek!",
+      "organizer": "",
+      "desc": "Elke dinsdag van 15:00 - 16:00 uur kun je in de bibliotheek in Sliedrecht luisteren naar de mooiste, grappigste verhalen. Tijdens of na het voorlezen kun je gezellig kleuren in het thema van het boek.",
+      "url": "https://sliedrechtdoet.nl/agenda/133610/2026-11-10/voorlezen-en-kleuren-in-het-thema-van-het-boek",
+      "location": "",
+      "time": "10 november 2026 van 15:00 tot 16:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 3,
+        "inpakker": 0
+      },
+      "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Beweeg onder begeleiding",
+      "organizer": "",
+      "desc": "Iedere week bewegen we onder begeleiding van een fysiotherapeut in warm water van 32 graden. We doen speciale oefeningen voor mensen met o.a. reuma.",
+      "url": "https://sliedrechtdoet.nl/agenda/151380/2026-11-10/beweeg-onder-begeleiding",
+      "location": "",
+      "time": "10 november 2026 van 19:30 tot 20:30 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 0,
+        "inpakker": 3
+      },
+      "dominant_profile": "inpakker"
+    },
+    {
       "title": "Gezellige middag op de Moestuin",
       "organizer": "",
       "desc": "Elke tweede woensdagmiddag van de maand is er een gezellige inloop van Leef op de Moestuin van Sliedrecht. We kletsen en drinken een bakkie met soms wat lekkers erbij. Bij mooi weer in de prachtige tuin, bij minder mooi weer binnen. Heb je ook zin in een praatje en gezelligheid? Kom een keer langs! Iedereen is welkom.",
@@ -722,6 +722,22 @@
         "inpakker": 0
       },
       "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "Workshop: Hoe haalt mijn nieuws de krant?",
+      "organizer": "",
+      "desc": "Ervaren journalisten Alex Monster en Louis van Oort (onder andere van Het Kompas Sliedrecht) geven je een kijkje achter de schermen van de media. Je krijgt praktische tips over het schrijven van een goed persbericht, contact leggen met journalisten en de inzet van AI bij je communicatie. Zo leer je hoe je jouw nieuws beter zichtbaar maakt!",
+      "url": "https://sliedrechtdoet.nl/agenda/154881/2026-12-02/workshop-hoe-haalt-mijn-nieuws-de-krant",
+      "location": "",
+      "time": "2 december 2026 van 19:15 tot 21:30 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 0,
+        "inpakker": 0
+      },
+      "dominant_profile": "ontdekker"
     },
     {
       "title": "Wensput",
