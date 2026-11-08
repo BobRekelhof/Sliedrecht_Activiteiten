@@ -1,104 +1,8 @@
 {
-  "updated_at": "07-11-2026 06:44",
+  "updated_at": "08-11-2026 06:51",
   "source": "https://sliedrechtdoet.nl/agenda",
-  "count": 56,
+  "count": 52,
   "activities": [
-    {
-      "title": "Repair Cafe",
-      "organizer": "",
-      "desc": "Heb je kapotte apparaten, speelgoed of gereedschap? We helpen je graag! Je bent van harte welkom bij Repair Café. Onder het motto ‘Weggooien? Mooi niet!‘ helpen we je om spullen te repareren.",
-      "url": "https://sliedrechtdoet.nl/agenda/129398/2026-11-07/repair-cafe-68",
-      "location": "",
-      "time": "7 november 2026 van 10:00 tot 13:00 uur",
-      "frequency": "maandelijks",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 0,
-        "buurtgenoot": 0,
-        "inpakker": 3
-      },
-      "dominant_profile": "inpakker"
-    },
-    {
-      "title": "Landelijke atelierdagen: Sliedrechtse tentoonstelling voor lokale kunstenaars!",
-      "organizer": "",
-      "desc": "Op zaterdag 7 november organiseert Sliedrecht Doet in het kader van de Landelijke Atelierdagen een tentoonstelling met het werk van lokale kunstenaars. Diverse kunstenaars zijn enthousiast, maar niet iedereen heeft een atelier tot zijn of haar beschikking, daarom zien we af van de route en vindt het kunstevenement plaats in Partycentrum De Lockhorst. We maken van deze dag een inspirerende plek waa",
-      "url": "https://sliedrechtdoet.nl/agenda/149473/2026-11-07/landelijke-atelierdagen-sliedrechtse-tentoonstelling-voor-lokale-kunstenaars",
-      "location": "",
-      "time": "7 november 2026 van 10:00 tot 16:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 1,
-        "ontdekker": 3,
-        "buurtgenoot": 3,
-        "inpakker": 0
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "WINTERFAIR | 7 NOVEMBER",
-      "organizer": "",
-      "desc": "Op zaterdag 7 november van 10.00 tot 16.00 uur organiseren we een gezellige Winterfair in en om het gebouw van muziekvereniging Crescendo in Sliedrecht.",
-      "url": "https://sliedrechtdoet.nl/agenda/153088/2026-11-07/winterfair-7-november",
-      "location": "",
-      "time": "7 november 2026 van 10:00 tot 16:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 2,
-        "inpakker": 3
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Ontmoet je buren met koffie en thee",
-      "organizer": "",
-      "desc": "Op zaterdag 7 november hebben we van 10:00-11:00u een burenuurtje vooralle burenvan de wijk De Hoven.We zullen dit buren-uurtje houden in een partytent die zal staan op het schoolplein van school de Sprong die midden in de wijk staat.Koffie/thee en wat lekkers staan klaar en de kinderen kunnen een Sint Maarten Lampion knutselen.Dit buren-uurtje en het knutselen is gratis.",
-      "url": "https://sliedrechtdoet.nl/agenda/154214/2026-11-07/ontmoet-je-buren-met-koffie-en-thee",
-      "location": "",
-      "time": "7 november 2026 van 10:00 tot 11:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 3,
-        "inpakker": 1
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Creëer kleurrijke herinneringen met je buren!",
-      "organizer": "",
-      "desc": "Ama Burenkleuren sadece sanattan ibaret değil. Yeni insanlarla tanışıyoruz, birbirimizi daha iyi tanıyoruz, hikayeler paylaşıyoruz ve birlikte sıcak, birbirine bağlı bir mahalle inşa ediyoruz. Çünkü renksiz bir mahalle olmaz! ❤️",
-      "url": "https://sliedrechtdoet.nl/agenda/154243/2026-11-07/creeer-kleurrijke-herinneringen-met-je-buren",
-      "location": "",
-      "time": "7 november 2026 van 11:00 tot 12:30 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 1,
-        "inpakker": 0
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Nieuwe gratis rondleiding door het museumgebouw",
-      "organizer": "",
-      "desc": "Op zaterdag 17 oktober, 7 november en 12 december is er een nieuwe rondleiding te volgen in het museum. Dit is een unieke kans om meer te weten te komen over de geschiedenis van het woonhuis waar het museum zich al vijftig jaar in bevindt.Tijdens de rondleiding maken bezoekers een sfeervolle wandeling langs marmeren gangen, glas-in-loodramen, verborgen kelders en de authentieke keuken van het woon",
-      "url": "https://sliedrechtdoet.nl/agenda/152620/2026-11-07/nieuwe-gratis-rondleiding-door-het-museumgebouw",
-      "location": "",
-      "time": "7 november 2026 van 14:00 tot 15:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 3,
-        "inpakker": 0
-      },
-      "dominant_profile": "ontdekker"
-    },
     {
       "title": "Ontdek de Choral Evensong",
       "organizer": "",
@@ -468,6 +372,22 @@
       "dominant_profile": "ontdekker"
     },
     {
+      "title": "Creëer kleurrijke herinneringen met je buren!",
+      "organizer": "",
+      "desc": "Ama Burenkleuren sadece sanattan ibaret değil. Yeni insanlarla tanışıyoruz, birbirimizi daha iyi tanıyoruz, hikayeler paylaşıyoruz ve birlikte sıcak, birbirine bağlı bir mahalle inşa ediyoruz. Çünkü renksiz bir mahalle olmaz! ❤️",
+      "url": "https://sliedrechtdoet.nl/agenda/154243/2026-11-14/creeer-kleurrijke-herinneringen-met-je-buren",
+      "location": "",
+      "time": "14 november 2026 van 11:00 tot 12:30 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 1,
+        "inpakker": 0
+      },
+      "dominant_profile": "ontdekker"
+    },
+    {
       "title": "Ontspanning en schoonheid op de Moestuin",
       "organizer": "",
       "desc": "Laat u verwennen met een heerlijke maskertje of mooie gelakte nagels op deze ontspannende ochtend op de Moestuin.",
@@ -738,6 +658,22 @@
         "inpakker": 0
       },
       "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "Repair Cafe",
+      "organizer": "",
+      "desc": "Heb je kapotte apparaten, speelgoed of gereedschap? We helpen je graag! Je bent van harte welkom bij Repair Café. Onder het motto ‘Weggooien? Mooi niet!‘ helpen we je om spullen te repareren.",
+      "url": "https://sliedrechtdoet.nl/agenda/129398/2026-12-05/repair-cafe-68",
+      "location": "",
+      "time": "5 december 2026 van 10:00 tot 13:00 uur",
+      "frequency": "maandelijks",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 0,
+        "inpakker": 3
+      },
+      "dominant_profile": "inpakker"
     },
     {
       "title": "Een Avond vol Herinneringen",
