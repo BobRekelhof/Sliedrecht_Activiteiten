@@ -1,15 +1,15 @@
 {
-  "updated_at": "11-11-2026 07:24",
+  "updated_at": "12-11-2026 07:54",
   "source": "https://sliedrechtdoet.nl/agenda",
-  "count": 52,
+  "count": 72,
   "activities": [
     {
       "title": "Taaloefengroep voor vrouwen",
       "organizer": "",
       "desc": "Oefenen met Nederlands lezen, spreken en schrijven op jouw niveau? Samen met andere mensen? De bieb helpt! Kom naar de Taaloefengroep in jouw bibliotheek.Wel vooraf aanmelden aan bij het Taalpunt op locatie Sliedrecht.",
-      "url": "https://sliedrechtdoet.nl/agenda/129393/2026-11-11/taaloefengroep-voor-vrouwen",
+      "url": "https://sliedrechtdoet.nl/agenda/129393/2026-11-12/taaloefengroep-voor-vrouwen",
       "location": "",
-      "time": "11 november 2026 van 09:30 tot 11:00 uur",
+      "time": "12 november 2026 van 09:30 tot 11:00 uur",
       "frequency": "",
       "scores": {
         "buitenmens": 0,
@@ -550,15 +550,15 @@
     {
       "title": "Dag 1 Advent",
       "organizer": "",
-      "desc": "Wil je dat nog meer mensen meedoen? Nodig ze uit!",
+      "desc": "SMPG Sliedrecht (Sociaal Maatschappelijk Platform Geloofsgemeenschappen)brengt verschillende kerken en geloofsgemeenschappen in Sliedrecht samen. Vanuit betrokkenheid bij het dorp zetten zij zich in voor verbinding, omzien naar elkaar en aandacht voor inwoners die een steuntje in de rug kunnen gebruiken. Juist in de donkere dagen voor kerst is er extra aandacht voor ontmoeting, saamhorigheid en ve",
       "url": "https://sliedrechtdoet.nl/agenda/154735/2026-12-01/dag-1-advent",
       "location": "",
-      "time": "1 december 2026 van 09:30 tot 12:30 uur",
+      "time": "1 december 2026 van 19:00 tot 20:15 uur",
       "frequency": "",
       "scores": {
         "buitenmens": 0,
         "ontdekker": 0,
-        "buurtgenoot": 0,
+        "buurtgenoot": 3,
         "inpakker": 0
       },
       "dominant_profile": "buurtgenoot"
@@ -612,6 +612,22 @@
       "dominant_profile": "buurtgenoot"
     },
     {
+      "title": "Dag 3 Advent",
+      "organizer": "",
+      "desc": "SMPG Sliedrecht (Sociaal Maatschappelijk Platform Geloofsgemeenschappen)brengt verschillende kerken en geloofsgemeenschappen in Sliedrecht samen. Vanuit betrokkenheid bij het dorp zetten zij zich in voor verbinding, omzien naar elkaar en aandacht voor inwoners die een steuntje in de rug kunnen gebruiken. Juist in de donkere dagen voor kerst is er extra aandacht voor ontmoeting, saamhorigheid en ve",
+      "url": "https://sliedrechtdoet.nl/agenda/155417/2026-12-03/dag-3-advent",
+      "location": "",
+      "time": "3 december 2026 van 17:45 tot 19:30 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 3,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
       "title": "Wensput",
       "organizer": "",
       "desc": "Wil je dat nog meer mensen meedoen? Nodig ze uit!",
@@ -644,6 +660,22 @@
       "dominant_profile": "buurtgenoot"
     },
     {
+      "title": "Dag 4 Advent",
+      "organizer": "",
+      "desc": "SMPG Sliedrecht (Sociaal Maatschappelijk Platform Geloofsgemeenschappen)brengt verschillende kerken en geloofsgemeenschappen in Sliedrecht samen. Vanuit betrokkenheid bij het dorp zetten zij zich in voor verbinding, omzien naar elkaar en aandacht voor inwoners die een steuntje in de rug kunnen gebruiken. Juist in de donkere dagen voor kerst is er extra aandacht voor ontmoeting, saamhorigheid en ve",
+      "url": "https://sliedrechtdoet.nl/agenda/155418/2026-12-04/dag-4-advent",
+      "location": "",
+      "time": "4 december 2026 van 13:00 tot 15:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 3,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
       "title": "Repair Cafe",
       "organizer": "",
       "desc": "Heb je kapotte apparaten, speelgoed of gereedschap? We helpen je graag! Je bent van harte welkom bij Repair Café. Onder het motto ‘Weggooien? Mooi niet!‘ helpen we je om spullen te repareren.",
@@ -658,6 +690,54 @@
         "inpakker": 3
       },
       "dominant_profile": "inpakker"
+    },
+    {
+      "title": "Dag 5 Advent",
+      "organizer": "",
+      "desc": "SMPG Sliedrecht (Sociaal Maatschappelijk Platform Geloofsgemeenschappen)brengt verschillende kerken en geloofsgemeenschappen in Sliedrecht samen. Vanuit betrokkenheid bij het dorp zetten zij zich in voor verbinding, omzien naar elkaar en aandacht voor inwoners die een steuntje in de rug kunnen gebruiken. Juist in de donkere dagen voor kerst is er extra aandacht voor ontmoeting, saamhorigheid en ve",
+      "url": "https://sliedrechtdoet.nl/agenda/155419/2026-12-05/dag-5-advent",
+      "location": "",
+      "time": "5 december 2026 van 20:00 tot 22:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 3,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "Dag 6 Advent",
+      "organizer": "",
+      "desc": "SMPG Sliedrecht (Sociaal Maatschappelijk Platform Geloofsgemeenschappen)brengt verschillende kerken en geloofsgemeenschappen in Sliedrecht samen. Vanuit betrokkenheid bij het dorp zetten zij zich in voor verbinding, omzien naar elkaar en aandacht voor inwoners die een steuntje in de rug kunnen gebruiken. Juist in de donkere dagen voor kerst is er extra aandacht voor ontmoeting, saamhorigheid en ve",
+      "url": "https://sliedrechtdoet.nl/agenda/155420/2026-12-06/dag-6-advent",
+      "location": "",
+      "time": "6 december 2026 van 11:00 tot 12:30 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 3,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "Dag 7 Advent",
+      "organizer": "",
+      "desc": "SMPG Sliedrecht (Sociaal Maatschappelijk Platform Geloofsgemeenschappen)brengt verschillende kerken en geloofsgemeenschappen in Sliedrecht samen. Vanuit betrokkenheid bij het dorp zetten zij zich in voor verbinding, omzien naar elkaar en aandacht voor inwoners die een steuntje in de rug kunnen gebruiken. Juist in de donkere dagen voor kerst is er extra aandacht voor ontmoeting, saamhorigheid en ve",
+      "url": "https://sliedrechtdoet.nl/agenda/155421/2026-12-07/dag-7-advent",
+      "location": "",
+      "time": "7 december 2026 van 14:30 tot 16:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 3,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
     },
     {
       "title": "Een Avond vol Herinneringen",
@@ -676,12 +756,60 @@
       "dominant_profile": "buurtgenoot"
     },
     {
+      "title": "Dag 8 Advent",
+      "organizer": "",
+      "desc": "SMPG Sliedrecht (Sociaal Maatschappelijk Platform Geloofsgemeenschappen)brengt verschillende kerken en geloofsgemeenschappen in Sliedrecht samen. Vanuit betrokkenheid bij het dorp zetten zij zich in voor verbinding, omzien naar elkaar en aandacht voor inwoners die een steuntje in de rug kunnen gebruiken. Juist in de donkere dagen voor kerst is er extra aandacht voor ontmoeting, saamhorigheid en ve",
+      "url": "https://sliedrechtdoet.nl/agenda/155422/2026-12-08/dag-8-advent",
+      "location": "",
+      "time": "8 december 2026 van 19:30 tot 21:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 3,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
       "title": "Gezellige Kerstmaaltijd en Vertelling",
       "organizer": "",
       "desc": "Kerstviering georganiseerd door vrouwenverening Eben-Haëzer",
       "url": "https://sliedrechtdoet.nl/agenda/154639/2026-12-09/gezellige-kerstmaaltijd-en-vertelling",
       "location": "",
       "time": "9 december 2026 van 19:45 tot 22:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 3,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "Dag 9 Advent",
+      "organizer": "",
+      "desc": "SMPG Sliedrecht (Sociaal Maatschappelijk Platform Geloofsgemeenschappen)brengt verschillende kerken en geloofsgemeenschappen in Sliedrecht samen. Vanuit betrokkenheid bij het dorp zetten zij zich in voor verbinding, omzien naar elkaar en aandacht voor inwoners die een steuntje in de rug kunnen gebruiken. Juist in de donkere dagen voor kerst is er extra aandacht voor ontmoeting, saamhorigheid en ve",
+      "url": "https://sliedrechtdoet.nl/agenda/155423/2026-12-09/dag-9-advent",
+      "location": "",
+      "time": "9 december 2026 van 19:45 tot 21:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 3,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "Dag 10 Advent",
+      "organizer": "",
+      "desc": "SMPG Sliedrecht (Sociaal Maatschappelijk Platform Geloofsgemeenschappen)brengt verschillende kerken en geloofsgemeenschappen in Sliedrecht samen. Vanuit betrokkenheid bij het dorp zetten zij zich in voor verbinding, omzien naar elkaar en aandacht voor inwoners die een steuntje in de rug kunnen gebruiken. Juist in de donkere dagen voor kerst is er extra aandacht voor ontmoeting, saamhorigheid en ve",
+      "url": "https://sliedrechtdoet.nl/agenda/155424/2026-12-10/dag-10-advent",
+      "location": "",
+      "time": "10 december 2026 van 10:00 tot 12:00 uur",
       "frequency": "",
       "scores": {
         "buitenmens": 0,
@@ -740,6 +868,38 @@
       "dominant_profile": "buurtgenoot"
     },
     {
+      "title": "Dag 11 Advent",
+      "organizer": "",
+      "desc": "SMPG Sliedrecht (Sociaal Maatschappelijk Platform Geloofsgemeenschappen)brengt verschillende kerken en geloofsgemeenschappen in Sliedrecht samen. Vanuit betrokkenheid bij het dorp zetten zij zich in voor verbinding, omzien naar elkaar en aandacht voor inwoners die een steuntje in de rug kunnen gebruiken. Juist in de donkere dagen voor kerst is er extra aandacht voor ontmoeting, saamhorigheid en ve",
+      "url": "https://sliedrechtdoet.nl/agenda/155425/2026-12-11/dag-11-advent",
+      "location": "",
+      "time": "11 december 2026 van 20:00 tot 22:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 3,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "Dag 12 Advent",
+      "organizer": "",
+      "desc": "SMPG Sliedrecht (Sociaal Maatschappelijk Platform Geloofsgemeenschappen)brengt verschillende kerken en geloofsgemeenschappen in Sliedrecht samen. Vanuit betrokkenheid bij het dorp zetten zij zich in voor verbinding, omzien naar elkaar en aandacht voor inwoners die een steuntje in de rug kunnen gebruiken. Juist in de donkere dagen voor kerst is er extra aandacht voor ontmoeting, saamhorigheid en ve",
+      "url": "https://sliedrechtdoet.nl/agenda/155426/2026-12-12/dag-12-advent",
+      "location": "",
+      "time": "12 december 2026 van 09:00 tot 21:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 3,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
       "title": "Beleef de winterfair op de moestuin!",
       "organizer": "",
       "desc": "Kom gezellig naar onze winterfair op zaterdag 12 december op de Moestuin in Sliedrecht.",
@@ -772,6 +932,22 @@
       "dominant_profile": "ontdekker"
     },
     {
+      "title": "Dag 13 Advent",
+      "organizer": "",
+      "desc": "SMPG Sliedrecht (Sociaal Maatschappelijk Platform Geloofsgemeenschappen)brengt verschillende kerken en geloofsgemeenschappen in Sliedrecht samen. Vanuit betrokkenheid bij het dorp zetten zij zich in voor verbinding, omzien naar elkaar en aandacht voor inwoners die een steuntje in de rug kunnen gebruiken. Juist in de donkere dagen voor kerst is er extra aandacht voor ontmoeting, saamhorigheid en ve",
+      "url": "https://sliedrechtdoet.nl/agenda/155427/2026-12-13/dag-13-advent",
+      "location": "",
+      "time": "13 december 2026 van 15:00 tot 17:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 3,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
       "title": "Kom kerststukjes maken in de Groene Huiskamer!",
       "organizer": "",
       "desc": "We gaan met elkaar aan de slag met allerlei leuke spulletjes, om een leuk kerststukje te maken voor op de tafel of aan iemand te geven.",
@@ -783,6 +959,70 @@
         "buitenmens": 0,
         "ontdekker": 0,
         "buurtgenoot": 0,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "Dag 14 Advent",
+      "organizer": "",
+      "desc": "SMPG Sliedrecht (Sociaal Maatschappelijk Platform Geloofsgemeenschappen)brengt verschillende kerken en geloofsgemeenschappen in Sliedrecht samen. Vanuit betrokkenheid bij het dorp zetten zij zich in voor verbinding, omzien naar elkaar en aandacht voor inwoners die een steuntje in de rug kunnen gebruiken. Juist in de donkere dagen voor kerst is er extra aandacht voor ontmoeting, saamhorigheid en ve",
+      "url": "https://sliedrechtdoet.nl/agenda/155429/2026-12-14/dag-14-advent",
+      "location": "",
+      "time": "14 december 2026 van 20:00 tot 22:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 3,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "Dag 15 Advent",
+      "organizer": "",
+      "desc": "SMPG Sliedrecht (Sociaal Maatschappelijk Platform Geloofsgemeenschappen)brengt verschillende kerken en geloofsgemeenschappen in Sliedrecht samen. Vanuit betrokkenheid bij het dorp zetten zij zich in voor verbinding, omzien naar elkaar en aandacht voor inwoners die een steuntje in de rug kunnen gebruiken. Juist in de donkere dagen voor kerst is er extra aandacht voor ontmoeting, saamhorigheid en ve",
+      "url": "https://sliedrechtdoet.nl/agenda/155430/2026-12-15/dag-15-advent",
+      "location": "",
+      "time": "15 december 2026 van 10:00 tot 12:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 3,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "Dag 16 Advent",
+      "organizer": "",
+      "desc": "SMPG Sliedrecht (Sociaal Maatschappelijk Platform Geloofsgemeenschappen)brengt verschillende kerken en geloofsgemeenschappen in Sliedrecht samen. Vanuit betrokkenheid bij het dorp zetten zij zich in voor verbinding, omzien naar elkaar en aandacht voor inwoners die een steuntje in de rug kunnen gebruiken. Juist in de donkere dagen voor kerst is er extra aandacht voor ontmoeting, saamhorigheid en ve",
+      "url": "https://sliedrechtdoet.nl/agenda/155431/2026-12-16/dag-16-advent",
+      "location": "",
+      "time": "16 december 2026 van 14:00 tot 16:15 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 3,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "Dag 17 Advent",
+      "organizer": "",
+      "desc": "SMPG Sliedrecht (Sociaal Maatschappelijk Platform Geloofsgemeenschappen)brengt verschillende kerken en geloofsgemeenschappen in Sliedrecht samen. Vanuit betrokkenheid bij het dorp zetten zij zich in voor verbinding, omzien naar elkaar en aandacht voor inwoners die een steuntje in de rug kunnen gebruiken. Juist in de donkere dagen voor kerst is er extra aandacht voor ontmoeting, saamhorigheid en ve",
+      "url": "https://sliedrechtdoet.nl/agenda/155433/2026-12-17/dag-17-advent",
+      "location": "",
+      "time": "17 december 2026 van 10:00 tot 12:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 3,
         "inpakker": 0
       },
       "dominant_profile": "buurtgenoot"
@@ -804,17 +1044,97 @@
       "dominant_profile": "buurtgenoot"
     },
     {
-      "title": "Wensput",
+      "title": "Dag 18 Advent",
       "organizer": "",
-      "desc": "Wil je dat nog meer mensen meedoen? Nodig ze uit!",
-      "url": "https://sliedrechtdoet.nl/agenda/153188/2026-12-24/wensput-90",
+      "desc": "SMPG Sliedrecht (Sociaal Maatschappelijk Platform Geloofsgemeenschappen)brengt verschillende kerken en geloofsgemeenschappen in Sliedrecht samen. Vanuit betrokkenheid bij het dorp zetten zij zich in voor verbinding, omzien naar elkaar en aandacht voor inwoners die een steuntje in de rug kunnen gebruiken. Juist in de donkere dagen voor kerst is er extra aandacht voor ontmoeting, saamhorigheid en ve",
+      "url": "https://sliedrechtdoet.nl/agenda/155434/2026-12-18/dag-18-advent",
       "location": "",
-      "time": "24 december 2026 van 18:00 tot 20:00 uur",
+      "time": "18 december 2026 van 18:00 tot 20:30 uur",
       "frequency": "",
       "scores": {
         "buitenmens": 0,
         "ontdekker": 0,
-        "buurtgenoot": 0,
+        "buurtgenoot": 3,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "Dag 19 Advent",
+      "organizer": "",
+      "desc": "SMPG Sliedrecht (Sociaal Maatschappelijk Platform Geloofsgemeenschappen)brengt verschillende kerken en geloofsgemeenschappen in Sliedrecht samen. Vanuit betrokkenheid bij het dorp zetten zij zich in voor verbinding, omzien naar elkaar en aandacht voor inwoners die een steuntje in de rug kunnen gebruiken. Juist in de donkere dagen voor kerst is er extra aandacht voor ontmoeting, saamhorigheid en ve",
+      "url": "https://sliedrechtdoet.nl/agenda/155435/2026-12-19/dag-19-advent",
+      "location": "",
+      "time": "19 december 2026 van 11:00 tot 15:30 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 3,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "Dag 20 Advent",
+      "organizer": "",
+      "desc": "SMPG Sliedrecht (Sociaal Maatschappelijk Platform Geloofsgemeenschappen)brengt verschillende kerken en geloofsgemeenschappen in Sliedrecht samen. Vanuit betrokkenheid bij het dorp zetten zij zich in voor verbinding, omzien naar elkaar en aandacht voor inwoners die een steuntje in de rug kunnen gebruiken. Juist in de donkere dagen voor kerst is er extra aandacht voor ontmoeting, saamhorigheid en ve",
+      "url": "https://sliedrechtdoet.nl/agenda/155436/2026-12-20/dag-20-advent",
+      "location": "",
+      "time": "20 december 2026 van 14:00 tot 15:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 3,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "Dag 21 Advent",
+      "organizer": "",
+      "desc": "SMPG Sliedrecht (Sociaal Maatschappelijk Platform Geloofsgemeenschappen)brengt verschillende kerken en geloofsgemeenschappen in Sliedrecht samen. Vanuit betrokkenheid bij het dorp zetten zij zich in voor verbinding, omzien naar elkaar en aandacht voor inwoners die een steuntje in de rug kunnen gebruiken. Juist in de donkere dagen voor kerst is er extra aandacht voor ontmoeting, saamhorigheid en ve",
+      "url": "https://sliedrechtdoet.nl/agenda/155437/2026-12-21/dag-21-advent",
+      "location": "",
+      "time": "21 december 2026 van 20:15 tot 21:45 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 3,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "Dag 22 Advent",
+      "organizer": "",
+      "desc": "SMPG Sliedrecht (Sociaal Maatschappelijk Platform Geloofsgemeenschappen)brengt verschillende kerken en geloofsgemeenschappen in Sliedrecht samen. Vanuit betrokkenheid bij het dorp zetten zij zich in voor verbinding, omzien naar elkaar en aandacht voor inwoners die een steuntje in de rug kunnen gebruiken. Juist in de donkere dagen voor kerst is er extra aandacht voor ontmoeting, saamhorigheid en ve",
+      "url": "https://sliedrechtdoet.nl/agenda/155438/2026-12-22/dag-22-advent",
+      "location": "",
+      "time": "22 december 2026 van 13:00 tot 15:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 3,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "Dag 23 Advent",
+      "organizer": "",
+      "desc": "SMPG Sliedrecht (Sociaal Maatschappelijk Platform Geloofsgemeenschappen)brengt verschillende kerken en geloofsgemeenschappen in Sliedrecht samen. Vanuit betrokkenheid bij het dorp zetten zij zich in voor verbinding, omzien naar elkaar en aandacht voor inwoners die een steuntje in de rug kunnen gebruiken. Juist in de donkere dagen voor kerst is er extra aandacht voor ontmoeting, saamhorigheid en ve",
+      "url": "https://sliedrechtdoet.nl/agenda/155439/2026-12-23/dag-23-advent",
+      "location": "",
+      "time": "23 december 2026 van 10:00 tot 12:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 3,
         "inpakker": 0
       },
       "dominant_profile": "buurtgenoot"
@@ -823,9 +1143,9 @@
       "title": "Wensput",
       "organizer": "",
       "desc": "Wil je dat nog meer mensen meedoen? Nodig ze uit!",
-      "url": "https://sliedrechtdoet.nl/agenda/153187/2026-12-31/wensput-89",
+      "url": "https://sliedrechtdoet.nl/agenda/153188/2026-12-24/wensput-90",
       "location": "",
-      "time": "31 december 2026 van 18:00 tot 20:00 uur",
+      "time": "24 december 2026 van 18:00 tot 20:00 uur",
       "frequency": "",
       "scores": {
         "buitenmens": 0,
