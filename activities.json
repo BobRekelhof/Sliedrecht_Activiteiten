@@ -1,120 +1,8 @@
 {
-  "updated_at": "13-11-2026 07:31",
+  "updated_at": "14-11-2026 07:15",
   "source": "https://sliedrechtdoet.nl/agenda",
   "count": 72,
   "activities": [
-    {
-      "title": "Digitaal inloopspreekuur in de bieb!",
-      "organizer": "",
-      "desc": "Vragen over je mobiele telefoon, laptop, tablet en e-reader? Hulp nodig bij het gebruik van de bibliotheek apps? De bieb helpt! Kom gratis met al jouw digitale vragen naar het digitaal inloopspreekuur in jouw bibliotheek. Je bent welkom zonder afspraak.",
-      "url": "https://sliedrechtdoet.nl/agenda/118856/2026-11-13/digitaal-inloopspreekuur-in-de-bieb",
-      "location": "",
-      "time": "13 november 2026 van 09:30 tot 12:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 3,
-        "inpakker": 3
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Verbeter je digitale vaardigheden met Klik & Tik",
-      "organizer": "",
-      "desc": "In je eigen tempo leren omgaan met computers en internet? Met meer zekerheid mailen, het internet op, iets online kopen of een reis plannen? De bieb helpt! Kom naar de gratis cursus Klik & Tik. Meld je eerst aan bij het Taalpunt of aan de balie in de bieb. Deelname gratis. Doorlopende cursus dus instappen wanneer je zelf wil.",
-      "url": "https://sliedrechtdoet.nl/agenda/118859/2026-11-13/verbeter-je-digitale-vaardigheden-met-klik-tik",
-      "location": "",
-      "time": "13 november 2026 van 10:00 tot 12:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 0,
-        "inpakker": 1
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Ukkie Drive-in Voorleesfeest",
-      "organizer": "",
-      "desc": "Wil je dat nog meer mensen meedoen? Nodig ze uit!",
-      "url": "https://sliedrechtdoet.nl/agenda/129967/2026-11-13/ukkie-drive-in-voorleesfeest",
-      "location": "",
-      "time": "13 november 2026 van 10:00 tot 11:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 1,
-        "ontdekker": 0,
-        "buurtgenoot": 3,
-        "inpakker": 0
-      },
-      "dominant_profile": "buurtgenoot"
-    },
-    {
-      "title": "kom gerust eens langs",
-      "organizer": "",
-      "desc": "Wil je dat nog meer mensen meedoen? Nodig ze uit!",
-      "url": "https://sliedrechtdoet.nl/agenda/151865/2026-11-13/kom-gerust-eens-langs",
-      "location": "",
-      "time": "13 november 2026 van 10:00 tot 12:00 uur",
-      "frequency": "wekelijks",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 0,
-        "buurtgenoot": 0,
-        "inpakker": 0
-      },
-      "dominant_profile": "buurtgenoot"
-    },
-    {
-      "title": "Geniet van een tosti in de moestuin",
-      "organizer": "",
-      "desc": "Met heerlijk weer kan dat zelfs buiten op de tuin.",
-      "url": "https://sliedrechtdoet.nl/agenda/152902/2026-11-13/geniet-van-een-tosti-in-de-moestuin",
-      "location": "",
-      "time": "13 november 2026 van 12:00 tot 13:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 3,
-        "ontdekker": 1,
-        "buurtgenoot": 1,
-        "inpakker": 2
-      },
-      "dominant_profile": "buitenmens"
-    },
-    {
-      "title": "Vragen over Sliedrecht Doet",
-      "organizer": "",
-      "desc": "Wekelijks kun je langskomen bij het Bonkelaarhuis voor vragen over Sliedrecht Doet. Bijvoorbeeld hoe plaats ik een activiteit, hoe maak ik een account aan of  hoe kun je een bericht plaatsen.Kom gerust langs of stuur een e-mail naarln.teodthcerdeils@ofni.",
-      "url": "https://sliedrechtdoet.nl/agenda/121768/2026-11-13/vragen-over-sliedrecht-doet",
-      "location": "",
-      "time": "13 november 2026 van 13:00 tot 17:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 0,
-        "buurtgenoot": 0,
-        "inpakker": 0
-      },
-      "dominant_profile": "buurtgenoot"
-    },
-    {
-      "title": "Ontmoet, geniet en relax tijdens de Dag van de Mantelzorg!",
-      "organizer": "",
-      "desc": "Geniet van een heerlijke selectie van zoete en hartige lekkernijen, een kopje thee of champagne en vooral van een ontspannen moment voor jezelf. Laat je verrassen door sfeervolle muziek en leg mooie herinneringen vast in onze photobooth – leuk om mee naar huis te nemen!",
-      "url": "https://sliedrechtdoet.nl/agenda/144985/2026-11-13/ontmoet-geniet-en-relax-tijdens-de-dag-van-de-mantelzorg",
-      "location": "",
-      "time": "13 november 2026 van 14:30 tot 18:30 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 3,
-        "inpakker": 3
-      },
-      "dominant_profile": "ontdekker"
-    },
     {
       "title": "Creëer kleurrijke herinneringen met je buren!",
       "organizer": "",
@@ -452,6 +340,102 @@
       "dominant_profile": "ontdekker"
     },
     {
+      "title": "Digitaal inloopspreekuur in de bieb!",
+      "organizer": "",
+      "desc": "Vragen over je mobiele telefoon, laptop, tablet en e-reader? Hulp nodig bij het gebruik van de bibliotheek apps? De bieb helpt! Kom gratis met al jouw digitale vragen naar het digitaal inloopspreekuur in jouw bibliotheek. Je bent welkom zonder afspraak.",
+      "url": "https://sliedrechtdoet.nl/agenda/118856/2026-11-20/digitaal-inloopspreekuur-in-de-bieb",
+      "location": "",
+      "time": "20 november 2026 van 09:30 tot 12:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 3,
+        "inpakker": 3
+      },
+      "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Verbeter je digitale vaardigheden met Klik & Tik",
+      "organizer": "",
+      "desc": "In je eigen tempo leren omgaan met computers en internet? Met meer zekerheid mailen, het internet op, iets online kopen of een reis plannen? De bieb helpt! Kom naar de gratis cursus Klik & Tik. Meld je eerst aan bij het Taalpunt of aan de balie in de bieb. Deelname gratis. Doorlopende cursus dus instappen wanneer je zelf wil.",
+      "url": "https://sliedrechtdoet.nl/agenda/118859/2026-11-20/verbeter-je-digitale-vaardigheden-met-klik-tik",
+      "location": "",
+      "time": "20 november 2026 van 10:00 tot 12:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 0,
+        "inpakker": 1
+      },
+      "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Ukkie Drive-in Voorleesfeest",
+      "organizer": "",
+      "desc": "Wil je dat nog meer mensen meedoen? Nodig ze uit!",
+      "url": "https://sliedrechtdoet.nl/agenda/129967/2026-11-20/ukkie-drive-in-voorleesfeest",
+      "location": "",
+      "time": "20 november 2026 van 10:00 tot 11:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 1,
+        "ontdekker": 0,
+        "buurtgenoot": 3,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "kom gerust eens langs",
+      "organizer": "",
+      "desc": "Wil je dat nog meer mensen meedoen? Nodig ze uit!",
+      "url": "https://sliedrechtdoet.nl/agenda/151865/2026-11-20/kom-gerust-eens-langs",
+      "location": "",
+      "time": "20 november 2026 van 10:00 tot 12:00 uur",
+      "frequency": "wekelijks",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 0,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "Geniet van een tosti in de moestuin",
+      "organizer": "",
+      "desc": "Met heerlijk weer kan dat zelfs buiten op de tuin.",
+      "url": "https://sliedrechtdoet.nl/agenda/152902/2026-11-20/geniet-van-een-tosti-in-de-moestuin",
+      "location": "",
+      "time": "20 november 2026 van 12:00 tot 13:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 3,
+        "ontdekker": 1,
+        "buurtgenoot": 1,
+        "inpakker": 2
+      },
+      "dominant_profile": "buitenmens"
+    },
+    {
+      "title": "Vragen over Sliedrecht Doet",
+      "organizer": "",
+      "desc": "Wekelijks kun je langskomen bij het Bonkelaarhuis voor vragen over Sliedrecht Doet. Bijvoorbeeld hoe plaats ik een activiteit, hoe maak ik een account aan of  hoe kun je een bericht plaatsen.Kom gerust langs of stuur een e-mail naarln.teodthcerdeils@ofni.",
+      "url": "https://sliedrechtdoet.nl/agenda/121768/2026-11-20/vragen-over-sliedrecht-doet",
+      "location": "",
+      "time": "20 november 2026 van 13:00 tot 17:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 0,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
       "title": "Spelletjesmiddag in de bibliotheek",
       "organizer": "",
       "desc": "Elke even vrijdag organiseren wij een spelletjesmiddag in de bibliotheek. Iedereen is welkom! Met elkaar maken we er een leuke middag van, de koffie en thee staat klaar! Kom je een nieuw spel uit proberen?",
@@ -534,7 +518,7 @@
     {
       "title": "Dag 1 Advent",
       "organizer": "",
-      "desc": "SMPG Sliedrecht (Sociaal Maatschappelijk Platform Geloofsgemeenschappen)brengt verschillende kerken en geloofsgemeenschappen in Sliedrecht samen. Vanuit betrokkenheid bij het dorp zetten zij zich in voor verbinding, omzien naar elkaar en aandacht voor inwoners die een steuntje in de rug kunnen gebruiken. Juist in de donkere dagen voor kerst is er extra aandacht voor ontmoeting, saamhorigheid en ve",
+      "desc": "Wil je dat nog meer mensen meedoen? Nodig ze uit!",
       "url": "https://sliedrechtdoet.nl/agenda/154735/2026-12-01/dag-1-advent",
       "location": "",
       "time": "1 december 2026 van 19:00 tot 20:15 uur",
@@ -542,7 +526,7 @@
       "scores": {
         "buitenmens": 0,
         "ontdekker": 0,
-        "buurtgenoot": 3,
+        "buurtgenoot": 0,
         "inpakker": 0
       },
       "dominant_profile": "buurtgenoot"
@@ -598,7 +582,7 @@
     {
       "title": "Dag 3 Advent",
       "organizer": "",
-      "desc": "SMPG Sliedrecht (Sociaal Maatschappelijk Platform Geloofsgemeenschappen)brengt verschillende kerken en geloofsgemeenschappen in Sliedrecht samen. Vanuit betrokkenheid bij het dorp zetten zij zich in voor verbinding, omzien naar elkaar en aandacht voor inwoners die een steuntje in de rug kunnen gebruiken. Juist in de donkere dagen voor kerst is er extra aandacht voor ontmoeting, saamhorigheid en ve",
+      "desc": "Wil je dat nog meer mensen meedoen? Nodig ze uit!",
       "url": "https://sliedrechtdoet.nl/agenda/155417/2026-12-03/dag-3-advent",
       "location": "",
       "time": "3 december 2026 van 17:45 tot 19:30 uur",
@@ -606,7 +590,7 @@
       "scores": {
         "buitenmens": 0,
         "ontdekker": 0,
-        "buurtgenoot": 3,
+        "buurtgenoot": 0,
         "inpakker": 0
       },
       "dominant_profile": "buurtgenoot"
@@ -932,10 +916,10 @@
       "dominant_profile": "buurtgenoot"
     },
     {
-      "title": "Kom kerststukjes maken in de Groene Huiskamer!",
+      "title": "Kom een kerstboompje maken in de Groene Huiskamer!",
       "organizer": "",
-      "desc": "We gaan met elkaar aan de slag met allerlei leuke spulletjes, om een leuk kerststukje te maken voor op de tafel of aan iemand te geven.",
-      "url": "https://sliedrechtdoet.nl/agenda/150789/2026-12-14/kom-kerststukjes-maken-in-de-groene-huiskamer",
+      "desc": "We gaan met elkaar aan de slag met allerlei leuke spulletjes, om een leuk kerstboompje te maken voor op de tafel of aan iemand te geven.",
+      "url": "https://sliedrechtdoet.nl/agenda/150789/2026-12-14/kom-een-kerstboompje-maken-in-de-groene-huiskamer",
       "location": "",
       "time": "14 december 2026 van 09:00 tot 12:00 uur",
       "frequency": "",
@@ -1023,6 +1007,22 @@
         "buitenmens": 0,
         "ontdekker": 0,
         "buurtgenoot": 0,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "Dag 17 Advent",
+      "organizer": "",
+      "desc": "SMPG Sliedrecht (Sociaal Maatschappelijk Platform Geloofsgemeenschappen)brengt verschillende kerken en geloofsgemeenschappen in Sliedrecht samen. Vanuit betrokkenheid bij het dorp zetten zij zich in voor verbinding, omzien naar elkaar en aandacht voor inwoners die een steuntje in de rug kunnen gebruiken. Juist in de donkere dagen voor kerst is er extra aandacht voor ontmoeting, saamhorigheid en ve",
+      "url": "https://sliedrechtdoet.nl/agenda/155551/2026-12-17/dag-17-advent",
+      "location": "",
+      "time": "17 december 2026 van 19:00 tot 20:15 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 3,
         "inpakker": 0
       },
       "dominant_profile": "buurtgenoot"
