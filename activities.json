@@ -1,5 +1,5 @@
 {
-  "updated_at": "15-11-2026 07:24",
+  "updated_at": "16-11-2026 07:30",
   "source": "https://sliedrechtdoet.nl/agenda",
   "count": 72,
   "activities": [
@@ -463,6 +463,22 @@
         "buitenmens": 0,
         "ontdekker": 3,
         "buurtgenoot": 3,
+        "inpakker": 0
+      },
+      "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Kom naar de Taizé dienst",
+      "organizer": "",
+      "desc": "Zondagavond wordt in de Grote Kerk een zogenaamde Taizé dienst gehouden. Zo'n viering kenmerkt zich door het zingen van meditatieve liederen. Tevens is er ruimte voor bijbel lezing, stilte en gebed. De inspiratiebron voor deze dienst zijn de gebedsdiensten in de oecumenische gemeenschap in het Franse plaatsje Taizé. Aan het begin van de dienst wordt een korte introductie gegeven waarna de dienst z",
+      "url": "https://sliedrechtdoet.nl/agenda/155619/2026-11-22/kom-naar-de-taize-dienst",
+      "location": "",
+      "time": "22 november 2026 van 18:00 tot 19:30 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 1,
         "inpakker": 0
       },
       "dominant_profile": "ontdekker"
@@ -1135,22 +1151,6 @@
         "buitenmens": 0,
         "ontdekker": 0,
         "buurtgenoot": 0,
-        "inpakker": 0
-      },
-      "dominant_profile": "buurtgenoot"
-    },
-    {
-      "title": "Dag 24 Advent",
-      "organizer": "",
-      "desc": "SMPG Sliedrecht (Sociaal Maatschappelijk Platform Geloofsgemeenschappen)brengt verschillende kerken en geloofsgemeenschappen in Sliedrecht samen. Vanuit betrokkenheid bij het dorp zetten zij zich in voor verbinding, omzien naar elkaar en aandacht voor inwoners die een steuntje in de rug kunnen gebruiken. Juist in de donkere dagen voor kerst is er extra aandacht voor ontmoeting, saamhorigheid en ve",
-      "url": "https://sliedrechtdoet.nl/agenda/155440/2026-12-24/dag-24-advent",
-      "location": "",
-      "time": "24 december 2026 van 18:00 tot 20:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 0,
-        "buurtgenoot": 3,
         "inpakker": 0
       },
       "dominant_profile": "buurtgenoot"
