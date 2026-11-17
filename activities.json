@@ -1,88 +1,8 @@
 {
-  "updated_at": "16-11-2026 07:30",
+  "updated_at": "17-11-2026 08:43",
   "source": "https://sliedrechtdoet.nl/agenda",
   "count": 72,
   "activities": [
-    {
-      "title": "Elke maandag: Gezellige ontmoetingsmorgen",
-      "organizer": "",
-      "desc": "Elke maandag is er een gezellige ontmoetingsmorgen in de groene huiskamer, op de moestuin in Sliedrecht voor jong en oud. Gezellig met elkaar kletsen onder genot van koffie en/of thee met wat lekkers!  We hebben een leuk wisselt programma, soms een crea activiteit of we hebben een leuk thema waar een gastspreker voor komt.",
-      "url": "https://sliedrechtdoet.nl/agenda/152903/2026-11-16/elke-maandag-gezellige-ontmoetingsmorgen",
-      "location": "",
-      "time": "16 november 2026 van 09:00 tot 12:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 3,
-        "inpakker": 2
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Leer Nederlands op de Moestuin",
-      "organizer": "",
-      "desc": "Iedere maandagmorgen wordt er taalles gegeven op de moestuin voor iedereen die, de Nederlandse taal beter wil leren.",
-      "url": "https://sliedrechtdoet.nl/agenda/152904/2026-11-16/leer-nederlands-op-de-moestuin-2",
-      "location": "",
-      "time": "16 november 2026 van 09:00 tot 10:30 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 1,
-        "inpakker": 2
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Ontspanning en schoonheid op de Moestuin",
-      "organizer": "",
-      "desc": "Laat u verwennen met een heerlijke maskertje of mooie gelakte nagels op deze ontspannende ochtend op de Moestuin.",
-      "url": "https://sliedrechtdoet.nl/agenda/152973/2026-11-16/ontspanning-en-schoonheid-op-de-moestuin",
-      "location": "",
-      "time": "16 november 2026 van 09:00 tot 12:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 1,
-        "buurtgenoot": 1,
-        "inpakker": 2
-      },
-      "dominant_profile": "inpakker"
-    },
-    {
-      "title": "Wandel je fit met de Nationale Wandeluitdaging",
-      "organizer": "",
-      "desc": "AV Passaat start op maandag 15 juni 2026 om 19.00 uur met de Nationale Wandeluitdaging. Wekelijks organiseren we een wandeltraining, waarbij we je in 20 weken leren wat het met je lichaam doet, maar ook met je hoofd. Je voelt je vrolijker en meer ontspannen. Daarnaast is het gezellig om samen met anderen te bewegen en leer je hierdoor nieuwe mensen kennen.",
-      "url": "https://sliedrechtdoet.nl/agenda/145849/2026-11-16/wandel-je-fit-met-de-nationale-wandeluitdaging-2",
-      "location": "",
-      "time": "16 november 2026 van 19:00 tot 20:30 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 2,
-        "inpakker": 3
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "NAH Mantelzorgcafé: omgaan met vermoeidheid",
-      "organizer": "",
-      "desc": "Veel mensen met een hersenaandoening hebben last van ernstige vermoeidheid. Het kan een grote invloed hebben op je leven en op dat van je naasten. Hoe herken je vermoeidheid? En hoe kun je ermee omgaan?",
-      "url": "https://sliedrechtdoet.nl/agenda/144980/2026-11-16/nah-mantelzorgcafe-omgaan-met-vermoeidheid",
-      "location": "",
-      "time": "16 november 2026 van 19:30 tot 21:30 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 0,
-        "buurtgenoot": 1,
-        "inpakker": 3
-      },
-      "dominant_profile": "inpakker"
-    },
     {
       "title": "Laat je inspireren tijdens koffie met...",
       "organizer": "",
@@ -480,6 +400,54 @@
         "ontdekker": 3,
         "buurtgenoot": 1,
         "inpakker": 0
+      },
+      "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Elke maandag: Gezellige ontmoetingsmorgen",
+      "organizer": "",
+      "desc": "Elke maandag is er een gezellige ontmoetingsmorgen in de groene huiskamer, op de moestuin in Sliedrecht voor jong en oud. Gezellig met elkaar kletsen onder genot van koffie en/of thee met wat lekkers!  We hebben een leuk wisselt programma, soms een crea activiteit of we hebben een leuk thema waar een gastspreker voor komt.",
+      "url": "https://sliedrechtdoet.nl/agenda/152903/2026-11-23/elke-maandag-gezellige-ontmoetingsmorgen",
+      "location": "",
+      "time": "23 november 2026 van 09:00 tot 12:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 3,
+        "inpakker": 2
+      },
+      "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Leer Nederlands op de Moestuin",
+      "organizer": "",
+      "desc": "Iedere maandagmorgen wordt er taalles gegeven op de moestuin voor iedereen die, de Nederlandse taal beter wil leren.",
+      "url": "https://sliedrechtdoet.nl/agenda/152904/2026-11-23/leer-nederlands-op-de-moestuin-2",
+      "location": "",
+      "time": "23 november 2026 van 09:00 tot 10:30 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 1,
+        "inpakker": 2
+      },
+      "dominant_profile": "ontdekker"
+    },
+    {
+      "title": "Wandel je fit met de Nationale Wandeluitdaging",
+      "organizer": "",
+      "desc": "AV Passaat start op maandag 15 juni 2026 om 19.00 uur met de Nationale Wandeluitdaging. Wekelijks organiseren we een wandeltraining, waarbij we je in 20 weken leren wat het met je lichaam doet, maar ook met je hoofd. Je voelt je vrolijker en meer ontspannen. Daarnaast is het gezellig om samen met anderen te bewegen en leer je hierdoor nieuwe mensen kennen.",
+      "url": "https://sliedrechtdoet.nl/agenda/145849/2026-11-23/wandel-je-fit-met-de-nationale-wandeluitdaging-2",
+      "location": "",
+      "time": "23 november 2026 van 19:00 tot 20:30 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 3,
+        "buurtgenoot": 2,
+        "inpakker": 3
       },
       "dominant_profile": "ontdekker"
     },
@@ -1146,6 +1114,38 @@
       "url": "https://sliedrechtdoet.nl/agenda/153188/2026-12-24/wensput-90",
       "location": "",
       "time": "24 december 2026 van 18:00 tot 20:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 0,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "Dag 24 Advent",
+      "organizer": "",
+      "desc": "SMPG Sliedrecht (Sociaal Maatschappelijk Platform Geloofsgemeenschappen)brengt verschillende kerken en geloofsgemeenschappen in Sliedrecht samen. Vanuit betrokkenheid bij het dorp zetten zij zich in voor verbinding, omzien naar elkaar en aandacht voor inwoners die een steuntje in de rug kunnen gebruiken. Juist in de donkere dagen voor kerst is er extra aandacht voor ontmoeting, saamhorigheid en ve",
+      "url": "https://sliedrechtdoet.nl/agenda/155440/2026-12-24/dag-24-advent",
+      "location": "",
+      "time": "24 december 2026 van 18:00 tot 20:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 0,
+        "ontdekker": 0,
+        "buurtgenoot": 3,
+        "inpakker": 0
+      },
+      "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "Wensput",
+      "organizer": "",
+      "desc": "Wil je dat nog meer mensen meedoen? Nodig ze uit!",
+      "url": "https://sliedrechtdoet.nl/agenda/153187/2026-12-31/wensput-89",
+      "location": "",
+      "time": "31 december 2026 van 18:00 tot 20:00 uur",
       "frequency": "",
       "scores": {
         "buitenmens": 0,
