@@ -1,24 +1,8 @@
 {
-  "updated_at": "22-11-2026 07:40",
+  "updated_at": "23-11-2026 08:28",
   "source": "https://sliedrechtdoet.nl/agenda",
-  "count": 71,
+  "count": 69,
   "activities": [
-    {
-      "title": "Kom naar de Taizé dienst",
-      "organizer": "",
-      "desc": "Zondagavond wordt in de Grote Kerk een zogenaamde Taizé dienst gehouden. Zo'n viering kenmerkt zich door het zingen van meditatieve liederen. Tevens is er ruimte voor bijbel lezing, stilte en gebed. De inspiratiebron voor deze dienst zijn de gebedsdiensten in de oecumenische gemeenschap in het Franse plaatsje Taizé. Aan het begin van de dienst wordt een korte introductie gegeven waarna de dienst z",
-      "url": "https://sliedrechtdoet.nl/agenda/155619/2026-11-22/kom-naar-de-taize-dienst",
-      "location": "",
-      "time": "22 november 2026 van 18:00 tot 19:30 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 1,
-        "inpakker": 0
-      },
-      "dominant_profile": "ontdekker"
-    },
     {
       "title": "Elke maandag: Gezellige ontmoetingsmorgen",
       "organizer": "",
@@ -384,22 +368,6 @@
         "ontdekker": 3,
         "buurtgenoot": 1,
         "inpakker": 3
-      },
-      "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Workshop: Wintertafereel in ring",
-      "organizer": "",
-      "desc": "Doel van de avond: een gezellige avond en iedereen gaat met een eigen gemaakt stuk naar huis. Of je nu alleen opgeeft of met meerdere personen inschrijft, iedereen is welkom met of zonder creatieve ervaring.",
-      "url": "https://sliedrechtdoet.nl/agenda/152148/2026-11-27/workshop-wintertafereel-in-ring",
-      "location": "",
-      "time": "27 november 2026 van 19:30 tot 21:30 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 0,
-        "ontdekker": 3,
-        "buurtgenoot": 2,
-        "inpakker": 0
       },
       "dominant_profile": "ontdekker"
     },
