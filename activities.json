@@ -1,5 +1,5 @@
 {
-  "updated_at": "25-11-2026 09:26",
+  "updated_at": "26-11-2026 09:03",
   "source": "https://sliedrechtdoet.nl/agenda",
   "count": 72,
   "activities": [
@@ -7,9 +7,9 @@
       "title": "Taaloefengroep voor vrouwen",
       "organizer": "",
       "desc": "Oefenen met Nederlands lezen, spreken en schrijven op jouw niveau? Samen met andere mensen? De bieb helpt! Kom naar de Taaloefengroep in jouw bibliotheek.Wel vooraf aanmelden aan bij het Taalpunt op locatie Sliedrecht.",
-      "url": "https://sliedrechtdoet.nl/agenda/129393/2026-11-25/taaloefengroep-voor-vrouwen",
+      "url": "https://sliedrechtdoet.nl/agenda/129393/2026-11-26/taaloefengroep-voor-vrouwen",
       "location": "",
-      "time": "25 november 2026 van 09:30 tot 11:00 uur",
+      "time": "26 november 2026 van 09:30 tot 11:00 uur",
       "frequency": "",
       "scores": {
         "buitenmens": 0,
@@ -18,22 +18,6 @@
         "inpakker": 0
       },
       "dominant_profile": "ontdekker"
-    },
-    {
-      "title": "Ciska's (creatieve) tuintje",
-      "organizer": "",
-      "desc": "In Ciska’s tuintje is altijd iets te ontdekken! Het is een bijzondere plek waar je ziet hoe bloemen bloeien, planten groeien en er af en toe een klein diertje voorbij kruipt. Elke maand maken we samen iets nieuws, startend vanuit een gedicht of verhaal. Van seizoensgebonden knutselwerkjes tot creatieve projecten, altijd binnen een botanisch thema. We maken gebruik van diverse materialen en technie",
-      "url": "https://sliedrechtdoet.nl/agenda/128682/2026-11-25/ciska-s-creatieve-tuintje",
-      "location": "",
-      "time": "25 november 2026 van 14:00 tot 16:00 uur",
-      "frequency": "",
-      "scores": {
-        "buitenmens": 3,
-        "ontdekker": 1,
-        "buurtgenoot": 2,
-        "inpakker": 0
-      },
-      "dominant_profile": "buitenmens"
     },
     {
       "title": "Zet je in beweging met dansplezier.",
@@ -1074,6 +1058,22 @@
         "inpakker": 0
       },
       "dominant_profile": "buurtgenoot"
+    },
+    {
+      "title": "Ciska's (creatieve) tuintje",
+      "organizer": "",
+      "desc": "In Ciska’s tuintje is altijd iets te ontdekken! Het is een bijzondere plek waar je ziet hoe bloemen bloeien, planten groeien en er af en toe een klein diertje voorbij kruipt. Elke maand maken we samen iets nieuws, startend vanuit een gedicht of verhaal. Van seizoensgebonden knutselwerkjes tot creatieve projecten, altijd binnen een botanisch thema. We maken gebruik van diverse materialen en technie",
+      "url": "https://sliedrechtdoet.nl/agenda/128682/2026-12-23/ciska-s-creatieve-tuintje",
+      "location": "",
+      "time": "23 december 2026 van 14:00 tot 16:00 uur",
+      "frequency": "",
+      "scores": {
+        "buitenmens": 3,
+        "ontdekker": 1,
+        "buurtgenoot": 2,
+        "inpakker": 0
+      },
+      "dominant_profile": "buitenmens"
     },
     {
       "title": "Dag 24 Advent – Kerst met de Buurt",
